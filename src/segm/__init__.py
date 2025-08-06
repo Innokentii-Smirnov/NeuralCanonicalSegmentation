@@ -8,17 +8,16 @@ from construct.datasets import make_datasets
 from library.constants import test_random_state, dev_random_state
 from sklearn.model_selection import train_test_split
 
-SEP = ':'
 folder = '/content/drive/MyDrive/6-Segmentation'
 
-def load_pairs(filename: str) -> list[tuple[list[str], list[str]]]:
+def load_pairs(filename: str, sep: str) -> list[tuple[list[str], list[str]]]:
     data = list[tuple[list[str], list[str]]]()
     with open(filename, 'r', encoding='utf-8') as fin:
         for line in fin:
             line = line.rstrip()
             word, segmentation = line.split('\t')
             elements = string_to_list(word)
-            labels = segmentation.split(SEP)
+            labels = segmentation.split(sep)
             assert len(elements) == len(labels), (elements, labels)
             data.append((elements, labels))
     return data
@@ -29,7 +28,7 @@ def get_words(data):
 def get_test_words(data):
     return [{'phon': phon} for phon in data]
 
-def load_data(subfolder: str, lang: str, model: str):
+def load_data(subfolder: str, lang: str, model: str, sep: str):
     global LANG, MODEL, NAME
     LANG = lang
     MODEL = model
@@ -39,8 +38,8 @@ def load_data(subfolder: str, lang: str, model: str):
     aligned_folder = f'{folder}/Data/{subfolder}/Aligned'
     assert path.exists(aligned_folder), aligned_folder
     os.chdir(aligned_folder)
-    train_data = load_pairs(f'{LANG}.word.train.tsv')
-    dev_data = load_pairs(f'{LANG}.word.dev.tsv')
+    train_data = load_pairs(f'{LANG}.word.train.tsv', sep)
+    dev_data = load_pairs(f'{LANG}.word.dev.tsv', sep)
 
     for elem in choices(train_data, k=20):
         print(align(elem))
@@ -116,8 +115,8 @@ def load_test_data(filename: str) -> list[tuple[str, str]]:
             data.append((word, segmentation))
     return data
 
-def prepare_test(LANG):
-    original_folder = f'{folder}/Data/Sigmorphon 2022/Original'
+def prepare_test(LANG: str, subfolder: str):
+    original_folder = f'{folder}/Data/{subfolder}/Original'
     assert path.exists(original_folder), original_folder
     os.chdir(original_folder)
     words_for_test = load_test_words(f'{LANG}.word.test.tsv')
