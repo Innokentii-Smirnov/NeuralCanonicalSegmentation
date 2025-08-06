@@ -8,7 +8,7 @@ from construct.datasets import make_datasets
 from library.constants import test_random_state, dev_random_state
 from sklearn.model_selection import train_test_split
 
-folder = '/content/drive/MyDrive/6-Segmentation'
+folder = 'NeuralCanonicalSegmentation'
 
 def load_pairs(filename: str, sep: str) -> list[tuple[list[str], list[str]]]:
     data = list[tuple[list[str], list[str]]]()
@@ -35,7 +35,7 @@ def load_data(subfolder: str, lang: str, model: str, sep: str):
     NAME = LANG + '/' + MODEL
     assert path.exists(folder)
     directory = path.join(folder, NAME)
-    aligned_folder = f'{folder}/Data/{subfolder}/Aligned'
+    aligned_folder = f'{folder}/data/{subfolder}/Aligned'
     assert path.exists(aligned_folder), aligned_folder
     os.chdir(aligned_folder)
     train_data = load_pairs(f'{LANG}.word.train.tsv', sep)
@@ -84,7 +84,7 @@ def load_data(subfolder: str, lang: str, model: str, sep: str):
     return X_train, X_dev
 
 def prepare_checkpoints_dir():
-    corpus_directory = path.join(folder, NAME)
+    corpus_directory = path.join(folder, 'models', NAME)
     checkpoints_dir = path.join(corpus_directory, 'Checkpoints')
     os.makedirs(checkpoints_dir, exist_ok=True)
     checkpoint = "checkpoint_best_{0}.pt".format(MODEL)
@@ -116,7 +116,7 @@ def load_test_data(filename: str) -> list[tuple[str, str]]:
     return data
 
 def prepare_test(LANG: str, subfolder: str):
-    original_folder = f'{folder}/Data/{subfolder}/Original'
+    original_folder = f'{folder}/data/{subfolder}/Original'
     assert path.exists(original_folder), original_folder
     os.chdir(original_folder)
     words_for_test = load_test_words(f'{LANG}.word.test.tsv')
