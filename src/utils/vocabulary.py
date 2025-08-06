@@ -82,6 +82,7 @@ class Vocabulary:
     
     def load(self, filename: str):
         self.symbols = read_list(filename)
+        return self
     
     def __getitem__(self, key: str):
         return self.symbol_codes_[key]
