@@ -29,14 +29,14 @@ def get_words(data):
 def get_test_words(data):
     return [{'phon': phon} for phon in data]
 
-def load_data(lang: str, model: str):
+def load_data(directory: str, lang: str, model: str):
     global LANG, MODEL, NAME
     LANG = lang
     MODEL = model
     NAME = LANG + '/' + MODEL
     assert path.exists(folder)
     directory = path.join(folder, NAME)
-    aligned_folder = f'{folder}/Data/Sigmorphon 2022/Aligned'
+    aligned_folder = f'{folder}/Data/{directory}/Aligned'
     assert path.exists(aligned_folder), aligned_folder
     os.chdir(aligned_folder)
     train_data = load_pairs(f'{LANG}.word.train.tsv')
