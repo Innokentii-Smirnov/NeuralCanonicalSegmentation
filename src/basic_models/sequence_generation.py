@@ -3,7 +3,11 @@ import torch.nn as nn
 from torch.nn import Module
 from torch import Tensor
 from utils.padding import pad_tensor
-
+import numpy as np
+from numpy import ndarray
+from tqdm.auto import tqdm
+from utils.dataset import SimpleDataset
+from utils.dataloader import FieldBatchDataloader
 
 class BasicSequenceGenerator(Module):
 
@@ -59,3 +63,19 @@ class BasicSequenceGenerator(Module):
         batch_output["loss"] = loss
         # labels.shape = (B, L)
         return batch_output, y
+
+  def predict_with_model(self, X: SimpleDataset) -> list[ndarray]:
+      self.eval()
+      dataloader = FieldBatchDataloader(X, device=self.device, batch_size=32)
+      answer: list[ndarray] = [None] * len(X)
+      for batch in tqdm(dataloader):
+          indexes = batch["indexes"]
+          with torch.no_grad():
+              batch_answer = self(batch['phon'], None, True)
+          labels = batch_answer["labels"].cpu().numpy()
+          # probs = batch_answer.cpu().numpy()
+          # labels = probs.argmax(axis=-1)
+          for index, curr_labels in zip(indexes, labels, strict=True):
+              result = np.take(X.vocabs["morphon"].symbols_, curr_labels)
+              answer[index] = result
+      return answer
