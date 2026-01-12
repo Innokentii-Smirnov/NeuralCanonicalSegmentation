@@ -64,7 +64,7 @@ class BasicSequenceGenerator(Module):
         # labels.shape = (B, L)
         return batch_output, y
 
-    def predict_with_model(self, X: SimpleDataset) -> list[ndarray]:
+    def predict(self, X: SimpleDataset) -> list[ndarray]:
         self.eval()
         dataloader = FieldBatchDataloader(X, device=self.device, batch_size=32)
         answer: list[ndarray] = [None] * len(X)
