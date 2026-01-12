@@ -1,5 +1,5 @@
 import torch
-from basic_models.sequence_generator import BasicSequenceGenerator
+from basic_models.sequence_generation import BasicSequenceGenerator
 from utils.vocabulary import Vocabulary
 from utils.dataset import SimpleDataset
 from stringutils import string_to_list
