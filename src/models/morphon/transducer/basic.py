@@ -15,7 +15,7 @@ class BasicMorphonologicalTransducer(BasicSequenceGenerator):
         dataset = SimpleDataset(data, ['phon'], [],
             True, True, True, True, self.vocabularies
         )
-        predictions = model.predict(dataset)
+        predictions = self.predict(dataset)
         segmentations = list[str]()
         for prediction in predictions:
             segmentation = ''.join(letter for letter in prediction if letter not in {'<PAD>', '<BEGIN>', '<END>'})
