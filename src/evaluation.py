@@ -1,3 +1,4 @@
+from library.read import read_list
 from typing import TypedDict
 from models.morphon.transducer.basic import BasicMorphonologicalTransducer
 
