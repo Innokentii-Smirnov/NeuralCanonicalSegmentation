@@ -6,11 +6,12 @@ class Word(TypedDict):
   phon: str
   morphon: list[str]
 
-def read_data_all_corr(file: str) -> list[Word]:
+def read_data_all_corr(lang: str, partition: str) -> list[Word]:
     return [{'phon': token,
              'morphon': segmentations.split(', ')}
             for token, segmentations
-             in map(lambda line: line.split('\t'), read_list(f'{LANG}.word.{file}.tsv'))]
+             in map(lambda line: line.split('\t'),
+                    read_list(f'{lang}.word.{partition}.tsv'))]
 
 def evaluate(segmentations: list[str], words: list[Word]):
   correct = 0
