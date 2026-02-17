@@ -1,1 +1,1 @@
-python src\segment.py %1 %2 %3
+python src\segment.py %1 %2 %3 %4
