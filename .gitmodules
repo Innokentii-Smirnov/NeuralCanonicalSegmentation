@@ -1,0 +1,3 @@
+[submodule "canonical-segmentation"]
+	path = canonical-segmentation
+	url = https://github.com/ryancotterell/canonical-segmentation.git
