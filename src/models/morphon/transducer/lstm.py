@@ -27,7 +27,11 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer, SequenceTransduc
         else:
             return SequenceTransducer.forward(self, phon, morphon)
 
-def make_model(vocabularies: dict[str, Vocabulary], device: torch.device, max_sequence_length: int, encoder_hidden_size: int, decoder_hidden_size: int) -> MorphonologicalTransducer:
+def make_model(vocabularies: dict[str, Vocabulary],
+               device: torch.device,
+               max_sequence_length: int = 50,
+               encoder_hidden_size: int = 400,
+               decoder_hidden_size: int = 800) -> MorphonologicalTransducer:
     model = MorphonologicalTransducer(
         vocabularies,
         EncoderArguments(len(vocabularies["phon"]), 150, 0.1, encoder_hidden_size, 1, 0.1, True),
