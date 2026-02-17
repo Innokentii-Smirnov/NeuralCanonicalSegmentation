@@ -19,4 +19,4 @@ def make_model(
         case 'RCNN-skip-conn':
             return make_rcnn_skip_conn(vocabularies, device)
         case _:
-            raise ValueError('Unsupported model type: ' + model_type)
+            raise ValueError('Unsupported tagger subtype: ' + model_type)
