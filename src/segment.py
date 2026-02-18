@@ -5,6 +5,8 @@ from utils.vocabulary import Vocabulary
 from models.morphon import make_model
 from utils.dataloader import DEVICE
 import torch
+import logging
+logging.basicConfig(level=logging.INFO)
 parser = argparse.ArgumentParser(
   prog='segment.py',
   description='Segment words in the specified language with the specified model',
@@ -24,7 +26,7 @@ vocab_dir = path.join(model_dir, 'Vocabularies')
 vocabs = {splitext(filename)[0]: Vocabulary(True, True).load(path.join(vocab_dir, filename))
           for filename in listdir(vocab_dir)}
 for key, vocab in vocabs.items():
-    print(key, len(vocab))
+  logging.info('%s %i', key, len(vocab))
 model = make_model(args.model_type, args.model_subtype, vocabs, DEVICE)
 checkpoint_dir = path.join(model_dir, 'Checkpoints', '0')
 checkpoint_file = path.join(checkpoint_dir, f'checkpoint_best_{args.model_subtype}.pt')
