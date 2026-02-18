@@ -9,9 +9,9 @@ parser = argparse.ArgumentParser(
   prog='segment.py',
   description='Segment a word in the specified language with the specified model'
 )
-parser.add_argument('language')
-parser.add_argument('model_type')
-parser.add_argument('model_subtype')
+parser.add_argument('language', choices=listdir('models'))
+parser.add_argument('model_type', choices=['tagger', 'transducer'])
+parser.add_argument('model_subtype', choices=['CNN', 'LSTM', 'RCNN', 'RCNN-skip-conn'])
 parser.add_argument('word')
 args = parser.parse_args()
 model_dir = path.join('models', args.language, args.model_type, args.model_subtype)
