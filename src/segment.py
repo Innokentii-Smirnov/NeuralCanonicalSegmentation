@@ -7,7 +7,8 @@ from utils.dataloader import DEVICE
 import torch
 parser = argparse.ArgumentParser(
   prog='segment.py',
-  description='Segment words in the specified language with the specified model'
+  description='Segment words in the specified language with the specified model',
+  epilog='If no input words are provided as arguments, words are read from the standard input until an empty line is encountered'
 )
 parser.add_argument('language', choices=listdir('models'),
                     help='the three-letter code of the language')
@@ -28,6 +29,12 @@ model = make_model(args.model_type, args.model_subtype, vocabs, DEVICE)
 checkpoint_dir = path.join(model_dir, 'Checkpoints', '0')
 checkpoint_file = path.join(checkpoint_dir, f'checkpoint_best_{args.model_subtype}.pt')
 model.load_state_dict(torch.load(checkpoint_file, map_location=DEVICE))
-result = model.apply(args.words)
+if len(args.words) > 0:
+  words = args.words
+else:
+  words = list[str]()
+  while (word := input()) != '':
+    words.append(word)
+result = model.apply(words)
 for segmentation in result:
     print(segmentation)
