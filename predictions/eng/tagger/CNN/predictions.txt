@@ -1,5 +1,3 @@
-phon 30
-morphon 101
 numeric@al
 frugal@ity
 rumbling
