@@ -33,8 +33,11 @@ if len(args.words) > 0:
   words = args.words
 else:
   words = list[str]()
-  while (word := input()) != '':
-    words.append(word)
+  try:
+    while (word := input()) != '':
+      words.append(word)
+  except EOFError:
+    pass
 result = model.apply(words)
 for segmentation in result:
     print(segmentation)
