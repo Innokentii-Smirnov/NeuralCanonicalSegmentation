@@ -1,24 +1,29 @@
-from sys import argv
+import argparse
 from os import path, listdir
 from os.path import splitext
 from utils.vocabulary import Vocabulary
 from models.morphon import make_model
 from utils.dataloader import DEVICE
 import torch
-if len(argv) != 5:
-    print('The parameters are language, model type, model subtype, and the word')
-    exit()
-LANG, MODEL_TYPE, MODEL_SUBTYPE, word = argv[1:]
-model_dir = path.join('models', LANG, MODEL_TYPE, MODEL_SUBTYPE)
+parser = argparse.ArgumentParser(
+  prog='segment.py',
+  description='Segment a word in the specified language with the specified model'
+)
+parser.add_argument('language')
+parser.add_argument('model_type')
+parser.add_argument('model_subtype')
+parser.add_argument('word')
+args = parser.parse_args()
+model_dir = path.join('models', args.language, args.model_type, args.model_subtype)
 vocab_dir = path.join(model_dir, 'Vocabularies')
 vocabs = {splitext(filename)[0]: Vocabulary(True, True).load(path.join(vocab_dir, filename))
           for filename in listdir(vocab_dir)}
 for key, vocab in vocabs.items():
     print(key, len(vocab))
-model = make_model(MODEL_TYPE, MODEL_SUBTYPE, vocabs, DEVICE)
+model = make_model(args.model_type, args.model_subtype, vocabs, DEVICE)
 checkpoint_dir = path.join(model_dir, 'Checkpoints', '0')
-checkpoint_file = path.join(checkpoint_dir, f'checkpoint_best_{MODEL_SUBTYPE}.pt')
+checkpoint_file = path.join(checkpoint_dir, f'checkpoint_best_{args.model_subtype}.pt')
 model.load_state_dict(torch.load(checkpoint_file, map_location=DEVICE))
-result = model.apply([word])
+result = model.apply([args.word])
 for segmentation in result:
     print(segmentation)
