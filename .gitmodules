@@ -1,3 +1,6 @@
 [submodule "canonical-segmentation"]
 	path = canonical-segmentation
 	url = https://github.com/ryancotterell/canonical-segmentation.git
+[submodule "2022SegmentationST"]
+	path = 2022SegmentationST
+	url = https://github.com/sigmorphon/2022SegmentationST.git
