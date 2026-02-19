@@ -1,0 +1,23 @@
+{
+	"deu": {
+		"tagger_CNN": 73.7,
+		"tagger_LSTM": 76.8,
+		"tagger_RCNN": 77.8,
+		"tagger_RCNN-skip-conn": 76.8,
+		"transducer_LSTM": 74.9
+	},
+	"eng": {
+		"tagger_CNN": 73.0,
+		"tagger_LSTM": 74.3,
+		"tagger_RCNN": 75.8,
+		"tagger_RCNN-skip-conn": 75.2,
+		"transducer_LSTM": 77.7
+	},
+	"ind": {
+		"tagger_CNN": 92.6,
+		"tagger_LSTM": 91.8,
+		"tagger_RCNN": 93.9,
+		"tagger_RCNN-skip-conn": 94.1,
+		"transducer_LSTM": 92.1
+	}
+}
