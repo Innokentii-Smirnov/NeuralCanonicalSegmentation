@@ -5,7 +5,10 @@ import pandas as pd
 from sklearn.metrics import accuracy_score
 import json
 
-LANGUAGE_CODES = ['deu', 'eng', 'ind']
+CS = 'canonical-segmentation'
+SM = '2022SegmentationST'
+
+LANGUAGE_CODES = ['deu', 'eng', 'ind', 'ita', 'fra', 'lat']
 
 CODE_TO_LANGUAGE = {
   'deu': 'german',
@@ -18,8 +21,30 @@ MODEL_TYPE_TO_BOUNDARY = {
   'transducer': '-'
 }
 
-DATASET_PATH = 'canonical-segmentation'
-CORR_FILE = 'test0'
+LANGUAGE_TO_DATASET = {
+  'deu': CS,
+  'eng': CS,
+  'ind': CS,
+  'ita': SM,
+  'fra': SM,
+  'lat': SM
+}
+
+DATASET_TO_BOUNDARY = {
+  CS: ' ',
+  SM: ' @@'
+}
+
+DATASET_TO_INFILE = {
+  CS: lambda code: path.join(CS, CODE_TO_LANGUAGE[code], 'test0'),
+  SM: lambda code: path.join(SM, 'data', '{0}.word.test.gold.tsv'.format(code))
+}
+
+DATASET_TO_COLUMNS = {
+  CS: ['orth', 'morphon', 'segm'],
+  SM: ['orth', 'segm']
+}
+
 PRED_DIR = 'predictions'
 PRED_FILE = 'predictions.txt'
 OUTDIR = 'metrics'
@@ -29,11 +54,12 @@ accuracies = dict[str, dict[str, float]]()
 
 for code in LANGUAGE_CODES:
   accuracies[code] = dict[str, float]()
+  dataset = LANGUAGE_TO_DATASET[code]
   language_dir = path.join(PRED_DIR, code)
-  language = CODE_TO_LANGUAGE[code]
-  corr_segm_dir = path.join(DATASET_PATH, language)
-  corr_file = path.join(corr_segm_dir, CORR_FILE)
-  daraFrame = pd.read_csv(corr_file, sep='\t', names=['orth', 'morphon', 'segm'])
+  corr_file = DATASET_TO_INFILE[dataset](code)
+  columns = DATASET_TO_COLUMNS[dataset]
+  daraFrame = pd.read_csv(corr_file, sep='\t', names=columns,
+                          usecols=list(range(len(columns))))
   y_true = daraFrame['segm'].to_list()
   for model_type in os.listdir(language_dir):
     model_type_dir = path.join(language_dir, model_type)
@@ -42,8 +68,9 @@ for code in LANGUAGE_CODES:
       model_dir = path.join(model_type_dir, model_subtype)
       pred_file = path.join(model_dir, PRED_FILE)
       predictions = read_list(pred_file)
-      boundary = MODEL_TYPE_TO_BOUNDARY[model_type]
-      postprocess = lambda segm: segm.replace(boundary, ' ')
+      pred_boundary = MODEL_TYPE_TO_BOUNDARY[model_type]
+      dataset_boundary = DATASET_TO_BOUNDARY[dataset]
+      postprocess = lambda segm: segm.replace(pred_boundary, dataset_boundary)
       y_pred = list(map(postprocess, predictions))
       accuracy: float = accuracy_score(y_true, y_pred)
       accuracies[code][model_identifier] = round(100 * accuracy, 2)

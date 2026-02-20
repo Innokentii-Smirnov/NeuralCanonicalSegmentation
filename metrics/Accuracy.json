@@ -19,5 +19,16 @@
 		"tagger_RCNN": 93.9,
 		"tagger_RCNN-skip-conn": 94.1,
 		"transducer_LSTM": 92.1
+	},
+	"ita": {
+		"tagger_CNN": 77.86
+	},
+	"fra": {
+		"transducer_LSTM": 1.09
+	},
+	"lat": {
+		"tagger_CNN": 96.14,
+		"tagger_LSTM": 93.12,
+		"tagger_RCNN": 97.26
 	}
 }
