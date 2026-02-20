@@ -13,6 +13,11 @@ CODE_TO_LANGUAGE = {
   'ind': 'indonesian'
 }
 
+MODEL_TYPE_TO_BOUNDARY = {
+  'tagger': '@',
+  'transducer': '-'
+}
+
 DATASET_PATH = 'canonical-segmentation'
 CORR_FILE = 'test0'
 PRED_DIR = 'predictions'
@@ -37,13 +42,8 @@ for code in LANGUAGE_CODES:
       model_dir = path.join(model_type_dir, model_subtype)
       pred_file = path.join(model_dir, PRED_FILE)
       predictions = read_list(pred_file)
-      match model_type:
-        case 'tagger':
-          postprocess = lambda segm: segm.replace('@', ' ')
-        case 'transducer':
-          postprocess = lambda segm: segm.replace('-', ' ')
-        case _:
-          raise ValueError('Unssuuported model type: {0}.'.format(model_type))
+      boundary = MODEL_TYPE_TO_BOUNDARY[model_type]
+      postprocess = lambda segm: segm.replace(boundary, ' ')
       y_pred = list(map(postprocess, predictions))
       accuracy: float = accuracy_score(y_true, y_pred)
       accuracies[code][model_identifier] = round(100 * accuracy, 2)
