@@ -58,9 +58,9 @@ for code in LANGUAGE_CODES:
   language_dir = path.join(PRED_DIR, code)
   corr_file = DATASET_TO_INFILE[dataset](code)
   columns = DATASET_TO_COLUMNS[dataset]
-  daraFrame = pd.read_csv(corr_file, sep='\t', names=columns,
+  dataFrame = pd.read_csv(corr_file, sep='\t', names=columns,
                           usecols=list(range(len(columns))))
-  y_true = daraFrame['segm'].to_list()
+  y_true = dataFrame['segm'].to_list()
   for model_type in os.listdir(language_dir):
     model_type_dir = path.join(language_dir, model_type)
     for model_subtype in os.listdir(model_type_dir):
