@@ -130,9 +130,13 @@ class Seq2SeqTransformer(nn.Module):
                 answer[index] = result
         return answer
 
-    def translate(self, src_sentence: str, max_len: int = 30):
+    def translate(self, src_sentence: str, merge_combining_diacritics: bool = False, max_len: int = 30):
         self.eval()
-        src = torch.LongTensor(self.src_vocab.vectorize_element(string_to_list(src_sentence))).to(self.device).view(-1, 1)
+        if merge_combining_diacritics:
+          inp = string_to_list(src_sentence)
+        else:
+          inp = list(src_sentence)
+        src = torch.LongTensor(self.src_vocab.vectorize_element(inp)).to(self.device).view(-1, 1)
         num_tokens = src.shape[0]
         src_mask = (torch.zeros(num_tokens, num_tokens)).type(torch.bool).to(self.device)
         tgt_tokens = self.greedy_decode(src, src_mask, max_len=max_len, start_symbol=self.begin_token_id).flatten()
