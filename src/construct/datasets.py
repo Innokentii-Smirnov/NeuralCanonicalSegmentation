@@ -5,6 +5,7 @@ from library.dm import DM
 from utils.vocabulary import Vocabulary, SequenceVocabulary
 from utils.dataset import SequenceDataset
 
+EXTENSION = '.txt'
 
 def make_datasets(X_train: SequenceDataset,
                   sentence_lists: list[list[dict[str, Any]]],
@@ -30,12 +31,12 @@ def make_datasets(X_train: SequenceDataset,
         os.makedirs(vdir, exist_ok=True)
         with DM(vdir):
             for field, vocab in X_train.vocabs.items():
-                vocab.save(field)
+                vocab.save(field + EXTENSION)
 
         os.makedirs(lvdir, exist_ok=True)
         with DM(lvdir):
             for field, vocab in X_train.seq_vocabs.items():
-                vocab.save(field)
+                vocab.save(field + EXTENSION)
     
     datasets = list[SequenceDataset]()
     
