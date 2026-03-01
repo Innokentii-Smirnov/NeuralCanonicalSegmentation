@@ -15,7 +15,7 @@ class Vocabulary:
     #    return cls(bool(add_begin), bool(add_end), int(min_count), symbols_.split())
 
     def __init__(self, add_begin: bool, add_end: bool,
-                 min_count: int = 3, symbols: Optional[list[str]] = None):
+                 min_count: int = 1, symbols: Optional[list[str]] = None):
         self.add_begin = add_begin
         self.add_end = add_end
         self.min_count = min_count
