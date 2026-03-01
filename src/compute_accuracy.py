@@ -7,8 +7,9 @@ import json
 
 CS = 'canonical-segmentation'
 SM = '2022SegmentationST'
+OTHER = 'data'
 
-LANGUAGE_CODES = ['deu', 'eng', 'ind', 'ita', 'fra', 'lat']
+LANGUAGE_CODES = ['deu', 'eng', 'ind', 'ita', 'fra', 'lat', 'chu']
 
 CODE_TO_LANGUAGE = {
   'deu': 'german',
@@ -27,7 +28,8 @@ LANGUAGE_TO_DATASET = {
   'ind': CS,
   'ita': SM,
   'fra': SM,
-  'lat': SM
+  'lat': SM,
+  'chu': OTHER
 }
 
 DATASET_TO_BOUNDARY = {
@@ -37,12 +39,14 @@ DATASET_TO_BOUNDARY = {
 
 DATASET_TO_INFILE = {
   CS: lambda code: path.join(CS, CODE_TO_LANGUAGE[code], 'test0'),
-  SM: lambda code: path.join(SM, 'data', '{0}.word.test.gold.tsv'.format(code))
+  SM: lambda code: path.join(SM, 'data', '{0}.word.test.gold.tsv'.format(code)),
+  OTHER: lambda code: path.join(OTHER, '{0}.word.test.gold.tsv'.format(code))
 }
 
 DATASET_TO_COLUMNS = {
   CS: ['orth', 'morphon', 'segm'],
-  SM: ['orth', 'segm']
+  SM: ['orth', 'segm'],
+  OTHER: ['orth', 'segm']
 }
 
 PRED_DIR = 'predictions'
@@ -68,10 +72,13 @@ for code in LANGUAGE_CODES:
       model_dir = path.join(model_type_dir, model_subtype)
       pred_file = path.join(model_dir, PRED_FILE)
       predictions = read_list(pred_file)
-      pred_boundary = MODEL_TYPE_TO_BOUNDARY[model_type]
-      dataset_boundary = DATASET_TO_BOUNDARY[dataset]
-      postprocess = lambda segm: segm.replace(pred_boundary, dataset_boundary)
-      y_pred = list(map(postprocess, predictions))
+      if dataset in DATASET_TO_BOUNDARY:
+        pred_boundary = MODEL_TYPE_TO_BOUNDARY[model_type]
+        dataset_boundary = DATASET_TO_BOUNDARY[dataset]
+        postprocess = lambda segm: segm.replace(pred_boundary, dataset_boundary)
+        y_pred = list(map(postprocess, predictions))
+      else:
+        y_pred = predictions
       accuracy: float = accuracy_score(y_true, y_pred)
       accuracies[code][model_identifier] = round(100 * accuracy, 2)
 

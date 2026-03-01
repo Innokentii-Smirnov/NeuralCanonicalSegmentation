@@ -30,5 +30,11 @@
 		"tagger_CNN": 96.14,
 		"tagger_LSTM": 93.12,
 		"tagger_RCNN": 97.26
+	},
+	"chu": {
+		"tagger_CNN": 89.17,
+		"tagger_LSTM": 87.91,
+		"tagger_RCNN": 87.6,
+		"tagger_RCNN-skip-conn": 89.01
 	}
 }
