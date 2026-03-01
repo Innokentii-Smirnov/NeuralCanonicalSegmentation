@@ -5,7 +5,6 @@ from .transformer import Seq2SeqTransformer
 EMB_SIZE = 256
 NHEAD = 8
 FFN_HID_DIM = 4 * EMB_SIZE
-BATCH_SIZE = 64
 NUM_ENCODER_LAYERS = 3
 NUM_DECODER_LAYERS = 3
 
