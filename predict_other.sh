@@ -6,7 +6,7 @@ function predict_for_language() {
       outdir="predictions/$code/$model/$subtype"
       mkdir -p "$outdir"
       outfile="$outdir/predictions.txt"
-      cat "$infile" | env/bin/python src/segment.py "$code" "$model" "$subtype" > "$outfile"
+      cat "$infile" | env/bin/python src/segment.py "$code" "$model" "$subtype" | tr -d '()' > "$outfile"
     done
   done
 }
