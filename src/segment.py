@@ -14,9 +14,9 @@ parser = argparse.ArgumentParser(
 )
 parser.add_argument('language', choices=listdir('models'),
                     help='the three-letter code of the language')
-parser.add_argument('model_type', choices=['tagger', 'transducer'],
+parser.add_argument('model_type', choices=['tagger', 'transducer', 'transformer'],
                     help='the general type of the model to use')
-parser.add_argument('model_subtype', choices=['CNN', 'LSTM', 'RCNN', 'RCNN-skip-conn'],
+parser.add_argument('model_subtype', choices=['CNN', 'LSTM', 'RCNN', 'RCNN-skip-conn', 'char'],
                     help='the subtype of the model to use')
 parser.add_argument('words', nargs='*',
                     help='the words to segment (multiple values allowed)')
