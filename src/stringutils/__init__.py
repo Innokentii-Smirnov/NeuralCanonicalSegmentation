@@ -1,6 +1,12 @@
 from unicodedata import combining
 
-def string_to_list(string: str) -> list[str]:
+def string_to_list(string: str, combine_diacritics: bool = False) -> list[str]:
+    if combine_diacritics:
+        return string_to_list_with_combined_diacritics(string)
+    else:
+        return list(string)
+
+def string_to_list_with_combined_diacritics(string: str) -> list[str]:
     l = list[str]()
     for char in string:
         if combining(char) != 0:
