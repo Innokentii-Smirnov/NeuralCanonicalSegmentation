@@ -1001,7 +1001,7 @@ tunt@ig
 über@flüsse@ig
 übergewicht@ig
 übermaß@ig
-eberrollkaf@ig
+überrollkaf@ig
 ulken@ig
 umlauf@ig
 umsicht@ig

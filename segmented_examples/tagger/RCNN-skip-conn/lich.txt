@@ -15,7 +15,7 @@ anhang@lich
 annehmen@lich
 anschauen@lich
 ansehnen@lich
-antichrist@lich
+antichr@ist@lich
 anzug@lich
 appetit@lich
 arbeitnehmerfreund@lich
@@ -51,10 +51,10 @@ bewegen@lich
 bitter@lich
 blau@e@lich
 blutähnen@lich
-brandgefahr@lich
+brandgefähr@lich
 bräunen@lich
 brüder@lich
-buchstäb@lich
+buchstab@lich
 burschenschaft@lich
 chr@ist@lich
 dämen@lich
@@ -89,7 +89,7 @@ erforder@lich
 erfreuen@lich
 erkennt@lich
 er@kleck@lich
-erschrocken@lich
+erschrock@lich
 erschwing@lich
 ersichten@lich
 ersprießen@lich
@@ -118,7 +118,7 @@ freund@lich
 freund@schaft@lich
 frevent@lich
 frieden@lich
-frohen@lich
+froh@lich
 fürchter@lich
 fürsorgen@lich
 fürst@lich
@@ -127,7 +127,7 @@ gastfreund@lich
 gebrauch@lich
 gebrech@lich
 gebühr@lich
-gedeih@lich
+gedeihen@lich
 gefähr@lich
 geflissent@lich
 gegenstand@lich
@@ -147,7 +147,7 @@ gotteslaster@lich
 gott@lich
 grassen@lich
 gräu@e@lich
-greisen@lich
+grei<UNK>lich
 greu@e@lich
 großbürger@lich
 großmutter@lich
@@ -183,7 +183,7 @@ jugend@lich
 jungfrau@lich
 kaiser@lich
 kamerad@schaft@lich
-karg@lich
+kärg@lich
 kind@lich
 kirche@lich
 klag@lich
@@ -195,7 +195,7 @@ kontinuier@lich
 kost@lich
 kranken@lich
 kulturfreund@lich
-kummer@lich
+kümmer@lich
 kunst@lich
 lächer@lich
 lände@lich
@@ -205,7 +205,7 @@ lebensbedroh@lich
 lebensfeind@lich
 leidenschaft@lich
 leser@lich
-lt@lich
+sf@lich
 lieben@lich
 liedern@lich
 lob@lich
@@ -214,7 +214,7 @@ luftempfinden@lich
 manier@lich
 männen@lich
 marktwirt@schaft@lich
-massentaug@lich
+massentaugen@lich
 massgeben@lich
 maßgeben@lich
 meister@lich
@@ -227,7 +227,7 @@ minnig@lich
 missbrauch@lich
 misse@lich
 mittelalter@lich
-mog@lich
+mogen@lich
 mutter@lich
 nachdenken@lich
 nachdruck@lich
@@ -252,7 +252,7 @@ pflegen@lich
 possier@lich
 prowest@lich
 pünkt@lich
-raumen@lich
+räumen@lich
 reden@lich
 reich@lich
 rein@lich
@@ -265,7 +265,7 @@ rund@lich
 sachdienen@lich
 säuber@lich
 schad@lich
-schanden@lich
+schänden@lich
 schauer@lich
 scheißfreund@lich
 scheuß@lich
@@ -302,7 +302,7 @@ stiefvater@lich
 stoff@lich
 straf@lich
 süd@lich
-sudost@lich
+südost@lich
 süß@lich
 taugen@lich
 tode@lich
@@ -322,7 +322,7 @@ umgangssprache@lich
 umstand@lich
 umweltfreund@lich
 umweltschäd@lich
-umweltverträg@lich
+umweltvertrag@lich
 un@abding@lich
 un@abkomm@lich
 un@absicht@lich
@@ -341,10 +341,10 @@ un@empfinden@lich
 un@entbehren@lich
 un@entgelt@lich
 un@erfreuen@lich
-unergründen@lich
+unergründ@lich
 un@erheben@lich
 un@erklären@lich
-un@ermüden@lich
+un@ermüd@lich
 un@er@quick@lich
 un@ersatt@lich
 un@erschöpf@lich
@@ -361,9 +361,9 @@ un@gesetz@lich
 un@gewöhnen@lich
 unglaube@lich
 unglück@lich
-un@heim@lich
+un@heimen@lich
 un@hof@lich
-un@lese@er@lich
+unlese@er@lich
 unmensch@lich
 un@mog@lich
 un@natür@lich
@@ -374,7 +374,7 @@ un@reden@lich
 un@rühmen@lich
 un@sache@lich
 unsag@lich
-un@schade@lich
+un@schad@lich
 un@sitt@lich
 un@sport@lich
 un@straf@lich
@@ -394,7 +394,7 @@ unverbesser@lich
 un@verbinden@lich
 un@ver@brüch@lich
 un@verfang@lich
-unvergesse@lich
+un@vergessen@lich
 un@verkauf@lich
 un@vermeiden@lich
 unversöhnen@lich
@@ -417,7 +417,7 @@ vater@lich
 ver@acht@lich
 verändern@lich
 verantworten@lich
-ver@binden@lich
+verbinden@lich
 verdauen@lich
 verderb@lich
 verdrießen@lich
@@ -452,7 +452,7 @@ welt@lich
 weltmeister@lich
 wesent@lich
 west@lich
-widern@lich
+wider@lich
 wider@natür@lich
 wider@recht@lich
 widerspruch@lich

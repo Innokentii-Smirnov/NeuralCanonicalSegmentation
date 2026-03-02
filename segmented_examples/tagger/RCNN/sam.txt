@@ -12,7 +12,7 @@ bisam
 dulden@sam
 einfühlen@sam
 einprägen@sam
-ein@sam
+einsam
 empfinden@sam
 enthalten@sam
 erholen@sam
@@ -22,7 +22,7 @@ fügen@sam
 furchtsam
 gehorsam
 genügen@sam
-geruhen@sam
+geruhsam
 gewahrsam@
 gewalt@sam
 grauen@sam
@@ -45,7 +45,7 @@ un@achten@sam
 un@aufmerksam
 un@beugsam
 un@gehorsam
-ungenügen@sam
+un@genügen@sam
 unterhalten@sam
 unwegen@sam
 wachsam

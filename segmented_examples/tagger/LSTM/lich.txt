@@ -33,7 +33,7 @@ bedenken@lich
 bedrohen@lich
 befremden@lich
 begehren@lich
-behagen@lich
+behag@lich
 beharren@lich
 behilf@lich
 behindertenfeind@lich
@@ -51,7 +51,7 @@ bewegen@lich
 bitter@lich
 blau@e@lich
 blutähnen@lich
-brandgefähren@lich
+brandgefähr@lich
 bräunen@lich
 brüder@lich
 buchstäb@lich
@@ -75,7 +75,7 @@ eigentum@lich
 eigenverantwort@lich
 eindringen@lich
 eindrück@lich
-einheiten@lich
+einheit@lich
 eintrag@lich
 einverstand@lich
 empfang@lich
@@ -120,9 +120,9 @@ frevent@lich
 frieden@lich
 frohen@lich
 fürcht@er@lich
-fürsorge@lich
+fürsorg@lich
 fürst@lich
-ganz@heit@lich
+ganzheit@lich
 gastfreund@lich
 gebrauch@lich
 gebrech@lich
@@ -146,7 +146,7 @@ glück@lich
 gotteslaster@lich
 gott@lich
 grasse@lich
-grauen@lich
+gräuen@lich
 grei<UNK>lich
 greu@e@lich
 großbürger@lich
@@ -170,7 +170,7 @@ herkomm@lich
 herr@lich
 hertze@lich
 herzen@lich
-hinder@lich
+hindern@lich
 hof@lich
 hoheit@lich
 infrarotempfind@lich
@@ -183,7 +183,7 @@ jugend@lich
 jungfrau@lich
 kaiser@lich
 kamerad@schaft@lich
-karg@lich
+kärg@lich
 kind@lich
 kirche@lich
 klagen@lich
@@ -195,7 +195,7 @@ kontinuier@lich
 kost@lich
 krank@lich
 kulturfreund@lich
-kummer@lich
+kümmer@lich
 kunst@lich
 lächer@lich
 lände@lich
@@ -205,7 +205,7 @@ lebensbedroh@lich
 lebensfeind@lich
 leidenschaft@lich
 leser@lich
-ff@lich
+pf@lich
 lieben@lich
 lieder@lich
 lob@lich
@@ -214,7 +214,7 @@ luftempfind@lich
 manier@lich
 männ@lich
 marktwirt@schaft@lich
-massentaugen@lich
+massentaug@lich
 massgeben@lich
 maßgeben@lich
 meister@lich
@@ -236,7 +236,7 @@ nazifreund@lich
 nebensach@lich
 neuzeit@lich
 nied@lich
-nörd@lich
+nörde@lich
 nordost@lich
 nützen@lich
 oberfläche@lich
@@ -252,7 +252,7 @@ pflegen@lich
 possier@lich
 prowest@lich
 punkt@lich
-raumen@lich
+räumen@lich
 reden@lich
 reich@lich
 rein@lich
@@ -265,14 +265,14 @@ rund@lich
 sachdienen@lich
 sauber@lich
 schäd@lich
-schänden@lich
+schanden@lich
 schauer@lich
 scheißfreund@lich
 scheuß@lich
 schick@e@lich
 sche@lich
 schmähen@lich
-schmerzempfind@lich
+schmerzempfinden@lich
 schmerz@lich
 schreck@lich
 schwach@e@lich
@@ -324,7 +324,7 @@ umweltfreund@lich
 umweltschäd@lich
 umweltvertrag@lich
 un@abding@lich
-un@abkommen@lich
+un@abkömmen@lich
 un@absicht@lich
 un@ähnen@lich
 un@appetit@lich
@@ -341,13 +341,13 @@ un@empfinden@lich
 un@entbehren@lich
 un@entgelt@lich
 un@erfreuen@lich
-unergründ@lich
+un@ergründen@lich
 un@erheben@lich
 un@erklären@lich
 un@ermüden@lich
 un@erquick@lich
 un@ersatt@lich
-un@erschopfen@lich
+unerschopfen@lich
 unerschutter@lich
 un@erschwingen@lich
 un@ersetzen@lich
@@ -367,7 +367,7 @@ un@leser@lich
 unmensch@lich
 un@mog@lich
 un@natür@lich
-unordent@lich
+un@ordent@lich
 un@partei@lich
 un@persönen@lich
 un@reden@lich
@@ -400,7 +400,7 @@ un@vermeiden@lich
 un@versöhnen@lich
 unverstand@lich
 un@verzeihen@lich
-unwahrscheinlich
+unwahrschein@lich
 unwiderstehen@lich
 un@willkur@lich
 un@wirken@lich
@@ -417,7 +417,7 @@ vater@lich
 veracht@lich
 verändern@lich
 verantworten@lich
-ver@binden@lich
+verbinden@lich
 verdauen@lich
 verderb@lich
 verdrießen@lich
@@ -444,7 +444,7 @@ vorsintflut@lich
 vorsorgen@lich
 vortreff@lich
 vorzug@lich
-wahrscheinen@lich
+wahrschein@lich
 wasserlösen@lich
 weib@lich
 weiner@lich
@@ -464,7 +464,7 @@ wirtschaften@lich
 wissenschaft@lich
 wohnen@lich
 wundern@lich
-zärt@lich
+zärte@lich
 zer@brechen@lich
 zieren@lich
 zimper@lich

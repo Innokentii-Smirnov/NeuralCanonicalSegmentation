@@ -4,7 +4,7 @@ aufmerksam
 balsam
 bedeutsam
 beharrsam
-behutsam
+behutsam@
 bereden@sam
 betriebsam
 biegsam@
@@ -17,7 +17,7 @@ empfindsam
 enthaltsam
 erholsam
 fehlsam
-folgen@sam
+folgen@sam@
 fügsam
 furchtsam
 gehorsam@
@@ -30,7 +30,7 @@ hand@sam
 heilsam
 kadavergehorsam@
 langsam
-leidsam
+leiden@sam
 medienwirksam
 mitteilsam
 mühsam
@@ -42,12 +42,12 @@ sittsam
 sorgsam
 sparen@sam
 unachtsam
-un@aufmerksam
-unbeugsam
+un@aufmerksam@
+unbeugsam@
 ungehorsam@
 ungenügsam@
-unterhaltsam
-unwegen@sam
+unterhaltsam@
+unwegsam
 wachsam
 wegsam
 wirksam

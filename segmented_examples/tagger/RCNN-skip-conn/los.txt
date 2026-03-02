@@ -23,7 +23,7 @@ charakter@los
 distanz@los
 ehren@e@los
 emotion@los
-ende@los
+end@los
 erbarmung@los
 erfolg@los
 ergebnis@los
@@ -97,7 +97,7 @@ sinn@los
 skrupel@los
 sorgen@e@los
 sorge@los
-stillos
+stilen@los
 tadel@los
 takt@los
 treu@e@los
@@ -113,5 +113,5 @@ würde@los
 wurzel@los
 zeit@los
 ziel@los
-zügel@los
+zügel@<UNK>os
 zweck@los

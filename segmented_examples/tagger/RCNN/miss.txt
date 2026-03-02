@@ -7,7 +7,7 @@ missbrau@chen
 missbrauch@lich
 missdeuten
 missdeuten@ung
-mis
+m@is
 missernte
 missetat
 missetat@er
@@ -33,7 +33,7 @@ missstand
 misstraue
 misstrauensvotum
 misstrau@isch
-missvergnug
+missvergnugen
 missvergnugt
 missverständnis
 missverst@ehen

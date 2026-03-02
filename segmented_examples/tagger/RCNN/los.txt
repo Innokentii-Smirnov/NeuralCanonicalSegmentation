@@ -46,7 +46,7 @@ gott@los
 halten@los
 harm@los
 hemmung@los
-herren@los
+herrelos
 herz@los
 hilf@los
 hirn@los
@@ -75,7 +75,7 @@ niveau@los
 nutz@los
 perspektive@los
 pietät@los
-prost<UNK>los
+prostylos
 rast@los
 rate@los
 reg@los
@@ -84,7 +84,7 @@ respekt@los
 resultat@los
 risiko@los
 ruch@los
-rückhalt@los
+rückhalten@los
 rücksicht@los
 ruhe@los
 scham@los

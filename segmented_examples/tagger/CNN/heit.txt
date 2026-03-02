@@ -124,8 +124,8 @@ trägheit
 trocken@heit
 tropenkrank@heit
 trunkenheit
-eberlegen@heit
-eber@spitztheit
+überlegen@heit
+über@spitztheit
 un@befangen@heit
 un@beherrschtheit
 un@beholfen@heit

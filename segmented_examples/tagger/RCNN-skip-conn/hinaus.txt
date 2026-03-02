@@ -4,4 +4,4 @@ hinauslehn@en
 hinausrage
 hinausschieb@en
 hinauswerf@en
-hinauszog@er
+hinauszoger

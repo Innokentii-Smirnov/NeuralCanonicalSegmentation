@@ -5,7 +5,7 @@ absicht@lich
 abtrag@lich
 ähnen@lich
 alltag@lich
-alltagstaugen@lich
+alltagstaug@lich
 altertum@lich
 alt@lich
 amt@lich
@@ -20,7 +20,7 @@ anzug@lich
 appetit@lich
 arbeitnehmerfreund@lich
 ärgen@lich
-ärmen@lich
+ärm@lich
 aufdringen@lich
 ausdrücken@lich
 ausfuhr@lich
@@ -46,7 +46,7 @@ bestechen@lich
 betracht@lich
 betrüben@lich
 betrug@lich
-betu@e@lich
+betu@lich
 bewegen@lich
 bitter@lich
 blau@e@lich
@@ -58,7 +58,7 @@ buchstab@lich
 burschenschaft@lich
 chr@ist@lich
 dämen@lich
-despektier@lich
+despekt@ier@lich
 deut@lich
 dick@e@lich
 dienen@lich
@@ -77,7 +77,7 @@ eindringen@lich
 eindrucken@lich
 einheit@lich
 eintrag@lich
-einverständ@lich
+einverstand@lich
 empfang@lich
 empfinden@lich
 entbehren@lich
@@ -88,7 +88,7 @@ erdähnen@lich
 erforder@lich
 erfreuen@lich
 erkennt@lich
-erkleck@lich
+erklecken@lich
 erschrock@lich
 erschwingen@lich
 ersicht@lich
@@ -157,7 +157,7 @@ grundsatz@lich
 grün@e@lich
 güt@lich
 haarähn@lich
-habe@lich
+hab@lich
 handgreif@lich
 hand@lich
 hasse@lich
@@ -197,7 +197,7 @@ krank@lich
 kulturfreund@lich
 kummer@lich
 kunst@lich
-lächer@lich
+lächern@lich
 lände@lich
 lang@lich
 lasse@lich
@@ -205,11 +205,11 @@ lebensbedroh@lich
 lebensfeind@lich
 leidenschaft@lich
 leser@lich
-go@lich
+vo@lich
 lieben@lich
 liedern@lich
 lob@lich
-lös@lich
+los@lich
 luftempfind@lich
 manier@lich
 mann@lich
@@ -236,7 +236,7 @@ nazifreund@lich
 nebensache@lich
 neuzeit@lich
 nied@lich
-nörde@lich
+norde@lich
 nordost@lich
 nützen@lich
 oberfläche@lich
@@ -247,7 +247,7 @@ ort@lich
 ost@lich
 papst@lich
 pein@lich
-persön@lich
+persönen@lich
 pflegen@lich
 possier@lich
 prowest@lich
@@ -282,18 +282,18 @@ schwulenfeind@lich
 sehnen@lich
 selbstbezug@lich
 selbstherr@lich
-selbstverstand@lich
+selbstverständ@lich
 seniorentaugen@lich
 sichten@bar@lich
 silberähn@lich
-silberempfinden@lich
+silberempfinde@lich
 sinn@lich
 sitt@lich
 sommer@lich
 sondern@lich
 sozialvertrag@lich
 spären@lich
-spießburger@lich
+spießbürger@lich
 sport@lich
 staatähn@lich
 statt@lich
@@ -374,7 +374,7 @@ unrede@lich
 un@rühm@lich
 un@sache@lich
 unsag@lich
-un@schaden@lich
+un@schäden@lich
 un@sitt@lich
 un@sport@lich
 un@straf@lich
@@ -382,7 +382,7 @@ un@taugen@lich
 unterdurchschnitt@lich
 unterschied@lich
 un@trost@lich
-un@trug@lich
+untrug@lich
 untune@lich
 un@übersichten@lich
 un@überwinden@lich
@@ -390,7 +390,7 @@ un@üben@lich
 un@umgang@lich
 un@verändern@lich
 un@verantworten@lich
-un@verbessern@lich
+un@verbesser@lich
 un@verbinden@lich
 un@ver@bruch@lich
 un@verfang@lich
@@ -445,7 +445,7 @@ vorsorgen@lich
 vor@treff@lich
 vorzug@lich
 wahrschein@lich
-wasserlösen@lich
+wasserlosen@lich
 weib@lich
 weiner@lich
 welt@lich

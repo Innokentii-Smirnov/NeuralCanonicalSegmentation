@@ -19,13 +19,13 @@ wiederherstellen@ung
 wiederholen
 wiederholen@ung
 wiederholungstat@er
-wiederh@ören
-wiederkauen
+wiederhören
+wiederkau@en
 wiederkau@er
 wiederkehr
 wiederkehren
 wiederkommen
-wiederkunft
+wiederken@unft
 wieders@ehen
 wiedertaufe
 wiedertaufen
@@ -33,5 +33,5 @@ wiederverkauf@lich
 wiederverwenden
 wiederverwerten
 wiedervorlage
-wieder@wah@l
+wiederwah@l
 wiederwählen

@@ -10,14 +10,14 @@ empfang@lich
 empfang@lich@keit
 empfangn@is
 empfängnisverhüten@ung
-empfangsdam@e
+empfangsdame
 empfangsgerat
 empfangsh@err
 empfehlen
 empfehlenswert
 empfehlen@ung
 empfindelei
-empfinde@
+empfinde
 empfinden@lich
 empfinden@lich@keit
 empfinden@sam
@@ -26,11 +26,11 @@ empfohlen
 emphase
 emphate@isch
 empirie
-empire@isch
+empiren@isch
 empirismus
 emporben@lick@en
 empören
-emporfahren
+emporfa@hren
 emporheb@en
 emporhelf@en
 emporium
@@ -40,4 +40,4 @@ empört
 emportragn
 empören@ung
 emporwachsen
-emporwirb@eln@
+emporwirb@el<UNK>

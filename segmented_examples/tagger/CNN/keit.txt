@@ -10,12 +10,12 @@ abtrünnig@keit
 achten@bar@keit
 achtfüßig@keit
 achten@sam@keit
-chnlich@keit
+ähnlich@keit
 alkoholabhängig@keit
 allgegenwart@ig@keit
 allmacht@ig@keit
 allseitig@keit
-engst@lich@keit
+ängst@lich@keit
 anhangen@lich@keit
 annehmlich@keit
 anpassungsfähig@keit
@@ -35,7 +35,7 @@ aufnahmefähig@keit
 aufrichten@ig@keit
 aufsässig@keit
 ausnahmslosig@keit
-lußern@lich@keit
+äußern@lich@keit
 barfüß@ig@keit
 barmherzig@keit
 bedeutsam@keit
@@ -257,7 +257,7 @@ nutzlosig@keit
 obdachlosig@keit
 ordnungswidrig@keit
 orientierungsschwierig@keit
-artlich@keit
+örtlich@keit
 personenfreizügig@keit
 persönlich@keit
 pietätlosig@keit
@@ -316,8 +316,8 @@ teilnahmslosig@keit
 traurig@keit
 treulosig@keit
 tüchtig@keit
-<BEGIN>bel@keit
-eberheben@lich@keit
+übel@keit
+überheben@lich@keit
 un@abhängen@ig@keit
 un@abwenden@bar@keit
 unachten@sam@keit
@@ -361,7 +361,7 @@ unzähmen@bar@keit
 unzerstörbar@keit
 un@zukommlich@keit
 un@zulang@lich@keit
-<BEGIN>ppig@keit
+üppig@keit
 vater@lich@keit
 verantworten@lich@keit
 verfügen@bar@keit

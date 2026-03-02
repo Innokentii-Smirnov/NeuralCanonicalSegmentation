@@ -1,4 +1,4 @@
-achten@sam@keit
+achten@samkeit
 aufmerksam@keit
 bedeutsam@keit
 bereden@sam@keit
@@ -10,8 +10,8 @@ gelehrsam@keit
 gemeinsam@keit
 selbstgenügsam@keit
 seltsam@keit
-sparen@samkeit
-un@achten@sam@keit
+sparen@sam@keit
+un@acht@sam@keit
 un@aufmerksam@keit
 waldeinsam@keit
 zweisam@keit

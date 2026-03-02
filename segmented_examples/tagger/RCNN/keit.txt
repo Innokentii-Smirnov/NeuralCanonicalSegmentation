@@ -10,13 +10,13 @@ abtrünn@ig@keit
 achten@bar@keit
 achtfüßig@keit
 achten@sam@keit
-chnen@lich@keit
+ähnlich@keit
 alkoholabhängig@keit
 allgegenwart@ig@keit
 allmacht@ig@keit
 allseitig@keit
-ungst@lich@keit
-anhang@lich@keit
+ängst@lich@keit
+anhäng@lich@keit
 annehmlich@keit
 anpassungsfähig@keit
 anständig@keit
@@ -35,7 +35,7 @@ aufnahmefähig@keit
 aufrichten@ig@keit
 aufsässig@keit
 ausnahmslosig@keit
-<UNK>ußern@lich@keit
+äußern@lich@keit
 barfußig@keit
 barmherzig@keit
 bedeutsam@keit
@@ -46,7 +46,7 @@ behagen@lich@keit
 beharrlich@keit
 benutzen@bar@keit
 bequemlich@keit
-bereden@sam@keit
+beredsam@keit
 bereitwillig@keit
 be@schwer@lich@keit
 besinnungslosig@keit
@@ -59,7 +59,7 @@ billig@keit
 bitter@keit
 bodenständig@keit
 brüderlich@keit
-charakterlosig@keit
+charakter@losig@keit
 datensparsam@keit
 dienstbar@keit
 doppeldeutig@keit
@@ -86,7 +86,7 @@ eigenverantwortlich@keit
 einfältig@keit
 einflusslosig@keit
 einfüßig@keit
-einheit@lich@keit
+einheitlich@keit
 einsam@keit
 einseitig@keit
 einsilbig@keit
@@ -117,7 +117,7 @@ feinfühlig@keit
 fertig@keit
 festig@keit
 fettig@keit
-feuchten@ig@keit
+feuchtig@keit
 fingerfertig@keit
 fluchtgeschwindig@keit
 flugtauglich@keit
@@ -145,7 +145,7 @@ gerechtig@keit
 gerichtsen@bar@keit
 geschäftig@keit
 geschäftstätig@keit
-geschick@e@lich@keit
+geschick@lich@keit
 geschmeidig@keit
 geschwindig@keit
 gesellen@ig@keit
@@ -194,9 +194,9 @@ inner@e@lich@keit
 irrsinn@ig@keit
 jammer@lich@keit
 jugendarbeitslosig@keit
-jungfrau@lich@keit
+jungfräulich@keit
 kinderlosig@keit
-kindersterb@lich@keit
+kindersterbe@lich@keit
 kleine@ig@keit
 klein@lich@keit
 kontraktionsfähig@keit
@@ -206,7 +206,7 @@ körper@lich@keit
 kostbar@keit
 kunst@lich@keit
 lächern@lich@keit
-lagermöglich@keit
+lagermög@lich@keit
 langatmig@keit
 langwierig@keit
 langzeitarbeitslosig@keit
@@ -257,7 +257,7 @@ nutzlosig@keit
 obdachlosig@keit
 ordnungswidrig@keit
 orientierungsschwierig@keit
-vrtlich@keit
+örtlich@keit
 personenfreizügig@keit
 persönlich@keit
 pietätlosig@keit
@@ -278,7 +278,7 @@ rotzig@keit
 ruchlosig@keit
 rücksichtslosig@keit
 ruhelosig@keit
-schäde@lich@keit
+schädlich@keit
 schamlosig@keit
 schiffbar@keit
 schlaflosig@keit
@@ -296,7 +296,7 @@ sehenswürdig@keit
 selbstgenügsam@keit
 selig@keit
 seltsam@keit
-sesshaft@ig@keit
+sesshaftig@keit
 sichten@bar@keit
 sinnhaft@ig@keit
 sinnlosig@keit
@@ -316,12 +316,12 @@ teilnahmslosig@keit
 traurig@keit
 treulosig@keit
 tüchtig@keit
-vbel@keit
-mberheben@lich@keit
+übel@keit
+überheben@lich@keit
 un@abhängen@ig@keit
 un@abwenden@bar@keit
 un@achten@sam@keit
-unähnlich@keit
+unähnen@lich@keit
 un@annehmlich@keit
 un@auffällig@keit
 un@aufmerksam@keit
@@ -337,9 +337,9 @@ un@freund@lich@keit
 un@genauig@keit
 un@gerechtig@keit
 un@geschick@e@lich@keit
-un@gläubig@keit
+un@glaubig@keit
 un@hof@lich@keit
-un@lesen@bar@keit
+un@lesbar@keit
 un@maßgeben@lich@keit
 unmensch@lich@keit
 un@regelmäßig@keit
@@ -361,7 +361,7 @@ unzähmen@bar@keit
 unzerstören@bar@keit
 un@zukömmlich@keit
 un@zulang@e@lich@keit
-uppig@keit
+üppig@keit
 väterlich@keit
 verantworten@lich@keit
 verfügbar@keit
@@ -371,7 +371,7 @@ verlassen@lich@keit
 verletzen@lich@keit
 vernunft@ig@keit
 verschiedenartig@keit
-versöhnlich@keit
+versöhnen@lich@keit
 verträglich@keit
 vertrauenswürdig@keit
 verwendungsmöglich@keit
@@ -404,7 +404,7 @@ widerspenstig@keit
 widerstandsfähig@keit
 widerwärtig@keit
 willenlosig@keit
-willkürgerichtsbar@keit
+willkürgerichtsen@bar@keit
 windgeschwindig@keit
 wirken@lich@keit
 wohltat@ig@keit
@@ -424,7 +424,7 @@ zusammengehören@ig@keit
 zuständig@keit
 zuverlässig@keit
 zwanglosig@keit
-zwangslauf@ig@keit
+zwangslaufig@keit
 zwecklosig@keit
 zweck@mäßig@keit
 zweifüßig@keit

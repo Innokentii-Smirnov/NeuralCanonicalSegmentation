@@ -3,7 +3,7 @@ aachen@er@in
 abenteuer@in
 abenteuer@er@in
 abonnent@in
-ebte@isse@in
+äbte@isse@in
 abwehrspiel@er@in
 abweich@ler@in
 acylo@in
@@ -13,13 +13,13 @@ aden@in
 adenose@in
 adrenal@in
 aff@in
-uff@in
+aff@in
 afghan@in
 afrika@aner@in
 agent@in
 agnostik@er@in
-igypten@er@in
-agyptologe@in
+ägypten@er@in
+ägyptologe@in
 ahnenschein
 akkadi@er@in
 akkordeonspiel@er@in
@@ -71,7 +71,7 @@ arbeitgeber@in
 archäologe@in
 archivar@in
 armenien@er@in
-urm@lein
+ärm@lein
 arsenobeta@in
 arsenochole@in
 arse@in
@@ -741,7 +741,7 @@ ober@in
 ode@in
 ofenkuch@lein
 ökologe@in
-äkonom@in
+ökonom@in
 olef@in
 oligopol@ist@in
 olivenstein
@@ -1046,7 +1046,7 @@ tür@lein
 turmale@in
 türm@lein
 type@in
-ebersetzer@in
+übersetzer@in
 ukrain@er@in
 ungar@in
 un@ree@in

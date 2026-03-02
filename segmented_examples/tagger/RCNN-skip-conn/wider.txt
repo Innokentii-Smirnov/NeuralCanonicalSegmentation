@@ -9,7 +9,7 @@ widern@lich
 widern@lich@keit
 widerle@ing
 wider@natür@lich
-widern@part
+wider@part
 wider@recht@lich
 widerred@e
 widerred@en
@@ -20,12 +20,12 @@ widerse@inn@
 widersinn@ig
 widerspenst@ig
 widerspenstig@keit
-widerspieg@el<UNK>
+widerspiegel<UNK>
 widerspiel
 widersprechen
 widerspruch@lich
 widerstand
-widerstandsfäh@ig
+widerstandsfah@ig
 widerstandsfähig@keit
 widerstand@los
 widerst@ehen

@@ -1,4 +1,4 @@
-missachten
+missacht@en
 missbilden@ung
 missbill@ig
 missbilligen@ung
@@ -14,10 +14,10 @@ missetat@er
 missgelaunt
 missgeschick
 missglückt
-missgönen
-missgen@unst
+missgönn@en
+missgunst
 missgunst@ig
-misshand@eln
+misshandeln
 missingsch
 missinterpretier
 misse@ion
@@ -33,7 +33,7 @@ missstand
 misstrauen
 misstrauensvotum
 misstrauisch
-missvergn@üen
+missvergüen
 missvergnugt
 missverständn@is
 missverst@ehen

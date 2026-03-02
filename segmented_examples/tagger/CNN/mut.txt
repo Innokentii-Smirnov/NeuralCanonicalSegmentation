@@ -11,7 +11,7 @@ langmut
 mammut
 missmut
 sanftmut
-<BEGIN>bermut
+übermut
 un@mut
 wankelmut
 wehmut

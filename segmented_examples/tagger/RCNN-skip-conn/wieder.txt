@@ -7,7 +7,7 @@ wiederentdecken
 wiedererkennen
 wiederfinden
 wiedergabe
-wiedereb@en
+wiedergeb@en
 wiedergeben@urt
 wiedergewe@inn@e@
 wiedergewinnen@ung
@@ -34,4 +34,4 @@ wiederverwen@den@en
 wiederverwerten
 wiedervorlage@e
 wiederwahl
-wiederwählen
+wiederwahlen
