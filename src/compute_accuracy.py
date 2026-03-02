@@ -9,7 +9,7 @@ CS = 'canonical-segmentation'
 SM = '2022SegmentationST'
 OTHER = 'data'
 
-LANGUAGE_CODES = ['deu', 'eng', 'ind', 'ita', 'fra', 'lat', 'chu']
+LANGUAGE_CODES = ['deu', 'eng', 'ind', 'ita', 'fra', 'lat', 'chu', 'vsn']
 
 CODE_TO_LANGUAGE = {
   'deu': 'german',
@@ -29,7 +29,8 @@ LANGUAGE_TO_DATASET = {
   'ita': SM,
   'fra': SM,
   'lat': SM,
-  'chu': OTHER
+  'chu': OTHER,
+  'vsn': OTHER
 }
 
 DATASET_TO_BOUNDARY = {
