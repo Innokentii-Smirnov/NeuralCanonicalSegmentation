@@ -64,7 +64,7 @@ hotel
 men-siap-kan
 atlet
 pen-berangkat-an-nya
-kesempat-an
+kesempatan
 men-hantu-i
 atletik
 olah-an-nya
@@ -77,7 +77,7 @@ pen-kelola-an-nya
 gencar
 di-ingin-kan
 men-sedot
-men-agum-kan
+men-kagum-kan
 arsitektur
 men-ketahui-nya
 jeruk
@@ -415,7 +415,7 @@ lamar-an
 korelasi
 pen-main
 posko
-men-tantu-nya
+menantu-nya
 men-layang
 kenal
 rapuh-nya
@@ -441,7 +441,7 @@ di-potong
 relatif-nya
 persepsi
 pen-tiru
-pen-dahulu
+pendahulu
 ber-tahap
 selera
 ber-patok-an
@@ -518,7 +518,7 @@ hari
 di-tempat-i
 di-ukur
 jebol
-ber-randil
+ber-andil
 renung-kan
 ter-sadar
 pen-anggur-an
@@ -531,7 +531,7 @@ men-siap-kan
 tugas-nya
 per-damai-an
 di-hindar-kan
-pen-minjam-an-nya
+pen-pinjam-an-nya
 men-susuri
 se-waktu
 ber-malam
@@ -585,7 +585,7 @@ men-dengar
 men-kecewa-kan
 normal
 per-bintang-an
-men-kokoh
+men-perkokoh
 tukar
 ter-biasa
 men-jatuh-i
@@ -727,7 +727,7 @@ revolusi
 men-kenang-nya
 kudus-kan
 akibat-nya
-men-optimal-kan
+men-koptimal-kan
 denda
 men-maksimal-kan
 besar-nya
@@ -888,7 +888,7 @@ pen-puji
 komite
 sintesis
 marak
-landai
+landa-i
 di-antisipasi
 sedekah-mu
 jujur
@@ -903,7 +903,7 @@ sesali
 men-ketat
 men-soal-kan-nya
 integritas-nya
-ilmu-wan
+ilmuw-an
 lanjut-an
 cair-an
 gugus-an
