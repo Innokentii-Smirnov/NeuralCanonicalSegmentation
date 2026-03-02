@@ -3,6 +3,7 @@ from collections.abc import Iterable
 from typing import Optional
 from library.read import read_list
 from library.write import write_list
+from stringutils import contains_combined_diacritic
 
 class Vocabulary:
     #sep = ';\n'
@@ -89,6 +90,9 @@ class Vocabulary:
     
     def __contains__(self, key: str):
         return key in self.symbol_codes_
+
+    def contains_string_with_combined_diacritic(self) -> bool:
+        return any(contains_combined_diacritic(string) for string in self.symbols_)
 
 class SequenceVocabulary(Vocabulary):
 

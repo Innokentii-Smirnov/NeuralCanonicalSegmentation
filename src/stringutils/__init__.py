@@ -1,5 +1,16 @@
 from unicodedata import combining
 
+def is_combining_diacritic(character: str) -> bool:
+    return combining(character) != 0
+
+def contains_combined_diacritic(string: str) -> bool:
+    if len(string) < 2:
+        return False
+    for character in string[1:]:
+        if is_combining_diacritic(character):
+            return True
+    return False
+
 def string_to_list(string: str, combine_diacritics: bool = False) -> list[str]:
     if combine_diacritics:
         return string_to_list_with_combined_diacritics(string)
@@ -9,7 +20,7 @@ def string_to_list(string: str, combine_diacritics: bool = False) -> list[str]:
 def string_to_list_with_combined_diacritics(string: str) -> list[str]:
     l = list[str]()
     for char in string:
-        if combining(char) != 0:
+        if is_combining_diacritic(char):
             assert len(l) > 0
             l[-1] += char
         else:
