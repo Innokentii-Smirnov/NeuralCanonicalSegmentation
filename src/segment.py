@@ -6,6 +6,7 @@ from models.morphon import make_model
 from utils.dataloader import DEVICE
 import torch
 import logging
+from reproducibility import set_seeds
 logging.basicConfig(level=logging.INFO)
 parser = argparse.ArgumentParser(
   prog='segment.py',
@@ -23,6 +24,7 @@ parser.add_argument('words', nargs='*',
 args = parser.parse_args()
 model_dir = path.join('models', args.language, args.model_type, args.model_subtype)
 vocab_dir = path.join(model_dir, 'Vocabularies')
+set_seeds()
 vocabs = {splitext(filename)[0]: Vocabulary(True, True).load(path.join(vocab_dir, filename))
           for filename in listdir(vocab_dir)}
 for key, vocab in vocabs.items():
