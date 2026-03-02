@@ -39,7 +39,7 @@ men@gigit@nya
 pagar
 doa@aku
 absah
-men@sepele@kan
+men@sepelekan
 ber@sedih
 tas
 kios
@@ -58,7 +58,7 @@ asap
 ber@ke@wajib@an
 harap@an
 hadap@i
-men@kuap
+men@uap
 upaya
 hotel
 men@siap@kan
@@ -92,7 +92,7 @@ belas@an
 men@pelihara@aku
 men@urut@kan
 di@buru
-pemula
+pen@mula
 bawa
 jenis@nya
 ter@telak
@@ -143,7 +143,7 @@ men@kemuka@kan
 ter@capai
 tamu@nya
 di@kena@i
-dikte@nya
+diktenya
 barat
 motif
 ke@tidak@hadir@an
@@ -164,7 +164,7 @@ bintang
 di@anggap
 biaya
 pen@cium@an
-ke@masan
+ke@mas@an
 men@tegak@kan@nya
 goda@an
 se@yogya@nya
@@ -197,7 +197,7 @@ men@cinta@i
 hebat@nya
 kendara@an
 ter@informasi
-semalam
+se@malam
 ter@nama
 mukjizat
 ambivalensi
@@ -264,7 +264,7 @@ men@jemput
 putus
 men@tenun
 surat@nya
-mutas@i
+mutasi
 di@informasi@kan
 <UNK><UNK><UNK><UNK>an
 aborsi
@@ -365,7 +365,7 @@ payudara
 pen@serah@an@nya
 rasio@nya
 kurasa
-men@cari
+mencari
 ter@pen@rinci
 bayar@kan
 langkah@ku
@@ -381,7 +381,7 @@ aris@an
 ber@kerabat
 di@pamer@kan
 men@abai@kan@nya
-men@taat@i
+menaat@i
 di@tutur@kan
 pen@gugah
 bakat
@@ -421,7 +421,7 @@ kenal
 rapuh@nya
 di@siap@kan
 materi@nya
-wawancarai
+wawancara@i
 makam@nya
 teman@ku
 permen@nya
@@ -481,7 +481,7 @@ pen@dana@an@nya
 punggung@nya
 hubung@an
 men@larat
-kemundur@an
+ke@mundur@an
 di@penjara
 men@singsing@kan
 botan@i
@@ -698,7 +698,7 @@ akte
 pundi
 gelandang@an
 men@dakwa
-ber@kesimpul@an
+ber@ke@simpul@an
 men@tanya@i
 non@bank
 per@tunang@an
@@ -707,7 +707,7 @@ atur@an
 di@akses@nya
 kategori
 men@lupa@kan
-dimakan@nya
+di@makan@nya
 ber@paut
 solusi@nya
 ayu
@@ -772,7 +772,7 @@ di@coret
 men@tajam
 kerjasama
 fasik
-menunduk@kan
+men@tunduk@kan
 ber@sumber
 ber@interaksi
 di@per@guna@kan
@@ -812,7 +812,7 @@ reaksi
 di@yakin@kan
 ramai
 neraka
-men@eliminasi
+men@keliminasi
 rp
 optimistis
 gencar@nya
@@ -837,7 +837,7 @@ lonja@kan
 lebih
 gerak@an
 di@tangkap
-ber@pendidik@an
+ber@pen@didik@an
 pen@minat
 aku@i
 di@interogasi
@@ -864,7 +864,7 @@ di@tagih
 pen@arah
 ke@butuh@an@nya
 rintis@an
-di@perluas
+di@per@luas
 acara
 di@jahit
 murah@nya
@@ -918,7 +918,7 @@ ter@tipu
 muncul@nya
 men@pisah@kan@nya
 jabat@an@nya
-men@pekaya
+men@perkaya
 men@ledak
 lembah
 ketelanjang@an

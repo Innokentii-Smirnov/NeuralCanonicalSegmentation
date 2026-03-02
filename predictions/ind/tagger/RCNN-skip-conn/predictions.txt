@@ -12,7 +12,7 @@ di@luput@kan
 men@sayang@i
 men@kuat@kan@nya
 ajuk@an
-ber@rumput
+ber@umput
 per@minta@an@nya
 men@ejek
 sehat
@@ -380,7 +380,7 @@ men@tembak@kan
 aris@an
 ber@kerabat
 di@pamer@kan
-men@abai@kan@nya
+men@kabai@kan@nya
 men@taat@i
 di@tutur@kan
 pen@gugah
@@ -591,7 +591,7 @@ ter@biasa
 men@jatuh@i
 men@salah@i
 lahan@nya
-pen@manja@an
+pen@panja@an
 apatis
 pen@ganggu
 men@nikah@kan
@@ -638,7 +638,7 @@ men@sembuh@kan
 pen@kaji
 ikut@an
 men@tinju@nya
-ter@realisasi
+ter@ealisasi
 siklus
 men@target@kan
 jahat
@@ -661,7 +661,7 @@ seniman
 pen@berkas@an
 akta
 di@paksa@kan
-di@fasilitas@i
+di@fasilitasi
 ter@bayang
 ber@jual@an
 men@jajak@i
@@ -779,7 +779,7 @@ di@per@guna@kan
 di@jatuh@kan
 variasi@nya
 cermin@an
-komodit@i
+komoditi
 men@jalin
 beternak
 minimal@nya
@@ -833,11 +833,11 @@ men@simpang
 ber@gereja
 men@panggang
 jamin@an
-lonja@kan
+lonjak@an
 lebih
 gerak@an
 di@tangkap
-ber@pen@didik@an
+ber@pendidik@an
 pen@minat
 aku@i
 di@interogasi
@@ -926,7 +926,7 @@ jalin@an
 di@picu
 ter@layan@i
 ter@catat
-men@niada@kan
+men@tiada@kan
 men@cukup@kan
 di@peta@kan
 imigrasi

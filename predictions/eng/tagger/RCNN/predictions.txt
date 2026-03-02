@@ -9,13 +9,13 @@ wombat
 bloodthirsty@ly
 minute@ly
 geophysical
-bigotry
+bigot@ry
 vein@ed
 educate@or
 mallow
 certain
 victim
-nice@ty
+nicety
 revolting
 tutor@ial
 send@er
@@ -81,7 +81,7 @@ cello
 constrictive
 shares
 en@shrine
-necrophilism
+necrophile@ism
 bordello
 tide@al
 ironclad
@@ -115,7 +115,7 @@ diet
 nocturnal@ly
 un@serviceable
 conjecture@al
-habitation
+habitate@ion
 bathe
 fraudulent@ence
 ballista
@@ -174,7 +174,7 @@ mess
 cedar
 lay
 swede
-vastly
+vast@ly
 monstrous@ly
 medlar
 central@ly
@@ -215,7 +215,7 @@ quiff
 urbanize@ation
 affix
 mimosa
-inter
+int@er
 attract@ion
 schooling
 flies
@@ -251,7 +251,7 @@ slay
 satisfying
 sleet
 pot@age
-prehistoric@al@ly
+prehistorical@ly
 mis@cast
 brawn
 defiant@ly
@@ -289,7 +289,7 @@ guts
 whine@er
 domain
 poky@ness
-mino<UNK>ity
+minore@ity
 billet
 millinery
 suppose
@@ -301,7 +301,7 @@ compressible@ity
 jump
 por@ous
 fly
-scrims@haw
+scrimshaw
 tortoise
 hermetic@ally
 pithy@ness
@@ -318,7 +318,7 @@ supine@ly
 pilchard
 narcissistic@ally
 wisp@y
-abdomi<UNK>al
+abdome<UNK>al
 avert
 dis@inte<UNK>r@ate
 mind@ful
@@ -326,7 +326,7 @@ instruction@ive
 eurhythm@ic
 unnatural@ly
 dis@locate
-en@erve@ate
+enerve@ate
 medicate@ion
 sandy@ness
 biblical
@@ -366,7 +366,7 @@ page
 joyful@ly
 thus
 straight@ness
-quan<UNK>ify
+quantify
 bad@ness
 wan@ly
 dis@mast
@@ -377,7 +377,7 @@ cry
 exult@ation
 starling
 tinny@ness
-machinate
+machine@ate
 immoble@ity
 sketchy@ness
 impermanent@ence
@@ -418,7 +418,7 @@ breathy@ness
 cuss
 shuck
 obliging@ly
-mis@use
+misuse
 wood@y
 rambunctious@ly
 pin
@@ -464,7 +464,7 @@ billpost@e<UNK>
 wrist@y
 noticeable@ly
 telling
-re@ward
+reward
 smoke
 carcinoma
 pulp
@@ -481,9 +481,9 @@ pickaback
 saute
 idyl<UNK>ic
 orthopaedic@s
-clarinet@ist
+clarinettist
 gain@ful
-muster
+must@er
 quirk
 bit@y
 order@ed
@@ -569,7 +569,7 @@ en@mesh
 legalize@ation
 splotch@y
 wine
-mechane@ize
+mechan@ize
 vitalize
 fugue
 slick
@@ -609,7 +609,7 @@ groan
 armorial
 niff@y
 emblematic@ally
-buffoon@ery
+buffoon@er@y
 dock@er
 allegory@ical
 receive@able
@@ -648,9 +648,9 @@ lazy@ly
 landward@s
 subdued
 carmine
-bankrupt@cy
+bankrupt@ce@y
 aimless@ness
-statuary
+statuous@ary
 over@night
 bit
 straggle@er
@@ -697,14 +697,14 @@ candle
 state@ly
 gloss@ar@y
 vaulting
-buzzer
+buzze@er
 atheist@ical
 nullah
 pardon@able
 discounte@nance
 loam
 pain@less
-disjunct@ion
+disjunction
 talent
 vestal
 demented@ly
@@ -733,7 +733,7 @@ gripe@er
 evident@ence
 tacit
 feline
-barbar@ic
+barbaric
 haft
 envy@ous
 hello
@@ -798,7 +798,7 @@ tare
 arch@er
 un@string
 arrogant@ly
-cuirassier
+cuirass@ier
 magy@ical
 vermin
 in@subordinate
@@ -851,8 +851,8 @@ scab
 coupon
 savvy
 pretty@ly
-miser@ly
-wizar<UNK>ry
+misery@ly
+wizardry
 salacious@ness
 chieftain@ship
 dissend@ion
@@ -892,7 +892,7 @@ sacrament@al
 jerkin
 presumption@ive
 propagatior
-cuff
+<UNK>uff
 prescriptive@ism@ist
 moo
 grace@ful
@@ -942,7 +942,7 @@ kicks
 buck@ed
 profession@al
 libidinous@ness
-in@satiate
+in@sate@ate
 gluttonous@ly
 avocet
 convivial@ly
@@ -969,7 +969,7 @@ saunter@er
 parabolical@ly
 concerned
 wry
-re@habilitate
+rehabilitate
 perverse@ion
 ugly@ness
 reserved@ly
@@ -977,7 +977,7 @@ provise@ory
 anthology@ist
 compulsory@ly
 pedigree
-re@point
+repoint
 backing
 billow@y
 swindle

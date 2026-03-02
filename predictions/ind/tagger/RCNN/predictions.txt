@@ -193,7 +193,7 @@ di@lantik
 di@tular@kan
 di@sangga
 sesi
-men@cinta@i@
+men@cinta@i
 hebat@nya
 kendara@an
 ter@informasi
@@ -571,7 +571,7 @@ luka@nya
 cair
 pen@serang
 se@jumput
-memaaf@kan
+men@maaf@kan
 manis
 di@seimbang@kan
 pen@lebar@an
@@ -740,7 +740,7 @@ kompas
 ter@pinggir@kan
 men@tiru
 pudar
-semesta
+se@mesta
 terbit@nya
 udara
 di@manipulasi
