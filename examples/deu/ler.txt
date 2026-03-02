@@ -179,7 +179,7 @@ nebenbuhler
 nichtmuttersprachler
 nörgler
 obstler
-Öbstler
+öbstler
 orgelspieler
 ostler
 pendler
@@ -262,7 +262,7 @@ tischtennisspieler
 tretroller
 trommler
 trompetenspieler
-Überblendregler
+überblendregler
 umstürzler
 unterhändler
 verdoppler

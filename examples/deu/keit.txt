@@ -10,12 +10,12 @@ abtrünnigkeit
 achtbarkeit
 achtfüßigkeit
 achtsamkeit
-Ähnlichkeit
+ähnlichkeit
 alkoholabhängigkeit
 allgegenwärtigkeit
 allmächtigkeit
 allseitigkeit
-Ängstlichkeit
+ängstlichkeit
 anhänglichkeit
 annehmlichkeit
 anpassungsfähigkeit
@@ -35,7 +35,7 @@ aufnahmefähigkeit
 aufrichtigkeit
 aufsässigkeit
 ausnahmslosigkeit
-Äußerlichkeit
+äußerlichkeit
 barfüßigkeit
 barmherzigkeit
 bedeutsamkeit
@@ -257,7 +257,7 @@ nutzlosigkeit
 obdachlosigkeit
 ordnungswidrigkeit
 orientierungsschwierigkeit
-Örtlichkeit
+örtlichkeit
 personenfreizügigkeit
 persönlichkeit
 pietätlosigkeit
@@ -316,8 +316,8 @@ teilnahmslosigkeit
 traurigkeit
 treulosigkeit
 tüchtigkeit
-Übelkeit
-Überheblichkeit
+übelkeit
+überheblichkeit
 unabhängigkeit
 unabwendbarkeit
 unachtsamkeit
@@ -361,7 +361,7 @@ unzähmbarkeit
 unzerstörbarkeit
 unzukömmlichkeit
 unzulänglichkeit
-Üppigkeit
+üppigkeit
 väterlichkeit
 verantwortlichkeit
 verfügbarkeit
