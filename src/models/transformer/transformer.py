@@ -112,7 +112,7 @@ class Seq2SeqTransformer(nn.Module):
                 break
         return ys
 
-    def predict(self, X: SimpleDataset, batch_size: int = 32) -> list[None | ndarray]:
+    def predict(self, X: SimpleDataset, batch_size: int = 32, max_len: int = 50) -> list[None | ndarray]:
         self.eval()
         dataloader = FieldBatchDataloader(X, device=self.device, batch_size=batch_size)
         answer: list[None | ndarray] = [None] * len(X)
@@ -122,7 +122,7 @@ class Seq2SeqTransformer(nn.Module):
             src = batch['phon'].transpose(0, 1)
             src_mask = (torch.zeros(num_tokens, num_tokens)).type(torch.bool).to(self.device)
             with torch.no_grad():
-                tgt_tokens = self.greedy_decode(src, src_mask, max_len=100, start_symbol=self.begin_token_id)
+                tgt_tokens = self.greedy_decode(src, src_mask, max_len=max_len, start_symbol=self.begin_token_id)
             labels = tgt_tokens.transpose(1, 0).cpu().numpy()
             # probs = batch_answer.cpu().numpy()
             # labels = probs.argmax(axis=-1)
