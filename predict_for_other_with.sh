@@ -1,4 +1,8 @@
 models="$1"
+language_codes="$2"
+if [[ -z $language_codes ]] then
+  language_codes="chu vsn"
+fi
 function predict_for_language() {
   code="$1"
   infile="data/$code.word.test.tsv"
@@ -11,6 +15,6 @@ function predict_for_language() {
     done
   done
 }
-for code in chu; do
+for code in $language_codes; do
   predict_for_language "$code"
 done
