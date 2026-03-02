@@ -33,9 +33,9 @@
 	},
 	"chu": {
 		"tagger_CNN": 89.17,
-		"tagger_LSTM": 87.91,
-		"tagger_RCNN": 87.6,
-		"tagger_RCNN-skip-conn": 89.01,
-		"transducer_LSTM": 82.42
+		"tagger_LSTM": 87.76,
+		"tagger_RCNN": 88.07,
+		"tagger_RCNN-skip-conn": 87.44,
+		"transducer_LSTM": 81.79
 	}
 }
