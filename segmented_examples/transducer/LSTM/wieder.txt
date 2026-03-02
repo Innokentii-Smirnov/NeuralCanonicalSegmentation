@@ -3,7 +3,7 @@ wiederauferstehen-e-n
 wiederauferstehen-ung
 wiederbelen-er
 wiederbeleben-ung
-wiederentdeck-en
+wiederentdecken-e-len
 wiedererken-en
 wiederfinden-er
 wiedergaben-er
@@ -13,18 +13,18 @@ wiedergewinnen-en
 wiedergewinnen-ung
 wiedergutmachen-er
 wiedergutmachen-ung
-wiederherstellen-el-el-el
+wiederherstel-len
 wiederherstellen-el-er
 wiederherstellen-ung
 wiederholen-er
 wiederholen-ung
 wiederholungstat-er
-wiederhor-er
-wiederkau-e-er
+wiederhoren-er
+wiederkau-er
 wiederkau-er
 wiederk-er
 wiederkehren-er
-wiederkommen-er
+wiederkom-er
 wiederken-ung
 wiederse-lich
 wiedertaufen-er
@@ -34,4 +34,4 @@ wiederverwenden-er
 wiederverwerten-er
 wiedervorlage-er
 wiederwahl-er
-wiederwahl-en
+wiederwahlen-er

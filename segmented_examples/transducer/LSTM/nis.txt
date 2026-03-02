@@ -1,7 +1,7 @@
-abkürzungsverzeichn-in
-aharerlebe-in
+abkürzungsverzeich-in
+ahaerlebe-in
 an-ist-los
-rrgen-er-is
+ärgern-is
 armutszeuge-in
 bedrang-in
 bedürfen-in
@@ -13,7 +13,7 @@ besaufen-in
 betriebsergeben-in
 betrüben-in
 bilde-in
-briefgeheim-in
+briefgeheim-lis
 bünden-is
 damaskuserleb-in
 dijtvußerleb-in
@@ -21,8 +21,8 @@ deutschkennt-in
 dreiecksverhalt-in
 einverstand-in
 empfang-in
-endergebnist-lor
-ereige-in
+endergebnist-er
+ereigen-is
 erford-er-in
 ergebn-is
 erkennt-in
@@ -35,7 +35,7 @@ finster-in
 firn-ist-los
 gedacht-in
 gefang-in
-geheim-n-is
+geheim-in
 gelöben-is
 gestände-in
 glaubensbekennt-in
@@ -60,14 +60,14 @@ untersuchungsergeben-in
 ver-damm-in
 verhalten-in
 verhang-e-in
-verlöben-in
+verlöben-is
 vermacht-in
 verstand-in
 verzeichen-isch-keit
 vorkommen-isch-los
 wagn-is
-wahlergebn-in
+wahlergebnist-er-in
 zerwürfen-in
-zeugn-is
+zeugne-ist-los
 zugestand-in
 zwischenzeuge-in

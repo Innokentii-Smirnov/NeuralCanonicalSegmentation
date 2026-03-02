@@ -1,6 +1,6 @@
 widerborst-ig
 widerfahren-er
-widerhal-er
+widerhalen-el-lich
 widerhalen-el-er
 widerlegbar-keit
 widerlegen-er
@@ -11,12 +11,12 @@ widerlien-ig
 widernatür-lich
 wider-par
 widerrecht-lich
-widerre-er
+widerreden-er
 widerre-er
 widerrufen-er
-widerrufsrecht-e-lich
+widerrufsrecht-lich
 widersachen-er
-widerse-in
+widerst-in
 widersinn-ig
 widerspenst-ig
 widerspenstig-keit
@@ -32,6 +32,6 @@ widerst-e-lon
 widerstreben-er
 widerwart-ig
 widerwartig-keit
-widerwillen-el-er
 widerwillen-er
+widerwillen-el-er
 widerwille-ig
