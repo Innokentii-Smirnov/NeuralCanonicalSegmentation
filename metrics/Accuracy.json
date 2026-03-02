@@ -24,12 +24,12 @@
 		"tagger_CNN": 77.86
 	},
 	"fra": {
-		"transducer_LSTM": 1.09
+		"transducer_LSTM": 1.1
 	},
 	"lat": {
 		"tagger_CNN": 96.14,
-		"tagger_LSTM": 93.12,
-		"tagger_RCNN": 97.26
+		"tagger_LSTM": 93.15,
+		"tagger_RCNN": 97.25
 	},
 	"chu": {
 		"tagger_CNN": 89.17,
