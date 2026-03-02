@@ -110,7 +110,7 @@ conticīscā@ris
 cōnsparg@ē@s
 baccha@nt@ia
 adlūdiā@bi@s
-perlatent@ī
+perlate@nt@ī
 ecfrēnāt@am
 lāmenta@nt
 adōrāt@ūr@īs
@@ -176,7 +176,7 @@ adpete@nd@ōs
 palaestē@n
 reson@ē@s
 appreti@a@ntur
-discrēti@ō
+discrētiō
 scalpe@nt@ibus
 assue@rē@s
 redēg@erī@tis
@@ -208,7 +208,7 @@ rēct@ōrum
 subsīd@e
 coagitā@re@t
 tine@ē@mur
-complōr@ē@tis
+complōrē@tis
 abscondē@re@m
 perfovē@tur
 inc@ō
@@ -402,7 +402,7 @@ office@re@ntur
 sit@ūr@ōrum
 diaetāri@ōs
 aurīgāv@erā@s
-adici@ā@s
+adici@ās
 fatīgā@rē@tur
 intribui@tis
 move@nd@a
@@ -507,7 +507,7 @@ sulfure@am
 commōnstra@nd@īs
 dēvora@nd@ās
 pigrāt@ūr@īs
-dēpugnō
+dēpugn@ō
 adlūd@a@t
 egēn@um
 concarnā@bu@ntur
@@ -518,7 +518,7 @@ acquisītiōn@um
 praedestināt@ae
 pulpit@ōrum
 interim@ē@ris
-laticipitia
+laticipit@ia
 dīvolg@ē@ris
 praeservā@rē@tur
 vēlifica@nd@ōrum
@@ -549,7 +549,7 @@ camtschatic@ōs
 circueu@nd@ae
 morb@e
 īnfīge@nd@ās
-aestifer@um
+aestiferum
 supercertāv@era@t
 asservāv@isse@nt
 honōrificā@bu@ntur
@@ -666,7 +666,7 @@ iactanticul@e
 si@eri@mus
 cerebrōs@ī
 assu@a@t
-concupīsce
+concupīsc@e
 praeintelligā@ris
 resolvu@ntō
 prōdī@rē@tis
@@ -707,7 +707,7 @@ vīnolent@ās
 invīs@ārum
 innovē@minī
 hippophobad@em
-expav@e@t
+expave@t
 cicum@am
 praecipitā@bi@mus
 adtestāt@us
@@ -717,7 +717,7 @@ multiplicā@rē@mus
 incinge@nt@ibus
 tintinā@tōte
 scāns@ūr@a
-dēiuvā@s
+dēiuv@ā@s
 venerābil@em
 īnsultā@bā@re
 glabrēscō
@@ -777,7 +777,7 @@ tarditūdō
 circumsect@e
 acinifoli@ārum
 glutti@isse@t
-langobard@um
+langobardum
 subdēlige@nt@e
 praemōnstrāt@ōrum
 offunde@nd@a
@@ -788,7 +788,7 @@ subterfūg@it
 festīna@nd@ās
 dēmentiōr@ibus
 nūntiāt@ōs
-xyst@e
+xyste
 lege@nd@a
 dēdit@ūr@um
 tempestīvitāt@is
@@ -815,7 +815,7 @@ māternāl@is
 conquassāt@ūr@ōrum
 lībertāv@eri@t
 dērīv@ē@re
-artā@tis
+artā@t@is
 maledīx@istī
 prōpuls@ūr@e
 ēmōlie@nd@ī
@@ -937,7 +937,7 @@ sinuā@bā@mur
 perne@ās
 subsignā@rē@tur
 vīvipar@īs
-cȳaneō
+cȳane@ō
 suffringē@ba@t
 conligā@rē@re
 ēlīmina@nd@a
@@ -1004,7 +1004,7 @@ assella@nd@um
 subiugāt@ās
 voluptāri@ōrum
 subīnfer@rē@tis
-līmōni@ātis
+līmōni@āt@is
 interpola@nd@am
 nepōtāt@am
 obstrepe@re@ntur
@@ -1297,7 +1297,7 @@ tremefaci@a@t
 resuscitā@bā@ris
 pervolgāv@issē@tis
 contrūs@ās
-frūstr@ā
+frūstrā
 prōpāgā@bu@ntur
 prōpriā@re@m
 calcā@ris
@@ -1410,7 +1410,7 @@ dēripi@t
 genera@nd@am
 postpōnu@nt
 anxiāt@ūr@ārum
-tolerābili@ōr@um
+tolerābiliōr@um
 indormī@re@nt
 amylā@bā@mus
 submers@um
@@ -1800,7 +1800,7 @@ morsicā@be@ris
 dēversōri@ōs
 dēmōliu@nt
 bullāt@ūr@ārum
-palpi@tō
+palpitō
 adverte@nd@a
 ēmicā@bi@tis
 jugulāt@ās
@@ -2011,7 +2011,7 @@ reductā@ba@ntur
 tympanizāv@era@m
 conprobāv@issē@s
 pollūtiōn@is
-augē@re
+aug@ē@re
 miss@ūr@e
 offōcāt@ūr@ā
 rememorāt@ūr@um
@@ -2071,7 +2071,7 @@ apologa@nd@īs
 neglēct@e
 verificātiōn@ēs
 lēctūrum esse
-suscēp@eri@s
+suscēp@eris
 cōnī@ōrum
 commanē@ba@t
 obsēd@erī@s
@@ -2179,7 +2179,7 @@ aspelle@nd@ī
 recapitulā@mus
 vāstiōr@ī
 praedicābilis
-astrangul@a@t
+astrangula@t
 exaudītōr@ī
 adfā@bi@minī
 anteverte@re
@@ -2204,7 +2204,7 @@ adaggera@nd@a
 inmitte@nd@am
 adumbrā@ba@t
 humecta@ndus
-exinterā@t@e
+exinterāt@e
 exfoliāt@ūr@ōs
 subaudi@erī@s
 agitā@bā@re
@@ -2217,7 +2217,7 @@ supterdūx@isse@nt
 rue@nd@um
 tine@ā@mus
 dēsere@nd@ās
-imper@e@m
+imper@em
 assūmps@erī@mus
 dēmorde@nt@em
 comiti@ē@mus
@@ -2422,7 +2422,7 @@ pontifici@a@m
 remēnsum esse
 ēvibrāv@era@nt
 toxic@um
-invigil@ēre
+invigil@ē@re
 ama@nt@ēs
 exōrs@ūr@am
 allīs@eri@t
@@ -2567,7 +2567,7 @@ dece@a@nt
 exercu@it
 exolūt@a
 calā@ba@nt
-argentāt@ō
+argentātō
 reprōmiss@ae
 lutēscu@ntō
 reverte@nd@ā
@@ -2578,7 +2578,7 @@ dispertiē@bā@minī
 opprimi@tis
 catēnāri@a
 connumerā@rē@mus
-contrīst@ē@s
+contrīstē@s
 dīiūnct@ūr@īs
 ēversōr@em
 conplōd@ē@minī
@@ -2720,7 +2720,7 @@ expoliāt@ūr@ō
 perci@ē@tur
 vēnā@ns
 prōtozōologic@a
-paucitāt@is
+paucitā@t@is
 īnsuflāt@ūr@ās
 exsuscitāt@ūrus
 contrāvēn@issē@tis
@@ -2799,7 +2799,7 @@ frāglā@bi@t
 ēnitēsc@ē@tis
 implōrā@ba@ntur
 sufflāminā@bā@minī
-ammord@eram
+ammorderam
 ōscitā@bi@ō
 concrēdē@ba@m
 sullāturi@ā@tis
@@ -2869,7 +2869,7 @@ exsere@nd@um
 celerā@bu@nt
 dēperdō
 dic@īs
-adnūntiātō
+adnūntiāt@ō
 ērūgina@nd@ī
 īnsidiāt@ū
 zygōmatic@um
@@ -2879,7 +2879,7 @@ reprehēns@ūr@ōs
 culm@um
 recūsa@nt@e
 resignāt@ūr@um
-subrēpō
+subrēp@ō
 dēspondē@ba@m
 īnfidēl@ium
 pullīn@ārum
@@ -2994,7 +2994,7 @@ attāctūrum esse
 adbellā@bi@minī
 manūmitte@nd@ī
 subōrdināt@e
-vīt@us
+vītus
 perlini@e@nt
 clāvāv@istī
 rēgnāt@ūr@ārum
@@ -3009,7 +3009,7 @@ subīnferē@bā@s
 inpetrā@bi@s
 subsīde@nd@ōs
 migrāv@issē@s
-hostific@a
+hostifica
 ēvers@ūr@ā
 domita@ntor
 adulēscenti@ē@re
@@ -3068,7 +3068,7 @@ menti@ā@ris
 prōru@istī
 indolēscē@bā@re
 adige@re@t
-certiōr@ēminī
+certiōr@ē@minī
 illūmināt@ūr@a
 indignā@bo@r
 perurgē@bi@mur
@@ -3143,7 +3143,7 @@ dēdecorāt@ās
 sīria
 conputāt@ūr@ārum
 adolēsce@nt@ēs
-angi@s
+angis
 ingrav@ē@mur
 circumaggerāt@ūr@a
 circumiēcisse
@@ -3169,14 +3169,14 @@ dolābrāt@ās
 carbōn@em
 perfīnx@issē@s
 afflā@bā@minī
-architectā@t@is
+architectāt@is
 arietā@minī
 lūcēsce@nt@ī
 diadēmat@e
 interpellā@rē@mur
 columnar@ia
 ēripi@ā@minī
-pānicoctāria
+pānicoctāri@a
 gōgrāvi@e
 empīricē
 glaucie@nd@ī
@@ -3243,7 +3243,7 @@ disjectāt@ā
 contemne@nd@ās
 metis
 obtestā@bā@tur
-convocās
+convoc@ās
 prōturbāv@ēre
 androdama@nt@ēs
 conrēgnā@minī
@@ -3466,7 +3466,7 @@ fortūnāv@eri@s
 interiicie@nd@ae
 pistac@ium
 fluitāv@erō
-adumbr@a@t
+adumbra@t
 adsuēfēc@erā@s
 circulāt@ūr@ā
 tābidul@um
@@ -3510,7 +3510,7 @@ fluid@ōs
 prōvolāv@erā@tis
 inpertī@rē@tis
 dīiūdicāv@ī
-cac@ā@tis
+cacā@tis
 līneāt@am
 castrāv@ērunt
 acūtiglūm@īs
@@ -3629,7 +3629,7 @@ frīgidāv@issē@s
 obtenebrā@bi@tur
 lātrāt@ārum
 expectā@bā@s
-laedere
+laeder@e
 dēlēg@ā@tur
 abjēcisse
 brevia@nt@īs
@@ -3687,9 +3687,9 @@ acclāma@nd@um
 circumsona@ndus
 hejul@ē@minī
 factit@e@t
-īnfīgā@minī
+īnfīg@ā@minī
 ūreolytic@a
-pernēns
+pernē@ns
 prōpell@ō
 venerāv@eri@nt
 obrue@nt@ium
@@ -3721,7 +3721,7 @@ oreophil@ās
 inlini@ē@ris
 pīnsa@t
 lībā@ba@r
-adplicā@t@is
+adplicā@tis
 cucurr@issē@mus
 sanguināri@ās
 continē@tor
@@ -3760,7 +3760,7 @@ prīmitīv@īs
 tubicinā@mus
 dēprime@ris
 cōnscinde@re@r
-acconcili@em
+acconcili@e@m
 submiss@ō
 absconde@a@ntur
 angustiāv@eri@mus
@@ -3880,7 +3880,7 @@ adiēc@issē@mus
 prōcubu@istī
 hālātum īrī
 trāloque@nd@īs
-clypeātō
+clypeāt@ō
 intermovērī
 inaurāv@eri@m
 praeterdūce@nt@em
@@ -4026,7 +4026,7 @@ polysēm@ās
 adscend@ē@minī
 pernecāt@ū
 retinē@bā@ris
-exululō
+exulul@ō
 cōnāt@ārum
 sanjuanēns@e
 continu@e@m
@@ -4052,7 +4052,7 @@ glabrēscere
 adūlātrīc@is
 dēturbāv@isse@t
 obscūrā@rē@mus
-madeface@re@t
+madefacere@t
 obdūrāt@ae
 sāgiē@ba@t
 astrificā@rē@ris
@@ -4097,7 +4097,7 @@ suprādīce@ndus
 admēns@ūr@am
 cōnsimila@nt@ō
 intellig@ē@tur
-linteāmine
+linteāmin@e
 dēspiciē@bā@minī
 exiūrāt@ō
 discrīps@erā@mus
@@ -4223,7 +4223,7 @@ lamba@r
 dēminuē@bā@tis
 caeterus
 obcā@re
-trānsdūcā@ris
+trānsdūc@ā@ris
 rēptāt@ūr@e
 praefinīt@ārum
 posside@a@ntur
@@ -4346,7 +4346,7 @@ appēns@ūr@e
 perol@ē@re
 crēbrēscu@ntō
 adglomerāv@ī
-obca@ndum
+obca@nd@um
 condīci@t
 bāla@nt
 obserā@rē@mur
@@ -4571,7 +4571,7 @@ dēcorticā@ba@r
 perdocu@ī
 prīmigen@ās
 refricu@eri@tis
-frūnīsc@ā@minī
+frūnīscā@minī
 pāscitā@bi@mus
 abstine@nt@ium
 papillāt@ae
@@ -4676,7 +4676,7 @@ ovāt@ūr@um
 resurrēx@isse@t
 morāt@um
 antistā@bu@nt
-redige@r@ē@tis
+rediger@ē@tis
 succēde@re
 conligāv@eri@t
 appostulā@tōte
@@ -4686,9 +4686,9 @@ pancratiastē
 indaudiu@ntur
 naufragāt@ūr@ōs
 conticīscē@bā@s
-PNeud@s
+PNei@d@e
 ammixt@ā
-benedīc@ās
+benedīc@ā@s
 maere@nt@ō
 imperāv@eri@tis
 lōtō
@@ -4909,7 +4909,7 @@ nūdā@bi@tur
 bicorniger@am
 dēvītāt@ās
 locāt@ūr@ae
-obtu@ē@ris
+obtuē@ris
 concept@ūr@e
 abrenūntiāv@erā@mus
 lūcubra@nt@ibus
@@ -4945,7 +4945,7 @@ excrucia@ndus
 crūdēscē@ba@nt
 repōne@nd@ī
 ēmarcu@erā@s
-combusti@ō
+combustiō
 circumsonu@isse@m
 saepiē@bā@tur
 arripi@a@ntur
@@ -4971,7 +4971,7 @@ corruptēl@ā
 curvā@re@nt
 īnsigni@eri@mus
 trānsplantāt@ūr@ō
-ingenicul@ā@mus
+ingeniculā@mus
 recurvāt@ūr@ī
 inaudīt@ūr@a
 cacā@re@ntur
@@ -5004,7 +5004,7 @@ abbātizāv@isse@m
 lascīvīt@ūr@ōs
 loriped@ibus
 nūtrīcāv@istī
-drīmyphag@ia
+drīmyphag@i@a
 lāmentātiōn@ibus
 adripio@r
 voluptāri@ā
@@ -5014,7 +5014,7 @@ adprēnsā@mus
 exsaturā@ris
 joc@um
 pikermiēns@īs
-contig@er@ī@s
+contig@erī@s
 praesonā@rē@s
 summone@ā@tis
 caecā@rē@re
@@ -5066,7 +5066,7 @@ mollēsci@s
 abāct@us
 dēfaecātō
 assimulā@bi@tis
-api@mus
+ap@i@mus
 injung@a@r
 repelle@nt@ibus
 vacāv@eri@tis
@@ -5110,7 +5110,7 @@ pūblicā@bi@s
 pergrav@e@m
 conquesta@nd@ōs
 recita@nd@īs
-formīca@ntis
+formīca@nt@is
 francogallic@ās
 suggillā@rē@s
 tangibil@ia
@@ -5220,7 +5220,7 @@ adprēnsā@bi@t
 recollēg@istī
 arguis
 īnsterne@nd@ās
-ampel@ō
+ampelō
 rōbustissim@um
 lībātōr@ium
 discrīminā@tur
@@ -5415,13 +5415,13 @@ obiectāt@ūr@ō
 conquestāt@ūr@ae
 inpugnāv@eri@m
 adsevēra@nd@ae
-quadrāgēsima
+quadrāgēsim@a
 addormī@tōte
 dēle@ā@tur
 femin@ī
 offic@e@m
 commixt@ū
-pare@nt@e@t
+parent@e@t
 inhaes@eri@tis
 comming@a@t
 cōnsparge@re@r
@@ -5592,7 +5592,7 @@ absolvē@bā@mur
 cynoīd@e
 subdeltoīde@a
 mersus
-affr@i@e@m
+affr@ie@m
 dēsterne@nd@ō
 tacit@ūr@a
 philtr@a
@@ -5629,7 +5629,7 @@ dēbacchā@bi@s
 sēpara@nd@am
 turbā@ba@nt
 mund@ē@re
-ungui@te
+unguite
 adumbrā@rē@tis
 subōrdinī
 satisfēc@erā@s
@@ -5647,7 +5647,7 @@ podē@bi@s
 rubrīca@nd@e
 circumtrah@ē@re
 art@ē@s
-mōsquēt@a
+mōsquēta
 aliēna@nt@ibus
 abjūrgā@ns
 circumsect@ūr@ā
@@ -5851,7 +5851,7 @@ praecēdi@t
 joculāt@ūr@um
 adstringe@nd@ās
 accīs@um
-illūcēscā@tur
+illūcēsc@ā@tur
 exauctōrāt@ūr@a
 dēiūra@ntur
 sequestrāt@ūr@īs
@@ -5895,7 +5895,7 @@ implānāvisse
 expāv@eri@s
 dīscindi@tōte
 poli@eri@m
-explōrā@t@e
+explōrāt@e
 īnstrāv@isse@t
 īnfusc@e@m
 praesāgi@e@t
@@ -5924,7 +5924,7 @@ ascīsce@rē@ris
 raptiōn@ī
 nablizāt@ā
 nova@nd@a
-prōmōt@us
+prōmōtus
 praeverro@r
 oppīlāt@ae
 trānsmeāt@ūr@ī
@@ -6046,14 +6046,14 @@ vigilā@rē@mur
 aderrāv@era@t
 bēstiol@a
 recolu@era@t
-incūdum
+incūd@um
 praescīt@ōs
 exiliu@ntō
 antelūcānus
 abspelle@nd@īs
 obtors@istis
 effl@ās
-racēmāri@a
+racēmāria
 superiaci@tur
 putrēsc@ē@s
 dēplēt@am
@@ -6144,7 +6144,7 @@ cōnsulu@erā@s
 audie@nd@am
 obedē@ba@t
 circumduct@a
-clōdicā
+clōdic@ā
 antīqua@ndus
 scintillāt@ūr@am
 dēcessisse
@@ -6206,7 +6206,7 @@ sēductōri@ā
 hortāt@ō
 admīs@issē@tis
 intercīde@rē@tur
-rādīcātum
+rādīcāt@um
 aestu@ē@minī
 subtersect@īs
 aetheri@ās
@@ -6404,7 +6404,7 @@ antipagment@ōrum
 prōjicie@nd@ās
 occīdi@mur
 adlauda@ndus
-thall@ia
+thall@i@a
 trānsmigrāv@ērunt
 perjūrissim@e
 revinc@ā@s
@@ -6556,7 +6556,7 @@ quīnquiplicāt@ūr@ī
 hispidul@e
 adulterāv@erā@tis
 obiectā@re@t
-cācabō
+cācab@ō
 prōsentiē@ba@nt
 fūnere@e
 dīrigi@mur
@@ -6609,10 +6609,10 @@ aggrediē@ns
 abdūce@nt@ī
 spīne@ā
 aucupā@bi@minī
-excoria@nt@is
+excoria@ntis
 domā@rē@mur
 persona@nt@ibus
-dījūdicātō
+dījūdicāt@ō
 decuriā@tor
 complōd@a@r
 comedē@bā@tur
@@ -6675,7 +6675,7 @@ trānseu@ntō
 amplificā@mur
 aggravāt@ō
 complōs@ās
-adlinā@ris
+adlin@ā@ris
 cēnā@minī
 cōnsec@ē@s
 praedamnāv@eri@mus
@@ -6723,7 +6723,7 @@ dēvehi@tis
 collig@e@t
 accerse@rē@tur
 dēstinā@re@r
-av@ārus
+avārus
 partī@rē@mur
 exsupera@nd@ōs
 conmonē@re
@@ -6785,7 +6785,7 @@ praestā@bo@r
 emācitāt@um
 abūte@re@ntur
 inverte@nt@ia
-tigrid@ē@s
+tigrid@ēs
 candēsce@nt@īs
 bajulo@r
 innōmināt@um
@@ -6804,7 +6804,7 @@ cibāt@ae
 ērēx@issē@mus
 coargu@am
 cognōmināv@it
-prōdiger@ē@tur
+prōdigerē@tur
 anteposit@ūr@a
 ammovē@te
 adplumbā@minī
@@ -6864,7 +6864,7 @@ capistr@ē@tur
 alterā@tōte
 rubrīca@nt@e
 affere@ndus
-magnificāt@ō
+magnificātō
 affodi@tōte
 circumrādu@ntō
 relaxā@bi@ō
@@ -7003,12 +7003,12 @@ opplē@rē@re
 praedomin@ē@tur
 steatītid@em
 tapē@s
-coalis
+coali@s
 efflōrē@bā@s
 fūm@ōrum
-praenōsca@nt
+praenōsc@a@nt
 decibilis
-obstīp@īs
+obstīp@ī@s
 ignōv@erā@s
 admixtu@ī
 reliquāv@era@t
@@ -7018,7 +7018,7 @@ incumulātiōn@ēs
 cess@ūr@am
 pontificāt@ūs
 syrmatic@īs
-maculāt@is
+maculā@tis
 dispertie@nt@ium
 dat@ibus
 caudāl@em
@@ -7087,12 +7087,12 @@ appropiā@bi@t
 inputā@rē@mus
 exturbāt@ā
 imāgina@nt@ium
-nōtit@ūr@ā
+nōtitūr@ā
 genūflectē@bā@tis
 lina@ntur
 bulb@ī
 quaestiōn@e
-cohibe@nt@e
+cohibent@e
 suffi@eri@nt
 adgravā@bā@re
 prōcurr@ērunt
@@ -7172,7 +7172,7 @@ cirsi@ōrum
 adcorporāt@ōs
 dīdrāgm@īs
 coinquinā@ba@m
-tegment@ō
+tegmentō
 cucumifōrm@e
 rubell@ās
 dīvell@ē@tis
@@ -7267,7 +7267,7 @@ dēsīd@ia
 sustinu@isse@nt
 adligā@bu@ntur
 Lēthae@ae
-sīcerās
+sīc@erās
 procula
 abnoctāv@istis
 subintul@erā@s
@@ -7302,7 +7302,7 @@ annota@nd@a
 Flāvi@ōrum
 umbrātic@ōs
 adhēre@nt@ī
-vēnditāre
+vēnditā@re
 perterru@ēre
 frāternitāt@ibus
 fōderāt@ūr@e
@@ -7364,7 +7364,7 @@ tribūt@ārum
 vacuēfēc@issē@s
 fenerāv@issē@tis
 corrōd@a@r
-persevēr@ē@re
+persevērē@re
 locuplēta@nt
 condōnā@ns
 distā@bā@mus
@@ -7395,7 +7395,7 @@ displicuit@ūr@ae
 excūsāt@am
 subiacē@ns
 proeliāt@ūrus
-columbus
+colu@mbus
 temperāt@ūr@ās
 trūdi@mur
 turpilucricupid@ī
@@ -7455,7 +7455,7 @@ vell@era@nt
 lyg@ōrum
 succumbi@mur
 violāsce@nt@ī
-adig@ī
+adigī
 trānsferē@bā@re
 ustilāgin@ēs
 polysēm@ae
@@ -7484,7 +7484,7 @@ subdol@e
 angustiāv@imus
 obtrunca@nt@īs
 perfode@rē@re
-substit@imus
+substitimus
 articulāt@is
 alēscē@ba@t
 reparā@ns
@@ -7600,7 +7600,7 @@ sclingu@ntō
 conveni@a@m
 vet@e@ntur
 āmove@nd@īs
-resēdit
+resēd@it
 tepefēcisse
 cōnfīge@re@nt
 ōxiān@am
@@ -7622,7 +7622,7 @@ exporrēx@erī@s
 sorde@nt@is
 arginin@ae
 lentā@bā@tis
-duplic@ī
+duplicī
 perussisse
 rīsōri@ōrum
 multicolōr@ium
@@ -7906,7 +7906,7 @@ fīlifōrm@e
 inmarcēscibil@ium
 gemu@eri@t
 cohercē@bi@mur
-superveh@ā@re
+supervehā@re
 inrumpe@nt@is
 invide@a@nt
 contremīsci@tōte
@@ -8005,7 +8005,7 @@ dēfetīgāt@ūrus
 increpātiōn@ēs
 satiāvisse
 reservā@rē@tis
-fīni@ē@s
+fīni@ēs
 prōcrāstinā@bā@tur
 elesitaiēns@ia
 pollūt@e
@@ -8021,7 +8021,7 @@ assectāt@ā
 circumrētīv@erī@mus
 zaplūt@ās
 mūgr@ī
-porrige@r@e@t
+porriger@e@t
 ultimāt@ūr@e
 foss@ūr@a
 nāvigāv@erō
@@ -8239,7 +8239,7 @@ lactōs@ae
 revolv@a@ntur
 exarāv@erī@tis
 vari@ārum
-novitā@t@is
+novitāt@is
 asperā@re@ntur
 dealbāv@ēre
 exorbitā@ns
@@ -8309,7 +8309,7 @@ sentifica@ntur
 indulgē@bu@ntur
 necopīnāt@īs
 stultiloqui@ī
-re@ā@ris
+re@āris
 conlacrimāv@eri@m
 animāv@era@t
 recrepā@bu@nt
@@ -8318,7 +8318,7 @@ subpetīv@erī@mus
 adcēdu@nt
 inpreca@nt@em
 perlēct@um
-conquestus
+conquest@us
 latinā@bā@minī
 chocolāt@a
 excanta@nd@ōs
@@ -8393,7 +8393,7 @@ inhāl@e@m
 glaciā@ba@m
 frīgi@mur
 condormi@a@nt
-disperg@i@s
+dispergi@s
 prōspiciē@ba@m
 circummūnīv@era@nt
 coorī@mur
@@ -8477,7 +8477,7 @@ hērē@s
 podit@ū
 cū̆stōdiēns
 tumulāv@erā@tis
-nūtrīc@ā@tis
+nūtrīc@ātis
 sōlicit@ārum
 objectīv@e
 spoliā@re@m
@@ -8696,7 +8696,7 @@ conbuss@eri@nt
 faetē@bu@ntur
 commadē@bi@tis
 pulverizāv@ērunt
-si@er@is
+si@eris
 dīlige@nd@ōrum
 inreparābil@ium
 jactitāv@issē@tis
@@ -8758,7 +8758,7 @@ finde@nt@ēs
 auscultāt@ī
 arrige@nd@ōrum
 obscūra@nd@ōs
-latitā@t@is
+latitā@tis
 allocāt@ūr@ās
 abspelle@rē@mur
 inarctāv@erā@mus
@@ -8874,7 +8874,7 @@ pulchritūdin@um
 immūta@nd@ārum
 arēnifodīn@ā
 alleva@nt@ium
-exaequē@minī
+exaequ@ē@minī
 admātūra@nd@ī
 bube@re@m
 advectā@tōte
@@ -8920,7 +8920,7 @@ duplicāv@eri@s
 circumcalca@nd@ī
 levāment@ōrum
 prolifer@ā
-īnfrem@ā@s
+īnfrem@ās
 exquīsīv@ēre
 dēpilāt@ō
 perēvacuāt@ī
@@ -9299,7 +9299,7 @@ praetempt@ā
 conpingē@bā@tur
 dīt@ē@s
 pis@a
-pervagātiōrum
+pervagātiōr@um
 superērogā@tor
 hērēditā@re@nt
 dēplicāv@istī
@@ -9459,7 +9459,7 @@ praemīs@ērunt
 cing@e@ntur
 adōrā@bā@re
 cōnfigūrāt@ōrum
-vituperā@ris
+vituper@ā@ris
 nūnti@ā@minī
 prōpēns@e
 saturā@bā@tur
@@ -9489,7 +9489,7 @@ odī@rē@mus
 fatē@bi@tur
 tractātiōn@em
 adversissim@īs
-adplumbē@tis
+adplumb@ē@tis
 cūd@isse@nt
 vīlifica@nd@ārum
 īnfart@ūr@ōrum
@@ -9570,7 +9570,7 @@ merē@bā@re
 plagiāv@erī@tis
 dētesta@nd@ā
 marmore@ae
-antepend@i@a
+antepend@ia
 pertine@ō
 balbā@rē@mus
 accecin@ē@re
@@ -9805,7 +9805,7 @@ dēling@a@t
 compedīt@ūr@ā
 rigāt@ā
 rettud@istī
-commandere
+commande@re
 inplicāt@ae
 līve@ntor
 inscrīps@erī@mus
@@ -10015,7 +10015,7 @@ Curti@us
 obcā@ba@nt
 adtere@nt@ī
 permūta@nt@em
-manūscrīpt@us
+manūscrīptus
 prōflīgāv@isse@nt
 frīgē@bi@tis
 impetrāt@ūr@e
@@ -10103,7 +10103,7 @@ obdormīsci@tis
 secundā@re@r
 follē@bi@tis
 fabrēfact@ūr@am
-fūnestus
+fūnest@us
 obaudīvisse
 domā@bi@minī
 praecerpt@ā
@@ -10501,7 +10501,7 @@ exbanni@ē@ris
 īnsilu@imus
 redolē@bā@mus
 jūra@ndus
-facult@ās
+facultās
 centaurēī
 vestīgāt@um
 laxiflōr@am
@@ -10576,7 +10576,7 @@ irrōra@nd@ōrum
 optinē@tor
 dēiūdicā@tis
 impelli@mur
-susceptor
+suscepto@r
 persectā@rē@re
 circumsaeps@erā@s
 fervefacie@nd@am
@@ -10621,7 +10621,7 @@ etymologi@ā
 candu@eri@t
 dācorōmānic@ī
 inrētīt@ūr@ōs
-circumstrepa@t
+circumstrep@a@t
 ēvānu@eri@s
 praedamna@nt@ī
 sēclūd@ā@s
@@ -10797,7 +10797,7 @@ aduss@era@nt
 sarpt@ūr@ārum
 inimīcā@bā@mus
 quīnquiplicā@ba@nt
-intent@ō
+intentō
 praeclāmā@re@nt
 revell@e@t
 ēvītāt@ō
@@ -10828,7 +10828,7 @@ prōturbāv@eri@tis
 adjung@a@t
 praecurs@a
 perbrev@ibus
-theodisc@a@m
+theodisc@am
 percārus
 obser@e@ntur
 dēterre@ā@minī
@@ -10959,7 +10959,7 @@ rejēc@issē@tis
 immānissim@ō
 concinu@istī
 complexiōn@e
-palātoglōssa
+palātoglōss@a
 ēdisser@ā@ris
 minē@tis
 preme@nt@is
@@ -11035,7 +11035,7 @@ remān@e@ntur
 intondē@bi@t
 perdoct@īs
 pedifōrm@ium
-incinerās
+incinerā@s
 calcā@bi@tis
 contenēbra@nd@ārum
 met@us
@@ -11051,7 +11051,7 @@ complu@ē@ris
 Panormitān@a
 inveh@ā@ris
 dēlambā@re
-ātrās
+ātr@ās
 praedoce@nd@ōs
 cīvīlistārum
 interfa@nd@ō
@@ -11444,7 +11444,7 @@ profa@nt@is
 vōciferā@be@re
 fidējubē@bu@ntur
 inquīsīv@issē@tis
-immeritōr@i@um
+immeritōr@ium
 invenust@ōrum
 amorōs@a
 comple@ndus
@@ -11473,7 +11473,7 @@ currīl@ia
 perrog@ā@tur
 sēns@issē@mus
 palmāv@ī
-mol@is
+molis
 tumōrōs@ās
 spīnus
 pugilā@ba@r
@@ -11487,7 +11487,7 @@ intima@nd@ārum
 levip@ēs
 coiect@ūr@īs
 dēdecu@era@t
-sētiger
+sētig@er
 perferē@ba@m
 rhonchor
 refoveo@r
@@ -11525,7 +11525,7 @@ narrāv@eri@s
 satia@nd@ōs
 exclūdē@ba@r
 intue@nt@ibus
-perger@e@m
+perge@r@e@m
 āvocāt@ūr@ae
 obtenebrāt@ūr@ās
 prōgen@iērum
@@ -11534,7 +11534,7 @@ superscand@istī
 cantit@e@m
 exagitā@ba@nt
 crābrōn@ī
-collauda@nt@is
+collauda@ntis
 ferīniōr@e
 cōnfort@ē@tur
 oblitterāv@imus
@@ -11583,7 +11583,7 @@ rāmific@e@t
 ampullā@bi@mur
 puls@ē@mur
 certiōrāv@era@nt
-superpōn@ā@ris
+superpōnā@ris
 coaequātum esse
 autumnō
 cōnectē@bā@ris
@@ -11660,7 +11660,7 @@ attemperō
 adolēsce@rē@tis
 inventāri@īs
 dēmittu@ntō
-alvārī
+alvār@ī
 effart@ōs
 imminu@ē@s
 illūs@eri@mus
@@ -11733,7 +11733,7 @@ subterdūx@ēre
 pȳgidiāl@ium
 dēfraudāv@isse@nt
 flāve@nt@ia
-praefinītis
+praefinī@tis
 abaliēna@nd@ō
 approperāt@ūr@am
 mussitābund@ōrum
@@ -11820,7 +11820,7 @@ exacu@ērunt
 viā@bā@ris
 tētrinnī@mus
 cōnīv@isse@nt
-oblīvīsc@ā@re
+oblīvīscā@re
 allacrimāt@ūr@e
 affl@ē@mur
 ēdūcē@bā@mur
@@ -11961,7 +11961,7 @@ aequivoc@e@t
 explicā@re@nt
 patriarchāt@ū
 mēnsūr@a@nt
-spīrit@ūs
+spīritūs
 adjūdicātiōn@is
 myrtifoli@ō
 attrecta@nd@ō
@@ -12142,7 +12142,7 @@ expeiūrāt@ās
 dīnōt@ū
 obsecundāt@ā
 trocāt@ūr@ārum
-redhibitō
+redhibit@ō
 īnsēd@eri@t
 retine@ā@minī
 urgue@ā@mus
@@ -12434,7 +12434,7 @@ recēde@nd@e
 mora
 abōminābilis
 apozȳmā@rē@minī
-caballicātō
+caballicāt@ō
 contract@ūr@ō
 sarpt@ōrum
 ūsuāl@ibus
@@ -12467,7 +12467,7 @@ subdūcē@ns
 praestitu@era@nt
 prōmīs@ērunt
 synnephī@tis
-lūce@ntis
+lūce@nt@is
 variāt@ae
 cōnfigūrāv@eri@mus
 Reātīn@ā
@@ -12590,7 +12590,7 @@ trāiēc@issē@mus
 vincl@ī
 amoenissim@e
 sylviger@ōrum
-auspic@ā@minī
+auspicā@minī
 comiti@ē@s
 carē@bi@s
 augē@ba@ntur
@@ -12715,7 +12715,7 @@ obfirmā@re
 illigā@ba@t
 concrep@ē@ris
 pollūce@nd@ā
-pedūl@ēs
+pedūl@ē@s
 amplia@nd@ās
 dīvulga@nd@ōrum
 conject@ō
@@ -12778,7 +12778,7 @@ māteriāri@ā
 commolit@ōs
 cōnsacrā
 hagiographic@ō
-parvipe@nd@e
+parvipend@e
 invenie@nt@ia
 tūns@ūr@um
 acquīsīt@ūr@ōs
@@ -12883,7 +12883,7 @@ crīspāt@a
 recoque@nd@ā
 Papīri@ō
 spongiōs@ī
-exculpō
+exculp@ō
 manipurēns@ium
 crepit@ūs
 crocōt@ae
@@ -12898,7 +12898,7 @@ celebic@a
 admonitōri@ī
 vituperātiōn@e
 admomord@eri@tis
-obstru@ā@s
+obstru@ās
 sānctificā@re
 interdīc@e@nt
 cōrt@um
@@ -13018,7 +13018,7 @@ obsetrīcāt@ūr@ā
 assevēra@nd@ās
 Iūstīniāne@ōrum
 prōpulsūrum esse
-prōvēneri@s
+prōvēn@eri@s
 adulter@īs
 cōp@ia
 perlege@nd@īs
@@ -13046,7 +13046,7 @@ palm@ā
 subiacē@re@nt
 turpissim@ās
 cōnsānāv@it
-excerebrās
+excerebr@ās
 perambulā@ris
 ēbriōsiōr@ibus
 concīsum esse
@@ -13100,7 +13100,7 @@ rixā@rē@minī
 sīv@eri@m
 adfice@rē@s
 perēm@eri@m
-maledīc@ā@mus
+maledīcā@mus
 tessellā@ba@t
 labiōs@ā
 antitypi@ā
@@ -13139,7 +13139,7 @@ fascināv@ērunt
 trānsplanta@nd@ās
 substitūt@ūr@ī
 lōtiōn@ī
-mancip@ēre
+mancip@ē@re
 dormīv@ī
 dēgustāv@eri@tis
 cōnfōrma@t
@@ -13345,8 +13345,8 @@ circumambulārī
 post@ium
 cervēsi@ārum
 incursitā@ba@nt
-adtond@ē@mus
-fri@ā@s
+adtondē@mus
+fri@ās
 mentī@re@ntur
 indūcu@ntor
 annat@ās
@@ -13387,7 +13387,7 @@ cōnfoss@ōs
 ēmollī@minī
 cyanell@ō
 corrūgāt@ūr@ae
-PNea@d@s
+PNeud@r
 repraesentā@bi@t
 raubāv@ēre
 addormīsce@nt@ibus
@@ -13417,7 +13417,7 @@ dēlīneāt@ūrus
 sugger@ē@mur
 revibrā@rē@mur
 adoptā@bā@re
-lūxuri@ā@t@is
+lūxuri@ātis
 circumdūce@ndus
 ōrnāv@ī
 temperantiōr@ī
@@ -13517,7 +13517,7 @@ quaerā@minī
 indūrāt@ī
 strittā@bā@mus
 tītillāt@ōrum
-artemonē@s
+artemon@ē@s
 ancīlis
 mellificā@bi@ō
 ēmargināt@ī
@@ -13653,7 +13653,7 @@ aegr@ē@re
 ecfutūt@ūr@ōrum
 admixt@us
 bolis
-indignā@t@e
+indignāt@e
 adgerā@bā@tis
 animā@bu@ntur
 incuss@era@t
@@ -13680,7 +13680,7 @@ oppīlā@tur
 retrahi@minī
 eiul@ās
 trānsvādē@ns
-cōnfertifoli@um
+cōnfertifolium
 adsimilā@re@m
 cōnsult@e@t
 ratihabe@a@t
@@ -13749,9 +13749,9 @@ perstrātūrum esse
 abscēdi@te
 auctiōnāt@ūr@a
 dēpinge@nd@e
-ēvibr@ā@s
+ēvibr@ās
 cassāv@eri@nt
-stacul@a
+stacula
 vēsc@a@ntur
 porrig@ē@mur
 occīdi@te
@@ -13791,7 +13791,7 @@ inligā@bi@ō
 dēprehend@ē@tis
 bā̆rōn@ibus
 gelāt@ā
-fasci@ā@t@is
+fasci@ā@tis
 discoperie@nd@īs
 orbīt@ās
 gestu@ī
@@ -13808,7 +13808,7 @@ seychellēns@em
 glutti@a@r
 spissātum esse
 mediātrīx
-festūcā
+festūc@ā
 contāct@ūr@am
 obtend@a@t
 adjacē@bu@nt
@@ -13851,7 +13851,7 @@ pastinā@bi@tur
 dēsicca@nt@is
 mastica@nt@ō
 fulmināv@eri@tis
-baube@r
+baub@e@r
 querita@nt@ēs
 proper@ē@mus
 amplissim@ā
@@ -13972,7 +13972,7 @@ iacu@issē@tis
 venusta@ntor
 praeponderā@bā@re
 fiala
-impugnā@tis
+impugnā@t@is
 hierarchi@īs
 dēgredie@nd@e
 vitiōsiōr@a
@@ -14037,7 +14037,7 @@ perenn@īs
 vocita@nt@ibus
 miliāri@ōs
 efferv@istī
-inger@e@ris
+inger@eris
 praedit@ōrum
 salūtātīv@ōrum
 exer@ē@minī
@@ -14050,7 +14050,7 @@ praeoccupā@re@ntur
 sternūtāt@īs
 compatiē@bā@re
 obtūsiangulus
-protervio@r
+protervior
 intrāx@erō
 sermōcina@nd@ī
 immolātīci@ās
@@ -14108,7 +14108,7 @@ nāsāl@ibus
 saliē@ba@m
 exossā@ba@r
 mersāv@erā@s
-lazul@a
+lazula
 refect@ūr@ō
 aedituma@nd@ō
 adlectāv@eri@m
@@ -14127,11 +14127,11 @@ reprēnd@ē@tis
 stabili@ē@minī
 dētond@era@nt
 resūme@rē@tis
-commanda@t
+command@a@t
 approperāv@issē@s
 iambicus
 persterno@r
-zōotrophīo@n
+zōotrophīon
 dēperī@bā@mus
 susurrātrīc@em
 discēdi@mus
@@ -14144,7 +14144,7 @@ pūblicātum esse
 prōsternē@bā@tur
 pollūx@ēre
 obdulcāv@erā@s
-ēmenda@ntur
+ēmend@a@ntur
 resignā@bi@s
 reglūtinā@ba@ntur
 regenerā@bi@minī
@@ -14199,7 +14199,7 @@ strāment@īs
 dētondē@re@r
 taxāt@ūr@am
 redargue@nd@a
-pergrand@ī
+pergra@nd@ī
 interturbāv@erā@s
 recapitulāv@it
 difflēt@ūrus
@@ -14332,7 +14332,7 @@ pallēsc@e
 follic@ē@tis
 circui@eri@nt
 remāna@ntor
-upupā
+upup@ā
 trānsveh@ē@tis
 nectu@nt
 inhālā@rē@ris
@@ -14555,7 +14555,7 @@ dēfīg@ē@minī
 jūcundāt@ū
 ammiscē@re@r
 tenta@nd@īs
-praepolle@nd@ō
+praepolle@ndō
 sēiūnx@ī
 sōpī@tis
 sēmiustilā@bo@r
@@ -14585,7 +14585,7 @@ wactāv@eri@m
 indupedī@minī
 dīmētī@minī
 pellex@erī@tis
-innōd@ā@minī
+innōdā@minī
 benedict@um
 pōtiōnāt@ūr@e
 piscīnens@em
@@ -14655,7 +14655,7 @@ conrōborāv@eri@nt
 membrān@ārum
 cōnstupra@nd@a
 redintegrāv@ēre
-obaerāri@ōrum
+obaerāriōrum
 conpesc@e@nt
 sēmōv@istis
 contēx@era@m
@@ -14741,7 +14741,7 @@ alge@nd@ī
 populātiōn@is
 cōnfirmā@rē@tur
 exaudīv@eri@m
-posthabēns
+posthabē@ns
 conmētie@nd@a
 modifica@nd@ō
 relevāv@issē@s
@@ -14818,7 +14818,7 @@ complexa@nd@ōrum
 scinde@re@r
 cōnscelerāt@īs
 corrīdē@bi@s
-oppetitō
+oppeti@tō
 dēcern@a@m
 fōtūrum esse
 subolu@issē@tis
@@ -15028,7 +15028,7 @@ regere@nt@ī
 dēferbu@era@m
 ingeniōsissim@e
 ēierāv@imus
-posti@t
+postit
 circummitt@a@m
 pervert@ē@minī
 stīpā@mus
@@ -15106,7 +15106,7 @@ circumfere@ndus
 partum esse
 adspex@istis
 cū̆stōdi@erī@tis
-audenti@ōr@um
+audenti@ōrum
 kilogrammat@ī
 occulu@erā@tis
 convalēsci@s
@@ -15141,7 +15141,7 @@ subligāv@ēre
 thymelic@um
 superscrīptiōn@ī
 epagōg@ās
-intersecis
+interseci@s
 superexaltā@rē@s
 autumā@tor
 haeretic@ā@mus
@@ -15399,7 +15399,7 @@ superaedifica@ntor
 adprōnāt@ūr@ā
 exstingue@nd@ā
 perquīri@te
-dēpōna@t
+dēpōn@a@t
 innōtu@eri@m
 dērept@ās
 ungu@ē@s
@@ -15440,7 +15440,7 @@ ward@ā@ris
 nocument@um
 commāns@am
 exacerba@nt@ī
-perdepsere
+perdepse@re
 cinge@nt@ibus
 sallīt@ūr@ā
 ēlicu@imus
@@ -15451,7 +15451,7 @@ suspect@ē@mus
 nū̆ncupāv@istī
 dēclāmitāt@ūr@ōs
 arctāv@issē@tis
-bicornig@er
+bicorniger
 dījugō
 aspelle@nt@ium
 illig@ē@tis
@@ -15498,7 +15498,7 @@ obātrāt@ī
 affīnx@era@t
 masticā@ba@t
 postscrībe@nd@īs
-convocā
+convoc@ā
 certāt@a
 inconprehēnsibil@ia
 adiacē@rē@mus
@@ -15550,7 +15550,7 @@ spatiōsus
 cōnsacra@t
 boā@bo@r
 interstit@ia
-optim@um
+optimum
 prōnūntiāt@um
 percutie@nt@is
 allev@ē@ris
@@ -15656,7 +15656,7 @@ comita@nd@ae
 corresponde@a@m
 circumcīde@rē@mus
 pinnāt@e
-nūntiāt@ō
+nūntiātō
 cōnscend@erī@mus
 Ovīni@a
 comprobāv@isse@t
@@ -15725,7 +15725,7 @@ exercē@tōte
 flōrēsci@tōte
 palmāt@ae
 arcuāv@isse@nt
-Māmil@ium
+Māmilium
 exscreā@ba@m
 pāvōnīn@ārum
 auctiōna@nt@ium
@@ -15841,7 +15841,7 @@ recapitulā@re@ntur
 prophēt@ae
 polle@nt@em
 scrūtāv@erī@mus
-mussite@nt
+mussit@e@nt
 adige@nd@um
 praecell@ē@tis
 sinuā@bi@t
@@ -15865,7 +15865,7 @@ flagrāt@ārum
 grātula@nd@ā
 hebetāt@ārum
 praesaeps@issē@mus
-condecē@ns
+condecēns
 ūni@isse@nt
 tabell@ās
 circin@ē@tis
@@ -15931,7 +15931,7 @@ pluviāl@īs
 discēd@ē@re
 iuvenc@ae
 patri@e
-incōnsīderāt@e
+incōnsīderā@t@e
 adsert@ūr@ōs
 gravitātum esse
 exsolēsc@a@m
@@ -15954,7 +15954,7 @@ vīcīna@nd@ōrum
 relāt@ārum
 excubē@tis
 attil@ōs
-adproxima@nt@is
+adproxima@ntis
 dēsenu@ī
 repraesentā@ba@m
 allevāv@erī@mus
@@ -16004,13 +16004,13 @@ tepefierī
 praeflōre@ō
 cytin@ī
 adsevērāt@ūr@am
-escaderis
+escaderi@s
 peduncul@ōrum
 circumsecā@mur
 inclūs@ārum
 creā@bo@r
 crīsa@nd@ae
-sonīvi@am
+sonīvi@a@m
 attemper@e@t
 exulcera@nt@e
 adminicul@e@nt
@@ -16177,13 +16177,13 @@ lūnā@rē@mus
 remīs@era@m
 putrē@ba@t
 finnic@ārum
-mēie@rē@s
+mēierē@s
 lymphāv@erā@mus
 minuē@ba@t
 perpungē@ns
 recoque@nt@em
 astrāv@isse@t
-tundā@mur
+tund@ā@mur
 badissā@re
 fīdiōr@is
 cōnsēns@ārum
@@ -16191,7 +16191,7 @@ innatāt@ūr@ōs
 īnsuēsci@tō
 myocardi@ī
 appetisse@rē@tis
-obdid@imus
+obdidimus
 feudā@ns
 rēctificā@re@r
 odi@ā@mus
@@ -16219,7 +16219,7 @@ dēstīllā@ba@t
 appella@nd@ī
 gemē@ns
 līmōsitāt@ibus
-vetusti@ōrum
+vetusti@ōr@um
 superbissim@ō
 circumvectāv@era@nt
 remuls@ās
@@ -16287,7 +16287,7 @@ lūctificissim@ō
 agnit@ōs
 vānitāt@ēs
 exscrīps@era@t
-reg@a@t
+rega@t
 ūsitātissim@ōs
 dēlibr@ē@tur
 cēnitā@bi@mur
@@ -16334,7 +16334,7 @@ suffi@isse@m
 inrigātiōn@ibus
 disjiēc@eri@tis
 incorrupt@ā
-cavillātō
+cavillāt@ō
 adaperī@re@m
 ēgess@era@m
 linteāminis
@@ -16364,7 +16364,7 @@ jūcund@a@nt
 praelocūt@ūr@ārum
 observāt@a
 palumbārī
-placent@īs
+place@nt@īs
 revīs@ā@tur
 cū̆stōdīv@isse@m
 trīsticul@ās
@@ -16486,7 +16486,7 @@ ostendi@t
 obtūrā@rē@ris
 adversiōn@um
 ēlingē@ba@m
-perte@nd@am
+perte@nd@a@m
 trādit@ūr@ae
 zēlāt@īs
 dēsinā@minī
@@ -16504,7 +16504,7 @@ superpōn@a@r
 dīlacerāt@ūr@ā
 adūnā@tis
 valedīcē@ba@nt
-prōpend@ī
+prōpe@nd@ī
 boā@tōte
 benevestitum
 īnfūd@isse@m
@@ -16542,7 +16542,7 @@ ariolāt@ūrus
 dēcerta@nd@am
 irrigā@rē@mur
 pyrrich@ae
-complicā@t@is
+complicā@tis
 arrogā@bu@ntur
 ēmend@e@nt
 pertract@ē@mus
@@ -16565,7 +16565,7 @@ concalu@issē@tis
 sēmen
 sublēg@istī
 adverbera@ndus
-mūricis
+mūric@is
 contāminē@s
 efflōrē@re@m
 dēsorbē@tur
@@ -16968,7 +16968,7 @@ prōpugno@r
 impūriōr@e
 līmā@ba@t
 sēmustula@nd@ās
-commorderam
+commordera@m
 rēctificā
 substanti@ās
 urgē@ba@t
@@ -17002,7 +17002,7 @@ postposit@ūr@ae
 syllogizā@bi@t
 tentā@stī
 vēlā@rē@mur
-ērunc@ās
+ēruncās
 praeligāt@ae
 bāsi@e@t
 subnervāv@issē@tis
@@ -17094,7 +17094,7 @@ tenua@nd@ī
 contrāx@ēre
 stimula@nd@ae
 epula@ndus
-pūniē@ns
+pūniēns
 decumāt@ūr@a
 patag@ōs
 assiduāv@era@m
@@ -17199,7 +17199,7 @@ effric@e@m
 compedīt@ī
 aestimāv@eri@m
 contribulāt@ūr@ae
-dēvoc@ās
+dēvoc@ā@s
 dēput@ē@tis
 corrūga@ntor
 celebra@nt@ēs
@@ -17338,7 +17338,7 @@ trānsplantāt@ō
 firmāt@us
 galb@um
 indolu@erī@tis
-ūsūrpāt@ō
+ūsūrpātō
 āmōv@istis
 līveo@r
 complexiōn@is
@@ -17359,7 +17359,7 @@ reserā@be@re
 exjūra@nt@em
 adnu@ē@ris
 petīt@ūr@ōrum
-ōrdināri@a
+ōrdināria
 allūx@erī@tis
 intervīsē@ba@nt
 inspissāv@erā@mus
@@ -17396,7 +17396,7 @@ crassiōr@em
 frāct@ā
 inaurāv@issē@s
 antestit@issē@s
-obī@te
+obī@t@e
 religiōs@īs
 adfectā@ba@ntur
 contrāscrīpt@ī
@@ -17466,7 +17466,7 @@ maestificā@re@nt
 prōlongāt@ūr@ī
 discalceā@re@r
 disiectāt@ūr@ae
-īnstīgā@tis
+īnstīgā@t@is
 fundātiōn@um
 persilu@istis
 resalūtor
@@ -17479,7 +17479,7 @@ coce@rē@mus
 circummūni@a@m
 vermiculāt@a
 longinquāt@e
-percrēbēscā@tis
+percrēbēsc@ā@tis
 succrēscē@ba@nt
 cū̆stōdī@re@t
 ēvolvā@re
@@ -17624,7 +17624,7 @@ pertrānseu@nd@a
 presbyteri@ō
 propitiāv@eri@m
 subvolvē@bā@ris
-uexā@mus
+uex@ā@mus
 cōnspica@nt@em
 exsurrēx@erā@tis
 exercē@re
@@ -17639,7 +17639,7 @@ augificā@bā@ris
 ēvapōra@nt@ī
 extirpā@bā@re
 latinā@bā@ris
-inpūnīt@us
+inpūnītus
 impi@ī
 subplicāv@isse@m
 inclīnāt@am
@@ -17854,7 +17854,7 @@ mixerō
 dēprecātrīc@ēs
 hyalinipenn@ibus
 amīcissimus
-obsessōr@is
+obsessōris
 augmentāv@era@nt
 calceā@ns
 coāgula@nd@ā
@@ -18100,7 +18100,7 @@ fūg@eri@t
 inpreca@nd@ō
 conpescē@bā@s
 dīvell@erī@tis
-anticipa@nt
+anticip@a@nt
 repete@nd@īs
 cōnfūtā@ns
 adiūtā@bi@ō
@@ -18201,7 +18201,7 @@ avfuge@rē@tis
 inhia@nd@ōrum
 prīmōr@is
 triti@īs
-mine@r
+min@e@r
 horrēsce@rē@tis
 oblātrā@rē@mur
 praemiss@ūrus
@@ -18212,7 +18212,7 @@ jēnta@nd@ōs
 macilentiōr@e
 ingurgitā@bu@ntur
 excipiu@ntur
-circumdarē@s
+circumda@rē@s
 hebetiōr@ēs
 restinguē@bā@minī
 annūbilā@bi@s
@@ -18223,7 +18223,7 @@ obiectāv@erā@s
 obbrūtēscē@ba@t
 cōnfuls@it
 āvers@ūr@e
-verte@re
+vertere
 feud@a@t
 subfulge@nt@ium
 regustā@bu@ntur
@@ -18368,7 +18368,7 @@ antestā@ba@ntur
 sterne@rē@s
 ābujārī
 vānēsci@te
-trilīcia
+trilīci@a
 cōnfori@t
 adōrnā@bā@tur
 fret@a
@@ -18396,7 +18396,7 @@ ecfringe@ris
 analect@a
 āctuā
 inlūdē@bā@minī
-prōcōnsul@ēs
+prōcōnsul@ē@s
 dēmānāv@issē@mus
 scrīpt@ī
 prōvolāv@eri@nt
@@ -18432,7 +18432,7 @@ potentissim@īs
 retrahē@bā@minī
 excalcea@nd@am
 amplexāt@ūr@ārum
-exue@ntis
+exue@nt@is
 adlubēsce@rē@tis
 tort@ōrum
 rapidiōr@is
@@ -18537,7 +18537,7 @@ plicu@erā@s
 abjungi@t
 ērōs@erō
 cantātrīx
-prōcumb@ā@s
+prōcumbā@s
 pass@am
 gesta@nd@ō
 adcurr@a@r
@@ -18558,7 +18558,7 @@ pīleō
 mānsuēta@nt@īs
 reformīda@nd@īs
 dehaus@istis
-sēsquidi@e@m
+sēsquidi@em
 submurmurā@ba@m
 sevī@tōte
 obsorbu@ērunt
@@ -18673,7 +18673,7 @@ dēcess@ūr@ā
 superextoll@ē@s
 oppande@nd@ās
 coniugi@a
-coalēscere@t
+coalēsce@re@t
 coaedificāt@ūr@ae
 pervolgātum īrī
 conparābil@ibus
@@ -18755,7 +18755,7 @@ imperātōr@ium
 lībāv@eri@tis
 cōnsalūtāt@ūr@ā
 attesta@nd@ae
-epitomātis
+epitomā@tis
 prōripu@ī
 sulca@nt
 und@ē@re
@@ -18992,7 +18992,7 @@ alemannic@ō
 conmonitō
 tumulā@be@ris
 antīsagōgē@n
-impietāt@is
+impietā@tis
 cōnspu@eri@tis
 commentā@bi@tur
 dēlibrāv@eri@mus
@@ -19046,13 +19046,13 @@ recutiu@ntō
 captīvāv@istis
 mūner@ē@tur
 adspect@ūr@am
-stupid@um
+stupidum
 sinuāt@ū
 perfūd@eri@m
 rēpē@ba@nt
 ricia@nd@ō
 dēventūrum esse
-inlūcēsce@ndī
+inlūcēsce@nd@ī
 relēgāt@ūr@ae
 jejūnāv@imus
 īnfatuā@bu@ntur
@@ -19158,7 +19158,7 @@ pīns@ē@mus
 inmine@a@m
 mūni@issē@s
 paedīca@nd@ō
-incommūnicābil@is
+incommūnicābilis
 ine@ā@mus
 galapagēns@em
 sēduct@ās
@@ -19199,7 +19199,7 @@ interclūs@era@m
 inportāt@ūr@ās
 extersum esse
 maledīce@nd@ī
-strangulā@r@e@r
+strangulā@re@r
 dēcalvāv@ērunt
 onerā@bā@mur
 lapidēsce@nt@ium
@@ -19276,10 +19276,10 @@ superfunde@nt@e
 dēvert@a@nt
 ēpōta@nd@ō
 ēnūtri@istī
-balb@am
+balb@a@m
 mexicān@ī
 mānicāv@eri@tis
-abdōmina
+abdōmin@a
 īnfodiē@bā@minī
 cibātiōn@ī
 adsimilāt@ūr@ō
@@ -19304,7 +19304,7 @@ circumfars@isse@nt
 abnōdāt@ās
 condoce@nt@ia
 īnfūd@istī
-dēsūd@ā@tur
+dēsūdā@tur
 excerne@rē@tur
 pejera@nd@a
 adnūntiātum esse
@@ -19378,7 +19378,7 @@ probātōr@ibus
 dēfēnsā@rē@minī
 adlege@ndus
 polling@ā@re
-valēsce@re@m
+valēscere@m
 exūdātiōn@e
 petrōs@ās
 mātūru@eri@t
@@ -19427,7 +19427,7 @@ rīp@a
 passe@r@e@m
 balnea
 coit@ūr@ī
-perinīque
+perinīqu@e
 adrogāt@ūr@um
 commigrā@ba@m
 adjuer@e@ntur
@@ -19458,7 +19458,7 @@ effōrma@ndus
 affīnitāt@ēs
 commarcē@ba@m
 dīiūnctiōn@ibus
-involv@ā@tis
+involvā@tis
 concox@erā@mus
 subcumbē@bā@mus
 calēsc@ā@s
@@ -19564,7 +19564,7 @@ vacuēfact@ā
 trānslāt@ī
 dīnumerā@bā@tur
 subrēpi@tōte
-mole@rē@re
+mole@r@ē@re
 ovāt@ōs
 frūmenta@nd@a
 dēlic@e@ntur
@@ -19670,8 +19670,8 @@ antecurrē@bā@minī
 disparu@eri@t
 ambi@era@m
 dēcert@e@t
-ovā
-oblīqu@ē@re
+ov@ā
+oblīqu@ēre
 aeditumāt@ūr@am
 crīminā@re@nt
 tūns@e
@@ -19708,14 +19708,14 @@ mūridār@ī
 inchoa@nt@ibus
 pejerāt@ae
 fundā@bā@mur
-chōliamb@e
+chōliambe
 adcumulā@bā@ris
 nāvitāt@em
 curva@nt@e
 trānsposit@ū
 iūrisprūdent@ēs
 veter@e
-cōnfiscā@mur
+cōnfisc@ā@mur
 poplit@ē@s
 addocu@erō
 attrectāt@ūr@a
@@ -19772,7 +19772,7 @@ satull@ārum
 conterrit@ūrus
 mediā@be@ris
 recōgitā@bā@tur
-tauroboli@ēre
+tauroboli@ē@re
 dogmatizāv@eri@nt
 ēmonē@bi@t
 adleviā@bā@tur
@@ -19874,7 +19874,7 @@ captīvāt@e
 intrōdūcō
 naufragia
 assidē@bi@mus
-calc@ē@s
+calc@ēs
 trīclīniarchē
 dīgredi@e@ntur
 sumministr@e@nt
@@ -19919,7 +19919,7 @@ connumera@nd@ō
 adhospitāt@ōrum
 devigu@ērunt
 concac@ē@re
-fervidō
+fervid@ō
 abnue@ntor
 dēripie@nd@a
 adlēct@ōrum
@@ -19976,7 +19976,7 @@ rhonchāv@it
 sinic@ae
 intonde@ā@re
 convestīt@īs
-cānu@i@mus
+cānu@imus
 perquīsīv@imus
 vīsitāv@istis
 prōmīs@era@nt
@@ -20213,7 +20213,7 @@ varicolōr@ēs
 flammāt@ūr@ī
 ascēns@ūr@īs
 releva@nd@ī
-cis@ia
+cisia
 obgeri@te
 ablactā@ba@t
 ēmūnie@nt@ium
@@ -20264,7 +20264,7 @@ dēsōla@nt@ēs
 praemonitōri@ōs
 circumplica@nt
 prīvāt@ūr@ōs
-seniss@i@mus
+seniss@imus
 prōrumpe@ndus
 ēlevā@ris
 vibrā@re@t
@@ -20468,7 +20468,7 @@ fossāv@eri@tis
 solūt@ūr@am
 dēdocu@era@nt
 prōstrātum īrī
-dēclār@e@m
+dēclāre@m
 mordeō
 arcesse@rē@tis
 vēlificā@ns
@@ -20589,7 +20589,7 @@ contrīt@us
 ingrede@rē@mur
 adproperāv@istis
 absorbē@bā@mus
-linqu@am
+linqu@a@m
 lūctu@ī
 superaedificā@ba@t
 increpā@bu@ntur
@@ -20798,7 +20798,7 @@ afghanic@ōs
 cōnfove@nd@am
 pullulāv@isse@nt
 ignicomant@em
-expedī@t@is
+expedī@tis
 corru@a@ntur
 faete@ndus
 incinge@rē@s
@@ -20849,7 +20849,7 @@ obrogā@ba@ntur
 ingeminā@tur
 flāvica@nt@em
 ēbibe@rē@minī
-scholār@am
+scholāram
 subintrōdūx@ēre
 exaggerā@rē@mur
 īnfringe@nt@ia
@@ -21144,13 +21144,13 @@ recept@ū
 cōnsectātōr@em
 dējūnx@erō
 aestīvāt@ūr@ī
-ancōn@em
+ancōn@e@m
 commūtāv@istis
 adrīdē@rē@minī
 tene@nd@um
 lysin@a
 dētrīv@era@t
-cōmissā@re
+cōmissāre
 cōnsuāde@nt@ī
 būprēst@ium
 ēgrederis
@@ -21230,7 +21230,7 @@ būcaed@īs
 conglomerā@bā@mus
 caedē@ba@r
 abjici@a@ntur
-mastigophor@um
+mastigophorum
 adtentāt@ūr@ā
 squālu@eri@t
 prōpugnātiōn@ī
@@ -21609,11 +21609,11 @@ adscrīpt@ārum
 dēlict@ās
 ablactātūrum esse
 obturb@e@ntur
-irrēgulār@ia
+irrēgulāria
 intīnct@ae
 cane@ndus
 āerifōrm@ia
-antistetera@t
+antistet@era@t
 coniectāri@ōs
 extrue@re@ntur
 experg@a@t
@@ -21768,7 +21768,7 @@ indulg@ē@mus
 vegetā@ns
 salūtātrīc@em
 dēplicāv@eri@mus
-antirrhopa
+antirrhop@a
 advēlā@re@nt
 adpellāv@eri@s
 indūce@nd@um
@@ -21839,7 +21839,7 @@ incrū̆stāv@istī
 cēnitāt@ūr@ō
 exstingu@ē@tis
 abhorre@nt@e
-dērelīqu@i@t
+dērelīqu@it
 congȳrāv@imus
 dēcalvāt@īs
 inminit@um
@@ -21923,7 +21923,7 @@ trāiect@īs
 convenie@nt@ibus
 intercalāv@eri@m
 prōflīgā@bi@minī
-adrēp@a@t
+adrēpa@t
 perters@era@nt
 subportātūrum esse
 professōri@a
@@ -22137,7 +22137,7 @@ inrumpē@ba@m
 būcul@a
 advex@istis
 secuutus
-expavē@mus
+expav@ē@mus
 gelā@tor
 nīdificā@minī
 vestī@tur
@@ -22160,7 +22160,7 @@ quadrifoli@ārum
 abripu@ērunt
 masturbāt@ārum
 conloc@ē@ris
-festīnā@stī
+festīnāstī
 reinvītā@re@m
 concess@istis
 percallē@bu@nt
@@ -22204,7 +22204,7 @@ subsortī@re
 impetrāv@eri@s
 imitātīvus
 gigaspor@a
-māforte
+māfort@e
 relanguēsc@ā@mus
 rīmōs@ās
 excremā@bu@ntur
@@ -22265,7 +22265,7 @@ condūx@erī@mus
 sūdā@bi@s
 odiē@ba@t
 āreolāt@ae
-tābific@a@ntur
+tābifica@ntur
 appropinquāt@ā
 ellychni@ī
 albicāt@a
@@ -22276,7 +22276,7 @@ subtersecā@ba@t
 congȳrā@bu@nt
 cōlāv@issē@tis
 prōtrāx@it
-suburge@nd@ō
+suburge@ndō
 combūre@nt@ium
 crassificā@re@ntur
 exterminātōr@ibus
@@ -22478,7 +22478,7 @@ occule@re@nt
 accūssā@bi@mur
 adedē@ba@nt
 contrīstāv@era@t
-adnect@is
+adnectis
 permiss@ūr@um
 vēlāv@ēre
 conpīlāv@ēre
@@ -22561,7 +22561,7 @@ removē@bā@ris
 galbinus
 bea@nt@e
 bāsiā@bi@minī
-exasper@e@t
+exaspere@t
 ūsūrpā@rē@re
 percrībrā@bā@re
 virginic@e
@@ -22694,7 +22694,7 @@ praemitt@ī
 anticipa@t
 canta@nt@ia
 subplantā@rē@mus
-postorbitālis
+postorbitāl@is
 dēmē@ba@nt
 ulm@ōrum
 concrēdē@ba@nt
@@ -22726,7 +22726,7 @@ obtunde@nd@um
 superēminē@bi@ō
 iocā@re@ntur
 exalbēscē@bā@tis
-contegeris
+contege@ris
 prōtere@nd@ī
 chalāv@erī@s
 ingravēscu@ntō
@@ -22886,7 +22886,7 @@ sēgreg@ās
 ēvol@e@ntur
 subministra@nd@ī
 subteriacu@issē@s
-ahaesitā@minī
+ahaesitāminī
 solōc@ī
 subtīliārī
 cambiē@ba@nt
@@ -22922,7 +22922,7 @@ flūctua@nd@ās
 refrīgerā@bu@ntur
 inimīcāv@it
 flāgit@ē@tis
-condam@am
+condam@a@m
 repuls@ā
 remonē@bi@ō
 condīce@nt@ia
@@ -23011,7 +23011,7 @@ canōnizāv@eri@m
 conpingē@ba@r
 praeintellige@nt@ium
 sonitāv@erā@s
-bal@istia
+balistia
 aestuābund@am
 attermināv@istis
 replica@nt@ēs
@@ -23158,9 +23158,9 @@ superexaltāt@e
 adtempta@ntur
 contrādīcē@bā@mus
 redimi@issē@mus
-dīiuga@t
+dīiug@a@t
 sigilla@nt@ī
-dēsācre@t
+dēsācr@e@t
 ministrā@bu@ntur
 nigrite
 rud@ē@s
@@ -23293,7 +23293,7 @@ conprime@rē@ris
 argūmentōs@ā
 inhibu@era@nt
 Gallaecus
-pāstōris
+pāstōr@is
 obsecr@ē@tis
 inple@nt@ī
 asside@ā@s
@@ -23429,7 +23429,7 @@ appretiāt@ūr@ī
 plantāt@ū
 lurcāv@imus
 supīn@ōrum
-fatīg@e@m
+fatīg@em
 pābulōs@ae
 extergi@minī
 paenīnsulār@ium
@@ -23898,7 +23898,7 @@ dictātiuncul@am
 cinaedic@ae
 integrā@bu@nt
 ingredi@ē@re
-exolēt@us
+exolētus
 hīrtell@um
 recita@nd@e
 adfrem@e
@@ -23985,7 +23985,7 @@ obpugn@ē@ris
 subcubit@ūr@ōs
 interloqu@e@ri@s
 inpōni@tor
-cac@ē@re
+cac@ēre
 jejūna@nt@īs
 susurrās
 praetext@ūr@a
@@ -24001,7 +24001,7 @@ explōs@ūr@ā
 trānsnata@t
 reexpectā@bā@tur
 popayanēnsis
-dēfēns@ēre
+dēfēns@ē@re
 dēfetīgā@bā@tis
 dēfōd@eri@s
 attribūt@ūr@ī
@@ -24059,7 +24059,7 @@ jugulā@be@re
 commixt@ōs
 captāt@ārum
 sēdāt@e
-ferrūgieō
+ferrūgie@ō
 dēsenu@isse@m
 circumcīd@eri@tis
 fess@am
@@ -24149,7 +24149,7 @@ trānsnāvigā@bā@re
 mātūrāt@ūr@um
 adpul@ērunt
 apprehende@rē@mur
-ēlicit@a
+ēlicita
 circumplica@nd@ōrum
 conticu@istis
 Mai@ōs
@@ -24298,7 +24298,7 @@ oculāt@a
 renāt@ā
 perjūr@e
 haes@eri@tis
-ammutil@e@r
+ammutil@er
 succide@nd@ī
 auctitāt@ūr@ōrum
 sānx@erā@mus
@@ -24481,7 +24481,7 @@ vōciferāt@am
 circumflex@erā@mus
 panchrestārius
 ubicāt@us
-berbēc@em
+berbēc@e@m
 fermenta@nt@ia
 cnīs@am
 ēmundā@bi@mus
@@ -24591,7 +24591,7 @@ fruticēt@a
 mundā@bā@minī
 iact@ē@mus
 adprehēns@ūr@ī
-patriss@ē@re
+patriss@ēre
 gall@um
 coagitāt@ūr@am
 disserē@bā@tur
@@ -24602,7 +24602,7 @@ rejiciē@bā@tur
 pandātūrum esse
 ultimā@ns
 praeserviē@bā@mur
-recollige@r@ē@s
+recollige@rē@s
 cohonestā@ba@nt
 astringe@nd@um
 sparge@re@nt
@@ -24640,7 +24640,7 @@ rescinde@nd@ō
 persorbe@nt@ibus
 neglēctiō
 dēcurrē@bā@minī
-palma@nt@is
+palma@ntis
 appropinqua@nt@īs
 gradie@nt@em
 frīgefact@ās
@@ -24652,7 +24652,7 @@ suific@e@ntur
 abolitōr@em
 vetā@rē@s
 abligurri@eri@m
-frīgōr@ē@s
+frīgōr@ēs
 converte@nd@ās
 adtollē@ba@nt
 respōnsā@bā@mur
@@ -24713,7 +24713,7 @@ cavernōs@ā
 intrahā@re
 subōrnā@bā@re
 excīd@issē@s
-corresuscit@e@r
+corresuscite@r
 convīvā@rē@tur
 subscrībe@rē@tur
 cernuor
@@ -24878,7 +24878,7 @@ intercessūrum esse
 trānsnāvig@em
 adferrī
 excēde@nd@ārum
-catanancē@n
+catanancēn
 sat@urum
 tītillāt@um
 allātrā@bā@re
@@ -24916,11 +24916,11 @@ cōnspu@e@ri@s
 pavi@a@t
 persultāv@era@m
 excerebrā@re
-cōge@r@e@m
+cōge@re@m
 jējūnātiōn@um
 trānsplanta@nd@ōrum
 marītāt@e
-cēter@ās
+cēterās
 discoqui@tis
 prōmulgāv@erā@mus
 hia@nt@em
@@ -24990,8 +24990,8 @@ arcesse@nd@ā
 liquāt@am
 ingemēsce@nd@ō
 ēvolūtūrum esse
-trānsport@ās
-prōloqu@e@ris
+trānsportās
+prōloqu@eri@s
 colliquā@bi@t
 adtitulā@ba@r
 invīt@e@ntur
@@ -25020,7 +25020,7 @@ persānāt@ū
 admovē@tō
 stringe@rē@re
 incucurr@erī@s
-conlēgi@t
+conlēgit
 dōna@nd@ārum
 obtinu@eri@nt
 expallēscu@ntur
@@ -25108,7 +25108,7 @@ mīlita@ntor
 antevers@a
 permeā@bā@ris
 valētūdin@ī
-discepta@ntis
+discepta@nt@is
 uncāt@e
 alligā@bo@r
 anima@ntor
@@ -25170,7 +25170,7 @@ ascend@eri@m
 ēvirā@bā@mus
 adnumerāt@ūr@ā
 conglobāt@ās
-supersca@ndis
+superscandis
 dēfervēsce@nt@ia
 adiūt@ūr@ōs
 conlūctāt@ā
@@ -25223,7 +25223,7 @@ urbān@ā
 consōpi@ē@tis
 sēmigrā@rē@s
 rubrīcā@bā@ris
-hospita@nt@is
+hospita@ntis
 dēlit@ūr@um
 tumulāmin@e
 manifēstāt@is
@@ -25501,7 +25501,7 @@ succēde@rē@mur
 prōice@rē@re
 theristr@ōrum
 obdulcē@minī
-incess@ā@tur
+incessā@tur
 assectāt@ārum
 sufflāmināv@eri@m
 improbā@re@ntur
@@ -25529,7 +25529,7 @@ tepēscu@ntō
 ēnāsce@nt@e
 nesci@e@ntur
 āvolā@rē@mus
-praegn@ās
+praegnās
 clēmentis
 brasi@ās
 licenti@ae
@@ -25608,7 +25608,7 @@ autumnāv@isse@nt
 ēvinci@ā@s
 conglōrificāt@ūr@um
 prōpūrgāv@eri@s
-maestific@ē@re
+maestific@ēre
 subtīlior
 supersidē@ba@m
 cit@ē@tur
@@ -25647,7 +25647,7 @@ accīs@ūr@e
 exue@rē@tur
 dīvolgāv@ēre
 gracillim@um
-vītālis
+vītāl@is
 mall@ō
 angori@ē@tis
 tolerābil@ibus
@@ -25912,7 +25912,7 @@ catul@ōs
 prosēlyt@am
 vīnōsiōr@em
 adpropinquā@bi@ō
-cōnsīd@erimus
+cōnsīd@eri@mus
 mūscul@ī
 commadu@ērunt
 disperg@ā@mur
@@ -25960,7 +25960,7 @@ farīnulent@us
 subsignātum esse
 dīvīna@ntur
 convalā@tis
-dēg@er@a@m
+dēg@er@am
 glottora@nt
 circumtrahi@mur
 aeditumāt@ūr@ae
@@ -26092,9 +26092,9 @@ itinera@nd@um
 tābefaciē@ba@nt
 sēcēdu@ndus
 oboedī@mur
-broccō
+brocc@ō
 dēlīv@erī@s
-apter@ā@s
+apterā@s
 dēnsissim@am
 exspolia@nd@um
 imperāt@am
@@ -26244,12 +26244,12 @@ pigu@eri@t
 commuls@erī@s
 explē@be@ris
 allici@ē@ris
-antecelle@nd@um
+antecelle@ndum
 astrāv@era@m
 fastīdiōs@e
 ōdīv@erō
 gentīliti@ae
-flōrileg@ia
+flōrileg@i@a
 sēpōne@ndus
 allūx@ēre
 attenu@a@ntur
@@ -26267,7 +26267,7 @@ comitābil@ia
 īnfitiā@bā@ris
 temperā@ris
 commēnsūrum esse
-Pecur@r
+Peed@r@s
 innecte@rē@mur
 castifica@ndus
 aedific@āsse@nt
@@ -26295,7 +26295,7 @@ trānsvert@ē@minī
 ēbullīt@ūr@īs
 past@ae
 ventriōs@ās
-robeō
+robe@ō
 īnfusca@nd@ōs
 collūcē@bu@nt
 convert@ē@tur
@@ -26331,7 +26331,7 @@ sȳcamīn@e
 objūrga@nt@ō
 fūstīgās
 rennui@tur
-PecMr@s
+ū̆eeud@e
 mult@ī
 glōrificāt@ūrus
 ēvād@ā@ris
@@ -26387,7 +26387,7 @@ aegrōtāv@erā@tis
 interpositiōn@ī
 pigrāv@ī
 tripudiā@ba@nt
-trānsmūt@ās
+trānsmūtās
 effīnx@issē@mus
 astring@ē@mur
 prīvā@rē@mus
@@ -26589,7 +26589,7 @@ circuī@be@ris
 dētonā@rē@tis
 caballica@nd@am
 anastomotic@e
-ēmōlītum
+ēmōlīt@um
 porriceris
 conperie@nd@um
 vovē@ba@t
@@ -26619,7 +26619,7 @@ aggenerāt@ūr@ārum
 aberrā@stis
 allectāv@erī@s
 spars@am
-intribūti@ō
+intribūtiō
 illīs@a
 disson@um
 flāta@ntor
@@ -26662,7 +26662,7 @@ irrogāv@issē@tis
 adiūta@nt@e
 praeintellig@a@m
 farīnulent@ā
-runcā
+runc@ā
 prōsocrum
 lūcubrāt@e
 spars@isse@t
@@ -26683,7 +26683,7 @@ pernitu@isse@m
 fult@e
 assūmptiōn@ī
 pate@nt
-ratt@us
+rattus
 praescrībe@nd@ā
 adversāt@ūr@īs
 invenie@nt@ibus
@@ -26748,7 +26748,7 @@ dobrogic@a
 praefa@nd@um
 ōrs@um
 gȳrovag@ae
-versūti@ōr@um
+versūti@ōrum
 odōrāment@a
 capess@ē@ris
 īnfrīgidāt@īs
@@ -26762,7 +26762,7 @@ cōnsaucia@nt@e
 comminu@ē@tur
 capta@nd@e
 pullul@ōrum
-reteg@ā@tis
+retegā@tis
 cacab@e@m
 circumspectā@ns
 advoca@nd@ō
@@ -26770,7 +26770,7 @@ cōnectē@ba@r
 scintilla@ndus
 rotundā@re@nt
 torcul@ē@mus
-crāpul@āris
+crāpul@ār@is
 summurmurāv@era@m
 allātra@nt@is
 frīgefactā@be@re
@@ -26837,7 +26837,7 @@ dīiūnctiōn@em
 grosph@ōrum
 commiserā@bā@ris
 majāl@e
-mendīc@ās
+mendīc@ā@s
 mūni@erī@tis
 cēra@nt@ī
 benefact@ūrus
@@ -26853,7 +26853,7 @@ complect@erā@s
 fastīdi@erā@tis
 cohēre@nt
 oblātiōn@is
-subdīvida@ntur
+subdīvid@a@ntur
 adiūdicā@be@ris
 prōpūrga@nt@is
 praecīde@nd@am
@@ -27075,10 +27075,10 @@ aequāv@erā@tis
 intimāt@ūr@um
 disparē@bu@ntur
 fru@ā@tur
-obfulge@ntis
+obfulge@nt@is
 connīte@nd@am
 rēgnāsse
-mātūrēscēns
+mātūrēscē@ns
 lanceā@be@re
 rogāv@istī
 perhibē@re@m
@@ -27242,7 +27242,7 @@ actaeifoli@ōrum
 apprecā@re
 ingeri@tur
 cēlā@rē@re
-hīsc@a@ntur
+hīsca@ntur
 lūctuōsissim@ārum
 intrīcātūrum esse
 circumvectāv@eri@tis
@@ -27260,7 +27260,7 @@ fabrēfī@a@m
 comēd@erī@tis
 trānslāt@ūr@ae
 cohortā@bi@ō
-subdīvidis
+subdīvidi@s
 saplūt@ās
 obdēnsātiōn@e
 necāt@ūr@ōs
@@ -27347,7 +27347,7 @@ cess@istī
 coniugāv@erā@mus
 blaterāv@erā@tis
 cōnsēpi@e@t
-comple@ndum
+comple@nd@um
 concelēbr@ē@ris
 chirotēc@am
 indīligenti@ārum
@@ -27458,7 +27458,7 @@ foedā@bā@tur
 mersa@nd@ō
 crepitāt@ōrum
 obstetrīcātum esse
-Peeur@r
+Pedud@s
 conterre@nd@ōrum
 inuss@isse@m
 cōnspurcāt@ūr@um
@@ -27492,7 +27492,7 @@ geniāl@e
 stabilīt@ūr@īs
 īnstaurā@ba@ntur
 exort@am
-pollice@āminī
+pollice@ā@minī
 conloque@re@r
 rāmuscul@ī
 dictitā@be@ris
@@ -27585,7 +27585,7 @@ dēbilitāt@īs
 trānsverberā@bā@minī
 brittuncul@um
 interiacē@bi@ō
-coaequ@ē@minī
+coaequē@minī
 sagīnā@rē@minī
 hālit@ibus
 parcissim@am
@@ -27671,7 +27671,7 @@ praerumpe@nt@ium
 interior
 prōflīga@nd@am
 paraphrasis
-exōstrās
+exōstr@ās
 praefodie@nt@ium
 appugnāv@eri@s
 resperge@rē@minī
@@ -27689,7 +27689,7 @@ taigān@ās
 revīd@eri@nt
 recognit@ūr@ōrum
 ēmercā@be@ris
-adpārit@ās
+adpāritās
 vocitā@ba@ntur
 dēflexiōn@ī
 fūrtīv@ōs
@@ -27897,7 +27897,7 @@ lēgislātiōn@em
 dīvergē@tōte
 conmove@ā@re
 īnstupē@rē@mus
-extudit
+extudi@t
 graphi@ōrum
 trānsmigrāv@it
 īnsigni@ā@ris
@@ -27918,7 +27918,7 @@ equitā@re@t
 iugula@t
 murrie@nd@ō
 scelera@nt@ium
-ax@ā@s
+axās
 vectāv@erī@s
 sēmustulā@bā@mur
 sēdūce@nd@ās
@@ -27962,7 +27962,7 @@ perpul@issē@tis
 offōcā@bā@minī
 impraegna@ndus
 nigerrim@ōrum
-redūc@ā@mus
+redūcā@mus
 pōni@tō
 differ@rē@re
 abhorre@ā@mur
@@ -28180,7 +28180,7 @@ cōnstabilie@nd@ā
 graecizā@re@nt
 impudentiōr@ī
 praeoccupa@t
-interrētiālis
+interrētiāl@is
 indolēscē@bā@ris
 refrāct@ū
 ytterb@ia
@@ -28236,7 +28236,7 @@ occursāv@eri@mus
 longicaud@ōs
 comperī@mur
 sēpiē@bā@mur
-affreme@ndō
+affreme@nd@ō
 ēgredie@nt@ēs
 autoraed@a
 praeiaci@a@ntur
@@ -28312,7 +28312,7 @@ advertu@ntō
 mulierārium
 compendi@t
 sēcerne@nd@ī
-conȳz@a@m
+conȳz@am
 pavē@bu@nt
 abligurri@it
 cōnsocia@nd@a
@@ -28358,7 +28358,7 @@ supple@nt@em
 obaudīv@istis
 treme@nd@ōrum
 subnexu@istī
-ēvelli@s
+ēvell@i@s
 fodī
 adlēgā@rē@re
 beātificāv@eri@nt
@@ -28585,7 +28585,7 @@ dējuvāv@eri@t
 antīqua@nt@ō
 oxysepal@ae
 ēvāgīnāv@erī@s
-perpolītō
+perpolīt@ō
 subcubit@a
 similāt@ūr@ōrum
 jejūn@e@nt
@@ -28695,7 +28695,7 @@ castōn@um
 sepelīv@erā@tis
 grātuīt@ae
 imbui@te
-circumeā@re
+circume@ā@re
 pictūrāt@ā
 ēmundātō
 ēlectrisā@mus
@@ -28767,7 +28767,7 @@ circumambulāvisse
 torru@erā@tis
 condocē@tor
 latus
-adplaud@ē@mus
+adplaudē@mus
 sempiternus
 lībā@bu@nt
 basilicol@am
@@ -28805,7 +28805,7 @@ notāv@isse@nt
 pervolāt@ō
 fascināt@ūr@ō
 decē@ba@t
-centuplic@ā@re
+centuplicā@re
 efflē@tōte
 solidāt@ōs
 frūctificā@rē@mus
@@ -29085,7 +29085,7 @@ refocillā@rē@minī
 subtex@i@s
 dēflōrēsc@ā@mus
 interfa@nd@ōs
-conplica@ntis
+conplica@nt@is
 pīpiā@bi@t
 permēns@ūr@ā
 discupi@ē@re
@@ -29422,7 +29422,7 @@ brasiā@rē@s
 dīmānāv@istī
 circumtue@a@r
 ēlinge@rē@mur
-rāmifica@ntur
+rāmific@a@ntur
 torculā@bā@minī
 morde@nt@īs
 coepi@tō
@@ -29449,7 +29449,7 @@ synaeres@e
 omitte@rē@minī
 captāt@ōrum
 amm@ās
-ēverti@mus
+ēvert@i@mus
 apprim@e@nt
 sēcern@ē@re
 dēvertē@bā@minī
@@ -29621,7 +29621,7 @@ pūrgāv@era@nt
 vān@ās
 inrīde@nt@e
 absolūt@ūr@ī
-superoccupātō
+superoccupāt@ō
 horru@imus
 volgā@re@t
 versā@rē@minī
@@ -29646,7 +29646,7 @@ circumtrāx@issē@mus
 inrig@e@nt
 annūllātō
 dīnōscā@mur
-cūde@r@ē@ris
+cūde@rē@ris
 scīsci@te
 abalietāt@ī
 praeclūs@us
@@ -29660,9 +29660,9 @@ lōrīcāv@isse@nt
 adsimulāt@um
 cōnfodi@mur
 effingē@bā@s
-rebulli@imus
+rebulli@i@mus
 praedēterminā@bu@nt
-tabul@ār@e
+tabul@āre
 dēvect@am
 maerē@ba@t
 mīrāv@era@nt
@@ -29680,7 +29680,7 @@ cōmissa@nd@ōrum
 indiscrētiōn@is
 superadditūrum esse
 minōrātum īrī
-hūme@nd@ō
+hūme@ndō
 fortificāt@a
 prehēnsā@ris
 succlāmāv@isse@m
@@ -29754,7 +29754,7 @@ patrōcinā@be@ris
 appropriātiō
 occlūde@rē@ris
 expend@erā@tis
-vove@nt@is
+vove@ntis
 percipe@re@t
 peti@ī
 efferā@bā@mur
@@ -29927,7 +29927,7 @@ turgē@bu@nt
 tend@ā@mus
 conplānāt@ae
 senātōr@e
-accapita@nt@is
+accapita@ntis
 undābund@ā
 īdōlolatr@am
 argūta@nd@ārum
@@ -29951,7 +29951,7 @@ tenuitāt@em
 percipi@tō
 prand@ē@mur
 cūnctāv@eri@tis
-ēnōd@a@t
+ēnōda@t
 exsībila@nd@ōs
 cancellā@bi@s
 absūmps@isse@nt
@@ -30049,7 +30049,7 @@ convulnerā@rē@s
 sinuāt@um
 cōnstring@ā@minī
 jēnt@em
-saburr@ī@s
+saburr@īs
 stenopetal@ī
 resēd@isse@nt
 marathr@a
@@ -30074,7 +30074,7 @@ refrīgerārī
 lignicīd@īs
 azure@ōs
 conrēgna@nd@ās
-ēvibrātō
+ēvibrāt@ō
 ī@bu@ntur
 coniunge@rē@tis
 iūdic@e@r
@@ -30280,7 +30280,7 @@ cōnsēd@ē@minī
 collūctātiōn@e
 discupie@nt@īs
 animadverti@te
-banchō
+banch@ō
 capill@e
 percōlātiōn@ēs
 intorque@ndī
@@ -30320,7 +30320,7 @@ porrēx@eri@m
 indolenti@ārum
 libīdin@ēs
 laniā@bā@ris
-colōniāria
+colōniāri@a
 cōnsēv@eri@mus
 adlēgāv@erī@mus
 oppōnē@ba@r
@@ -30344,7 +30344,7 @@ suggere@rē@s
 occīde@rē@ris
 Vulturn@ōs
 art@um
-subaudī@s
+subaudīs
 putrefacie@nd@īs
 continentissim@ās
 apprecā@re@r
@@ -30650,7 +30650,7 @@ canōr@ōrum
 operi@ē@s
 prōcūrā@bi@s
 commentāt@ī
-redintegrāsce@rē@tis
+redintegrāscerē@tis
 suāviloqu@e
 strepu@erā@mus
 ingenit@ūr@am
@@ -30698,7 +30698,7 @@ paenul@am
 crispiē@bā@s
 praecipiē@bā@tur
 scarpinā@rē@tis
-dēmand@ē@mus
+dēmandē@mus
 sumministrā@re@nt
 fāmōs@ī
 offuscā@bi@tur
@@ -30899,7 +30899,7 @@ prōposit@ūr@ās
 excerebrā@be@ris
 urs@erī@mus
 adimpl@ē@re
-persulto@r
+persultor
 aeruscā@bā@mus
 macc@ōs
 concurru@ntō
@@ -31120,14 +31120,14 @@ drindī@rē@mus
 mandāv@eri@mus
 parā@mur
 coëme@rē@tis
-frīgidul@a
+frīgidula
 damascēnus
 exōrāt@ūr@am
 pode@nd@ās
 gubernā@bi@s
 inōrāt@us
 fūmātūrum esse
-būglōss@ās
+būglōssās
 existē@bā@tis
 inplānāv@eri@t
 Argō@ae
@@ -31185,12 +31185,12 @@ phantasmaticus
 praenōt@ūr@e
 apprōna@nd@ās
 signā@rē@minī
-malevolent@is
+malevolentis
 vascōn@em
 trepidā@ba@ntur
 spatia@nd@ō
 conmōt@ā
-wactō
+wact@ō
 garri@a@r
 honest@ōrum
 rogāment@ōrum
@@ -31332,7 +31332,7 @@ assa@ntor
 prōspici@tō
 nepōtāt@ūr@ī
 decemplic@ēs
-frāternī
+frātern@ī
 aptissim@e
 attemptāt@ū
 subditīv@ō
@@ -31420,7 +31420,7 @@ sēriōs@īs
 frīgefactā@bā@re
 coangusta@nd@īs
 quadrupl@ā@tis
-Peeud@r
+Paeur@s
 aporiārī
 testātrīc@um
 perspeculātum esse
@@ -31449,7 +31449,7 @@ lōt@ūr@ārum
 adaperu@istī
 sprēvisse
 diuturn@ō
-iug@ā@ris
+iugā@ris
 violā@re@t
 fēnāri@ōrum
 figūrābil@ium
@@ -31534,7 +31534,7 @@ committ@ā@mus
 finmarchic@ī
 adplaud@ē@re
 convibrā@bi@t
-conceptuālis
+conceptuāl@is
 macru@era@nt
 cōnsēpiu@ntō
 ēnumerāt@ōrum
@@ -31598,7 +31598,7 @@ remonē
 passercul@ōs
 adoptīv@ī
 emira@ndus
-adgaude@ntō
+adgaude@nt@ō
 inōrdināt@e
 cērā@bā@ris
 prōferē@ba@t
@@ -31668,7 +31668,7 @@ cale@nt@ō
 ablacua@nd@e
 abequitāv@isse@nt
 conput@ē@tis
-iubētō
+iubē@tō
 ostracītid@em
 ēmendātiōr@em
 retrōgress@ūr@am
@@ -31740,7 +31740,7 @@ suppeti@e@r
 coelicolōr@em
 not@āssē@mus
 praefodio@r
-bisaccium
+bisacc@ium
 refrāg@ā@tur
 fatīsce@nt@ī
 contrūs@era@t
@@ -31772,11 +31772,11 @@ combust@ūr@a
 subjūnx@issē@tis
 appellitā@bā@ris
 tranquilla@nt@ō
-apprēns@ē@s
+apprēns@ēs
 grandiflōr@īs
 cymithārr@am
 crībra@nt@īs
-obstru@e@ri@s
+obstru@eri@s
 collaudō
 expuls@īs
 ultima@ntur
@@ -31923,7 +31923,7 @@ egit@ūr@ās
 dēstitu@a@nt
 pejōra@t
 cohorta@nd@ōrum
-Cīnc@ia
+Cīncia
 alchymic@ās
 mūtuāt@īs
 ag@am
@@ -32009,7 +32009,7 @@ merge@nt@ēs
 adligāv@eri@mus
 pessimā@be@ris
 expergēfacie@nd@īs
-PNeur@n
+PeeMr@s
 poppyzont@ī
 termināv@erī@s
 smaragdīn@ārum
@@ -32022,7 +32022,7 @@ praelūd@ā@minī
 vigilā@rē@tis
 tractābiliōr@e
 exscrīb@ā@mus
-perfund@ō
+perfundō
 jactā@re
 intrōmiss@ūr@am
 lascīvi@ē@mur
@@ -32030,7 +32030,7 @@ calōr@em
 pavēsce@nd@e
 vānitūdin@em
 ammutilā@re@nt
-iūstific@a@ntur
+iūstifica@ntur
 coquīnā@minī
 theodisc@ī
 concordā@bu@nt
@@ -32050,7 +32050,7 @@ fremo@r
 pectināt@ae
 verrūcōs@ae
 prōlectā@re@nt
-revinca@t
+revinc@a@t
 conquestāv@ī
 permān@ē@mus
 adpete@nt@ī
@@ -32182,7 +32182,7 @@ palūdestr@ēs
 corrēps@eri@mus
 ingenerāv@eri@m
 pretiāv@imus
-bombīte
+bombīt@e
 intermiss@ūr@ā
 nōsce@nd@am
 apostroph@ōrum
@@ -32254,7 +32254,7 @@ factiōs@īs
 curvātiōn@em
 perpende@nt@em
 cōnfric@ē@mus
-fodic@em
+fodic@e@m
 ēloca@nd@ae
 concremāt@ae
 adminiculābund@ōs
@@ -32313,7 +32313,7 @@ galēn@a
 fābulāv@istī
 mollie@nt@em
 humil@ia
-dēfīnītis
+dēfīnī@tis
 regustā@bi@mus
 inēbriā@bu@nt
 jūbilātūrum esse
@@ -32327,7 +32327,7 @@ erythropter@ās
 caumā@re@nt
 pavīmentāri@e
 perileuc@īs
-ōr@ā
+ōrā
 secuut@ōs
 indulgē@rē@re
 milvi@us
@@ -32377,7 +32377,7 @@ oenanthin@a
 repugnāt@ūr@um
 gymnad@e
 praedicāv@erī@tis
-obdormīt@a
+obdormīta
 disperti@ā@tur
 peccāt@ōrum
 pigē@re@t
@@ -32561,7 +32561,7 @@ adlex@ī
 borrāgō
 obtingē@bā@re
 praedomina@nt@ibus
-mēns@em
+mēns@e@m
 absportāv@erō
 dēmulcē@tor
 īnstīgāt@ūrus
@@ -32609,7 +32609,7 @@ obfunde@nt@ia
 bull@ās
 dēsīderāv@issē@tis
 prōvoc@ē@mur
-adprehend@e
+adprehe@nd@e
 adleviā@bā@tis
 castrāt@ās
 inundāt@ūrus
@@ -32631,7 +32631,7 @@ alucitā
 heiula@nd@a
 ēlīde@nd@ārum
 praefect@ū
-molere@r
+mole@re@r
 cīnx@era@m
 pēdagōg@e
 offēnsā@rē@ris
@@ -32644,7 +32644,7 @@ pangu@nt
 iecorīn@ās
 exaux@eri@tis
 perdūr@ē@tis
-praedīcī
+praedīc@ī
 ultrōne@am
 obsetrīca@nt@ibus
 corōnul@a
@@ -32750,7 +32750,7 @@ crēde@nd@ō
 nūpturī@rē@tis
 adhaes@eri@tis
 adcrēt@ūr@ās
-conpung@ō
+conpungō
 architect@e@t
 lacerā@bā@tis
 praemove@nd@ās
@@ -32904,7 +32904,7 @@ commere@nd@ās
 discruciāt@am
 condēnsā@bo@r
 attractā@bi@tis
-cōnfīd@a@nt
+cōnfīda@nt
 ne@nd@ae
 oxysporus
 cōmic@ōs
@@ -32919,7 +32919,7 @@ servā
 conciē@bā@re
 annihilāv@istī
 appretiāvisse
-fossōri@um
+fossōr@i@um
 superaedificāt@ūr@ā
 exīv@it
 remāna@nt@ēs
@@ -33005,7 +33005,7 @@ uexā@re@ntur
 cōnflagrā@ba@ntur
 dēspue@nt@ēs
 perdēcēp@eri@s
-torpēscerē@mus
+torpēsce@rē@mus
 caesar@iēbus
 conglūtina@nt@em
 prōdīx@issē@tis
@@ -33054,7 +33054,7 @@ convesti@a@m
 vocitāt@ūr@īs
 perpāca@nd@ās
 dubitā@rē@minī
-lacte@ntis
+lacte@nt@is
 putāv@erā@tis
 prōcide@re@nt
 praeterī@tur
@@ -33098,7 +33098,7 @@ leontiō
 inund@e@ntur
 sariē@bā@minī
 tētrinni@e@t
-appell@i@mus
+appelli@mus
 complē@bi@ō
 sēcrēt@ūr@ōrum
 aggerā@re@nt
@@ -33280,7 +33280,7 @@ iterā@rē@ris
 curta@nd@īs
 convalit@ūr@ārum
 iuss@eri@t
-oggannī@te
+oggannīte
 hilarāt@īs
 ventitāt@ūr@a
 perse@ārum
@@ -33663,7 +33663,7 @@ assiduāt@ūr@ārum
 obsidē@bā@re
 expetibilis
 iuvent@am
-differtis
+differ@tis
 īnfōrmāt@ās
 gausap@ae
 adnectē@bā@ris
@@ -33685,7 +33685,7 @@ persevērā@rē@mur
 baptī̆sāv@ērunt
 suādē@be@re
 plānct@us
-comprec@ē@minī
+comprecē@minī
 mātūru@issē@s
 circumambulāv@eri@t
 aggravāt@ūr@e
@@ -33894,7 +33894,7 @@ aerūgina@nt@ī
 fīnx@isse@t
 linē@ba@nt
 opitulāt@ūr@īs
-maledicō
+maledic@ō
 oxyspor@am
 parthic@ā
 extenuātiōn@ibus
@@ -33904,7 +33904,7 @@ distorquē@bi@mur
 adpropiāv@era@m
 refūta@nd@a
 superjēc@eri@m
-allocātō
+allocāt@ō
 discruciāt@ūr@um
 exspīrā@t@is
 addormīsce@re@t
@@ -33912,7 +33912,7 @@ abnuitiōn@ēs
 latināv@erī@s
 anteeu@nd@um
 rupt@ūr@īs
-excreās
+excre@ās
 modulāt@ās
 sicc@ēre
 pigeō
@@ -34150,7 +34150,7 @@ sospit@ī
 abiūrāv@erī@mus
 auctāv@ēre
 inrigātum esse
-prōserp@ō
+prōserpō
 contrūdē@bā@tis
 excerne@rē@minī
 īnsulcāv@era@nt
@@ -34239,7 +34239,7 @@ pervigilo@r
 equit@ium
 cald@īs
 contribui@te
-prōdigere@nt
+prōdiger@e@nt
 lutetiān@ōs
 sublātiōr@is
 acontizā@ns
@@ -34334,7 +34334,7 @@ pignerāt@ūr@a
 azoar@ās
 vulgārissim@a
 dēnsē@ba@r
-assuere
+assue@re
 summō
 imbibē@ba@nt
 circumspici@a@ntur
@@ -34445,7 +34445,7 @@ pernocta@nd@am
 exululāt@um
 scēpt@ōrum
 adsentie@nt@em
-rāment@īs
+rāme@nt@īs
 supervacuus
 mūricāt@ā
 prōgigne@re@ntur
@@ -34487,7 +34487,7 @@ disturbāv@era@m
 artificiōsissim@a
 rīdē@bā@tis
 obfuls@erā@s
-prōdiger@e@m
+prōdige@re@m
 prōjici@ā@mur
 freme@nd@a
 rix@am
@@ -34523,7 +34523,7 @@ glomerāt@ōrum
 terre@um
 perstīllā@ba@t
 duplicārī
-dīminu@imus
+dīminu@i@mus
 furfuriōn@ēs
 fraenā@rē@mur
 effici@ā@ris
@@ -34592,7 +34592,7 @@ cōnscīsci@tur
 supern@ōrum
 Nērēid@ēs
 reddid@isse@nt
-prsnōmin@ibus
+prænōmin@ibus
 subsidiārī
 hilarā@ns
 injuss@am
@@ -34708,7 +34708,7 @@ scīsc@ā@mus
 aeternā@ba@r
 Pharisae@ōrum
 laeta@t
-dēlit@ō
+dēlitō
 dīminuu@ntor
 dēverr@eri@t
 conlocāt@e
@@ -34806,7 +34806,7 @@ congregāv@eri@tis
 prŏfūs@ūr@ās
 exaudīt@ūr@īs
 ammorde@ā@re
-Peeud@r
+Peei@d@s
 accucurr@erā@s
 exulāt@ārum
 applumbē@ris
@@ -34820,7 +34820,7 @@ pertēns@ūrus
 fronde@ārum
 restipulā@rē@ris
 connīve@nt@em
-prōcūr@e@nt
+prōcūre@nt
 collābe@rē@mur
 latinā@bi@tur
 cōnscrea@ndus
@@ -34838,7 +34838,7 @@ aspīrā@rē@s
 pertorquē@re@r
 prōstit@era@t
 rūsticān@ōs
-hordiāc@ia
+hordiāc@i@a
 amīcābil@ēs
 perfove@nt@ium
 lēv@ēre
@@ -34963,7 +34963,7 @@ lupāt@ūr@um
 pugne@am
 mande@nd@a
 īnsulca@nd@e
-īnstrūctōris
+īnstrūctōr@is
 pangita@nd@um
 persuādē@bu@ntur
 dēsponde@nd@am
@@ -35344,7 +35344,7 @@ atterminā@ba@m
 ēierē@re
 scarpinātum esse
 revehe@nd@īs
-sempervire@nt@ēs
+sempervirent@ēs
 dēlēgā@tōte
 immigrāv@era@m
 invenī@minī
@@ -35536,7 +35536,7 @@ violā@re@r
 absorbu@era@t
 ēpōtā@rē@mur
 ammiscē@rē@minī
-stabili@ē@s
+stabili@ēs
 propinquā@tor
 comprimē@ns
 crassiped@ēs
@@ -35721,13 +35721,13 @@ coargūt@ūr@ōs
 thriss@ās
 annotāv@it
 circumvālla@nd@ā
-pervulge@r
+pervulg@e@r
 subedē@ba@r
 cōmoedi@ārum
 excūd@erī@tis
 iniectiō
 fuscicipit@ī
-prēnsa@nt@is
+prēnsa@ntis
 accīt@ūr@a
 circumlit@ūrus
 culpā@ba@r
@@ -35871,7 +35871,7 @@ sonitā@bi@minī
 celebrātissim@ōrum
 discerpe@nd@ārum
 praedicāment@ōrum
-ēd@am
+ēd@a@m
 coarctāv@issē@tis
 dēmandāv@isse@m
 expulsā@bi@s
@@ -35879,7 +35879,7 @@ vetā@re@r
 iūgerum
 caprifīcā@ba@ntur
 excipie@nt@ī
-quass@er
+quass@e@r
 reversā@rē@s
 dīdūce@nd@ō
 agāsōn@um
@@ -35938,7 +35938,7 @@ prōscindē@ba@nt
 expalpa@nd@um
 obc@ē@mus
 intercīd@ē@s
-pause@a@m
+pause@am
 sēditiōsissim@ārum
 profūs@ōs
 intergerā@re
@@ -36090,7 +36090,7 @@ operiē@bā@mus
 supervehē@bā@minī
 praedicāt@e
 imperit@ās
-nudicipit@em
+nudicipit@e@m
 mūsicāt@ās
 abrept@ās
 arcuāvisse
@@ -36143,7 +36143,7 @@ permūta@nt@ium
 cōnscrībillā@ba@t
 execūtā@bi@tis
 text@ūr@ae
-drauce
+drauc@e
 casnēt@ī
 languēsce@re@m
 adhērē@re@t
@@ -36170,7 +36170,7 @@ exprime@re@m
 expediisse
 sangirēns@ēs
 dasyphyll@īs
-sublūce@nt@is
+sublūce@ntis
 ulula@nd@e
 superōrdinā@mus
 īnstaura@nt@ium
@@ -36350,7 +36350,7 @@ minōr@ē@re
 conlabōrāv@erī@s
 antecēde@nt@em
 stimula@nd@ī
-ēvoc@ās
+ēvocās
 repercutiu@ndus
 praedētermin@ās
 maumāv@eri@tis
@@ -36531,11 +36531,11 @@ salūtāria
 amāric@ē@tur
 corresuscita@nt@ibus
 trunc@ē@tis
-vergivium
+vergiv@ium
 absolu@ē@mur
 prōtestātum esse
 venēnā@bu@ntur
-disserpā@mus
+disserp@ā@mus
 prōportiōnāl@em
 āmand@a@t
 rūmin@ās
@@ -36651,7 +36651,7 @@ contremīsce@nt@ia
 cōnsēpī@minī
 simplific@ē@ris
 sanguinā@re@m
-facēt@ia
+facētia
 prīncipā@bi@mur
 coiciu@ntur
 adgerā@rē@ris
@@ -36748,7 +36748,7 @@ tūtōr@em
 blatera@nt
 dīreptum esse
 rēgn@e@r
-ungi@s
+ung@i@s
 mālagrānāt@a
 sulcāt@ī
 sculpt@ūr@īs
@@ -36760,7 +36760,7 @@ praeparāt@ūr@um
 auranti@ās
 violā@bā@mus
 nigrāv@ērunt
-affīgā@tur
+affīg@ā@tur
 recreā@bā@ris
 affecta@nt@ibus
 circumscrīpsisse
@@ -36836,9 +36836,9 @@ latē@bu@nt
 dēiūdicā@bo@r
 suppūrā@rē@mur
 iuva@nt@ia
-dissicā
+dissic@ā
 aegrōt@e@t
-mandibulār@e
+mandibul@ār@e
 peltāt@ās
 ēnūbe@nd@ās
 fartōr@ēs
@@ -36892,7 +36892,7 @@ apprēndi@mus
 conlīde@nt@ēs
 taurifer@ae
 recordā@re@r
-annuo@r
+annuor
 attract@ūr@ī
 nōmin@e@m
 senegalēns@ia
@@ -36900,7 +36900,7 @@ nex@erī@tis
 ēdissere@rē@ris
 apprehend@ē@tis
 colliqu@ā@ris
-angari@us
+angarius
 cōnfōv@istis
 disparāv@erī@mus
 convibrā@bi@tur
@@ -37040,8 +37040,8 @@ circummūnī@re@m
 perde@rē@s
 reprōmitte@nt@ium
 denticulāt@ās
-ferrooxida@nt@ibus
-gnāscā@re
+ferrooxidant@ibus
+gnāsc@ā@re
 supp@īs
 injūcu@ndus
 fabrie@nt@e
@@ -37150,12 +37150,12 @@ dīvīnāt@ūr@ī
 agitā@rē@tur
 apputāt@ōrum
 petōri@tō
-Curt@i@a
+Curt@ia
 lombardic@ō
 sējūnct@e
 dēclāmitāv@istis
 Rōmānitāt@um
-occipitālis
+occipitāl@is
 dolā@bi@tis
 scēnofactōri@ōrum
 subplicāv@erī@mus
@@ -37185,7 +37185,7 @@ condormīsci@mus
 calabrīc@ēs
 permixt@ū
 portāt@um
-cinnī
+cinn@ī
 praecelle@nt@is
 adject@ūr@a
 suffulgē@bi@ō
@@ -37375,7 +37375,7 @@ effer@a@t
 congrātulāt@ās
 commemorāv@eri@s
 cōnfūtā@rē@s
-circumded@i@mus
+circumdedi@mus
 rat@ā
 deambula@nd@ōs
 pertrāx@ēre
@@ -37418,7 +37418,7 @@ nōbilitā
 īnstīllā@mur
 semidormīta@ndus
 pudōrōs@ae
-expedior
+expedio@r
 dolā@bā@s
 praeficie@nd@e
 īnstrāt@ī
@@ -37468,7 +37468,7 @@ audīv@istī
 lūs@am
 dērāsūrum esse
 crocita@nd@um
-incendi@s
+incendis
 gestum īrī
 praeterdūce@re@t
 incinge@ndus
@@ -37682,7 +37682,7 @@ garyophyllon
 exululāv@erā@s
 futue@rē@mur
 superextendē@bā@mus
-concordāt@ō
+concordātō
 adlūdiā@re@m
 dispertī@rē@tis
 lapidēsc@e@t
@@ -37724,7 +37724,7 @@ iūbilāv@era@t
 pavī@re@r
 cōnsauci@ē@ris
 permadefēc@era@t
-ascitīti@a
+ascitītia
 īnfuscāv@eri@tis
 crīmināt@us
 hospiticīd@a
@@ -37885,7 +37885,7 @@ adlēg@erā@tis
 perstring@e@ntur
 īnfringe@rē@minī
 obru@ē@re
-revinc@ā@mus
+revincā@mus
 invēn@era@t
 persānā@rē@mur
 acroās@ēs
@@ -38018,7 +38018,7 @@ adsentāt@am
 exaudie@nd@ō
 delphīn@um
 conquaesīv@erī@s
-spīc@a
+spīca
 cynoīd@es
 crassirōstr@e
 nocturn@am
@@ -38122,7 +38122,7 @@ diribe@nt@ō
 parallax@ium
 admutilā@ba@t
 assue@nd@a
-secundārē@s
+secundā@rē@s
 remittā@tis
 pervehe@nt@e
 revelli@tōte
@@ -38201,10 +38201,10 @@ artifici@ō
 nocē@rē@minī
 rubrīca@nd@ā
 cōnsīderā@bā@mus
-mōsquētō
+mōsquē@tō
 oboedīv@erā@tis
 indid@erā@mus
-commūnic@ē@re
+commūnic@ēre
 dēnōmināv@eri@nt
 pende@nd@ārum
 altitonā@ns
@@ -38213,7 +38213,7 @@ dēdecē@bu@nt
 annuē@bā@re
 frūmentā@minī
 submittē@bā@tur
-gunn@ās
+gunnās
 adclāmā@ba@t
 nitē@bā@mus
 nauseā@be@ris
@@ -38312,7 +38312,7 @@ salūtāv@ēre
 flagr@e@nt
 plantārium
 veterāscere@m
-joculā@rēs
+joculā@r@ēs
 dījūdicā@bi@mus
 lombardic@ā
 strepu@erō
@@ -38327,7 +38327,7 @@ cremāt@ūr@e
 adūla@nt@ia
 rēgnā@minī
 prōpulsāt@us
-accin@ā@mus
+accinā@mus
 trānscrībe@nd@e
 intrōdūcā@re
 inclāru@isse@m
@@ -38446,7 +38446,7 @@ jube@ntur
 clāmāv@eri@s
 ērādīcā@tō
 contrādict@ōrum
-nāvo@r
+nāvor
 supercertāt@ūr@ārum
 īnfatuā@ba@m
 acrozȳma
@@ -38486,7 +38486,7 @@ recīde@nd@e
 conplantā@re@ntur
 petīsse
 exinterātum esse
-lūstr@ā
+lūstrā
 dēverru@ntō
 lubīdō
 subdēfice@re@m
@@ -38638,7 +38638,7 @@ concord@ās
 ēgerē@ba@m
 abrotanelloīd@ia
 laguen@ās
-fulge@re@t
+fulgere@t
 terge@nt@ium
 sublēg@isse@t
 suspicā@rē@mur
@@ -38863,7 +38863,7 @@ circumfart@um
 ambed@e@ntur
 trānsnata@ndus
 mūll@ōrum
-plūmēsc@e
+plūmēsce
 tāmarēnsis
 mittē@bā@minī
 subfodiē@bā@re
@@ -38917,7 +38917,7 @@ leō
 impendē@rē@re
 clāmi@tor
 vēlita@nd@a
-succēnsē@minī
+succēns@ē@minī
 īnsulcā@tōte
 adtentā@bu@nt
 obsecund@e@t
@@ -38962,7 +38962,7 @@ effēmina@ndus
 conlūct@ē@minī
 specta@nd@ōrum
 intrīt@ī
-spurc@ēre
+spurc@ē@re
 exonerāt@ūr@ā
 arctāv@imus
 mōriōn@ēs
@@ -39148,7 +39148,7 @@ trānsmissiōn@ēs
 cōnsu@isse@nt
 adamāv@era@m
 jēntāt@ūrus
-circumdūc@ā@mur
+circumdūcā@mur
 situ@ē@tis
 cōnfinge@rē@re
 attrāx@erā@s
@@ -39313,7 +39313,7 @@ succubit@ūr@ō
 nelsonēns@īs
 dentex
 annōna@nd@um
-Scōt@ō
+Scōtō
 hiemā@tōte
 adtentāv@erī@s
 coalu@issē@mus
@@ -39341,7 +39341,7 @@ caum@ā
 rescrīpt@ās
 adnīte@nd@a
 intōns@e
-conquīra@ntur
+conquīr@a@ntur
 phar@ōrum
 dīcē@bā@s
 cōnsectā@ris
@@ -39364,7 +39364,7 @@ pīpi@ā@mus
 diffāmā@ba@t
 intrōfer@rē@ris
 inlūminātiōn@is
-discrepa@t
+discrep@a@t
 negā@bi@minī
 dūritia
 inplōra@ndus
@@ -39379,7 +39379,7 @@ claude@nd@īs
 ēierā@ba@m
 īnflammāv@istis
 applaudē@bā@tis
-alburnō
+alburn@ō
 venēnāt@e
 īnstrict@ūr@ās
 coaequā@bi@ō
@@ -39498,7 +39498,7 @@ dēlibrāv@ērunt
 īnsignie@ndus
 prōmonē@bi@t
 dēsci@ēre
-colūthi@a
+colūthia
 albicā@bā@s
 illēv@erō
 cōnfulgē@rē@tis
@@ -39591,7 +39591,7 @@ dēmorit@ūr@ae
 contundē@ns
 triplicā@bā@s
 melanōtic@ae
-Porci@a@m
+Porci@am
 nōrmāt@ūr@am
 cōnferciē@bā@mus
 collabōrā@bā@s
@@ -39715,7 +39715,7 @@ meliōrātiōn@em
 obtrāx@imus
 dēlectā@tur
 puls@e@nt
-numerō
+numer@ō
 ēlevā@tōte
 lacte@nt@ium
 absolv@ē@mur
@@ -39738,7 +39738,7 @@ intermināt@a
 abhibē@rē@s
 lapid@ā@tis
 conglūtināv@isse@t
-stergēthron
+stergēthro@n
 inaequident@ī
 circumcurre@re@nt
 īnflectiōn@ibus
@@ -40053,7 +40053,7 @@ inmūtāt@ae
 subregiōn@ēs
 attrītiō
 obviā@t@e
-ōrdinā@tis
+ōrdinā@t@is
 mētīt@ūr@ō
 sacristi@īs
 aspīrā@bā@ris
@@ -40294,7 +40294,7 @@ sentīn@a
 rāv@um
 ēmund@ē@ris
 alge@a@t
-holocaust@us
+holocaustus
 dēnūnti@āssē@s
 dicāv@istī
 immolā@bi@tur
@@ -40312,7 +40312,7 @@ agitāt@ī
 arctāt@e
 māoriān@ārum
 adaequā@re@r
-PNci@d@r
+PeeMr@s
 vomitōri@ās
 mīlitāt@ās
 terebrāt@ūr@ī
@@ -40564,7 +40564,7 @@ excantā@bā@tur
 pernegāv@issē@tis
 alcis
 jūstiti@īs
-ēlūcid@a@t
+ēlūcida@t
 subvol@e@r
 holcō
 obstupefīē@ba@t
@@ -40584,7 +40584,7 @@ attrahi@t
 coalit@ūr@ī
 dēle@ā@mur
 exposce@nt@ia
-situā@mur
+situ@ā@mur
 fess@ā
 circumarāvisse
 dēmigrā@bi@s
@@ -40639,7 +40639,7 @@ subvola@nd@ō
 ululā@bā@s
 caruncul@īs
 discontinu@ā@mur
-PNdi@d@s
+Peei@dr
 bann@ōrum
 reneō
 anim@em
@@ -40702,7 +40702,7 @@ spice@re
 adtrectāv@eri@s
 prōspectā@bā@ris
 aptā@bi@minī
-optemperā@t@is
+optemperā@tis
 conpul@istis
 māfort@ibus
 summers@ās
@@ -40806,7 +40806,7 @@ prōclīnā@bo@r
 exonerāt@ā
 lascīvīt@am
 adfīx@a
-comprēnd@a@m
+comprēnd@am
 perterre@nt@ia
 conposit@ūr@e
 cōnfrāct@ūr@ās
@@ -40891,7 +40891,7 @@ trānsplant@ās
 ululāv@ēre
 testimōni@ō
 coalitiō
-sacculār@ī
+sacculārī
 innecte@nt@em
 perhorru@erī@mus
 revinc@ī
@@ -40938,7 +40938,7 @@ Ephrāimītē@s
 inolē@stis
 pūtid@a
 intermisce@nd@um
-domite
+domit@e
 pēnsā@re@nt
 subnexu@era@m
 extersum īrī
@@ -40949,7 +40949,7 @@ habit@ūr@um
 acūtissim@ōrum
 adsuēt@ūr@ōrum
 praecipitāt@ū
-praetend@ī
+praetendī
 ēbullīv@ērunt
 frequentā@re@m
 alterā@bi@mus
@@ -41122,7 +41122,7 @@ interdīct@ō
 cubitā@bā@s
 prōdi@erī@s
 cōnstrāv@issē@s
-onca@ndum
+onca@nd@um
 ēnārrāt@a
 optātīv@ōrum
 periūrāv@issē@s
@@ -41252,7 +41252,7 @@ sēpie@nd@ās
 dīiūnx@erā@mus
 prōduct@ūr@ō
 rōs@isse@t
-mers@ēs
+mers@ē@s
 claudicāt@ūr@ī
 mīscellāne@ōrum
 exsecra@ntor
@@ -41295,9 +41295,9 @@ adprobāt@ārum
 circumcīnx@erā@tis
 exōrdī@rē@tur
 sāgie@nt@em
-iugā@minī
+iug@ā@minī
 adpellāv@issē@s
-excōgit@e@t
+excōgite@t
 concubu@ī
 obloque@nd@um
 prōlongāv@ēre
@@ -41388,12 +41388,12 @@ excrem@ē@tur
 exaestuā@rē@minī
 resect@ūr@um
 dēlīberā@bā@tis
-arcess@i@mus
+arcess@imus
 īnsuffla@nt@ia
 madefact@ās
 mandi@minī
 pyrifōrmis
-dēflōr@ē@ris
+dēflōrē@ris
 apprecāt@us
 tōfici@ōs
 prūrī@te
@@ -41411,7 +41411,7 @@ frēg@eri@m
 summerg@e@t
 condulcā@rē@mus
 contorrē@tō
-ostendis
+ostendi@s
 exsecā@tur
 ignāv@ōrum
 lacūnāv@ērunt
@@ -41626,7 +41626,7 @@ brūcus
 prōrogā@rē@tur
 trānspung@ā@mur
 prōnūnciātūrum esse
-fōdi@t
+fōd@i@t
 circummūnie@nd@ōrum
 lancināt@ōs
 vacuolāt@ā
@@ -41663,7 +41663,7 @@ intract@ūr@ō
 disculciā@bu@ntur
 sēcul@ōrum
 dēputā@bu@ntur
-expūrgā@re
+expūrg@ā@re
 profūs@īs
 cōnstabilīt@ūr@ās
 accorporā@tōte
@@ -41798,7 +41798,7 @@ pervīc@erā@tis
 philosophā@be@ris
 commarcuisse
 adtermināv@erī@mus
-gaudebund@um
+gaudebu@nd@um
 adfirmātiōn@is
 vē̆rnā@rē@minī
 respergu@ndus
@@ -41908,7 +41908,7 @@ inveterā@tis
 ecstas@ī
 trānsubstantiā@rē@tis
 entheāt@ārum
-comprehend@ā@s
+comprehe@nd@ā@s
 occipie@nt@ēs
 nēquiti@am
 flāgitāri@er
@@ -41927,7 +41927,7 @@ ratihabē@rē@tur
 prōpugnācul@ōrum
 moerē@bā@minī
 jūrē@mus
-cōnsīde@r@ē@mus
+cōnsīde@rē@mus
 aviāri@ōrum
 lucrifēc@eri@nt
 adlaudā@ba@nt
@@ -41966,7 +41966,7 @@ neglēx@issē@tis
 reme@ē@re
 commonit@ūr@ō
 discinge@nt@īs
-circumiace@ndī
+circumiace@nd@ī
 baptī̆sā@ba@m
 compēnsātīv@um
 temptāt@ūr@ās
@@ -41995,7 +41995,7 @@ uralēns@ēs
 cōnspurca@nt@ia
 percell@ē@mus
 attitulāv@ēre
-superimmine@ā@s
+superimmine@ās
 obdūce@nd@e
 conrōdē@bā@tur
 accid@eri@t
@@ -42037,7 +42037,7 @@ prōcēde@nd@ās
 prōmere@ntor
 abripi@te
 cancama
-disiug@a@nt
+disiuga@nt
 annumerāv@erā@tis
 fēst@ōrum
 damn@ē@minī
@@ -42080,7 +42080,7 @@ abolēv@eri@s
 tripūnctāt@ae
 coce@rē@re
 commerciālis
-scrībillā@ris
+scrībillār@is
 ārs@eri@m
 sēiūnct@us
 notāt@ōs
@@ -42150,7 +42150,7 @@ sēmiustulāt@um
 conpetu@nt
 dracontēus
 prōclīnātum esse
-honōrātiōr@um
+honōrātiōrum
 exposit@ūrus
 dēcipi@tis
 calviti@ī
@@ -42197,7 +42197,7 @@ triplic@ē@minī
 aerūginōs@e
 regeri@tōte
 rudīv@erā@tis
-fōd@ē@re
+fōd@ēre
 fūnāri@a
 perpōtāv@eri@m
 exurrēx@erā@s
@@ -42326,7 +42326,7 @@ accūrāt@ā
 distrahe@nd@īs
 cotōn@ī
 inhabitāt@um
-adsidu@ē@s
+adsidu@ēs
 latitāv@it
 permadefēc@eri@nt
 accūr@ē@minī
@@ -42408,7 +42408,7 @@ disc@ē@mus
 recitā@ba@ntur
 contrāventum esse
 reaedifica@nd@ōs
-cōnsequās
+cōnsequ@ās
 āmovē@re@m
 sēnsuāl@ēs
 prŏpīnā@rē@mur
@@ -42448,7 +42448,7 @@ reticenti@am
 paralys@ēs
 pallēsce@nt@ia
 paradīs@ōrum
-invetera@t
+inveter@a@t
 īnfring@ā@mus
 petiolāt@ōs
 succlāmāt@ūr@ō
@@ -42496,7 +42496,7 @@ porrici@ē@ris
 hori@a@r
 auctōricā@re@ntur
 conposit@ārum
-līciō
+līci@ō
 quirītāv@erī@mus
 effōrmāv@ērunt
 tropic@ōs
@@ -42536,7 +42536,7 @@ sewer@am
 gaul@ōs
 dētonā@rē@mur
 praeambul@a@m
-corrige@r@e@t
+corriger@e@t
 bull@ō
 dissilu@era@m
 conpellāvisse
@@ -42545,7 +42545,7 @@ resperge@re@m
 praetondē@bo@r
 exercitāv@imus
 braciāv@ī
-permundāt@e
+permundā@t@e
 aeternāv@eri@s
 praevert@i@s
 stupefie@rē@s
@@ -42574,7 +42574,7 @@ perlūt@ūr@ī
 subiūnct@ōs
 assiduā@rē@mus
 mortificā@tis
-lamb@erim
+lamberim
 stīlla@nd@ārum
 cult@ōs
 observātu@ī
@@ -42625,7 +42625,7 @@ fūmāv@ī
 tuē@re@r
 crātērā
 dēsaevi@era@nt
-exporriger@e
+exporrigere
 autumn@e
 spōnsāv@istis
 commiscē@te
@@ -42913,7 +42913,7 @@ glaci@ē@mus
 dēputāv@eri@m
 quadrigōn@ā
 inductōri@ī
-exaequ@ē@tur
+exaequē@tur
 antestā@bā@mus
 adgaudē@rē@s
 fossā@bi@t
@@ -43222,7 +43222,7 @@ superexcucurr@erā@s
 cōnflātōr@i@a
 imprecāt@ōs
 juvenīlis
-congēlo@r
+congēlor
 surrēp@ē@tis
 ōrdin@e@ntur
 cubu@eri@nt
@@ -43252,7 +43252,7 @@ regest@ūr@ō
 supersēmināv@eri@s
 sēduct@ūr@ās
 mātrim@ōs
-adaequē@minī
+adaequ@ē@minī
 competīv@istis
 adproperā@bi@mus
 aerūgin@ī
@@ -43283,7 +43283,7 @@ dēmān@ō
 domina@nt@ēs
 pernegā@bu@ntur
 Brittōn@ī
-imput@ās
+imputās
 abligurrīv@ēre
 antevolā@tōte
 adspīrā@mur
@@ -43466,7 +43466,7 @@ adfā@bā@minī
 bras@ī
 penetrāsse
 inpedīt@ī
-ignōr@ēre
+ignōr@ē@re
 māceriāt@us
 interpellāv@erā@mus
 ēmāns@ūr@ae
@@ -43525,7 +43525,7 @@ dēlinge@nt@īs
 valēsci@tōte
 exciē@te
 dēmōt@ā
-subpetis
+subpet@is
 fabul@ōrum
 conglaciāv@era@t
 circumleg@e@nt
@@ -43544,7 +43544,7 @@ iūbila@nt@e
 interemptōr@e
 illāps@ūr@ō
 turb@ā
-illin@ā@re
+illinā@re
 rēptāv@eri@tis
 initiāt@ōrum
 objūrg@ā@mus
@@ -43611,7 +43611,7 @@ invītissim@um
 adscrībē@bā@tur
 dīiungu@ntō
 condemna@nt@ibus
-ērige@rē@re
+ērige@r@ē@re
 incendē@bā@re
 sectāt@ōrum
 immunditi@ā
@@ -43652,7 +43652,7 @@ occulta@nd@ārum
 jūdica@nd@ōrum
 acrocarp@ae
 obvert@e@nt
-obbrūtēscēns
+obbrūtēscē@ns
 conplic@ē@tur
 plectē@ba@ntur
 mātūrāv@erī@tis
@@ -43674,8 +43674,8 @@ extollē@ba@t
 rescīsc@ē@re
 contemplātiōn@ibus
 pererrā@minī
-restituo@r
-obgerā@re
+restituor
+obger@ā@re
 cōnsēns@ūr@ā
 pābulāt@ūr@ā
 cōnservātiōn@em
@@ -43741,7 +43741,7 @@ calfī@a@t
 dīvīna@nt
 exorbita@nt
 annīti@tor
-dēverr@ā@ris
+dēverrā@ris
 stercorāv@ēre
 superscand@isse@nt
 condēlecta@nt@is
@@ -43757,7 +43757,7 @@ rigid@am
 adlēct@ās
 vituper@e@nt
 similār@ī
-accēnse@ā@s
+accēnse@ās
 concit@ūr@ārum
 oppīlāt@ūrus
 trānsī@ba@t
@@ -43779,7 +43779,7 @@ circumpōnē@bā@minī
 ōminā@bā@tur
 sarcī@re@m
 summovē@bi@tis
-bēbā@re
+bēb@ā@re
 scarpināt@ūrus
 circumsecu@erā@mus
 accers@ā@ris
@@ -43852,7 +43852,7 @@ substerne@rē@re
 sēcubit@ūr@ās
 clēmenti@am
 circumleg@ā@s
-alter@ā@mur
+alterā@mur
 praeleg@e@t
 imprecāt@am
 exaltāv@eri@tis
@@ -43949,7 +43949,7 @@ abit@um
 exsūg@ē@re
 opplē@rē@tur
 hebenin@a
-aequanim@a
+aequanima
 offect@īs
 spectā@re@ntur
 appārē@te
@@ -44013,7 +44013,7 @@ coartā@rē@minī
 patientissim@ārum
 circumdolā@tis
 merita@nd@e
-antīquō
+antīqu@ō
 ambulāt@ūr@um
 alterna@ntur
 prōpunge@rē@re
@@ -44037,7 +44037,7 @@ erythīn@ō
 afflīctā@tor
 prōcūd@e
 trādūcē@ba@nt
-trāloqu@eri@s
+trāloqu@eris
 discrībi@tor
 latrōcināt@ūr@um
 dēpūrāvisse
@@ -44215,7 +44215,7 @@ plagia@nd@ārum
 refūtāv@it
 bēluōs@ārum
 pompilus
-adscend@ēs
+adscend@ē@s
 longiuscul@ā
 invigilā@be@re
 postrēm@ōrum
@@ -44236,12 +44236,12 @@ adopt@e@r
 exterge@a@nt
 rhomboīdē@ōs
 concremā@ba@nt
-lucrifier@ī
+lucrifierī
 liquāt@ūr@ās
 altiti@ae
 concupiscenti@am
 titul@ā
-quadriēr@e@m
+quadriē@r@e@m
 cremāt@ūr@īs
 circumstringe@nd@ōs
 fūmā@rē@re
@@ -44276,7 +44276,7 @@ innūtrie@nd@ae
 ēlici@tōte
 fallāci@am
 rōrāv@erā@s
-adhaes@era@m
+adhaes@er@am
 adipīsc@ī
 expulsāt@am
 vinci@e@nt
@@ -44323,7 +44323,7 @@ tabācāri@ae
 plumbā@mus
 inēbriā@bā@tis
 ferī@rē@minī
-laeder@ē@s
+laede@rē@s
 dissentī@rē@s
 exsculpt@ūr@ōs
 incrēbu@erā@tis
@@ -44378,7 +44378,7 @@ obdulcāt@īs
 reprimā@tur
 āmittē@bā@mus
 cōnsūmpt@ās
-lūdificātōr@ia
+lūdificātōr@i@a
 exposc@e@t
 antecelle@nd@a
 assignificā@re@m
@@ -44493,7 +44493,7 @@ horta@nd@ōrum
 secunda@nt@ēs
 scītāt@īs
 supercertā@be@ris
-bubimus
+bubi@mus
 viātōr@ibus
 postscrīpsisse
 adgera@nd@e
@@ -44515,7 +44515,7 @@ aperī@re@nt
 supinissim@am
 subrēx@ēre
 scazont@um
-exspoliāt@e
+exspoliā@t@e
 circumspecta@nt@ium
 subroga@nt
 abrenūntia@nt@e
@@ -44583,7 +44583,7 @@ mānica@nd@um
 ōrātiōn@ī
 latē@tō
 fabrēfacie@nd@um
-exsūcā@tō
+exsūcātō
 renūncia@nd@īs
 fid@erā@mus
 sumministra@nd@e
@@ -44691,7 +44691,7 @@ exōstr@ārum
 linge@nd@e
 incānēsci@tis
 prōportiōnāl@ēs
-fasc@ē@s
+fasc@ēs
 incitātiōr@a
 lūdiōn@ī
 sarie@nt@e
@@ -44929,7 +44929,7 @@ aggreg@e@ntur
 praesentāv@isse@t
 adtrectāt@ūr@ōs
 iniūr@ae
-accumul@em
+accumul@e@m
 caelāv@erī@tis
 expīl@ē@tis
 incestāv@isse@m
@@ -44987,7 +44987,7 @@ ignōsce@nd@a
 convect@ūr@am
 cūs@ārum
 psittacīn@am
-repa@nd@ārum
+repand@ārum
 lēnā@rē@tur
 substrui@tō
 cēnse@ā@mur
@@ -45050,7 +45050,7 @@ centuriāt@ō
 inputa@nd@am
 iūg@īs
 praefini@e@t
-catīllāre@m
+catīllār@e@m
 subrīs@ūr@ō
 stipe
 peierāv@eri@mus
@@ -45083,7 +45083,7 @@ retendē@bā@ris
 perexigu@īs
 fulcie@nt@ibus
 asciā@bi@s
-caelārī
+caelār@ī
 arcersi@mur
 pervide@t
 singultāt@ae
@@ -45100,7 +45100,7 @@ revehē@ba@t
 abavuncul@ōs
 nigrātō
 solve@nd@ōrum
-postscrī@bi@s
+postscrīb@i@s
 subterdūx@erā@s
 coicie@ndus
 compedī@rē@mur
@@ -45156,7 +45156,7 @@ minōrā@ba@r
 extort@ā
 īnsusurra@nd@ā
 perāct@ae
-dēplē@tis
+dēplē@t@is
 prēns@ē@tis
 exsculpe@nt@ia
 arbitrāv@erā@tis
@@ -45206,7 +45206,7 @@ elesitaiēns@ium
 mēie@nt@ī
 remonē@rē@tur
 cōnscreātūrum esse
-vāricāt@ō
+vāricātō
 inaudi@eri@nt
 lūbricāt@ūr@a
 trānsabi@imus
@@ -45275,10 +45275,10 @@ obsaepī@re
 adiūt@ūr@e
 exsistā@mus
 interim@ē@mus
-pater@ē@re
+pate@r@ē@re
 haereticā@bā@tis
 cōnfite@nd@ā
-reduc@ēs
+reduc@ē@s
 satage@re@m
 perolē@re@m
 banniz@ē@mus
@@ -45314,7 +45314,7 @@ iaspi@ārum
 zōdiac@ārum
 prōflīg@ē@ris
 flexibil@ibus
-incōnsuētā
+incōnsuēt@ā
 ēlacatēn@um
 superāv@eri@nt
 obmordē@bā@mur
@@ -45331,7 +45331,7 @@ expavēsc@ē@tis
 fūmāv@eri@mus
 conplex@ās
 conponu@ntō
-praeintelliga@nt
+praeintellig@a@nt
 sēv@ēre
 recapti@ē@mur
 condēlect@e@ntur
@@ -45440,7 +45440,7 @@ coquīna@nd@ārum
 inaurāv@erī@tis
 dēpende@re@m
 dēvol@e@t
-spōns@e@m
+spōns@em
 compediē@bā@minī
 extrūs@erī@tis
 foederā@ba@nt
@@ -45552,7 +45552,7 @@ opulentitās
 fatīscē@ba@nt
 reglūtināt@um
 reseca@nd@ōs
-circumage@re
+circumagere
 auctitā@bā@s
 propinquā@ba@m
 amtruā@rē@s
@@ -45631,7 +45631,7 @@ dēfatīga@nt@em
 dorycnia
 frēn@ē@mur
 sona@nd@ī
-pia@ntis
+pia@nt@is
 conting@e@nt
 repraesentā@bā@minī
 admēns@e
@@ -45730,7 +45730,7 @@ dēpopulātiōn@e
 oggannie@nd@ī
 cōnfla@nt@ī
 negā@ba@t
-ting@i@s
+tingi@s
 vocitā@bā@minī
 pervex@ī
 coarctā@bā@re
@@ -45746,7 +45746,7 @@ extrāōrdināri@ōs
 surripi@e@t
 oppāns@ūr@ī
 participātiōn@ibus
-exterge
+exterg@e
 mātūr@ē@re
 commole@rē@tur
 cōnser@ē@mur
@@ -45777,7 +45777,7 @@ pervince@re@ntur
 dīlābe@re
 perrupt@ōs
 adsentī@rē@re
-mic@a@t
+mica@t
 trānstul@eri@nt
 ter@es
 succrēv@issē@tis
@@ -45975,7 +45975,7 @@ induē@ba@nt
 convolāt@ōs
 ōvica@nt@ō
 compedī@rē@mus
-caprifīc@ēs
+caprifīc@ē@s
 relinqu@i@mus
 cubita@nd@am
 ēnīte@rē@re
@@ -46005,7 +46005,7 @@ plue@rē@mus
 Āpulēi@ās
 inrētīv@issē@mus
 commūnicā@ba@nt
-coāgulār@ēs
+coāgulā@r@ē@s
 accorporāv@era@m
 aequidistē@tis
 conquest@ūr@ā
@@ -46113,7 +46113,7 @@ resplendu@isse@t
 annotāv@eri@s
 praecept@am
 condēscendo@r
-maledictitā@re
+maledictitāre
 cōnsistiōn@ēs
 mūs@īs
 chimic@ārum
@@ -46123,7 +46123,7 @@ abstergē@bi@tur
 perpoliē@bā@minī
 accūs@āsse@m
 cēnita@ntur
-trabāri@a
+trabāria
 nebul@ās
 ambūre@nd@īs
 ēnūntiābil@ium
@@ -46268,7 +46268,7 @@ cooptā@bā@minī
 dītāv@isse@t
 sabul@ō
 disjici@te
-lucrifēc@it
+lucrifēcit
 fars@erō
 fuscoguttāt@ōs
 subig@ē@mus
@@ -46321,7 +46321,7 @@ praestā@rē@ris
 aegrōtātiōn@e
 circinā@bi@ō
 piscīnāri@ārum
-linqu@ā@re
+linquā@re
 perbrev@em
 scorta@ntur
 exossāv@ērunt
@@ -46329,7 +46329,7 @@ interser@e@nt
 circumligāv@istī
 brevitars@ium
 vāricā@ba@nt
-faece@ō
+faeceō
 exclāmā@bā@re
 pūbu@issē@s
 ēdīce@re@m
@@ -46388,7 +46388,7 @@ exolvē@ba@t
 praedētermināt@īs
 īnsuēsce@nd@e
 grassāt@ū
-obtere@ntur
+obter@e@ntur
 ignōra@nd@ō
 perfōv@issē@s
 ēmargināv@eri@mus
@@ -46453,7 +46453,7 @@ adlabōrāt@ās
 ostent@ē@s
 absolvi@tōte
 lancia@ntor
-hapsidis
+hapsid@is
 ōrnā@tis
 cohortā@minī
 pappāv@it
@@ -46491,7 +46491,7 @@ cessa@nd@a
 assert@ūr@um
 subiuga@nd@e
 nescīv@era@m
-conquass@em
+conquass@e@m
 reclīnāv@issē@mus
 comitāt@ī
 frīgē@bā@minī
@@ -46515,7 +46515,7 @@ adtent@ūr@a
 flīgi@tor
 dēvorātrīc@e
 reterge@nt@ibus
-forficis
+forfic@is
 dētondē@bi@t
 dungi@ō
 ēsuri@ē@tis
@@ -46608,7 +46608,7 @@ lucrāt@ūr@ō
 vīt@e@r
 praefēc@issē@mus
 paetā
-adlaudāt@ō
+adlaudātō
 cōnfirmāt@ū
 adaggerā@mus
 vīnxisse
@@ -46618,7 +46618,7 @@ cōnsci@eri@s
 ēmiscē@minī
 dēperd@a@r
 dēstring@ē@minī
-veterāsce@re@nt
+veterāscere@nt
 dissupa@nt@e
 circumvolā@ris
 fuge@re@t
@@ -46630,12 +46630,12 @@ alumna@nd@ō
 aequidistāv@issē@mus
 epilēptic@īs
 clūde@rē@re
-profectīti@a
+profectīt@i@a
 clāmit@ē@minī
 dēsistā@mus
 conpediē@ba@t
 discurre@rē@tis
-manūtene@ātis
+manūtene@ā@tis
 apputāt@ūr@ō
 prōgigni@tur
 irrīsiōn@ēs
@@ -46854,7 +46854,7 @@ dēlectābil@ī
 exagitāt@ū
 cōnfictiōn@ī
 fēllā@rē@minī
-impedī@t@ō
+impedī@tō
 sententiar@ia
 ventitā@re@nt
 adaerāt@us
@@ -46936,7 +46936,7 @@ revīc@isse@t
 dīripu@eri@nt
 jung@ā@s
 caumāv@imus
-onomatopoec@am
+onomatopoer@am
 dēvēn@erī@mus
 hauriu@ntur
 obsecrā@bi@tur
@@ -47022,7 +47022,7 @@ altaic@ae
 commixt@ārum
 narcissītid@em
 venerā@be@re
-reple@nd@ō
+reple@ndō
 bromeliāce@ōs
 prande@a@r
 nequī@bā@tur
@@ -47061,7 +47061,7 @@ abject@ārum
 quaestuōsissim@ae
 succīnct@ūr@ōs
 dētrahe@rē@tur
-collin@ā@tur
+collinā@tur
 adlēgāv@it
 reterge@nt@īs
 cōnsere@re@t
@@ -47107,7 +47107,7 @@ gravit@ē@re
 anhēla@nt@e
 aspect@īs
 albicāt@ū
-exsolūtiō
+exsolūti@ō
 multidentāt@am
 baccā@ba@ntur
 lentāv@issē@tis
@@ -47213,7 +47213,7 @@ perobscūr@īs
 media@ntor
 oblite@r@e@nt
 torquē@re@t
-afformīdātō
+afformīdā@tō
 gemin@ē@minī
 hilarā@bi@tis
 dehonestā@re@m
@@ -47327,7 +47327,7 @@ virgul@am
 comprōmitte@nt@ium
 interpunge@rē@mur
 supportāt@ā
-aerūc@a@m
+aerūc@am
 blandi@ā@mur
 astrificārī
 pervic@ōs
@@ -47539,7 +47539,7 @@ porrect@īs
 accende@re@ntur
 compungi@tō
 cōnsimilā@bi@tur
-invidiōsi@ōr@um
+invidiōsi@ōrum
 gammō
 tranquillā@bi@mur
 adfīgi@mus
@@ -47780,7 +47780,7 @@ cāv@eri@t
 accīd@issē@mus
 cuciu@ntō
 ēmigrā@rē@s
-interser@ās
+interser@ā@s
 excurrē@bā@re
 inlaqueāv@issē@s
 morbifica@nd@ō
@@ -47842,7 +47842,7 @@ fuscicoll@ibus
 renīde@ō
 ābaet@ō
 ammordē
-indifferent@ēs
+indiffere@nt@ēs
 percīd@istī
 podē@ba@t
 tacitul@am
@@ -47872,12 +47872,12 @@ cub@ē@tis
 subust@ūr@ōs
 rarefaci@ā@mus
 coopert@ūr@ae
-inductōr@ium
+inductōr@i@um
 adtrah@ē@mus
 corbīt@ās
 fōrmāv@isse@m
 Marōnē@e
-onocentaurō
+onocentaur@ō
 dēsūme@re@ntur
 racēmōs@ōrum
 submīs@istis
@@ -47909,7 +47909,7 @@ rotā@tōte
 trānsmea@nt
 ēscend@isse@t
 obpugna@nd@ās
-meritōr@i@um
+meritōr@ium
 advocāment@a
 reflāgitātum esse
 silesic@ās
@@ -47943,7 +47943,7 @@ condūcē@ba@ntur
 connīvē@ba@t
 cantillāv@erī@tis
 resalūta@nd@ō
-baub@ā@tur
+baubā@tur
 coincid@am
 petess@ē@s
 circumcumulāv@isse@m
@@ -47977,7 +47977,7 @@ office@rē@minī
 ēdormi@isse@m
 obstupefī@ā@tis
 indemn@e@m
-circulār@ium
+circulārium
 mīnātiōn@ī
 disparā@rē@tis
 nerion
@@ -48010,7 +48010,7 @@ contribūtiōn@um
 scab@ā@mus
 obstrict@ī
 circumag@am
-ingemis
+ingemi@s
 ostracītid@ibus
 illini@ā@re
 perlinu@ndus
@@ -48102,7 +48102,7 @@ scōpāt@ūr@e
 resorbē@bi@minī
 prōpul@erā@s
 pingu@īs
-drindīte
+drindīt@e
 percutie@nd@ā
 verbera@nt@is
 tulli@īs
@@ -48142,7 +48142,7 @@ domitā@ns
 quirrīta@nt@ō
 inpinge@nd@ae
 conpīlāv@eri@mus
-nōtit@ūr@ī
+nōtitūr@ī
 lēni@ā@minī
 nigrā@re@m
 submūt@ās
@@ -48452,7 +48452,7 @@ ventitā@ba@t
 ērūgāvisse
 scie@nd@a
 inprobitā@t@is
-būr@a
+būra
 hospitālissim@ae
 coargui@mur
 obserāv@issē@mus
@@ -48570,11 +48570,11 @@ maest@ās
 praevīd@erī@tis
 subsign@ō
 ammutil@ē@mus
-parcā@ris
+parc@ā@ris
 pāgus
 dēlīberā@ba@nt
 expedie@nt@ēs
-ammone@ō
+ammoneō
 absentīv@īs
 tremēsce@rē@minī
 dīvexa@nt@ī
@@ -48582,7 +48582,7 @@ dīvexa@nt@ī
 āridissim@e
 dētorru@erā@tis
 īnstīll@ē@minī
-circumteneō
+circumtene@ō
 ēnārrāv@ēre
 furfurāce@ā
 sceptic@īs
@@ -48661,7 +48661,7 @@ concrēdē@bā@minī
 perfunde@rē@mus
 incaelāt@us
 obedē@ba@m
-rubricosta
+rubricost@a
 abditīv@ī
 intercipiē@bā@re
 fornicāt@am
@@ -48822,7 +48822,7 @@ cōnspars@īs
 obsorpt@ūr@ōs
 dealbāv@ī
 dīde@nd@ās
-īnfāmī
+īnfām@ī
 adpertinu@eri@m
 dēfaecāv@eri@m
 spērāt@ae
@@ -48844,7 +48844,7 @@ nebrītid@ibus
 adsue@nd@ō
 induu@ntor
 abiūrgātum īrī
-c@āss@e@m
+c@āsse@m
 incole@re
 difficil@ium
 intercīdē@ba@ntur
@@ -48896,7 +48896,7 @@ rewadiāv@eri@s
 ātrophica@nt@is
 arrīdē@bu@nt
 ā̆stūt@ī
-pāc@ā@re
+pācā@re
 ēlūctābilis
 exfoliā@bā@tur
 dēvent@ūr@am
@@ -49542,7 +49542,7 @@ hariolāt@ārum
 sarru@it
 pernē@bu@ntur
 accūsāv@era@m
-comprob@e@nt
+comprobe@nt
 scēnic@ō
 oborie@nt@e
 sanguinolent@um
@@ -49580,12 +49580,12 @@ formīd@ā@s
 horizont@ās
 reposce@rē@s
 lānōs@ās
-recubā@t@e
+recubāt@e
 exaudi@ā@ris
 inproperā@tor
 plaus@ōrum
 ēnūbe@ndus
-rube@ā@s
+rube@ās
 putrefacie@nt@ium
 mūtā@stī
 nīdificāv@ērunt
@@ -49609,7 +49609,7 @@ gelāt@ae
 prōterrit@am
 astronomic@ōs
 ūrīnāv@erā@tis
-tenuā@mus
+tenu@ā@mus
 incultiōr@is
 exināni@ē@tur
 obscūrātiōn@ibus
@@ -49676,7 +49676,7 @@ percrībr@ē@re
 stīllā@bi@tur
 cōnīvent@ia
 pluviātic@ō
-sci@i@mus
+sci@imus
 purpurā@rē@minī
 persect@us
 relinqu@ā@ris
@@ -49860,7 +49860,7 @@ glāreōl@ā
 mergi@minī
 submove@nt@ō
 coagmentā@be@re
-temnā@re
+temn@ā@re
 praeōrdinā@bā@mus
 īnsu@ā@minī
 inlūstrā@bi@mus
@@ -50006,7 +50006,7 @@ inlūstrā@minī
 aceriflōr@a
 trādidimus
 pullāt@e
-pave@nd@um
+pave@ndum
 saet@ārum
 adgera@nt@ī
 remeā@bā@ris
@@ -50193,7 +50193,7 @@ mūnīv@eri@s
 obtrūde@nt@ibus
 īnfāmā@re@ntur
 dēprim@ē@s
-obsordēscēns
+obsordēscē@ns
 exsulāv@isse@t
 congiāria
 circumarāv@erā@s
@@ -50282,7 +50282,7 @@ pūt@ē@mus
 īnsidē@re@r
 dēmandāv@imus
 superoccupā@re@t
-commūnic@a@ntur
+commūnica@ntur
 repropitiāt@ūr@ās
 patie@nd@ōs
 abjuga@nd@e
@@ -50291,7 +50291,7 @@ pampinā@ba@m
 ambiguus
 illūmina@ndus
 porcell@ās
-dēbilite@r
+dēbilit@e@r
 adbella@nd@ī
 pollicāria
 cooperī@rē@mur
@@ -50407,7 +50407,7 @@ recēdi@tōte
 līvē@bi@tis
 coacerva@nt@ibus
 conputā@be@ris
-commentīcium
+commentīc@ium
 dēfīnīv@erā@s
 vēlificā@bi@tur
 inice@rē@s
@@ -50481,7 +50481,7 @@ būcul@ās
 loquēll@ae
 circumtrahē@bā@minī
 praesūmps@issē@mus
-mol@er@is
+mol@eris
 praemonē
 adsociāv@erī@mus
 plange@ndus
@@ -50521,7 +50521,7 @@ lēvigā@re@r
 arēnāce@ōs
 scrūtā@ris
 rubid@ā
-mēnsūrā@tur
+mēnsūr@ā@tur
 culp@e@r
 animōsissim@ās
 fabāgin@ō
@@ -50561,7 +50561,7 @@ dēcoll@ās
 torpe@nt@e
 pertrānsit@ōs
 exasperātrīc@e
-dījūdicā
+dījūdic@ā
 probā@re
 ape@nd@ae
 lēctā@bā@s
@@ -50602,7 +50602,7 @@ calcarāt@um
 obtrīv@era@nt
 clārē@tō
 adpellā@ba@ntur
-condumn@ē@re
+condumnē@re
 admutilātum īrī
 caumā@bu@nt
 ēlectricitāt@em
@@ -50707,7 +50707,7 @@ frēg@ērunt
 īnfers@erō
 illūdi@tor
 integritūdin@em
-restaur@e@r
+restaure@r
 remora@ntur
 ēvola@nd@ō
 lupell@um
@@ -50777,7 +50777,7 @@ allēg@ā@t@is
 exstrūx@ērunt
 scōpāri@ās
 fūnerāv@eri@s
-glaucēsce@nt@ī
+glaucēscent@ī
 obstupefēc@ī
 sociālitāt@ēs
 cōnstuprāv@issē@mus
@@ -50849,7 +50849,7 @@ incēde@rē@mus
 sēcrēt@ūr@ī
 perfōv@isse@t
 refectum esse
-ters@erā@s
+ters@erās
 formīcā@mus
 āeromantī@ās
 admodula@nd@e
@@ -50940,7 +50940,7 @@ innata@nd@ārum
 nemorōs@am
 dērīs@isse@t
 perpetua@nt@ēs
-reprehēnsōr@is
+reprehēnsōris
 exhibe@nd@e
 jocā@minī
 coniūcundāt@ārum
@@ -50951,7 +50951,7 @@ allevā@ba@ntur
 reconciliāv@it
 allectāt@ūr@ō
 trichech@ōs
-circumd@ās
+circumd@ā@s
 dēcolōra@nd@am
 commentāt@ae
 pēde@nt@ium
@@ -51122,11 +51122,11 @@ hebetātiōn@um
 suprāsedē@bi@tis
 conglūtinā@rē@mur
 immūtā@mur
-reprōmissōr@is
+reprōmissōris
 astipulā@re
 cēntiman@īs
 sectāt@ōs
-cōnsipi@te
+cōnsipite
 ēierē@mur
 oss@e
 cōnsenēscē@bā@tis
@@ -51195,7 +51195,7 @@ adsentie@nd@ī
 dēterrim@ae
 angariāt@ūr@ōrum
 adjunge@rē@mus
-attondē@tis
+attond@ē@tis
 dēvāstā@ris
 stīpāv@erā@s
 disgregātiōn@ibus
@@ -51520,7 +51520,7 @@ pinguēdin@e
 vīlicāv@istī
 dērigē@bā@tis
 argillōs@e
-prehend@ē@re
+prehend@ēre
 prophēt@e@ntur
 digita@nd@ae
 nūntiātōr@ium
@@ -51664,7 +51664,7 @@ prōtrīv@issē@mus
 adamātūrum esse
 conpugnāt@ūr@am
 vocāt@ūr@a
-cōnsarrio@r
+cōnsarrior
 pilāt@ā
 aurīga@nd@īs
 rutilāt@īs
@@ -51681,7 +51681,7 @@ dēversum īrī
 cōnspectum īrī
 nepalēnsis
 conbust@ōs
-iūbila@nt@is
+iūbila@ntis
 recoct@ī
 rarefaciē@bā@s
 ingenera@nt@e
@@ -51714,11 +51714,11 @@ opperīt@ūr@ōs
 veh@ā@mus
 ōrā@stī
 abarce@a@r
-recolligere
+recollige@re
 catīllā@r@ē@tur
 celerā@tor
 uss@eri@nt
-myocard@i@a
+myocard@ia
 plācā@bā@mus
 dēvect@ūr@ōrum
 persānāv@isse@t
@@ -51815,7 +51815,7 @@ interiūnx@ēre
 lēvigāv@issē@s
 exhibu@erā@s
 recollēg@isse@t
-combūr@i@s
+combūr@is
 ululā@bā@re
 suffīge@nd@am
 re@ar
@@ -51939,7 +51939,7 @@ limbāt@us
 pampināv@eri@s
 pyrotechnic@ī
 domināt@a
-conper@era@m
+conper@eram
 violāv@ī
 intext@ūr@ā
 interfātiōn@e
@@ -51980,7 +51980,7 @@ praetemptāt@ū
 astronomi@īs
 apprōmitti@tor
 breviloqu@ium
-tremīsce@nd@um
+tremīsce@ndum
 reflecte@re@m
 miliāce@um
 moribund@a
@@ -52012,7 +52012,7 @@ alternā@bu@nt
 circumsiliē@bā@tis
 testificātiōn@um
 dēmiss@ās
-inminu@is
+inminuis
 abjūrga@nd@ōs
 ūrēthr@ārum
 remūnerā@bu@nt
@@ -52197,7 +52197,7 @@ postulāv@era@m
 cōnfortā@re@m
 ātrabīlāri@ārum
 subpōnu@nt
-adamplie@m
+adampli@e@m
 vēnī@bā@ris
 tāleol@a
 lētā@bi@s
@@ -52358,7 +52358,7 @@ vesper@ī
 anteviā@rē@mur
 lēctissim@ārum
 circumsecu@eri@t
-calceolār@ium
+calceolārium
 inaugur@ē@mus
 frīgēsce@ndō
 inēbriāv@it
@@ -52389,7 +52389,7 @@ perīclitāt@ūrus
 cānitiē
 īnfer@re@ntur
 abstinē@tor
-trahi@s
+trahis
 disice@rē@tur
 edūlis
 adampliāt@e
@@ -52599,13 +52599,13 @@ fungīn@ō
 argūmentāt@us
 angustā@ba@m
 nequi@erī@s
-commade@ntis
+commade@nt@is
 cōnfutuē@bā@s
 ābuje@nt
 accept@e@nt
 accelerā@rē@ris
 pervagāt@ōs
-clauda@ntur
+claud@a@ntur
 intrōgredi@ē@ris
 mūtu@ā@mur
 renūnci@e@ntur
@@ -52716,7 +52716,7 @@ exturb@ē@tis
 exspectā@rē@s
 scandaliza@nd@ōrum
 lārvā@bu@ntur
-mīlifoli@a
+mīlifolia
 albānic@ae
 subnāvigā@tur
 aspu@erā@tis
@@ -52893,7 +52893,7 @@ conlīs@isse@t
 aequilībri@ōrum
 indaudi@erī@tis
 iūridic@ō
-dispereu@nd@um
+dispereu@ndum
 adaequāv@erī@s
 mōliē@bā@ris
 pūlicāri@ōs
@@ -52937,7 +52937,7 @@ superefflui@s
 dīdūcē@bā@tur
 exscrīb@ē@s
 celebra@nt@is
-posthabu@imus
+posthabu@i@mus
 conpass@ūr@ae
 birēm@ī
 invītā@mus
@@ -53136,7 +53136,7 @@ connumerā@bi@ō
 mūnie@nd@ae
 firma@nd@ō
 incūs@ē@mur
-dēspērātiōr@um
+dēspērātiōrum
 expavid@am
 conglaciāv@eri@tis
 exsufl@ē@tur
@@ -53150,7 +53150,7 @@ dēvolvē@bā@mur
 vaecord@ēs
 cōnsūt@ūr@e
 spopond@eri@m
-coquīnī
+coquīn@ī
 pertorquē@bu@ntur
 ēmāns@ūr@ā
 abortāv@eri@mus
@@ -53320,7 +53320,7 @@ acul@īs
 carnivor@a
 rūbīginā@be@re
 reprim@ē@mus
-venīli@am
+venīli@a@m
 obtrectātōr@is
 dēspōns@ūr@ās
 pluviōs@ōs
@@ -53391,7 +53391,7 @@ adaequā@bā@ris
 catēcizā@bā@re
 miscu@erō
 crucifīgu@ntur
-impingu@ēs
+impingu@ē@s
 largissim@ōs
 suēsc@ā@tur
 commoda@nd@ī
@@ -53441,7 +53441,7 @@ subclass@ēs
 faete@ā@re
 respici@ā@mus
 catēnā@tur
-firmissimus
+firmiss@imus
 regress@ō
 mere@a@ntur
 praecurri@tur
@@ -53532,7 +53532,7 @@ assuēsci@te
 vulnerātiōn@ī
 ēducā@bi@mur
 suffusc@ōs
-implērē@s
+implē@rē@s
 plaus@ās
 mēi@e
 torris
@@ -53616,7 +53616,7 @@ competi@era@nt
 īnspicie@nt@ia
 ēvom@ē@tur
 pampinā@bi@s
-bib@ē@re
+bib@ēre
 sabbatizāv@eri@t
 col@ē@ris
 adhērēscē@ns
@@ -53762,11 +53762,11 @@ dēspice@rē@ris
 commōnstrā@bā@s
 recentiōr@is
 suppete@rē@tur
-sēmove@ntur
+sēmov@e@ntur
 bell@ōrum
 suppeti@it
 Dalecarliēns@ī
-expoli@ā@tur
+expoliā@tur
 suprādīx@erā@s
 intempest@ōrum
 adplumbāv@erī@s
@@ -53977,7 +53977,7 @@ ascendi@t
 omīs@erā@tis
 casānic@ae
 sapphīrin@am
-bibōni@us
+bibōnius
 oliganth@ōs
 cylindrāce@um
 adtemperāt@īs
@@ -53999,7 +53999,7 @@ scrīptitās
 obvolv@isse@m
 exsultāvisse
 adlu@istī
-praemūnītis
+praemūnī@tis
 dīmicāt@ōrum
 cālīga@nt@ēs
 plumba@nt@ibus
@@ -54090,7 +54090,7 @@ interiaciē@bā@minī
 dīmānā@mus
 restīnx@erī@mus
 mact@e@t
-pepig@er@ī@s
+pepig@er@īs
 excremāv@eri@tis
 dēnega@nd@am
 adlevāv@eri@s
@@ -54104,7 +54104,7 @@ inhorru@istī
 subtract@ūr@īs
 superoccupā@ba@t
 fermenta@nt@is
-tēligerum
+tēliger@um
 collūsor
 sollicitā@bā@tur
 compecīsc@ā@mur
@@ -54121,7 +54121,7 @@ cōnfectūrāri@e
 impermisc@ē@mur
 exsorpt@ūr@am
 ēmollī@rē@mus
-rubēscerē@s
+rubēsce@rē@s
 nōdā@bi@s
 penuāri@ōs
 vēnunda@ntur
@@ -54198,7 +54198,7 @@ perlābē@bā@mur
 effrēg@istis
 subjiciē@bā@tur
 Scantīni@ōs
-pollūcē@ris
+pollūc@ē@ris
 sectā@rē@re
 rebo@ē@ris
 refric@ē@minī
@@ -54338,7 +54338,7 @@ exulula@nd@um
 resupīnāv@ēre
 contrādīcē@bā@re
 flāgitāt@ūrus
-pācific@ē@re
+pācific@ēre
 eupetalon
 chȳm@ī
 dapināt@ārum
@@ -54526,7 +54526,7 @@ dēsin@e@ntur
 exasperāvisse
 ērūctāv@ēre
 inganna@nt@ō
-praeōrdin@em
+praeōrdin@e@m
 dēfode@re@r
 acquiēscē@bā@tis
 oblit@am
@@ -54554,7 +54554,7 @@ occīd@issē@s
 perrump@ā@s
 rebellāt@ūr@īs
 dēceptīv@ōrum
-dēlibr@ās
+dēlibrās
 sēvoca@nt@ibus
 resīde@nt@em
 inprōvīs@ā
@@ -54617,7 +54617,7 @@ sternocleidomastoīde@ī
 fraena@nt@e
 capta@nd@ī
 assevērā@rē@mur
-nārī
+nār@ī
 abrūp@issē@tis
 colliquēsci@tō
 badissāv@eri@tis
@@ -54670,7 +54670,7 @@ prōcubu@issē@tis
 obversāt@ī
 umbilicāt@us
 īnstrīnx@eri@mus
-commate
+commat@e
 nē@ba@t
 dēfutūt@ā
 articul@e
@@ -54896,7 +54896,7 @@ continua@nd@ās
 poposci@mus
 praenotā@bā@tur
 assequi@tor
-caca@b@ā@re
+caca@bā@re
 dīgere@nt@is
 inperti@eri@nt
 factāt@ū
@@ -55053,7 +55053,7 @@ prōiect@ūr@īs
 inquiētā@bā@re
 lēctitāv@eri@m
 herb@am
-iug@ī
+iugī
 prŏnept@ibus
 silēsc@ā@s
 pī̆stā@bā@s
@@ -55122,7 +55122,7 @@ decadic@ae
 praeōrdinā@bā@minī
 sīd@erā@tis
 dēportāv@issē@tis
-quaesi@era@m
+quaesi@eram
 locell@ō
 diaphorēs@ēs
 camarāv@eri@tis
@@ -55168,7 +55168,7 @@ sērice@ārum
 rēgīn@ae
 adbreviāv@ērunt
 benefēc@issē@mus
-trānsabīte
+trānsabīt@e
 prōventum esse
 eupli@ārum
 pavefacie@ndus
@@ -55177,7 +55177,7 @@ adclīnāvisse
 viā@rē@tis
 inhia@nt@ia
 grācul@ō
-imputo@r
+imputor
 glōrificāv@ērunt
 inalta@nt@īs
 hebetāv@isse@m
@@ -55216,13 +55216,13 @@ vērificāt@ūr@ārum
 trānspūnctum īrī
 dīviti@ārum
 advola@nd@ās
-aequ@e@ntur
+aeque@ntur
 perara@nt@ēs
 ignōr@āssē@tis
 allaudā@rē@tis
 Sulpici@ārum
 superspērā@bi@t
-nōte@a@m
+nōte@am
 grīse@ā
 circumpung@ē@mus
 sentificāt@us
@@ -55541,7 +55541,7 @@ paternāl@ia
 exfrica@nd@ā
 orestiō
 inlūmin@ē@tur
-cōnsēns@uum
+cōnsēns@u@um
 conplānāv@erī@tis
 interpretāt@ae
 conglūtināv@ī
@@ -55560,7 +55560,7 @@ appropriātō
 praeoptāv@eri@t
 ēveh@ē@mur
 intercestrīx
-requīrā@minī
+requīr@ā@minī
 nāviger@um
 exige@nt@ium
 inlaque@e@r
@@ -55588,12 +55588,12 @@ intersitum īrī
 interpolā@bo@r
 anima@nd@ī
 supprimi@tōte
-Acīliō
+Acīli@ō
 itera@nt@ium
 sēmove@nd@um
 canāliculus
 effl@e@t
-circumaedific@ās
+circumaedific@ā@s
 imbibe@re@m
 aggregā@ba@ntur
 inhālāt@ūr@e
@@ -55618,7 +55618,7 @@ tollere
 aequor@ibus
 prōpung@ē@s
 abscess@a
-conper@iss@e@m
+conper@isse@m
 vigōrā@be@ris
 coēmpt@ūr@ōrum
 circumiace@ndō
@@ -55733,7 +55733,7 @@ fascin@ē@mur
 cōnsummā@bā@re
 implēt@ūr@e
 indulca@nd@ōs
-reside@nd@ō
+reside@ndō
 accorporāt@ūr@ī
 victrīc@em
 dēprecātrīx
@@ -55823,7 +55823,7 @@ dēfric@ē@tis
 lutōs@ae
 mortificā@bā@mus
 ūsūrpo@r
-sēmit@ās
+sēmitās
 longiceps
 cōnsecrā@rē@mur
 penetrā@bā@ris
@@ -55835,7 +55835,7 @@ suspende@nd@ī
 interplicāt@ū
 cremā@ba@t
 ululā@be@ris
-firmā
+firm@ā
 noctēsce@re@t
 scinde@nt@em
 īnsect@ūr@ō
@@ -55852,7 +55852,7 @@ ganāv@it
 conquaesīt@ōs
 lūctā@bi@tur
 dēdūc@a@r
-crūdēsce@rē@s
+crūdēscerē@s
 inpedīv@eri@t
 fabric@e@t
 obumbr@ē@s
@@ -55956,7 +55956,7 @@ exufflā@bi@mus
 circumlocūt@us
 tribūtōri@ārum
 iūdicā@tur
-jūdiciāri@us
+jūdiciārius
 exopta@nt@ibus
 tēliger@ās
 accommodā@bi@s
@@ -56108,7 +56108,7 @@ abnōdāv@ēre
 revell@era@t
 obrogo@r
 paschāl@īs
-cōnsīd@erim
+cōnsīd@eri@m
 dīmēns@ōs
 perde@re@m
 quālificāt@ōrum
@@ -56210,7 +56210,7 @@ ligūri@imus
 exciē@ba@r
 ariet@e@nt
 scid@istī
-offēnsi@ōr@um
+offēnsi@ōrum
 frauda@nt@ium
 largīte
 inimīciōr@em
@@ -56566,7 +56566,7 @@ cōnfederātiōn@em
 indiscussibil@e
 asperā@bā@s
 circumspect@ae
-oblin@i@s
+oblin@is
 redintegra@t
 Abantius
 oliganth@ī
@@ -56792,7 +56792,7 @@ aequiperāt@ō
 dēcidi@tōte
 affla@ntor
 abscondē@bā@mus
-lībr@ā@mur
+lībrā@mur
 sectāt@ūr@ōs
 antegress@ūr@ae
 congoān@ās
@@ -56840,7 +56840,7 @@ ubicātiōn@um
 aux@isse@m
 interlinē@bā@minī
 illēct@e
-faecum
+faec@um
 hypoglōss@īs
 retendu@ntō
 honōrific@ā
@@ -56931,7 +56931,7 @@ nūntia@nd@ārum
 circumcalcā@re@r
 adpete@nt@is
 deambulāv@isse@nt
-flīgī
+flīg@ī
 cōnsulēns
 pecūl@e@ntur
 dēmers@it
@@ -57043,7 +57043,7 @@ ogger@ā@mur
 necte@nt@īs
 īnflex@ōrum
 clāma@nt@īs
-dēsterna@ntur
+dēstern@a@ntur
 cū̆stōdie@nt@ī
 praemiss@ūr@um
 ēvehē@ba@r
@@ -57076,7 +57076,7 @@ pavērī
 abolēfact@ūr@ōs
 adbreviāt@us
 caballicāv@era@m
-impōna@nt
+impōn@a@nt
 stēlla@ndus
 aequidistē@ris
 cocē@bā@ris
@@ -57144,7 +57144,7 @@ prōferi@minī
 accūsā@bā@ris
 ēvapōrā@bā@tur
 attractiōn@em
-hāmiōtā
+hāmiōt@ā
 citharizāv@issē@mus
 pleurāl@ī
 angul@ōrum
@@ -57215,7 +57215,7 @@ ablocāv@erā@s
 inaurā@ba@r
 refigūro@r
 latīnizāt@ūrus
-silēsce@nt@ia
+silēscent@ia
 ap@a@nt
 praeservāv@issē@s
 redamāv@erī@s
@@ -57377,7 +57377,7 @@ obsordēsci@tōte
 adquīsīv@isse@nt
 teg@a@r
 aspīrā@tor
-certiōr@a@ntur
+certiōra@ntur
 palūdōs@ōrum
 collabōrās
 ambonēns@ēs
@@ -57397,7 +57397,7 @@ exstingu@ō
 māteria@nd@am
 āvi@e
 īnfāmā@rē@ris
-intega@ntur
+integ@a@ntur
 meritum esse
 auctiōnā@re@r
 conpetē@bā@minī
@@ -57405,12 +57405,12 @@ refrīgerāvisse
 dīduct@ūr@īs
 pigrātō
 prōlixitāt@e
-abac@um
+abacum
 init@am
 subīv@ī
 medicāt@ūr@ōs
 maerē@bā@tis
-vēnumdatō
+vēnumdat@ō
 adpetisse@re@r
 conglōrificā@bi@mur
 illūcēsc@ē@s
@@ -57454,7 +57454,7 @@ incitāment@ī
 cāsiāri@ā
 conclūs@eri@nt
 prōpūrga@nd@ōrum
-vie@ās
+vie@ā@s
 ēmerg@ē@tis
 occumbe@rē@mur
 conbib@erō
@@ -57504,7 +57504,7 @@ praevīd@istī
 tibetān@am
 rennue@nd@ōs
 pāscitātūrum esse
-contemnā@mus
+contemn@ā@mus
 inlūmināv@istis
 telōnēī
 scālā@ris
@@ -57528,7 +57528,7 @@ mūsculōsus
 dīmidior
 reliqua@nt@ibus
 ēiūra@nt
-chalā@rē@re
+chalā@rēre
 sarpt@ārum
 porrect@ūr@ō
 conrīde@t
@@ -57547,7 +57547,7 @@ apstinu@erā@tis
 praedocu@isse@t
 psalmison@ōs
 prŏpīnāv@eri@mus
-longinqu@ā@s
+longinqu@ās
 excre@e@r
 dēmulct@ae
 redama@ntur
@@ -58033,7 +58033,7 @@ antecess@ī
 admutila@nt@ia
 ūmectā@re@m
 ventita@nt@ium
-adminiculā@r@e@m
+adminiculā@re@m
 symmētric@ō
 longiturnitāt@ibus
 taxic@a
@@ -58261,7 +58261,7 @@ obdormīsc@a@m
 not@ē@tur
 execrā@bā@tur
 dēsect@ūr@ōrum
-dēsit@ī@s
+dēsit@īs
 conditīv@ās
 perstrep@ē@tis
 recōgitāv@ī
@@ -58279,7 +58279,7 @@ adaptāv@ī
 satag@ē@tis
 oppeti@istis
 excandēsc@a@nt
-coelit@e@m
+coelit@em
 cīmex
 urca@t
 praeservāv@eri@mus
@@ -58335,7 +58335,7 @@ perterrē@re@nt
 incūsāv@ērunt
 suspīra@nd@ōrum
 mystēria
-intenti@ō
+intentiō
 col@um
 abōminōs@ī
 capsulāt@e
@@ -58355,7 +58355,7 @@ vom@ē@tur
 mellāv@isse@m
 recubāv@eri@mus
 acūminā@mus
-remollēscere
+remollēsce@re
 terminātōr@ī
 expelli@tur
 pigritā@bā@tis
@@ -58719,7 +58719,7 @@ trānsfīgā@minī
 ēnata@nd@ae
 reverbera@nd@īs
 ināniloqu@ī
-polysēm@ō
+polysēmō
 dēserē@ns
 hydrōpic@ās
 excruciā@re@nt
@@ -58863,7 +58863,7 @@ phagedaenicus
 dīvāric@ā@mus
 sordē@re@m
 exercit@ūr@ōs
-treme@ndum
+treme@nd@um
 commadē@tōte
 termināv@erā@mus
 pūlicārium
@@ -58875,7 +58875,7 @@ occāt@ū
 circumtent@ūr@ō
 rōborāt@ūrus
 dēstināt@a
-suspī@rē@minī
+suspī@r@ē@minī
 īnsultāt@us
 excīrī
 percōla@nd@ae
@@ -59049,7 +59049,7 @@ sībil@ōrum
 abligūrītiōn@em
 dēsi@ī
 ēmicā@bā@re
-exstit@ē@re
+exstit@ēre
 clepe@nd@am
 sop@ōrum
 ēvacuāt@ūr@e
@@ -59078,12 +59078,12 @@ hiemāv@eri@s
 affūs@ās
 incrū̆sta@ntor
 collabōra@ntur
-revocā@t@is
+revocā@tis
 canarin@īs
 inca@ntor
 effricā@bi@mur
 adjacē@bā@mus
-titāni@a
+titān@i@a
 relangŭ@eri@s
 scabīn@ōrum
 ventitā@bi@ō
@@ -59160,7 +59160,7 @@ abōminābil@īs
 verge@nd@ī
 revirēscē@bā@tis
 incendiārius
-nigreō
+nigre@ō
 suppositiō
 dodecaēdr@ī
 permitte@nt@ium
@@ -59441,7 +59441,7 @@ cataplasmā@mur
 cessātum esse
 lepid@ia
 revert@erī@mus
-rūstic@ēre
+rūstic@ē@re
 obiūrgā@bi@minī
 satiric@ae
 dēprāv@e@r
@@ -59509,7 +59509,7 @@ ambrosi@ae
 camera@nd@am
 adplaude@re
 contexu@istis
-reclīnātōr@ia
+reclīnātōr@i@a
 vecta@nt@ium
 ecferāv@eri@tis
 spūmā@ba@r
@@ -59578,7 +59578,7 @@ convolāt@a
 adulēscēns
 ēducāv@isse@t
 appropia@nd@ārum
-fulme@nt@ī
+fulment@ī
 contundē@bā@tur
 concordissim@um
 interrogāt@ūr@ās
@@ -59629,7 +59629,7 @@ nūbigenus
 dēiugā@ba@r
 increpitā@ba@ntur
 tepu@eri@s
-abnuitiō
+abnuiti@ō
 explēv@istis
 gentīlici@ō
 dōnāv@eri@s
@@ -59756,7 +59756,7 @@ strue@nt@ibus
 resolv@a@m
 īthyphallicus
 posit@ūr@e
-allu@ā@tis
+alluā@tis
 regenerāv@erī@mus
 fēmināl@ium
 dulcēsce@nt@em
@@ -59801,11 +59801,11 @@ obstruē@ba@m
 architectā@rē@ris
 perfricu@eri@nt
 repūrga@nd@ās
-īnstīg@ā@s
+īnstīgā@s
 furcāt@e
 exēmpt@ūr@ā
 nitu@erā@tis
-trānsscrībi@mus
+trānsscrīb@i@mus
 annūll@e@t
 congruenti@am
 fug@ē@minī
@@ -59882,7 +59882,7 @@ alligā@bā@minī
 cognōmināv@erī@s
 relēgāt@ūr@ārum
 digna@nd@ā
-excor@ie@m
+excor@i@e@m
 pānct@ās
 dissimulāv@issē@mus
 percuss@ūr@ōrum
@@ -59891,7 +59891,7 @@ accūss@e@ntur
 commande@re@m
 cōnfringe@nd@a
 intempestīv@um
-ēlectricitā@t@is
+ēlectricitāt@is
 perlavā@bā@mus
 renu@ā@mus
 contex@ā@mus
@@ -59969,7 +59969,7 @@ commentātiōn@em
 dēfend@era@t
 sedīl@ibus
 coep@e
-maledictō
+maledict@ō
 furnāce@a
 concēde@nt@em
 abjugāt@ūr@ōrum
@@ -59999,7 +59999,7 @@ aspici@ā@ris
 dēcolōrāt@ōs
 subvertē@bā@tis
 aptā@bā@mur
-interpōn@a@ntur
+interpōna@ntur
 culpa@nt@em
 dēnsā@ba@nt
 gasconic@am
@@ -60218,7 +60218,7 @@ rubicundi@ōrum
 succlāmāv@eri@tis
 obfirmāt@ūr@e
 sējung@a@r
-multe
+mult@e
 moluccēns@e
 adsiduāv@eri@tis
 dētent@um
@@ -60265,7 +60265,7 @@ tractābil@e
 virgin@is
 decuriāvisse
 ball@ō
-habilium
+habili@um
 capistrā@re@t
 cohort@e@t
 appellāt@ās
@@ -60341,7 +60341,7 @@ generātūrum esse
 crīsp@ā@mur
 inmūtātum īrī
 cervīc@ī
-locuplētā@ns
+locuplētāns
 gaudiāl@īs
 conglobāt@ū
 mictum īrī
@@ -60368,7 +60368,7 @@ subcumbe@nt@ī
 dērigē@rē@mus
 perspīrā@bā@minī
 ūbertāv@istī
-expallēsce@rē@s
+expallēscerē@s
 excipie@ndus
 interdīci@te
 carminā@rē@tur
@@ -60395,9 +60395,9 @@ pȳrēnāic@a
 effinge@nd@ī
 ricc@ōs
 permonē@rē@mus
-cavall@a
+cavalla
 clīnāv@era@nt
-clangōr@is
+clangōris
 polling@e@ntur
 Catulliān@am
 solutissim@a
@@ -60464,12 +60464,12 @@ perflābil@ia
 trānspung@ā@tis
 dēspērātiōr@em
 novā@tōte
-figūr@ī@s
+figūr@īs
 peccātrīc@is
 trānslūcē@tō
 obātrēsc@ā@mus
 peccāv@ērunt
-ingeniculā@ns
+ingeniculāns
 illini@ē@ris
 integrāt@e
 inlicit@ōs
@@ -60566,7 +60566,7 @@ clāvā@bu@ntur
 inplōra@nt@ibus
 abaestuā@re@nt
 ceol@ās
-prōsici@a
+prōsic@i@a
 praeiēc@issē@s
 horī@rē@minī
 aequāt@us
@@ -60591,13 +60591,13 @@ suppōne@nt@īs
 importāt@ōs
 trīstiōr@is
 circumaggerāv@erī@tis
-messor
+messo@r
 cēnitāv@eri@m
 pavefaci@ē@tis
 refovē@ba@nt
 palaeosiberic@um
 praemāt@ūr@e
-pugillāminī
+pugillāmin@ī
 pācā@bi@tur
 refect@ūr@a
 mariān@ās
@@ -60606,12 +60606,12 @@ dētorru@isse@nt
 perdepsu@ntor
 compēnsāv@eri@tis
 pervīd@eri@m
-vēsānie@nt@ia
+vēsānient@ia
 summovē@s
 adoptā@ba@t
 collige@nd@a
 ōrdie@nd@e
-aedi@um
+aedium
 praedestināt@īs
 inprobāt@ūr@am
 exspectāv@ī
@@ -60710,7 +60710,7 @@ pūnctuā@rē@tis
 discupiē@bā@mus
 flāvōlīneāt@ā
 accīd@e
-excalceātō
+excalceāt@ō
 obtenebrēscere
 trāveh@a@r
 auctōricāt@um
@@ -60745,7 +60745,7 @@ nūtrie@ndus
 dapināt@ōs
 exēd@era@m
 quadridentāt@ī
-pollicit@um
+pollicitum
 adprobāv@isse@t
 cooperātīv@ārum
 praedamnāv@it
@@ -60774,7 +60774,7 @@ obviāv@erī@mus
 dulcā@ba@m
 tul@issē@tis
 disparitāt@ibus
-rosēt@um
+rosētum
 dēprōmptūrum esse
 refocillāt@e
 ābaeti@tō
@@ -60960,7 +60960,7 @@ praecūr@ē@minī
 balne@ā
 radiātiōn@ī
 prōgign@e@ntur
-nosēma
+nosēm@a
 adfirmāt@us
 lixābund@ī
 effēminā@ba@t
@@ -61152,7 +61152,7 @@ labē@re
 adprōn@ē@mur
 adcubitum īrī
 pseudocanīn@ae
-ārfacere@t
+ārface@re@t
 exigē@ba@nt
 dētonā@bā@tis
 cōnfoedera@ntur
@@ -61203,7 +61203,7 @@ ambī@ba@ntur
 porrēc@erī@mus
 incend@ē@minī
 dējerārī
-adpostulō
+adpostul@ō
 lacūnā@bā@minī
 intorque@ā@ris
 innōdāv@erā@s
@@ -61230,7 +61230,7 @@ exbibi@tor
 podu@eri@mus
 dīvaga@nt@is
 inaurā@re@t
-olēns
+olē@ns
 circumvolve@nt@īs
 sermuncul@ōrum
 aequātōr@e
@@ -61251,7 +61251,7 @@ impingē@ba@ntur
 affigūrāt@ūr@ārum
 cyclōp@ia
 inmūtā@rē@minī
-prōstern@am
+prōstern@a@m
 dēsecu@isse@t
 supterdūci@mus
 attermina@nt@em
@@ -61362,7 +61362,7 @@ patagonic@ā
 mandi@tō
 īnsenēscē@ns
 verrē@bā@re
-accolā@mur
+accol@ā@mur
 inēbriāt@ūr@a
 ananass@ās
 nigroaene@ae
@@ -61514,7 +61514,7 @@ dēiuvāt@ūr@a
 lēnitāt@um
 replēt@ūr@ās
 īnsu@erī@mus
-applaudē@mus
+applaud@ē@mus
 pampināv@erī@tis
 subrept@ī
 circumterg@e@ntur
@@ -61653,7 +61653,7 @@ lēviga@nt@e
 comport@e@ntur
 penetrāv@ī
 percuss@istis
-periūra
+periūr@a
 repūnx@ēre
 immūtāv@istī
 erythropter@īs
@@ -61662,7 +61662,7 @@ cīmic@um
 cōnsīdera@nd@īs
 coangustor
 impēns@ūr@ī
-āvell@eris
+āvell@eri@s
 abōmināt@ūr@ō
 obiacē@tōte
 intingue@rē@minī
@@ -61722,7 +61722,7 @@ thēsaurizāt@ō
 resign@ē@ris
 adaquāt@ūr@ōrum
 cēnitāv@istī
-satur@ō
+saturō
 attonit@ūr@ī
 multīcium
 impetē@bā@tur
@@ -61846,7 +61846,7 @@ allicefīē@ba@t
 subministrā@re@t
 pullulāv@eri@tis
 rhonchison@ārum
-cōnsuādē@re
+cōnsuād@ē@re
 dēlūde@nt@em
 exsect@ūr@am
 pand@ā@minī
@@ -61920,13 +61920,13 @@ intermisce@ntur
 aegre@a@t
 opplē@rē@mus
 thī@am
-congrega@t
+congreg@a@t
 commadē@rē@mus
 adjūrāmentō
 āmōlī@rē@ris
 corrump@ā@tis
 salt@ūr@ō
-frēt@us
+frētus
 hirniōs@ae
 ēvād@a@nt
 prōpugnāt@ūrus
@@ -61937,12 +61937,12 @@ antecess@era@m
 dissēns@isse@t
 obsecrāt@ūr@ōrum
 mistiōn@e
-adige@re
+adiger@e
 observā@rē@mur
 decor@e@ntur
 praestitu@era@m
 expiā@rē@ris
-ignicomant@ēs
+ignicoma@nt@ēs
 compulsiōn@is
 retrāx@era@m
 paraguayēns@ia
@@ -62074,7 +62074,7 @@ obscēn@ā
 tumulāt@ae
 caeliloqu@ī
 necessitūdin@ēs
-concordā@tur
+concord@ā@tur
 apprehēns@ī
 flagellāt@ūr@ārum
 assolāt@ūr@um
@@ -62165,7 +62165,7 @@ dissimilitūdin@e
 repropitiāv@ēre
 cōnfort@ē@re
 lutreol@am
-dēscēns@uum
+dēscēns@u@um
 dēpugnāv@era@m
 commōti@ō
 nepōta@nd@ā
@@ -62195,7 +62195,7 @@ dubitāt@ūr@um
 adsimulāt@us
 crēdu@nt
 sepelībil@e
-satisfaci@ā@s
+satisfaci@ās
 levāt@ūr@a
 ēmergē@ba@nt
 addēnsāt@ō
@@ -62372,7 +62372,7 @@ ruthēnic@ārum
 exfolia@nt@īs
 perscrīpt@ōrum
 dēcidi@mus
-dēverrā@minī
+dēverr@ā@minī
 inminuē@ba@r
 peierāv@erā@mus
 asperāv@imus
@@ -62456,7 +62456,7 @@ septuāgēnāri@ī
 imperīt@ā
 opplē@rē@ris
 sēvocā@be@ris
-suffīga@ntur
+suffīg@a@ntur
 praesupposu@erā@mus
 abligurrīv@isse@t
 corru@istī
@@ -62496,7 +62496,7 @@ cōnsūmps@era@nt
 compōni@tō
 obvi@ā@mus
 subvere@nt@ī
-ōs@ūr@um
+ōs@ūrum
 errā@bu@ntur
 accoli@te
 rūfēsc@ē@s
@@ -62523,7 +62523,7 @@ retors@era@nt
 dionȳsiac@ōrum
 conligā@mur
 māchin@īs
-ēlūce@ntis
+ēlūce@nt@is
 revēlā@ris
 expul@issē@mus
 dējerā@ns
@@ -62588,7 +62588,7 @@ discrēd@ā@tur
 tōns@ūr@am
 vēscē@bā@minī
 vehi@tur
-spūma@ntis
+spūma@nt@is
 assiccā@bi@minī
 perspex@ērunt
 experi@ē@tur
@@ -62798,7 +62798,7 @@ sēnsil@īs
 veniāl@ium
 adcrēv@erā@s
 prŏfund@ā@re
-rīsus
+rīs@us
 ērumpe@nd@ō
 agglomerāt@ūrus
 īnspers@ūr@ās
@@ -62823,7 +62823,7 @@ incrēbru@issē@mus
 sūfet@ē@s
 circumlegu@ndus
 peragrā@be@ris
-trānseu@ndō
+trānseu@nd@ō
 objice@re
 subfultum esse
 ēlue@nd@īs
@@ -62855,7 +62855,7 @@ cōnsenti@ā@tur
 praepondera@nd@īs
 sēparā@rē@re
 subterductum īrī
-cōnsepult@us
+cōnsepultus
 īnsīd@a@t
 adfriā@ba@t
 praeverre@nd@um
@@ -62894,7 +62894,7 @@ testuāci@īs
 cantāt@us
 allicefact@ūr@ās
 reversa@nd@ī
-arrig@ā@s
+arrig@ās
 distrahi@tis
 trucīdē@minī
 cōnfringē@bā@tur
@@ -63006,8 +63006,8 @@ abolēfact@ū
 aegid@ī
 aequipondi@ī
 incrū̆sta@nd@ōrum
-decum@ō
-pallent@ium
+decumō
+palle@nt@ium
 prōvex@era@t
 pȳramidāl@ibus
 nūntiātiōn@ibus
@@ -63029,7 +63029,7 @@ condecorā@tis
 vesperāscā@tis
 inarā@re@r
 patrīm@ōrum
-reūnītō
+reūnī@tō
 dēpartīt@ūr@ō
 praecūrāt@ūr@ae
 dēcoque@rē@mus
@@ -63291,7 +63291,7 @@ advers@am
 dēflecti@tōte
 dīdūce@nd@am
 inlīs@ūr@ās
-Brītō̆n@ēs
+Brītō̆n@ē@s
 nequī@re@t
 allectāt@ūrus
 verte@nt@ia
@@ -63331,7 +63331,7 @@ effrix@istis
 exaggerā@rē@minī
 iūrgāv@ī
 prōmittē@bā@s
-admātūr@ē@re
+admātūr@ēre
 exacerbo@r
 belladonn@ās
 attonā@bi@ō
@@ -63405,7 +63405,7 @@ latitanti@am
 mirandic@um
 adōrdino@r
 obcāt@ūr@ās
-dēgenera@t
+dēgener@a@t
 benedīce@re@ntur
 suppīlāv@istī
 bellifer@ārum
@@ -63421,7 +63421,7 @@ quālificāvisse
 dēfende@nd@ae
 reprēnd@eri@tis
 dissimulā@re@m
-antehabu@ēre
+antehabu@ē@re
 tripudiāv@isse@t
 extermina@nd@ā
 aspu@ē@s
@@ -63540,7 +63540,7 @@ nērītās
 commandūc@ē@tur
 remūnerā@re@ntur
 sollicita@nd@e
-auctumnī
+auctumn@ī
 pūrgā@rē@s
 jūstificāv@erā@tis
 portāt@a
@@ -63679,7 +63679,7 @@ Libyc@ōrum
 barbarism@ōs
 terē@bā@tis
 angelic@ō
-exede@r@e@m
+exede@re@m
 tītill@ōs
 exuperā@rē@re
 splendid@ae
@@ -63700,7 +63700,7 @@ abdīci@mur
 collabōrā@tis
 tund@ās
 mallea@nd@um
-suspīr@e@m
+suspī@r@e@m
 fraudā@ba@t
 baccā@bā@ris
 obmordē@bi@tis
@@ -63730,8 +63730,8 @@ dēnōminā@rē@mus
 pudibund@īs
 dēgluttī@re@t
 orphan@a
-strigment@ō
-succideri@s
+strigmentō
+succid@eri@s
 exuperāt@am
 carne@ārum
 dīgnōv@eri@nt
@@ -63784,7 +63784,7 @@ dējera@nd@īs
 spectā@mus
 relevā@rē@tur
 negā@bi@tur
-commendātīci@a
+commendātīc@i@a
 sabbatizāt@a
 praeiūdicā@bi@mur
 rūmin@ā
@@ -63808,7 +63808,7 @@ cōnspurcāt@a
 adpropinquāt@ōrum
 accīv@erā@s
 fōrmā@bu@nt
-nīdificā
+nīdific@ā
 sublūce@nt@ium
 doctōrā@tor
 dēflex@ūr@um
@@ -63880,7 +63880,7 @@ conrōborāt@ūr@ī
 abjūnx@era@nt
 vibrā@tor
 adpropiārī
-calverē@ris
+calve@rē@ris
 perterre@ntur
 anachōrīt@am
 aggregāt@ūr@ās
@@ -63900,7 +63900,7 @@ obrue@nt@īs
 appara@nd@īs
 foed@ē@tur
 cōnsanguine@ās
-corrāda@t
+corrād@a@t
 colu@eri@mus
 grātifica@nt@ium
 persilu@eri@mus
@@ -64003,7 +64003,7 @@ indāgāt@ūr@īs
 jūnctum īrī
 annūtrie@nd@a
 adpende@nd@am
-habilit@ē@mur
+habilitē@mur
 īnfrīgidāv@imus
 praeaudi@ē@mur
 obēdīv@isse@m
@@ -64167,7 +64167,7 @@ sylviger@ae
 retrōcessum esse
 assue@rē@tur
 difficillim@ae
-prōtegā@minī
+prōteg@ā@minī
 tetig@er@ā@tis
 appetītīv@īs
 admurmurāt@ūr@um
@@ -64362,7 +64362,7 @@ corēān@ās
 elamītic@am
 incidenti@am
 preti@ē@tur
-sincērē@mur
+sincēr@ē@mur
 satisfactūrum esse
 apologāt@ūrus
 stupēsce@rē@s
@@ -64419,7 +64419,7 @@ conplanta@nt@is
 condēnsāv@eri@tis
 suspīrā@rē@s
 platan@ō
-baburr@ās
+baburrā@s
 cōnson@ā@s
 intellige@rē@ris
 līquē@bā@ris
@@ -64452,7 +64452,7 @@ appetītiōn@em
 ēnōdāt@ūr@ōs
 iunge@nt@is
 adtinge@rē@minī
-dētrīme@nt@īs
+dētrīment@īs
 praelēg@ā@re
 haematin@ī
 perlavāt@e
@@ -64483,7 +64483,7 @@ reliquā@bi@t
 exīstim@ē@tis
 prōtūbera@nd@um
 resequ@e@ris
-homēri@ō
+homēriō
 subtīliā@minī
 ēvehe@re@ntur
 vīgintivirāl@e
@@ -64527,7 +64527,7 @@ adnūntiāv@issē@mus
 asservā@re@r
 pervīc@ērunt
 cōnfīgē@bā@tur
-coacervā@tis
+coacervā@t@is
 imprōdict@am
 dēsiccāt@us
 perfūs@am
@@ -64579,7 +64579,7 @@ s@īssēs
 redime@nd@e
 content@e
 ēnervāv@era@m
-nā@re
+nāre
 rūbīgin@e@nt
 restinguē@bā@s
 aberce@ā@minī
@@ -64635,7 +64635,7 @@ extermināt@ūr@ae
 dējūnctum esse
 conciliātiōn@em
 portā@re@r
-timent@e
+time@nt@e
 dīlibu@ē@mur
 agnōscā@tur
 īnsultāv@erī@tis
@@ -64742,7 +64742,7 @@ surroga@nt@ibus
 ēlīd@e@nt
 tranquillā@rē@minī
 m@ās
-hostōr@ium
+hostōr@i@um
 dēlica@nt@ō
 putrefie@rē@mus
 coxus
@@ -64761,7 +64761,7 @@ praeintellige@nd@ōrum
 fulgurāt@ū
 intrāt@us
 absūme@rē@s
-sapōr@ē@re
+sapōr@ēre
 affla@t
 dēpāst@ūr@ō
 ēverte@nd@īs
@@ -65016,7 +65016,7 @@ expulsā@bā@tur
 linīt@ās
 relūctā@bā@minī
 medic@ā@mur
-nepā
+nep@ā
 efferve@nt@e
 exossāv@erī@mus
 repertōr@ēs
@@ -65108,7 +65108,7 @@ ventricul@ō
 recalcitr@e@r
 īnfōd@issē@mus
 arrogā@be@re
-ioc@ēs
+ioc@ē@s
 rēsīnōs@e
 dīgrede@re@r
 praetemptāt@ae
@@ -65163,7 +65163,7 @@ admordē@bi@tur
 modulā@re
 subministrātiōn@um
 catell@īs
-supersapere
+supersape@re
 ingenicul@ē@minī
 allit@ūr@am
 cessāv@eri@m
@@ -65393,7 +65393,7 @@ supterdūx@erā@mus
 cālīginōs@īs
 aggenerāt@īs
 mede@nt@ium
-scrīniol@a
+scrīniola
 adfīx@ās
 sospitā@re@r
 percēns@ūr@ās
@@ -65545,7 +65545,7 @@ galeā@tōte
 assella@nd@ās
 ieientā@ba@m
 abiūdicātīv@um
-ūnūntri@ōrum
+ūnūntriōrum
 dēvītā@re
 piā@bā@re
 dēdecorā@tis
@@ -65599,7 +65599,7 @@ tālāri@am
 redintegrāsc@e@t
 exōrdie@nd@e
 dēsūd@e@nt
-ēlangŭ@ēre
+ēlangŭ@ē@re
 convelli@te
 persect@ūr@ae
 lance@a@t
@@ -65628,7 +65628,7 @@ admātūrā@rē@ris
 superdīx@eri@t
 adolē@re@m
 coarctāv@ēre
-subinvid@ē@re
+subinvidē@re
 expert@ūr@ōs
 stagne@īs
 intervent@ūs
@@ -65643,7 +65643,7 @@ nōrmā@bi@t
 generā@ba@t
 gustā@re@r
 tranquillāt@īs
-exsect@ō
+exsectō
 ablaqueā@rē@ris
 prōflīg@e@nt
 purpurāv@era@m
@@ -65677,7 +65677,7 @@ abscīde@nd@am
 dispartīt@ūr@um
 vellicā@rē@tur
 refringe@nd@ae
-dēsec@ē@s
+dēsecē@s
 fūstīgāt@ūr@ā
 congrega@ntor
 assēns@ēre
@@ -65843,7 +65843,7 @@ circumfla@nt@ibus
 decorāv@eri@mus
 exar@ē@re
 radiā@rē@ris
-dēperdita
+dēperdit@a
 cadmē@ās
 perspectāv@ēre
 adsectā@tor
@@ -65879,7 +65879,7 @@ accane@nd@um
 cōnsummā@bā@tis
 praemōnstrā@re@m
 inpetrāt@ūr@ārum
-balnea@ntur
+balne@a@ntur
 inopi@ae
 tēmulent@e
 praedominanti@ārum
@@ -65887,7 +65887,7 @@ leucopter@īs
 adcurrē@ba@ntur
 obsordēsc@ē@mus
 contrecta@nt@ium
-obtenebrēsc@ā@tis
+obtenebrēscā@tis
 pervertē@ba@m
 lārv@e@t
 cōnsimilā@bā@tis
@@ -65987,7 +65987,7 @@ dionȳsiad@ēs
 inlūmināv@ēre
 aspīrā@bā@re
 adiace@nt@ō
-exarde@nt@is
+exarde@ntis
 arcē@be@re
 aboriginus
 cōnsectātūrum esse
@@ -66090,7 +66090,7 @@ bāsiāt@am
 oggere@re
 lūge@ā@minī
 circumligā@be@re
-mēlopep@ō
+mēlopepō
 resarci@ā@s
 torpid@ae
 ioca@nd@ae
@@ -66237,7 +66237,7 @@ dēiung@a@m
 rēctiōr@e
 hērēdita@nt@ī
 abdicā@ba@nt
-rennu@ā@s
+rennu@ās
 applaus@era@nt
 hitti@a@nt
 adfict@ūr@ārum
@@ -66313,7 +66313,7 @@ circumfodi@ē@minī
 bullāt@īs
 permonit@a
 adcūrāt@ae
-strangulā@r@ē@tis
+strangulā@rē@tis
 dēroga@nt@ī
 pare@ntor
 concacātūrum esse
@@ -66577,7 +66577,7 @@ adtractāt@e
 albicāv@eri@m
 lūdificāt@ūr@ō
 *fende@re@ntur
-cēnse@nt
+cēns@e@nt
 praefer@rē@mus
 exprōmpt@ūr@ō
 superefflue@nt@ibus
@@ -66639,8 +66639,8 @@ commigrāt@ūr@ō
 absters@erī@tis
 cōnsulu@erī@mus
 tremīsc@ī
-adpend@ī
-internōscā@mus
+adpendī
+internōsc@ā@mus
 addocē@minī
 somniāt@ūr@ae
 obdulcā@rē@mur
@@ -66761,7 +66761,7 @@ intinguē@bā@tur
 perspici@te
 propinquitāt@ēs
 intermove@a@t
-excoli@mus
+excol@i@mus
 volūt@ūr@ae
 supervent@ōrum
 receptā@minī
@@ -66834,7 +66834,7 @@ dēiuvāv@isse@nt
 imbibē@bā@s
 graecissāvisse
 patrizā@ba@ntur
-conrog@ā@mus
+conrogā@mus
 syllēps@im
 ēlicu@eri@mus
 honōriger@ās
@@ -66845,7 +66845,7 @@ intercēp@erī@s
 attribuē@ba@nt
 rubefēc@isse@nt
 subjūnct@ūr@ī
-farr@is
+farris
 zedoāri@ōrum
 fruticā@bā@s
 catīllā@ba@ntur
@@ -67114,7 +67114,7 @@ adauge@ā@minī
 praecinge@nt@īs
 disrumpe@rē@re
 cōnsterna@nt@ium
-dēple@ndō
+dēple@nd@ō
 porrige@nt@īs
 *nu@era@t
 tunico@r
@@ -67135,7 +67135,7 @@ excerpē@bā@tis
 agglūtināt@ū
 ēvincu@ndus
 forāv@isse@m
-propinquāt@e
+propinquā@t@e
 rudītum īrī
 circumī@bā@s
 murmur@is
@@ -67150,7 +67150,7 @@ supernō
 aegrōr@ē@s
 fial@ae
 līmā@mus
-passi@tō
+passitō
 assella@nd@a
 pāscitāv@ī
 rīmāt@ūr@a
@@ -67214,13 +67214,13 @@ nūndin@ās
 benefacie@nt@īs
 trānsfunde@nd@ae
 agita@nt@ō
-conlacrimē@s
+conlacrim@ē@s
 gadelic@e
 integrō
 laurīn@e
 caed@ō
 adtractāv@isse@m
-juxtanucleār@e@m
+juxtanucleār@em
 āctitā@re@r
 relict@īs
 honōrificā@rē@s
@@ -67294,7 +67294,7 @@ indīce@ndus
 pervulgāt@ūr@ōrum
 complexāv@isse@t
 pis@īs
-obt@ūrō
+obt@ūr@ō
 imprec@e@r
 disparu@issē@s
 complexāv@erī@mus
@@ -67383,7 +67383,7 @@ obdūrēfacie@nt@ēs
 lagunēns@e
 mulce@nt@ium
 pervex@eri@t
-decuma
+decum@a
 labātō
 efflōru@istis
 suffīvisse
@@ -67618,7 +67618,7 @@ ardentissim@a
 disculciā@tor
 phantasic@um
 capissīv@issē@s
-horrēsc@ā@ris
+horrēscā@ris
 excita@nt
 participā@ba@m
 prōvolve@nd@am
@@ -67659,7 +67659,7 @@ crucifīx@isse@m
 rufifront@ī
 subvehu@ntur
 expectāt@ī
-trānsi@erī@s
+trānsi@er@ī@s
 volūta@nt@is
 notul@ae
 acquiēv@imus
@@ -67781,7 +67781,7 @@ tenuā@bi@tur
 taeniāt@ā
 blandīt@ū
 auge@nd@ae
-praenotāt@ō
+praenotātō
 deūt@ē@ris
 neca@nd@e
 ēnāviga@nd@um
@@ -67912,7 +67912,7 @@ ferie@nd@ō
 inclāmā@t@is
 persolv@eri@nt
 pontificāt@ibus
-mancipātō
+mancipāt@ō
 perquīr@ē@mur
 reglūtin@e@r
 comparāv@isse@t
@@ -68079,7 +68079,7 @@ salvific@e@nt
 largie@ndus
 sumministrāv@erī@s
 explōra@nt@ō
-compot@e
+compote
 ammutilā@re@t
 irrēpe@re@nt
 sēcubit@ūr@ae
@@ -68095,7 +68095,7 @@ adsuēfīē@ba@t
 superdūx@eri@tis
 strāgul@am
 lacrimā@ba@ntur
-subīnfert@ō
+subīnfertō
 adaperu@issē@s
 trossul@ī
 inmēns@ōrum
@@ -68225,7 +68225,7 @@ nūps@ēre
 conple@nd@ī
 adfirmārī
 expejūrā@be@re
-praestigi@um
+praestigium
 corriger@ē@s
 inlūmināv@eri@t
 expolia@nt@e
@@ -68530,8 +68530,8 @@ niveus
 īnstrepe@rē@tis
 exspolia@nd@a
 aggrav@ē@mus
-animadvert@ā@minī
-lapidēscē@ns
+animadvertā@minī
+lapidēscēns
 substerne@re@m
 calface@rē@s
 prōlūx@istī
@@ -68559,7 +68559,7 @@ compescu@ī
 succuss@eri@m
 sūdāt@ūr@ās
 ēlig@e@t
-deuss@eri@s
+deuss@eris
 exust@īs
 adtig@ērunt
 regener@ē@tis
@@ -68646,7 +68646,7 @@ dēfricāt@ī
 subdīvidi@tur
 redamā@bi@ō
 cohēs@ūr@ō
-subdol@ā
+subdolā
 superjacu@erī@mus
 ambūri@te
 assūmpt@ūr@ōs
@@ -68698,7 +68698,7 @@ obēdī@rē@ris
 piscicul@ō
 prōpositum īrī
 effode@rē@ris
-adsuēsce@nd@um
+adsuēsce@ndum
 sūct@ūr@ās
 interiacu@erā@s
 disparit@ūr@ōrum
@@ -68772,7 +68772,7 @@ conprobāt@ō
 avfūgisse
 prīncipāl@ibus
 laetiti@ās
-disturbātō
+disturbāt@ō
 īsagōg@ae
 abigu@ntor
 cōnsulē@ba@r
@@ -68850,7 +68850,7 @@ adcrēscē@ba@t
 culmin@ī
 duellāv@issē@s
 dēpēnsum esse
-būrr@a
+būrra
 ecfutu@ā@re
 suīll@ās
 pervola@nd@am
@@ -68889,7 +68889,7 @@ vadōs@ōrum
 revēlāv@issē@mus
 obdūrēfaci@te
 macru@isse@m
-iugulā@rē@s
+iugulā@r@ē@s
 salvāv@eri@nt
 līnctūrum esse
 diffāmāt@ūr@ā
@@ -68996,7 +68996,7 @@ aquātic@am
 horrēscē@ba@r
 trānsfigūrāt@ūr@ārum
 conciliā@ba@m
-exacerb@ā@re
+exacerbā@re
 cynanch@īs
 vulnerāt@e
 prōfer@re@m
@@ -69016,7 +69016,7 @@ Aesōpic@e
 permadefacie@nt@is
 accrēsce@re@m
 crepuscul@um
-singili@ō
+singiliō
 cōnspūt@ae
 junge@nd@ārum
 perdomā@bā@minī
@@ -69024,7 +69024,7 @@ aequiperāv@erī@mus
 nitidicoll@ibus
 interscind@e@ntur
 aspūt@ās
-diffā@mo@r
+diffāmo@r
 pact@ibus
 hālāt@ōrum
 incid@e@nt
@@ -69382,7 +69382,7 @@ alberg@ārum
 prōpūrgā@rē@mus
 prōcūrā@tis
 badissā@bi@t
-Maius
+Mai@us
 scort@ī
 exacerbāv@istis
 capessis
@@ -69437,7 +69437,7 @@ coerce@nd@ī
 immol@ā@tur
 imposit@ūr@īs
 dēmulce@nd@ōrum
-superimpēns@us
+superimpēnsus
 aegrōt@am
 lēnōn@ēs
 dēdolā@re@t
@@ -69523,7 +69523,7 @@ assūmpt@ūr@um
 subiugā@ba@ntur
 sōla@nd@am
 ingurgitā
-perjūcu@nd@īs
+perjūcund@īs
 dōliārī
 retrōspicie@nd@ae
 adalligā@bi@mus
@@ -69580,7 +69580,7 @@ circumcumulāt@ārum
 spīritāl@īs
 incubu@issē@tis
 cohabit@e@r
-incendiāri@ō
+incendiāriō
 lūcubrāt@ae
 sublicā
 cōnfigūrāv@era@nt
@@ -69625,7 +69625,7 @@ discē@ns
 pervās@ū
 tim@ē@tis
 scutellār@īs
-coargu@imus
+coargu@i@mus
 dīminue@nt@ī
 percēns@ōrum
 mulierāv@erō
@@ -69664,7 +69664,7 @@ reprēnde@nd@a
 mix@isse@nt
 āmove@ā@ris
 sēcrēt@um
-comminuēns
+comminuē@ns
 quīndecimvirāt@ibus
 curre@nd@e
 adpetissē@bā@mus
@@ -69693,7 +69693,7 @@ citāt@īs
 adscīt@e
 perfunge@re
 inversūrum esse
-labē@mus
+lab@ē@mus
 carīnā@rē@tis
 spect@ūr@ō
 simplificāt@ūr@ō
@@ -69739,7 +69739,7 @@ incohāt@um
 praerogāv@erō
 adnōdāt@ūr@ae
 nancīsce@nd@īs
-cōgis
+cōg@is
 adjument@īs
 ambēs@ūr@ī
 vapōrā@bi@s
@@ -69901,7 +69901,7 @@ innīx@ūr@ī
 subterfuge@rē@s
 abūs@ūr@ō
 glūtiē@bā@mur
-recapitulo@r
+recapitulor
 stercora@nt@ēs
 īnsimulā@rē@mus
 mancipāt@ū
@@ -69923,7 +69923,7 @@ lipi@ē@s
 līneā@rē@ris
 rēgnāv@ēre
 disculciā@re@ntur
-prōvehē@ns
+prōvehēns
 capistr@ē@re
 adspīrā@rē@re
 dēplōra@nt
@@ -69973,7 +69973,7 @@ circumvolve@re@t
 reconditūrum esse
 scandalizō
 praetervolā@tur
-vēnunded@it
+vēnundedit
 adrēpe
 blasphēmāv@eri@nt
 irriga@nt@ō
@@ -70140,8 +70140,8 @@ praedispōnē@bā@s
 prōpūrg@a@nt
 press@ūr@e
 dēcerps@era@t
-redd@ā@s
-reprēnde@re
+redd@ās
+reprēndere
 necessitāt@em
 abōmināv@isse@t
 loqu@ā@mur
@@ -70337,7 +70337,7 @@ accūsāt@īs
 alterca@nd@īs
 exhaurie@nd@ō
 dalmaticus
-oblīcā
+oblīc@ā
 attractāv@eri@s
 ascēnsiōn@ī
 pernōsce@re@nt
@@ -70495,7 +70495,7 @@ tābefēc@eri@t
 īnsuffla@ntor
 vincul@ōrum
 arrīde@nd@am
-centiplic@is
+centiplicis
 panthēr@ārum
 subsanna@nt@ibus
 trigemin@ae
@@ -70524,7 +70524,7 @@ dēlīnīt@ūr@ās
 salīvōs@ī
 wadiāv@erā@tis
 lact@ī
-periūrē@re
+periūr@ē@re
 extīnx@istī
 retēct@ūr@ās
 releva@nt@ō
@@ -70693,7 +70693,7 @@ comperi@ā@mur
 scīsce@rē@tur
 pulsāt@us
 comminūt@ū
-prenōmin@e
+prinōmin@e
 carpasin@ae
 agricol@ā@tur
 superfunde@re@m
@@ -70760,13 +70760,13 @@ apprimē@bā@s
 iūni@ae
 obole@nt@ō
 juvenēsci@te
-indamnātō
+indamnāt@ō
 pervolā@rē@tis
 Gādītān@ā
 abjūdicā@re@nt
 contenēbrārī
 abolitūrum esse
-inrig@e@m
+inrig@em
 compedī@tor
 placentāl@ia
 adsuēscē@bā@re
@@ -71030,7 +71030,7 @@ trānsubstanti@e@r
 mulce@ntur
 anterioritāt@is
 misera@nd@ārum
-reverb@erā@tis
+reverb@erā@t@is
 rubrīcātō
 lēv@it
 brumōs@ārum
@@ -71205,7 +71205,7 @@ nīnevīt@ōrum
 fingē@bā@ris
 corbōn@ārum
 assuēfie@re@t
-āmentō
+āment@ō
 laxāv@erā@tis
 sīv@erā@mus
 interpūnx@istī
@@ -71228,7 +71228,7 @@ sēduct@ūr@ōs
 inhaerē@s
 cārināv@erō
 aemulā@ba@r
-Calpurni@a
+Calpurnia
 parturīv@issē@s
 respōnsā@mur
 triumpha@nt@ēs
@@ -71283,13 +71283,13 @@ prōtēla@nd@īs
 christifidel@ium
 meritāt@ūr@ās
 ēlūs@issē@tis
-posteā@re
+poste@ā@re
 congruē@ba@nt
 obtrūdē@ba@t
 intrōspex@erā@mus
 indēfīnīt@ī
 ac@ēre
-crēbritā@t@is
+crēbritāt@is
 pugnācul@ōrum
 sessil@ēs
 percalefēc@erī@tis
@@ -71345,7 +71345,7 @@ trirēm@ē@s
 cōpulā@tur
 dēflēt@ūr@a
 alg@ae
-paradox@e
+paradoxe
 zinzilulā@mus
 circumspectā@bā@minī
 appellātīv@ī
@@ -71479,7 +71479,7 @@ abice@rē@s
 aequātōr@em
 dēdecorāt@ūrus
 impell@ē@s
-catīllātor
+catīllā@tor
 praevenie@nt@ia
 mortificā@rē@re
 zinzilul@e@nt
@@ -71532,7 +71532,7 @@ rescrībe@nd@ārum
 offertōr@ium
 locuplētā@mur
 gobiēns@ibus
-acē@rē@tis
+acērē@tis
 dēfugie@nd@ā
 agglomerāv@erī@mus
 asseque@nd@ā
@@ -71743,7 +71743,7 @@ glōrificāt@ūr@ās
 vāstāt@ūr@ās
 vīlicāt@ūr@ō
 recing@ā@minī
-dravoc@a
+dravoca
 diffīdē@bā@tis
 vann@e@t
 fōrmā@bi@tur
@@ -71780,7 +71780,7 @@ rūfithōrāx
 trānscīs@ūr@īs
 praetermitte@nd@am
 importā@mus
-lambimus
+lambi@mus
 incalēscē@ns
 corymbus
 praeūrē@ba@t
@@ -71809,7 +71809,7 @@ foeder@ē@tur
 cunī@tur
 dēstica@nt
 fodicāv@era@m
-fortūnātis
+fortūnāt@is
 opperiē@ba@r
 ēlāmentābil@e
 sulcāt@ūr@ō
@@ -71826,7 +71826,7 @@ vīs@ē@tis
 praeflui@minī
 prōvoc@ē@s
 subplant@e@ntur
-virēsce@rē@s
+virēscerē@s
 refrīgerāt@īs
 prōseco@r
 prōvocāt@īs
@@ -71866,7 +71866,7 @@ obtenebrā@bā@re
 commūni@a@nt
 īnsinuātrīc@is
 alterna@nt@ium
-exige@rē@mus
+exige@r@ē@mus
 lurca@nt@īs
 rār@ārum
 īnsign@e@nt
@@ -71929,13 +71929,13 @@ perdomit@e
 peregrīn@ē@mur
 crēnātissim@ae
 follē@ba@t
-participa@t
+particip@a@t
 belligerātiō
 dictāt@ūr@ōs
 inhorru@era@nt
 numerā@ris
 exsolv@istī
-terr@ē@minī
+ter@r@ē@minī
 dēdoluisse
 perseque@nt@īs
 adtemptāv@isse@m
@@ -71996,7 +71996,7 @@ dēcantāt@ōrum
 vadāt@ūr@um
 īnfersisse
 floccipend@erā@mus
-supersape
+supersap@e
 sulfurreducēns
 praeservi@ē@mur
 prōscrīb@i@t
@@ -72145,7 +72145,7 @@ flīge@nd@ō
 caed@e@t
 praefinīt@ūr@ae
 adsultā@rē@mus
-inrēti@i@t
+inrēti@it
 exclūd@e@nt
 quadribacci@ō
 perfīnx@isse@m
@@ -72205,7 +72205,7 @@ adclārāt@ī
 inpedīt@ā
 capitell@ī
 redūcu@ntor
-superērog@a@nt
+superēroga@nt
 auxili@ē@mur
 subaemulā@be@re
 comitiāv@erā@mus
@@ -72230,7 +72230,7 @@ aberce@nt@ī
 compellu@ntor
 humecta@nd@a
 perlege@re@t
-posthabeō
+posthabe@ō
 cōnscrībilla@nd@ōrum
 rēgnāt@ūr@ī
 adrog@e@ntur
@@ -72284,7 +72284,7 @@ alu@isse@nt
 cōnstringu@ndus
 fugitā@bā@tis
 conter@ē@ris
-quaeritā@t@is
+quaeritāt@is
 incrassāv@eri@nt
 malthās
 exēgētic@ās
@@ -72456,7 +72456,7 @@ adiūrātum īrī
 indūru@erā@tis
 stercorā@bā@re
 adproperā@rē@minī
-flagrāt@ō
+flagrātō
 māteria@nd@ōs
 archisynagōg@um
 cōnscind@ē@tis
@@ -72511,7 +72511,7 @@ perspecta@t
 approbā@be@re
 improb@ē@mus
 inodiāv@eri@t
-ūberrimus
+ūberri@mus
 hydrophobic@ī
 cōnsolidātiōn@is
 dapināv@ēre
@@ -72534,7 +72534,7 @@ Teucr@ae
 assigna@nd@ōrum
 praecēdē@ba@r
 opera@nd@ōs
-aeeMr@s
+PedMd@a
 cuspidāt@e
 pilāt@ūr@ō
 dērigē@bi@mus
@@ -72593,7 +72593,7 @@ inclāmāt@ūr@am
 appōn@e@nt
 glūtiu@nt
 oleāt@ārum
-masticātō
+masticāt@ō
 obstetrīcāt@ā
 obstrūct@ū
 vinciu@ntur
@@ -72642,7 +72642,7 @@ extimēsceris
 occlūde@ndus
 coalt@ūr@ī
 subliga@nd@ō
-ingrui@s
+ingruis
 venera@nt@ia
 sudanēnsis
 antevolā@ba@nt
@@ -72674,7 +72674,7 @@ taes@ūr@ās
 inmūtā@mus
 supterdūcē@bā@tis
 concēlā@re@ntur
-occulti@ōrum
+occulti@ōr@um
 perequit@ē@mus
 imprime@re@nt
 baubāt@ūr@ōrum
@@ -72910,7 +72910,7 @@ cōnflīctā@bā@tur
 ōscula@nt@e
 praeiaect@ūr@ōrum
 adlu@ā@mus
-simplific@a@ntur
+simplifica@ntur
 partie@nd@īs
 sternothyroīde@ōrum
 concarnāt@ūrus
@@ -72947,7 +72947,7 @@ praetergredie@nt@ium
 revibra@nd@um
 suffīge@nt@ium
 dēturpāt@ā
-integime@nt@īs
+integiment@īs
 alliāt@īs
 gestī@re@m
 ēmiscē@bu@ntur
@@ -72972,7 +72972,7 @@ mōv@ēre
 dēvīnx@erā@s
 ēmendāv@era@t
 ēvertu@ntor
-praefīg@a@t
+praefīga@t
 paedīcōn@em
 helm@ōs
 avīt@ae
@@ -73040,13 +73040,13 @@ variega@nd@ās
 interverti@tō
 strepu@erī@tis
 absus
-aumāti@ōr@um
+aumāti@ōrum
 plūrāl@ium
 summerge@nt@īs
 frīgida@t
 molit@ūr@ārum
 dēlīberātīv@um
-adlevi@a@ntur
+adlevia@ntur
 repert@ās
 ēmisce@nd@um
 vigu@era@m
@@ -73277,11 +73277,11 @@ interdīce@rē@s
 vīsitāt@īs
 peregrīna@nd@e
 comple@nt@ō
-abmāterter@ī@s
+abmāterter@īs
 abjugāt@ā
 vidu@ae
 baptiz@e@t
-dēripis
+dēripi@s
 maere@a@nt
 immīs@ērunt
 iēiūn@ās
@@ -73337,8 +73337,8 @@ trālūcē@bi@s
 algē@bi@t
 ēmisce@nd@ī
 dēvāsta@nd@ō
-abnegā@re
-extende@ri@s
+abneg@ā@re
+extenderi@s
 dēbilitā@rē@mur
 circumduct@uum
 caca@nt@ēs
@@ -73426,7 +73426,7 @@ obarā@rē@tis
 fraeniger@īs
 ambitiōsiōr@ēs
 dēprecāv@issē@s
-receptor
+recepto@r
 incorpora@nd@a
 inculcā@tōte
 gere@rē@minī
@@ -73488,7 +73488,7 @@ dēsuēfacie@nd@ās
 conliga@nt
 ciliā@r@e@m
 volūtāv@eri@m
-subrig@ā@tur
+subrigā@tur
 silvicol@ōrum
 trānsveni@a@t
 oppugnātiōn@e
@@ -73560,9 +73560,9 @@ distrāx@era@t
 disjūnctīv@ae
 ingravā@ba@nt
 adfigūr@ē@mur
-praeflōr@ē@s
+praeflōrē@s
 interjaciu@ntō
-sublig@a@ntur
+subliga@ntur
 commūni@ē@re
 renitu@erī@mus
 obstrict@us
@@ -73585,7 +73585,7 @@ arreptīci@ōs
 sulcirōstr@e
 ērēps@erī@s
 manūtent@ū
-stīp@ā@tur
+stīpā@tur
 trānsmarīn@ō
 illiga@nd@ōs
 succrēsci@mus
@@ -73597,7 +73597,7 @@ aerāri@ae
 gallicrūr@a
 vāsculōs@ōs
 dēmitt@ē@re
-oppigne@rē@minī
+oppigne@r@ē@minī
 iugāt@ūrus
 dēbilita@nt@ibus
 pēdīcāt@ūr@ō
@@ -73606,7 +73606,7 @@ iūsculāri@ō
 adnūnti@ā@re
 laterālis
 abstraho@r
-obdormīsc@ā@mus
+obdormīscā@mus
 commonefīē@bā@mus
 drīmyphagi@ae
 diribu@erā@mus
@@ -73679,7 +73679,7 @@ lacini@ā
 templ@ī
 claus@ōrum
 aemul@ē@ris
-Hercule@ās
+Hercule@ā@s
 virē@re@m
 modificāt@ōs
 assicc@e@t
@@ -73750,7 +73750,7 @@ cōnstuprāv@era@t
 cūnctā@rē@mus
 perruptūrum esse
 eucharistic@ōrum
-comprob@e@m
+comprob@em
 decussa@nd@um
 ūnūntriō
 dēbilitāt@us
@@ -73869,7 +73869,7 @@ firmā@bā@s
 alticol@ārum
 abbreviātiō
 īnstīllārī
-prrnōmin@um
+prsnōmin@um
 laen@am
 epilēptic@ae
 crīsāv@eri@m
@@ -74068,7 +74068,7 @@ limanic@um
 mutila@nt@e
 locitā@tōte
 abscindu@ntor
-applaude@ris
+applauderis
 īnstrep@ē@ris
 immers@issē@tis
 convolve@nd@a
@@ -74136,7 +74136,7 @@ cavillāt@ōrum
 occultāt@ō
 russ@am
 dēmulcē@rē@mus
-praeaudi@i@t
+praeaudi@it
 sirp@ium
 condormīv@erā@tis
 abcisiōn@em
@@ -74257,7 +74257,7 @@ scid@ēre
 suboffend@a@r
 augurāt@am
 cōnfund@e@t
-axung@i@a
+axungi@a
 pullā@rē@s
 ax@e@ntur
 carnōsiōr@ī
@@ -74267,8 +74267,8 @@ abnatāv@era@t
 cantillāt@um
 cultiōr@ibus
 implanta@ndus
-abietin@a
-muscula
+abietina
+muscul@a
 sartōr@ibus
 corrōborā@rē@minī
 intermorie@nd@ōs
@@ -74278,7 +74278,7 @@ commandūcāt@ī
 speculātōr@em
 quaerita@nd@ās
 posce@re@t
-oportu@ēre
+oportu@ē@re
 dēmentā@bā@tis
 cultiōr@e
 lance@ā
@@ -74291,7 +74291,7 @@ cōnfīge@nd@īs
 tūtāt@ā
 praetexe@rē@tur
 albēscē@ba@t
-ampliss@i@mus
+ampliss@imus
 sublūcē@rē@tis
 circumseca@nd@ārum
 astringe@rē@tis
@@ -74357,7 +74357,7 @@ dēmānāv@era@t
 refrīger@ō
 parentā@rē@mus
 cūnābul@ō
-cōnspond@ī
+cōnspondī
 algēsc@ē@tis
 iūrga@nd@ae
 lūcubrāv@era@t
@@ -74541,7 +74541,7 @@ inminūt@ārum
 pōpuleō
 abiūdicāt@ūr@ārum
 dispungē@ns
-commemor@ō
+commemorō
 polymitāri@ae
 baubāt@ū
 mānsiōn@um
@@ -74582,7 +74582,7 @@ intonā@be@ris
 dioic@ōrum
 dēmordē@rē@mus
 āctu@ā@tur
-exscre@ās
+exscreās
 obvert@ē@minī
 pōtāv@issē@mus
 hariolāt@ūr@ārum
@@ -74590,7 +74590,7 @@ syllogiz@ē@tis
 heptaphyll@ōs
 palawanēns@ī
 āctūrum esse
-inmane@ō
+inmaneō
 Calēn@īs
 cunī@mus
 extenterāv@ī
@@ -74663,7 +74663,7 @@ vīs@ūr@ā
 relinque@rē@mus
 vītātiō
 conquassā@bu@nt
-adsidu@e@m
+adsidu@em
 exauge@nt@e
 taliāt@ūr@ā
 palmifer@ae
@@ -74677,7 +74677,7 @@ obtundi@mur
 absportāt@am
 effugio@r
 pervulga@nd@ī
-crūditā@t@is
+crūditāt@is
 suꝑficiāl@īs
 praelūs@erī@tis
 stat@ūr@īs
@@ -74719,7 +74719,7 @@ adhāl@ē@ris
 negligi@mur
 inolēsce@ndum
 obsignāv@erā@s
-conger@is
+conger@i@s
 refove@nd@ōs
 flōrē@rē@tis
 inplicāv@erō
@@ -74742,7 +74742,7 @@ evangelist@am
 crīsp@e@ntur
 prōlūcē@bi@t
 sublīmius
-clēricō
+clēric@ō
 dēmess@e
 viscōs@ās
 liquāt@ūr@ā
@@ -75073,7 +75073,7 @@ dēg@erā@minī
 sphing@um
 prōclāmāt@ōs
 pō̆rcē@bā@tur
-pecor@a
+pecora
 colu@ntur
 rejicie@nd@ī
 polyspastō
@@ -75109,7 +75109,7 @@ discuss@ō
 praesenti@ae
 cōnst@ē@tis
 sortiger@ī
-aggeniculā@rē@minī
+aggeniculā@r@ē@minī
 ientāv@eri@t
 quattuorvi@r
 respici@ā@re
@@ -75180,7 +75180,7 @@ crēbēsc@ē@tis
 trādūx@istī
 argūtāt@ūr@ōs
 coūtē@bā@re
-modific@ē@s
+modific@ēs
 cautēri@e@ntur
 mist@ae
 em@a@m
@@ -75199,7 +75199,7 @@ castifica@nt@ia
 trānsdūci@tor
 adsūme@nd@ōrum
 adūla@nd@ae
-mufriō
+mufri@ō
 disturbā@bā@s
 lurch@ē@tur
 fatīgā@rē@s
@@ -75360,14 +75360,14 @@ contribulā@bi@s
 volnerāv@imus
 trānscīdu@ntor
 coepi@a@r
-exsuperā@t@is
+exsuperā@tis
 clāmitās
 drōpac@em
 deūs@ūr@īs
 exsequi@tur
 grātitūdin@e
 petiol@um
-sēricea
+sērice@a
 trītūrā@ba@r
 pellē@bā@tis
 canōnizā@re@nt
@@ -75552,7 +75552,7 @@ impiissim@ārum
 vērificā@ba@t
 polle@nd@ā
 frenduisse
-butt@ium
+butt@i@um
 dēvol@ē@re
 supterfūg@istī
 deī@bi@ō
@@ -75685,7 +75685,7 @@ ventitāt@ūr@ōs
 messōr@e
 perlong@a
 nūtā@re@m
-abdid@it
+abdidi@t
 arātōr@ibus
 prŏficīscē@bā@mur
 vire@a@t
@@ -75906,7 +75906,7 @@ mentīgin@em
 obsōnātūrum esse
 ēmolli@ē@tur
 remitt@ī
-perstern@i@s
+perstern@is
 oblocūt@ōrum
 deificā@bi@t
 adaequātiōn@ī
@@ -75931,7 +75931,7 @@ inhortā@ba@ntur
 adnāv@eri@s
 dēsācrāt@ōrum
 adparāt@ūr@um
-similātis
+similā@tis
 acerbi@ōrum
 styraciflu@am
 exhūmōrā@ns
@@ -76041,7 +76041,7 @@ inocula@nd@īs
 perdomit@ūr@ae
 angustiāt@ī
 rīm@ē@mus
-lāserpīciātō
+lāserpīciāt@ō
 trānsdūx@erī@tis
 ecfrāct@ae
 dēvirgināv@ēre
@@ -76080,7 +76080,7 @@ nūtriē@bā@tis
 inbell@e
 apologa@nd@ās
 refocilla@nd@ōrum
-adunc@a
+adunca
 citeri@ōrum
 chīmi@ā
 scrībillāvisse
@@ -76332,13 +76332,13 @@ catell@ō
 trittila@nd@ī
 incīdu@nt
 concordātiō
-recapti@a@t
+recaptia@t
 dēnūntia@nt@e
 pellūx@erī@mus
 effervēsce@ndum
 apert@e@r
 coagmentā@ba@m
-abda@ntur
+abd@a@ntur
 creā@bā@tis
 dēfōrma@nd@a
 remora@nt@em
@@ -76450,7 +76450,7 @@ sparge@rē@re
 armenic@īs
 reciperāt@ūr@ōrum
 perfere@nd@ōs
-prōclīv@ē@s
+prōclīv@ēs
 ingurgitāv@isse@t
 bord@īs
 recinge@rē@minī
@@ -76521,7 +76521,7 @@ mātūrrim@ī
 summurmurā@bā@re
 brachyrhynch@ārum
 praeterverti@tō
-PecMd@n
+Pecun@r
 castanēt@a
 mellā@be@re
 adtāminā@bi@mus
@@ -76541,7 +76541,7 @@ reputā@ba@m
 mūnerāt@ōrum
 castra@t
 murmura@nd@a
-suppūr@ā
+suppūrā
 cōnsciss@ūr@ā
 māchinā@bā@minī
 intersona@nt@ī
@@ -76685,7 +76685,7 @@ adgregā@bā@ris
 radi@ā@minī
 īnsect@ae
 contexu@ntō
-rutilā@minī
+rutilāminī
 tēxisse
 inchoāv@erō
 superprehēns@ūr@ārum
@@ -76823,7 +76823,7 @@ alterutr@a
 ēiaculā@rē@ris
 gluttī@re@nt
 dēpartīvisse
-adiace@nd@ō
+adiace@ndō
 redimi@mur
 trānsfretāt@um
 brevia@nd@am
@@ -77039,7 +77039,7 @@ claviped@ibus
 rōriger@am
 succid@eri@mus
 ananass@ā
-prōlūceō
+prōlūce@ō
 pluviātic@īs
 sarcināria
 inarctā@ns
@@ -77067,7 +77067,7 @@ bromeliāceus
 vagā@re@ntur
 superefflu@ē@tis
 pālāv@isse@nt
-manipulārēs
+manipulār@ēs
 supercrēv@isse@m
 comprimi@tur
 trānscrīps@eri@nt
@@ -77104,7 +77104,7 @@ pāscitē@tur
 dīvīnā@t@is
 convibrā@bi@mus
 nucle@ā@tis
-perar@ās
+perarās
 impositiōn@ibus
 runca@nd@ās
 recoct@ūr@ōs
@@ -77135,7 +77135,7 @@ bēluīn@ōrum
 nūtrīca@nt@ia
 circumclūde@nd@ī
 advocā@ns
-lēthārgi@a
+lēthārgia
 ēvers@ōs
 pūr@ōs
 scīt@ōrum
@@ -77196,7 +77196,7 @@ probātiō
 peduncul@ī
 supervenī@rē@mur
 obtorpu@erī@s
-oppigne@re@t
+oppigner@e@t
 occult@ē@mus
 prōpende@nt@ium
 experge@rē@re
@@ -77400,13 +77400,13 @@ imbēcill@ium
 decuriā@re@t
 commenda@ntor
 quaerita@nt@ī
-ustulā@minī
+ustul@ā@minī
 cōnfulge@nt
 labefact@ūr@ōrum
 castrā@bi@tis
 parti@ā@mus
 subaemulātiōn@ī
-similli@mus
+simillimus
 adlātr@ē@mur
 osm@ā
 apīsce@nt@ēs
@@ -77487,7 +77487,7 @@ picrid@e
 circumcumulāv@it
 occallēsc@e@nt
 prōrog@ā@mus
-quirītā@t@is
+quirītā@tis
 resurrēx@imus
 circumplex@eri@tis
 commōnstrā@bā@ris
@@ -77518,7 +77518,7 @@ trālūce@nt@ium
 adsimilāv@erā@mus
 absolūtum esse
 circumtenē@te
-praevāric@ē@re
+praevāric@ēre
 praemandāv@erā@tis
 rēptā@bā@mus
 circumambulāv@istis
@@ -77779,7 +77779,7 @@ praerump@e@nt
 echinātius
 cruciāt@ī
 adficiē@ba@nt
-applaudē@tis
+applaud@ē@tis
 temnē@bā@tis
 optā@stī
 affūd@eri@nt
@@ -77799,7 +77799,7 @@ acicularifoli@ō
 nervus
 rat@ūr@ā
 refart@ūr@ās
-cavillābund@ōrum
+cavillābu@nd@ōrum
 lava@nd@e
 īcisse
 adlēgāv@era@nt
@@ -78144,7 +78144,7 @@ hebe@nt
 vēment@ium
 affrica@nt@ō
 contenēbra@nt@is
-glōssopetrās
+glōssopetr@ās
 offend@a@m
 allēgāt@ae
 adēs@ūr@ae
@@ -78215,7 +78215,7 @@ allūs@us
 attexu@era@t
 orthographi@ārum
 adēsurīv@it
-ammisc@ē@tur
+ammiscē@tur
 vituperāt@ūr@ārum
 asterno@r
 anabas@īs
@@ -78269,10 +78269,10 @@ pīnx@erī@tis
 cōnflagrā@rē@mur
 pollīnx@eri@s
 lacerāv@eri@m
-praevide@ndum
+praevide@nd@um
 inrēti@a@t
 absterrē@ns
-ēduc@ā
+ēducā
 oculāv@it
 citharizā@re@t
 camembert@e
@@ -78287,7 +78287,7 @@ angariāt@ūr@īs
 afflīctāt@ūrus
 cognōmināv@eri@nt
 tonde@nd@ā
-dēducium
+dēduci@um
 sēmihia@nt@ēs
 praegustāv@isse@t
 superfulgē@bā@mur
@@ -78555,7 +78555,7 @@ innōdā@ba@ntur
 propinquāvisse
 compinge@nt@ium
 ēierāt@ūr@ā
-glit@em
+glit@e@m
 pondera@nt@ia
 sublue@rē@ris
 improperā@ba@nt
@@ -78647,7 +78647,7 @@ rēctificāt@ōs
 adjūt@ū
 superērogā@bi@t
 inreligiōs@ōrum
-repperi@mus
+repp@eri@mus
 ūsūcapi@ē@ris
 explōd@ē@s
 pavefacie@nt@ibus
@@ -78766,7 +78766,7 @@ brūchum
 suppeditā@bā@re
 indūc@a@m
 vigēscē@bā@tis
-cōnsarr@ī
+cōnsarrī
 dēneg@ā@mus
 concionā@rē@mur
 adhēre@nd@am
@@ -79104,7 +79104,7 @@ vapōrā@bā@tis
 interplicā@rē@minī
 dēcernē@bā@mur
 adrogāt@ārum
-tripudium
+tripud@ium
 fōrmā@bā@tis
 praecantāv@isse@nt
 adalligā@ba@t
@@ -79168,7 +79168,7 @@ quīntān@a
 ēnatā@re@ntur
 dignitāt@ibus
 arbor@is
-adōrnē@s
+adōrn@ē@s
 dēlectā@bi@s
 supplēv@erā@mus
 superadde@rē@re
@@ -79223,7 +79223,7 @@ subtexu@eri@tis
 allaudāv@erī@s
 optāv@erā@tis
 supervestī@rē@mur
-veterāsce@rē@mus
+veterāscerē@mus
 remonit@ūr@ārum
 dēpil@ē@mus
 thȳmiāmat@ibus
@@ -79258,7 +79258,7 @@ dērīsōr@ēs
 inclārēsci@te
 adventīci@ōrum
 induperā@mus
-ēmptōr@is
+ēmptōris
 sacrōsānct@a
 silēsc@ē@tis
 allēv@erā@tis
@@ -79390,7 +79390,7 @@ absolv@ā@mus
 obdūcē@bā@s
 obrog@ē@tur
 immediāt@ae
-foenāria
+foenāri@a
 obversa@nd@ārum
 tīnctōri@īs
 adpretiāv@erā@tis
@@ -79449,7 +79449,7 @@ maltophili@ōrum
 immān@ē@s
 cōnsummātiōn@um
 dēprāvātum esse
-praesid@ē@s
+praesidē@s
 expect@ē@minī
 annotāv@era@t
 tŏt@ī
@@ -79471,7 +79471,7 @@ virida@nd@um
 muste@a
 conlabōrāt@ōrum
 cōnspīrātō
-adumbrā@mur
+adumbr@ā@mur
 hērēditā@bi@t
 circumsona@ntor
 perdoma@nd@um
@@ -79544,7 +79544,7 @@ obtruncāt@ūr@ae
 abig@a@nt
 praedoce@nt@ī
 peti@eri@t
-quate@rē@ris
+quate@r@ē@ris
 distentum esse
 sollicitātum esse
 arcuā@bi@tis
@@ -79788,7 +79788,7 @@ dēcerps@erī@s
 praesūme@nd@ī
 Geniculāt@ī
 erysithalis
-trānsmittā@tur
+trānsmitt@ā@tur
 ascium
 intertrāx@imus
 revēlā@bu@nt
@@ -79803,7 +79803,7 @@ incorporāt@am
 latēbrōs@ōs
 dīnōt@ūr@am
 trānsdūcē@ba@t
-mātri@mus
+mātrimus
 retract@us
 ērut@ūr@īs
 arietāre
@@ -79838,7 +79838,7 @@ permeābil@ia
 perdifficil@ium
 Pēducaeus
 dēfecāt@ūr@am
-praecūr@ē@re
+praecūrē@re
 accide@rē@mus
 prēnsum esse
 āvola@nt@ēs
@@ -79924,7 +79924,7 @@ subvehi@tis
 clipeā@bā@tis
 levāment@um
 intelligo@r
-maculo@r
+maculor
 obsetrīca@nd@um
 prōcūde@rē@tur
 ēcaud@ibus
@@ -79963,7 +79963,7 @@ perpetu@ā@ris
 dēlīnx@istis
 cēreol@ōrum
 convibrāv@erī@tis
-cess@eri@s
+cess@er@i@s
 aggubernā@ns
 pretiāv@eri@nt
 ūbera@nt@ō
@@ -80008,7 +80008,7 @@ condemn@e@t
 tessellā@bi@ō
 moderāv@isse@m
 salvā@bā@tis
-inpediēns
+inpediē@ns
 aedituma@nt@ēs
 fricā@tōte
 resigna@nt@īs
@@ -80017,9 +80017,9 @@ sorbillā@be@ris
 ammutilā@bi@s
 inclāmāv@it
 indulg@ē@mur
-angūri@ā@s
+angūri@ās
 jūstific@ē@ris
-īnserā@minī
+īnser@ā@minī
 administrā@rē@mur
 concēla@nd@ā
 computru@era@nt
@@ -80128,7 +80128,7 @@ pervidē@be@ris
 incohā@tōte
 recolloca@nd@ōs
 vēni@ē@re
-gubernā
+gubern@ā
 animadvert@ē@tur
 lūminārium
 percrēbēsce@nt@ī
@@ -80144,7 +80144,7 @@ adbreviāv@issē@tis
 alterā@re@m
 dēbilitāt@ās
 manūmitti@mus
-obpugnā@t@e
+obpugnāt@e
 exprōme@rē@minī
 coep@is
 prōclāmā@rē@mus
@@ -80256,7 +80256,7 @@ vorātōr@ēs
 acquīrē@bā@minī
 nīl@ī
 aequiperā@mus
-īnfuscāt@us
+īnfuscātus
 apstinē@be@ris
 adgenerāv@era@nt
 scortā@bu@ntur
@@ -80277,7 +80277,7 @@ prōcōnsul@ār@e
 obrēpe@rē@ris
 cōnfūtāvisse
 stercor@ē@mus
-frem@a@ntur
+frema@ntur
 allāt@ū
 surrēpe@rē@mur
 nōscē@bā@tur
@@ -80385,7 +80385,7 @@ dīmōt@am
 expul@ērunt
 cōnflīcta@nd@ā
 elephā@ns
-subplantō
+subpla@ntō
 honōrificā@ba@nt
 ēlūg@ē@s
 obturba@nt@ibus
@@ -80480,7 +80480,7 @@ exorbitā@rē@mus
 errābund@ōs
 ēlu@a@m
 accucurr@erō
-habit@ā
+habitā
 ablepsi@ā
 dēprimi@mur
 injūnct@um
@@ -80599,7 +80599,7 @@ pernōscē@bā@tur
 fossā@bi@ō
 relēg@ī
 dēcrēsc@ā@mus
-refuscāt@us
+refuscātus
 portende@nt@is
 intege@nd@um
 expīrāt@ūr@ā
@@ -80623,7 +80623,7 @@ fermentāv@eri@s
 incrēbrēsce@nt@ium
 asparg@ā@re
 stipanicicor@īs
-dīmicā@t@is
+dīmic@ā@t@is
 sard@ē@minī
 perters@ūr@ārum
 inplōrāt@ūr@a
@@ -80756,7 +80756,7 @@ exarā@re@r
 flūxiōr@em
 discoque@nd@ō
 adici@tis
-circumstanti@a@m
+circumstanti@am
 beāt@ūr@ōs
 coambula@nt@ium
 discooperī@re@t
@@ -80854,7 +80854,7 @@ prōvid@ē@ris
 dēspoliā@ba@r
 tremul@e@t
 iocā@rē@mur
-cōntiōna@ntis
+cōntiōna@nt@is
 adpugn@ās
 holocaust@ārum
 mulierāri@ā
@@ -80930,7 +80930,7 @@ hejulāt@ūrus
 cōnfōrm@īs
 aquāri@us
 ampullāt@am
-fortūnātiōr@um
+fortūnāti@ōrum
 trānsdūc@ē@tur
 cēns@ūr@ōrum
 sūx@ī
@@ -80977,7 +80977,7 @@ contrahe@re@m
 autocīnēt@ī
 camerā@bu@nt
 adiūt@ōrum
-odōr@ē@s
+odōr@ēs
 allacrimāv@era@m
 pēnsā@bā@re
 damasōnia
@@ -81174,7 +81174,7 @@ supersēmināv@erō
 īnsili@ō
 archepiscop@um
 tinni@eri@tis
-diffid@imus
+diffidimus
 exsolēsce@nt@ium
 īnsignie@nd@īs
 satage@nd@ās
@@ -81246,7 +81246,7 @@ aegrōta@nt@ō
 rūsticātiōn@em
 pausātō
 uncīnāt@ōs
-falsific@ē@re
+falsific@ēre
 concinnāv@isse@t
 Curti@ā
 prōrogā@ba@nt
@@ -81406,7 +81406,7 @@ rewadiāv@it
 moribund@ārum
 affīdāv@eri@nt
 affer@ā@mus
-adlaud@ē@mus
+adlaudē@mus
 praetere@ā@s
 cōnsalūt@e@r
 immitte@rē@minī
@@ -81452,7 +81452,7 @@ dēbe@nt@ium
 subduct@us
 excurr@erī@tis
 cinge@nt@ium
-tex@am
+tex@a@m
 concili@ē@tis
 dēcollāt@ī
 currīl@e
@@ -81671,7 +81671,7 @@ Mārtiān@ae
 dusmōs@ī
 ministrā@rē@s
 injūcund@ā
-sempervirent@ia
+sempervire@nt@ia
 obfirmā@bi@tur
 affīdātus
 obversāt@ūr@ō
@@ -81716,7 +81716,7 @@ subīnfer@ē@s
 agnīn@ae
 agglūtin@e@m
 braci@ās
-mitt@ā@s
+mitt@ās
 dīrut@ūr@ō
 stīpa@nd@ī
 tinnīv@erō
@@ -81753,7 +81753,7 @@ nōscitā@t@is
 tortum esse
 discorda@nt@is
 orīgan@um
-Peei@d@n
+Peeud@s
 dērīdē@rē@mur
 perspex@erī@s
 conglob@ē@mus
@@ -81849,7 +81849,7 @@ irrīde@nt@ia
 nōbilit@ē@tur
 crībricoll@ēs
 applicāv@istī
-incol@i@mus
+incoli@mus
 aurūginōs@um
 īnsidiōs@ae
 solidā@ba@ntur
@@ -81884,7 +81884,7 @@ dīviti@am
 concrēt@ōs
 medullāt@īs
 adcorporāv@issē@mus
-cacophat@ō
+cacophatō
 allūctāt@ūr@ārum
 subluē@bā@mur
 crūdēscō
@@ -81972,7 +81972,7 @@ resalūtāv@ērunt
 adēsc@a@nt
 addecimā@tor
 ori@ēre
-ammisc@e@nt
+ammisce@nt
 praetextāt@ō
 līvēdin@um
 mulgeo@r
@@ -82005,7 +82005,7 @@ humāt@ūrus
 posc@ē@mur
 subnecte@re@nt
 adgravā
-hippocentaurō
+hippocentaur@ō
 stīpāt@um
 melanogastr@ō
 iniectā@mur
@@ -82057,7 +82057,7 @@ dēfendi@tō
 compacīsc@ā@minī
 excōgitāv@imus
 admurmurātiōn@em
-inconjug@ī
+inconjugī
 circumsaepiē@bā@re
 mandūcā@be@re
 calcea@ndus
@@ -82102,7 +82102,7 @@ creāt@ōs
 prandē@ba@r
 reflōrē@ba@nt
 adsultāv@era@nt
-conglobē@tis
+conglob@ē@tis
 pēduculōs@ōs
 effercī@tō
 ascrībo@r
@@ -82135,7 +82135,7 @@ reside@ntis
 glūb@ā@minī
 fabrēfie@rē@mus
 īnflex@eri@s
-circumcalce@t
+circumcalc@e@t
 oppetīt@ūr@ā
 invehe@rē@mus
 servāv@ī
@@ -82148,7 +82148,7 @@ praesupposu@it
 apporta@nd@ō
 nōbilitāv@erā@tis
 prōmūtua@nd@am
-perfidi@am
+perfidi@a@m
 fēlla@nd@īs
 orphan@ōs
 mōri@ī
@@ -82228,7 +82228,7 @@ ingemēscu@ntor
 aduss@erā@tis
 molu@ī
 dēvehe@re@r
-pedilūd@i@a
+pedilūdi@a
 damnōsus
 obsera@nd@a
 supplanta@t
@@ -82267,7 +82267,7 @@ acciē@bi@tis
 petulantissim@a
 accessōri@us
 lēta@nd@īs
-quattuorvirālis
+quattuorvirāl@is
 cōnsponde@ā@mus
 prōject@us
 colliquāt@ūr@um
@@ -82578,7 +82578,7 @@ subantarctic@īs
 admiscu@era@t
 tonu@isse@nt
 prōpugnātiōn@e
-mēnsōris
+mēnsōr@is
 obtig@erī@mus
 redamā@tur
 submūtā@bā@tis
@@ -82727,7 +82727,7 @@ prōmu@ntur
 circumplex@ūr@ī
 sarpe@nt@em
 dēcerpt@ūr@ās
-adglūtinē@mus
+adglūtin@ē@mus
 jung@a@r
 cruciāt@ārum
 imprōvīs@ōrum
@@ -82744,7 +82744,7 @@ physiologic@am
 sona@nd@ā
 lenticul@ā
 rutheni@ō
-socie@m
+soci@e@m
 juva@nd@ōs
 catēcizāv@issē@mus
 cōnsarri@ā@mus
@@ -82891,7 +82891,7 @@ adsit@ī
 nūta@nt@is
 prec@e@ntur
 adlabōrāv@erī@tis
-capillācea
+capillāce@a
 cōnīte@nd@e
 satag@a@t
 mortifica@nd@ī
@@ -82906,7 +82906,7 @@ supergress@ūr@um
 adposu@eri@mus
 cōnspīrātiōn@ī
 fruitē@tis
-concili@em
+concili@e@m
 obiūrgā@ba@t
 lōt@ī
 elementārē@s
@@ -82917,7 +82917,7 @@ perūnx@erā@s
 lēvā@bi@minī
 prōstern@ē@minī
 stabilīmina
-petīti@ō
+petītiō
 prōvēnisse
 praegredie@nt@is
 attentāt@ūr@ās
@@ -82969,7 +82969,7 @@ succine@nt@e
 ablēgārī
 dēprehend@eri@nt
 cōnflīct@ōs
-praenot@em
+praenot@e@m
 exstrūct@ūr@ās
 interiacu@istī
 īsoscel@ēs
@@ -83269,7 +83269,7 @@ adsu@e@ntur
 adprōna@t
 cīvitāt@ibus
 obcaecāt@ōrum
-bibe@r@e@m
+bibe@re@m
 graecissā@bi@s
 inmodicus
 attine@ō
@@ -83280,7 +83280,7 @@ ruptiōn@ibus
 sacrifica@nt@ium
 dēdo@r
 antehabu@issē@s
-antisteteri@mus
+antistet@eri@mus
 contrāscrīps@era@nt
 abrogā@bu@nt
 discurr@ī
@@ -83345,7 +83345,7 @@ adminiculā@re@r
 cave@ntor
 extundē@bā@re
 percōnā@bo@r
-dulcicula
+dulcicul@a
 īnfantul@ae
 lēnīv@erā@mus
 supplēt@ūrus
@@ -83619,7 +83619,7 @@ suppēd@ī
 īnfāmā@bi@mur
 relaxāv@isse@nt
 petīgin@em
-sōpī@te
+sōpīt@e
 combīnāt@ūr@a
 immūtāt@ūr@ī
 dīlūcidiōr@a
@@ -83775,7 +83775,7 @@ satisfacie@nd@um
 occēp@ērunt
 trānsfodiē@bā@tur
 marmot@īs
-calculā@mus
+calcul@ā@mus
 dīgnōt@ūr@ā
 rescrību@ntō
 accubu@issē@s
@@ -83815,7 +83815,7 @@ cantitā@tōte
 sēnsificā@rē@s
 iūt@ō
 tali@e@ntur
-illicita
+illicit@a
 adsuēsc@ē@ris
 strobīlin@ō
 adrogā@tōte
@@ -84137,7 +84137,7 @@ mūnerātum esse
 trānscīdu@ndus
 prōtrūd@e
 mitilā@mus
-supervacuō
+supervacu@ō
 exsilu@ērunt
 dēscendē@bā@tur
 murmurāvisse
@@ -84199,7 +84199,7 @@ ammonē@bā@ris
 inungue@nt@ia
 commuls@era@m
 īnsolēsce@nt@ibus
-dēceptōr@i@a
+dēceptōri@a
 pung@ā@tis
 pellici@minī
 resign@āssē@s
@@ -84294,14 +84294,14 @@ subnecte@nt@is
 floccipēns@ūr@īs
 lībā@re@m
 rescrīps@erā@s
-properā@tis
+properā@t@is
 conloqui@ī
 accumulā@ba@ntur
 moere@a@ntur
 subrut@ārum
 obēsitāt@e
 retrōspect@ūr@īs
-suppīl@e@m
+suppīl@em
 commacula@ntur
 invīd@erī@mus
 nōtite
@@ -84478,7 +84478,7 @@ imbu@isse@t
 aeternā@rē@mus
 īnstrepitā
 plāgā@ba@ntur
-priōr@i@a
+priōr@ia
 exciē@bā@tis
 auctōrizāt@ūr@īs
 diffund@a@ntur
@@ -84495,7 +84495,7 @@ tempta@nd@ā
 compass@ūr@ō
 apprōnā@tur
 pācificāv@it
-labefacis
+labefaci@s
 flex@ibus
 trabēcul@ārum
 supervehe@nt@īs
@@ -84595,7 +84595,7 @@ prōmptissim@ō
 reductā@bu@nt
 pappāv@erī@s
 invītāv@eri@s
-cōnfīgā@mus
+cōnfīg@ā@mus
 corrēctōr@ēs
 fīx@eri@m
 pugilātōri@ā
@@ -84703,7 +84703,7 @@ allicefact@ī
 intereme@nd@am
 praedomināt@ūr@ā
 redūca@ntur
-viridiflōrum
+viridiflōr@um
 subaudī@minī
 amoebae@ā
 tunde@re@t
@@ -84852,7 +84852,7 @@ praeoptāt@um
 interit@uum
 cognitiōn@ī
 cerebr@ōrum
-pars@er@i@s
+pars@eri@s
 praelēgā@re@nt
 ingeniōsissim@īs
 obārēsci@tis
@@ -84881,7 +84881,7 @@ adversissim@ō
 trānsmīs@issē@mus
 sumministrāt@ās
 poenīv@erī@s
-carabe
+carab@e
 frūstrā@rē@minī
 praeloque@nd@am
 cannabin@ās
@@ -84936,10 +84936,10 @@ mendīcissim@ārum
 īnfām@em
 exporrēct@ū
 perroga@nt@is
-mendīca@ntis
+mendīca@nt@is
 ambitiōs@ī
 convulnera@nd@ō
-dējuv@ō
+dējuvō
 graecissā@bu@nt
 laedē@ba@t
 autumn@e@t
@@ -84982,7 +84982,7 @@ bilīneāt@īs
 percēnsē@bā@ris
 īnfēc@isse@nt
 laxāv@era@nt
-Peeud@s
+PNegd@r
 perdūra@nd@a
 cillib@ārum
 dēmpt@ūr@ārum
@@ -85359,7 +85359,7 @@ adbibe@rē@minī
 ingann@ē@re
 remānāv@ēre
 adaestuā@bu@nt
-nabliza@nt@is
+nabliza@ntis
 derbiōs@ōrum
 adprobā@be@ris
 ēject@ē@mus
@@ -85430,7 +85430,7 @@ pectu@ntō
 excommūnicā@rē@ris
 inexcūsāt@ōs
 aequore@ō
-rogita@nt@is
+rogita@ntis
 prōscindō
 fēstīvāl@is
 incorrupt@um
@@ -85456,7 +85456,7 @@ attendē@bā@tur
 cavernicol@am
 inperātum īrī
 comprēnsum esse
-interstingu@e@ri@s
+interstingu@eri@s
 method@ōrum
 palaeosiberic@ās
 refovē@rē@mus
@@ -85619,7 +85619,7 @@ imitā@bā@mur
 lūct@ūr@ōs
 concrēd@ē@ris
 ignōrāv@issē@s
-Taphro@n
+Taphron
 mūg@īs
 adumbrāv@imus
 praepara@nt@ī
@@ -85873,7 +85873,7 @@ inclīnā@bi@mus
 adnex@ūr@am
 intend@isse@nt
 obvolvu@nt
-palimpsēstus
+palimpsēst@us
 raptā@rē@mur
 obsurdu@ēre
 laricīn@ō
@@ -85917,7 +85917,7 @@ addēns@ē@minī
 arcuum
 interplicā
 complōra@nt@is
-invīsite
+invīsi@te
 praecognōscā@re
 adlabōrā@bā@tur
 cyanopter@ārum
@@ -86016,7 +86016,7 @@ circumfodie@nd@ōs
 lentul@ās
 māteriāri@ae
 impossibil@e
-herbit@um
+herbitum
 ēlong@e@t
 ābuia@nt@ō
 cōnfīd@ā@mus
@@ -86174,7 +86174,7 @@ reclāmā@ba@t
 croce@ās
 līvēdin@ī
 amīc@ae
-pālā@rē@re
+pālā@rēre
 cōnfōrmāt@ūr@um
 superfluē@bā@ris
 redargu@istis
@@ -86183,9 +86183,9 @@ dulcōrāv@imus
 condēns@ōs
 nucleāv@erā@tis
 trānsmūtāv@ēre
-sēmustulārī
+sēmustulār@ī
 apocul@e@r
-mūsarāneō
+mūsarāne@ō
 patuisse
 tītill@ōrum
 obductiōn@um
@@ -86735,7 +86735,7 @@ dīlūcēsce@nt@ia
 abscīde@rē@ris
 pallac@ae
 dirēmpt@ūrus
-deambul@em
+deambul@e@m
 pelliciēns
 dēpungi@minī
 superventum īrī
@@ -86747,7 +86747,7 @@ corrūgāv@ī
 fūcāv@eri@t
 lamyr@ōrum
 ēvulg@e@ntur
-cōnsōlāmine
+cōnsōlāmin@e
 admoderā@ba@r
 aestimātiv@āt@is
 adhāla@nt@ibus
@@ -86826,7 +86826,7 @@ ogganni@ās
 ēlocūt@e
 congȳrā@bi@t
 prōmerē@rē@minī
-lepidōte
+lepidōt@e
 effla@ntur
 dēbu@eri@tis
 adbreviāt@ōs
@@ -86890,7 +86890,7 @@ exaequāv@era@m
 expalpā@rē@minī
 gerul@ā
 mathēsis
-fīnium
+fīni@um
 horrid@ā
 retona@nt@ō
 firmitā@t@is
@@ -86910,7 +86910,7 @@ adfirmā@tur
 levāv@erā@tis
 domā@re@t
 comprimē@ba@r
-ēg@erā@mur
+ēgerā@mur
 līātum īrī
 grunnī@mus
 pēduculōs@ā
@@ -87052,7 +87052,7 @@ adpropinqu@ā@ris
 cōnfricāt@a
 prīva@nd@ī
 carrūcā
-dīmitt@ās
+dīmitt@ā@s
 adhērēsce@nt@ēs
 cubā@mus
 vīd@eri@nt
@@ -87129,7 +87129,7 @@ lēctitā@bā@tur
 exululāt@īs
 perlu@a@nt
 indūr@ē@s
-pond@erā@s
+pond@er@ās
 perimē@bā@mus
 sēps@eri@mus
 oblecta@ndus
@@ -87141,11 +87141,11 @@ coūs@am
 resart@ūr@a
 adnihila@nt@ēs
 glabrirōstr@ia
-superoccup@ā@mus
+superoccupā@mus
 discoperi@ē@minī
 resignāt@ūr@īs
 adrīdē
-conpetītor
+conpetī@tor
 fēl@ibus
 frūct@ūr@ō
 assimulāt@am
@@ -87169,7 +87169,7 @@ obtemperāt@ūr@ōs
 lucrā@bā@re
 dēping@ā@mus
 explicāt@ūrus
-suprādīc@ī
+suprādīcī
 supersēmina@nt@ibus
 coagitā@t@is
 adimple@a@nt
@@ -87182,7 +87182,7 @@ ablactāv@era@nt
 metric@a
 cōnscinde@nd@ī
 lachrym@a
-cōnectā@t@is
+cōnectā@tis
 prŏpīnāt@e
 corrās@eri@s
 dēiugā@bu@ntur
@@ -87244,7 +87244,7 @@ nigropūnctāt@īs
 praetervolāv@erā@s
 calit@ūr@um
 suebic@ō
-acer@e
+acere
 morbific@ē@minī
 furiōsiōr@is
 appāru@ī
@@ -87306,7 +87306,7 @@ adulēscentia@nt@ia
 ascia@nt@īs
 hui@ās
 bā̆rōn@ēs
-apu@nd@ā
+apund@ā
 admisce@ndus
 dēters@ūr@ārum
 improbā@rē@minī
@@ -87366,17 +87366,17 @@ magnāri@am
 sānctificāt@īs
 dactyl@ī
 superoccup@e@m
-herbe@ā@s
+herbe@ās
 adflīcta@nd@ae
 cōnfiscā@bā@tis
 lībāt@ūr@ārum
-prohibite
+prohibit@e
 admōv@isse@t
 affigūrāv@istis
 sērōtin@ō
 redargue@nd@ā
 excaldāv@istī
-epulo@r
+epulor
 callu@istis
 tond@ē@minī
 lania@ntor
@@ -87555,7 +87555,7 @@ trīt@ūr@ae
 combūr@ē@s
 officiu@ndus
 mellā@bi@ō
-haematobius
+haematobi@us
 exaequ@ē@tis
 circumligāt@ae
 certa@ndus
@@ -87743,7 +87743,7 @@ tumuisse
 perpelli@tōte
 prōsternē@bā@mur
 iēiūnātōr@e
-operculārē@s
+operculār@ē@s
 vēnunda@bi@mur
 inolē@sse@m
 exhērēdāv@imus
@@ -87899,7 +87899,7 @@ inveh@a@r
 sepelī@mur
 inton@ē@mus
 indulgē@ns
-perneg@ā@ris
+pernegā@ris
 affidentiā@bi@mur
 prōlongā@bā@mur
 intercala@nd@ō
@@ -88024,7 +88024,7 @@ eximperātōr@ī
 displicuit@ūrus
 praetende@nt@e
 participāv@erō
-āfric@ia
+āfrici@a
 trānstinē@rē@tis
 apothēcāri@īs
 obdid@erō
@@ -88035,7 +88035,7 @@ indicāt@ōs
 excruciāv@isse@nt
 recolligi@tō
 īnspectāt@um
-gazela
+gazel@a
 dēspue@nt@em
 prŏfunde@nt@ī
 dēgustāt@ūr@a
@@ -88081,7 +88081,7 @@ paedīcāt@ūr@ōs
 farci@a@r
 rogita@ndus
 temporāne@ās
-occumb@ā@s
+occumb@ās
 lapide@ā
 tenuium
 concīv@era@t
@@ -88162,7 +88162,7 @@ adquisītiōn@e
 prēndē@ba@r
 adjūv@eri@m
 dēpōn@ē@ris
-superjace@re
+superjacere
 repaus@e@nt
 volūt@ē@tis
 subintrōdūce@nt@ia
@@ -88200,7 +88200,7 @@ astrolab@ium
 dēiugā@bā@re
 ammovē@bā@s
 clīmactēric@ae
-recogni@tō
+recognitō
 silv@īs
 rūg@īs
 perlava@nd@ī
@@ -88211,7 +88211,7 @@ allegi@tis
 laverniōn@em
 eme@nd@ōs
 aestīva@nt@ium
-sulce@nt
+sulc@e@nt
 effētā@ba@r
 levigāv@imus
 subdocē@s
