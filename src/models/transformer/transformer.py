@@ -56,6 +56,7 @@ class Seq2SeqTransformer(nn.Module):
         self.tgt_vocab = tgt_vocab
         self.src_pad = src_vocab.pad
         self.tgt_pad = tgt_vocab.pad
+        self.combine_diacritics = self.src_vocab.contains_string_with_combined_diacritic()
 
     def forward(self,
                 src: Tensor,
@@ -130,12 +131,9 @@ class Seq2SeqTransformer(nn.Module):
                 answer[index] = result
         return answer
 
-    def translate(self, src_sentence: str, merge_combining_diacritics: bool = False, max_len: int = 30):
+    def translate(self, src_sentence: str, max_len: int = 30):
         self.eval()
-        if merge_combining_diacritics:
-          inp = string_to_list(src_sentence)
-        else:
-          inp = list(src_sentence)
+        inp = string_to_list(src_sentence, self.combine_diacritics)
         src = torch.LongTensor(self.src_vocab.vectorize_element(inp)).to(self.device).view(-1, 1)
         num_tokens = src.shape[0]
         src_mask = (torch.zeros(num_tokens, num_tokens)).type(torch.bool).to(self.device)
