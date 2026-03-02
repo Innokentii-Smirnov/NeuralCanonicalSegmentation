@@ -11,7 +11,7 @@ def contains_combined_diacritic(string: str) -> bool:
             return True
     return False
 
-def string_to_list(string: str, combine_diacritics: bool = False) -> list[str]:
+def string_to_list(string: str, combine_diacritics: bool) -> list[str]:
     if combine_diacritics:
         return string_to_list_with_combined_diacritics(string)
     else:
