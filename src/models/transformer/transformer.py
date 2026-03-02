@@ -131,7 +131,7 @@ class Seq2SeqTransformer(nn.Module):
                 answer[index] = result
         return answer
 
-    def translate(self, src_sentence: str, max_len: int = 30):
+    def translate(self, src_sentence: str, max_len: int = 50):
         self.eval()
         inp = string_to_list(src_sentence, self.combine_diacritics)
         src = torch.LongTensor(self.src_vocab.vectorize_element(inp)).to(self.device).view(-1, 1)
