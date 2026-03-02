@@ -4,3 +4,24 @@
 [submodule "2022SegmentationST"]
 	path = 2022SegmentationST
 	url = https://github.com/sigmorphon/2022SegmentationST.git
+[submodule "unimorph/chu"]
+	path = unimorph/chu
+	url = https://github.com/unimorph/chu.git
+[submodule "unimorph/deu"]
+	path = unimorph/deu
+	url = https://github.com/unimorph/deu.git
+[submodule "unimorph/eng"]
+	path = unimorph/eng
+	url = https://github.com/unimorph/eng.git
+[submodule "unimorph/ind"]
+	path = unimorph/ind
+	url = https://github.com/unimorph/ind.git
+[submodule "unimorph/ita"]
+	path = unimorph/ita
+	url = https://github.com/unimorph/ita.git
+[submodule "unimorph/fra"]
+	path = unimorph/fra
+	url = https://github.com/unimorph/fra.git
+[submodule "unimorph/lat"]
+	path = unimorph/lat
+	url = https://github.com/unimorph/lat.git
