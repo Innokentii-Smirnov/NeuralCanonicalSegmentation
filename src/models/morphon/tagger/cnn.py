@@ -20,7 +20,7 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
                 cnn_arguments: CNNArguments,
                 device: torch.device):
         super(MorphonologicalTransducer, self).__init__(vocabularies, device)
-        self.convolutional_encoder = ConvolutionalEncoder(**vars(cnn_arguments))
+        self.convolutional_encoder = ConvolutionalEncoder(**cnn_arguments)
         self.decoder = Mc(
             self.convolutional_encoder.output_dim,
             len(vocabularies['morphon'])
@@ -35,7 +35,14 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
 def make_model(vocabularies: dict[str, Vocabulary], device: torch.device):
     model = MorphonologicalTransducer(
         vocabularies,
-        CNNArguments(len(vocabularies["phon"]), 3, 5, 192, 0.2, True),
+        CNNArguments(
+          input_dim=len(vocabularies["phon"]),
+          n_layers=3,
+          window=5,
+          n_hidden=192,
+          dropout=0.2,
+          use_batch_norm=True
+        ),
         DEVICE
     )
     return model

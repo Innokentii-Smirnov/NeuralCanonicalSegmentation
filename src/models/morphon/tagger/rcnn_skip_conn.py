@@ -21,23 +21,23 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
         device: torch.device):
         super(MorphonologicalTransducer, self).__init__(vocabularies, device)
         self.recurrent_encoder = RecurrentEncoder(
-            encoder_arguments.hidden_size,
-            encoder_arguments.num_layers,
-            encoder_arguments.lstm_dropout,
-            encoder_arguments.bidirectional,
+            encoder_arguments['hidden_size'],
+            encoder_arguments['num_layers'],
+            encoder_arguments['lstm_dropout'],
+            encoder_arguments['bidirectional'],
             features = OrderedDict({
                 'letters': (
-                    encoder_arguments.vocab_size,
-                    encoder_arguments.embedding_dim,
-                    encoder_arguments.embedding_dropout
+                    encoder_arguments['vocab_size'],
+                    encoder_arguments['embedding_dim'],
+                    encoder_arguments['embedding_dropout']
                 )
             }),
             return_embedding = True
         )
         self.dropout = nn.Dropout(encoding_dropout)
-        cnn_arguments.input_dim = self.recurrent_encoder.output_dim
-        self.convolutional_encoder = ConvolutionalEncoder(**vars(cnn_arguments))
-        self.hidden_size = encoder_arguments.embedding_dim + self.recurrent_encoder.output_dim + self.convolutional_encoder.output_dim
+        cnn_arguments['input_dim'] = self.recurrent_encoder.output_dim
+        self.convolutional_encoder = ConvolutionalEncoder(**cnn_arguments)
+        self.hidden_size = encoder_arguments['embedding_dim'] + self.recurrent_encoder.output_dim + self.convolutional_encoder.output_dim
         self.decoder = Mc(self.hidden_size, len(vocabularies['morphon']))
 
     def forward(self, phon: Tensor, **kwargs):
@@ -50,9 +50,24 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
 def make_model(vocabularies: dict[str, Vocabulary], device: torch.device):
     model = MorphonologicalTransducer(
         vocabularies,
-        EncoderArguments(len(vocabularies["phon"]), 150, 0.1, 400, 1, 0.1, True),
+        EncoderArguments(
+          vocab_size=len(vocabularies["phon"]),
+          embedding_dim=150,
+          embedding_dropout=0.1,
+          hidden_size=400,
+          num_layers=1,
+          lstm_dropout=0.1,
+          bidirectional=True
+        ),
         0.1,
-        CNNArguments(None, 3, 5, 192, 0.2, True),
+        CNNArguments(
+          input_dim=None,
+          n_layers=3,
+          window=5,
+          n_hidden=192,
+          dropout=0.2,
+          use_batch_norm=True
+        ),
         device
     )
     return model

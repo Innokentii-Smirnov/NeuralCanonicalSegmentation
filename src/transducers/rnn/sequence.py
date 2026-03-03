@@ -17,21 +17,21 @@ class SequenceTransducer(Module):
 
         super().__init__()
         self.encoder = SequentialEncoder(
-            encoder_arguments.hidden_size,
-            encoder_arguments.num_layers,
-            encoder_arguments.lstm_dropout,
-            encoder_arguments.bidirectional,
+            encoder_arguments['hidden_size'],
+            encoder_arguments['num_layers'],
+            encoder_arguments['lstm_dropout'],
+            encoder_arguments['bidirectional'],
             features = OrderedDict({
                 'letters': (
-                    encoder_arguments.vocab_size,
-                    encoder_arguments.embedding_dim,
-                    encoder_arguments.embedding_dropout
+                    encoder_arguments['vocab_size'],
+                    encoder_arguments['embedding_dim'],
+                    encoder_arguments['embedding_dropout']
                 )
             })
         )
         self.decoder = SequentialDecoder(input_dim = self.encoder.output_dim,
                                          context_dim = context_dim,
-                                         **vars(decoder_arguments),
+                                         **decoder_arguments,
                                          device = device)
 
     def forward(self, sequence: Tensor, y: Tensor, context: Optional[Tensor] = None):

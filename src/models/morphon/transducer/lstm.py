@@ -41,9 +41,23 @@ def make_model(vocabularies: dict[str, Vocabulary],
                decoder_hidden_size: int = 800) -> MorphonologicalTransducer:
     model = MorphonologicalTransducer(
         vocabularies,
-        EncoderArguments(len(vocabularies["phon"]), 150, 0.1, encoder_hidden_size, 1, 0.1, True),
+        EncoderArguments(
+          vocab_size=len(vocabularies["phon"]),
+          embedding_dim=150,
+          embedding_dropout=0.1,
+          hidden_size=encoder_hidden_size,
+          num_layers=1,
+          lstm_dropout=0.1,
+          bidirectional=True
+        ),
         0.1,
-        DecoderArguments(vocabularies["morphon"], 150, decoder_hidden_size, 1, 0.1),
+        DecoderArguments(
+          vocabulary=vocabularies["morphon"],
+          embedding_dim=150,
+          hidden_size=decoder_hidden_size,
+          num_layers=1,
+          lstm_dropout=0.1
+        ),
         device,
         max_sequence_length
     )

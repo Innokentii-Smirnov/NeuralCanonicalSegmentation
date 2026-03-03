@@ -18,15 +18,15 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
         device: torch.device):
         super(MorphonologicalTransducer, self).__init__(vocabularies, device)
         self.encoder = SequentialEncoder(
-            encoder_arguments.hidden_size,
-            encoder_arguments.num_layers,
-            encoder_arguments.lstm_dropout,
-            encoder_arguments.bidirectional,
+            encoder_arguments['hidden_size'],
+            encoder_arguments['num_layers'],
+            encoder_arguments['lstm_dropout'],
+            encoder_arguments['bidirectional'],
             features = OrderedDict({
                 'letters': (
-                    encoder_arguments.vocab_size,
-                    encoder_arguments.embedding_dim,
-                    encoder_arguments.embedding_dropout
+                    encoder_arguments['vocab_size'],
+                    encoder_arguments['embedding_dim'],
+                    encoder_arguments['embedding_dropout']
                 )
             })
         )
@@ -41,7 +41,15 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
 def make_model(vocabularies: dict[str, Vocabulary], device: torch.device):
     model = MorphonologicalTransducer(
         vocabularies,
-        EncoderArguments(len(vocabularies["phon"]), 150, 0.1, 400, 1, 0.1, True),
+        EncoderArguments(
+          vocab_size=len(vocabularies["phon"]),
+          embedding_dim=150,
+          embedding_dropout=0.1,
+          hidden_size=400,
+          num_layers=1,
+          lstm_dropout=0.1,
+          bidirectional=True
+        ),
         0.1,
         device
     )

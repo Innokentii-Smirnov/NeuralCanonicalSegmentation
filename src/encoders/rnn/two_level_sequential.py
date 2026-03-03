@@ -14,13 +14,13 @@ class TwoLevelSequentialEncoder(Module):
                  features: Optional[OrderedDict[str, tuple[int, int, float]]] = None):
 
         super().__init__()
-        self.lower_encoder = SequenceEncoder(**vars(lower_encoder_arguments))
+        self.lower_encoder = SequenceEncoder(**lower_encoder_arguments)
         self.lower_encoding_dim = self.lower_encoder.output_dim
         self.lower_encoding_dropout = Dropout(lower_encoding_dropout)
-        self.higher_encoder = SequentialEncoder(higher_encoder_arguments.hidden_size,
-                                                higher_encoder_arguments.num_layers,
-                                                higher_encoder_arguments.lstm_dropout,
-                                                higher_encoder_arguments.bidirectional,
+        self.higher_encoder = SequentialEncoder(higher_encoder_arguments['hidden_size'],
+                                                higher_encoder_arguments['num_layers'],
+                                                higher_encoder_arguments['lstm_dropout'],
+                                                higher_encoder_arguments['bidirectional'],
                                                 self.lower_encoding_dim,
                                                 features)
         self.output_dim = self.higher_encoder.output_dim
