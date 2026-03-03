@@ -26,15 +26,15 @@ class Seq2SeqTransformer(nn.Module):
     A sequence to sequence network.
     """
     def __init__(self,
+                 src_vocab: Vocabulary,
+                 tgt_vocab: Vocabulary,
                  num_encoder_layers: int,
                  num_decoder_layers: int,
                  emb_size: int,
                  nhead: int,
-                 src_vocab: Vocabulary,
-                 tgt_vocab: Vocabulary,
-                 device: torch.device,
-                 dim_feedforward: int = 512,
-                 dropout: float = 0.1):
+                 dim_feedforward: int,
+                 dropout: float,
+                 device: torch.device):
         src_vocab_size = len(src_vocab)
         tgt_vocab_size = len(tgt_vocab)
         super(Seq2SeqTransformer, self).__init__()
