@@ -2,6 +2,7 @@ from typing import Callable, TypeVar
 from functools import reduce
 from itertools import chain
 from collections.abc import Iterable
+from more_itertools import ilen
 
 TKey = TypeVar('TKey')
 TValue = TypeVar('TValue')
@@ -47,7 +48,7 @@ def count(func: Callable[[T], bool], iterable: Iterable[T]) -> int:
     return sum(1 for elem in iterable if func(elem))
 
 def part(func: Callable[[T], bool], iterable: Iterable[T]) -> float:
-    return count(func, iterable) / len(iterable)
+    return count(func, iterable) / ilen(iterable)
 
 def composition(func1: Callable, func2: Callable):
     return lambda x: func2(func1(x))
