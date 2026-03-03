@@ -7,12 +7,12 @@ from ..transformer import make_model as make_transformer
 def make_model(
     model_type: str,
     model_subtype: str,
-    hyperparameters,
     vocabularies: dict[str, Vocabulary],
+    hyperparameters,
     device: torch.device):
     match model_type:
         case 'tagger':
-            return make_tagger(model_subtype, hyperparameters, vocabularies, device)
+            return make_tagger(model_subtype, vocabularies, hyperparameters, device)
         case 'transducer':
             return make_transducer(model_subtype, vocabularies, device)
         case 'transformer':
