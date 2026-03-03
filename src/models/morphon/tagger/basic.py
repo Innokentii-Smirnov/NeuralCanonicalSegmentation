@@ -11,7 +11,7 @@ class BasicMorphonologicalTransducer(BasicMc):
         self.vocabularies = vocabularies
         self.combine_diacritics = self.vocabularies['phon'].contains_string_with_combined_diacritic()
 
-    def apply(self, words: list[str], decode_copy: bool = False) -> list[str]:
+    def apply_to(self, words: list[str], decode_copy: bool = False) -> list[str]:
         data = [{'phon': string_to_list(word, self.combine_diacritics)} for word in words]
         dataset = SimpleDataset(data, ['phon'], [],
             True, True, True, True, self.vocabularies

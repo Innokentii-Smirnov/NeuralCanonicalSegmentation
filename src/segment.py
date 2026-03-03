@@ -42,6 +42,6 @@ else:
       words.append(word)
   except EOFError:
     pass
-result = model.apply(words)
+result = model.apply_to(words)
 for segmentation in result:
     print(segmentation)

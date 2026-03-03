@@ -141,7 +141,7 @@ class Seq2SeqTransformer(nn.Module):
         curr_labels = tgt_tokens.cpu().numpy()
         return np.take(self.tgt_vocab.symbols_, curr_labels)
 
-    def apply(self, words: list[str]) -> list[str]:
+    def apply_to(self, words: list[str]) -> list[str]:
         predictions = list[str]()
         for word in tqdm(words):
             prediction = self.translate(word)

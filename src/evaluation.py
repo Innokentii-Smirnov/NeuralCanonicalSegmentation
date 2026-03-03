@@ -23,5 +23,5 @@ def evaluate(segmentations: list[str], words: list[Word]):
 
 def test(model: BasicMorphonologicalTransducer, words: list[Word]):
   input = [word['phon'] for word in words]
-  segmentations = model.apply(input)
+  segmentations = model.apply_to(input)
   evaluate(segmentations, words)
