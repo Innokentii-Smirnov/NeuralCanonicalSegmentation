@@ -1,0 +1,9 @@
+{
+  "cnn_arguments": {
+    "n_layers": 3,
+    "window": 5,
+    "n_hidden": 192,
+    "dropout": 0.2,
+    "use_batch_norm": true
+  }
+}

@@ -1,6 +1,7 @@
 import argparse
 from os import path, listdir
 from os.path import splitext
+import json
 from utils.vocabulary import Vocabulary
 from models.morphon import make_model
 from utils.dataloader import DEVICE
@@ -29,7 +30,9 @@ vocabs = {splitext(filename)[0]: Vocabulary(True, True).load(path.join(vocab_dir
           for filename in listdir(vocab_dir)}
 for key, vocab in vocabs.items():
   logging.info('%s %i', key, len(vocab))
-model = make_model(args.model_type, args.model_subtype, vocabs, DEVICE)
+with open(path.join('default_hyperparameters', args.model_type, args.model_subtype, 'Hyperparameters.json')) as fin:
+  hyperparameters = json.load(fin)
+model = make_model(args.model_type, args.model_subtype, vocabs, hyperparameters, DEVICE)
 checkpoint_dir = path.join(model_dir, 'Checkpoints', '0')
 checkpoint_file = path.join(checkpoint_dir, f'checkpoint_best_{args.model_subtype}.pt')
 model.load_state_dict(torch.load(checkpoint_file, map_location=DEVICE))

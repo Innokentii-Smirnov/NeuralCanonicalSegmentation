@@ -1,0 +1,18 @@
+{
+  "encoder_arguments": {
+    "embedding_dim": 150,
+    "embedding_dropout": 0.1,
+    "hidden_size": 400,
+    "num_layers": 1,
+    "lstm_dropout": 0.1,
+    "bidirectional": true
+  },
+  "encoding_dropout": 0.1,
+  "cnn_arguments": {
+    "n_layers": 3,
+    "window": 5,
+    "n_hidden": 192,
+    "dropout": 0.2,
+    "use_batch_norm": true
+  }
+}

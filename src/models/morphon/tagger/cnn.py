@@ -35,16 +35,10 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
         output = self.decoder(encoding)
         return output
 
-def make_model(vocabularies: dict[str, Vocabulary], device: torch.device):
+def make_model(vocabularies: dict[str, Vocabulary], hyperparameters, device: torch.device):
     model = MorphonologicalTransducer(
         vocabularies,
-        CNNArguments(
-          n_layers=3,
-          window=5,
-          n_hidden=192,
-          dropout=0.2,
-          use_batch_norm=True
-        ),
-        DEVICE
+        **hyperparameters,
+        device=DEVICE
     )
     return model
