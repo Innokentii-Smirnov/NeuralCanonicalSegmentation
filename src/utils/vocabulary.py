@@ -35,7 +35,7 @@ class Vocabulary:
     def fit(self, data: Iterable[Iterable[str]]):
         # специальные символы
         self.symbols_ = ["<PAD>", "<UNK>", "<BEGIN>", "<END>"]
-        symbol_counts = defaultdict(int)
+        symbol_counts = defaultdict[str, int](int)
         for sequence in data:
             for elem in set(sequence):
                 symbol_counts[elem] += 1
