@@ -6,7 +6,7 @@ from transducers.rnn.sequence import SequenceTransducer
 from .basic import BasicMorphonologicalTransducer
 from utils.vocabulary import Vocabulary
 
-class MorphonologicalTransducer(BasicMorphonologicalTransducer, nn.Module):
+class MorphonologicalTransducer(BasicMorphonologicalTransducer):
 
     def __init__(self,
                  vocabularies: dict[str, Vocabulary],
@@ -17,11 +17,10 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer, nn.Module):
                  max_output_length: int):
 
         self.max_output_length = max_output_length
-        nn.Module.__init__(self)
+        BasicMorphonologicalTransducer.__init__(self, vocabularies, device)
         self.sequence_transducer = SequenceTransducer(encoder_arguments,
                                     encoding_dropout, 0,
                                     decoder_arguments, device)
-        BasicMorphonologicalTransducer.__init__(self, vocabularies, device)
 
     def forward(self, phon: Tensor, morphon: Tensor, generate: bool, **kwargs):
         if generate:
