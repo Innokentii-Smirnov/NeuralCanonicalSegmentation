@@ -14,7 +14,7 @@ def make_model(
         case 'tagger':
             return make_tagger(model_subtype, vocabularies, hyperparameters, device)
         case 'transducer':
-            return make_transducer(model_subtype, vocabularies, device)
+            return make_transducer(model_subtype, vocabularies, hyperparameters, device)
         case 'transformer':
             return make_transformer(vocabularies, device)
         case _:
