@@ -1,11 +1,12 @@
 import torch
 from torch import Tensor
+import torch.nn as nn
 from arguments import EncoderArguments, DecoderArguments
 from transducers.rnn.sequence import SequenceTransducer
 from .basic import BasicMorphonologicalTransducer
 from utils.vocabulary import Vocabulary
 
-class MorphonologicalTransducer(BasicMorphonologicalTransducer):
+class MorphonologicalTransducer(BasicMorphonologicalTransducer, nn.Module):
 
     def __init__(self,
                  vocabularies: dict[str, Vocabulary],
@@ -16,6 +17,7 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
                  max_output_length: int):
 
         self.max_output_length = max_output_length
+        nn.Module.__init__(self)
         self.sequence_transducer = SequenceTransducer(encoder_arguments,
                                     encoding_dropout, 0,
                                     decoder_arguments, device)
@@ -26,6 +28,9 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
             return self.sequence_transducer.transduce(phon, self.max_output_length)
         else:
             return self.sequence_transducer.forward(phon, morphon)
+
+    def load_state_dict(self, state_dict):
+        self.sequence_transducer.load_state_dict(state_dict)
 
 def make_model(vocabularies: dict[str, Vocabulary],
                device: torch.device,
