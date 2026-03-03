@@ -5,7 +5,7 @@ from transducers.rnn.sequence import SequenceTransducer
 from .basic import BasicMorphonologicalTransducer
 from utils.vocabulary import Vocabulary
 
-class MorphonologicalTransducer(BasicMorphonologicalTransducer, SequenceTransducer):
+class MorphonologicalTransducer(BasicMorphonologicalTransducer):
 
     def __init__(self,
                  vocabularies: dict[str, Vocabulary],
@@ -16,16 +16,16 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer, SequenceTransduc
                  max_output_length: int):
 
         self.max_output_length = max_output_length
-        SequenceTransducer.__init__(self, encoder_arguments,
+        self.sequence_transducer = SequenceTransducer(encoder_arguments,
                                     encoding_dropout, 0,
                                     decoder_arguments, device)
         BasicMorphonologicalTransducer.__init__(self, vocabularies, device)
 
     def forward(self, phon: Tensor, morphon: Tensor, generate: bool, **kwargs):
         if generate:
-            return SequenceTransducer.transduce(self, phon, self.max_output_length)
+            return self.sequence_transducer.transduce(phon, self.max_output_length)
         else:
-            return SequenceTransducer.forward(self, phon, morphon)
+            return self.sequence_transducer.forward(phon, morphon)
 
 def make_model(vocabularies: dict[str, Vocabulary],
                device: torch.device,
