@@ -66,20 +66,3 @@ class BasicMc(nn.Module):
                 result = sent_log_probs[curr_mask]
                 answer[index] = result
         return answer
-
-    def predict(self, X: SimpleDataset) -> list[ndarray]:
-        self.eval()
-        dataloader = FieldBatchDataloader(X, device=self.device, batch_size=32)
-        answer: list[ndarray] = [None] * len(X)
-        for batch in tqdm(dataloader):
-            indexes = batch["indexes"]
-            with torch.no_grad():
-                batch_answer = self(batch['phon'])
-            labels = batch_answer["labels"].cpu().numpy()
-            # probs = batch_answer.cpu().numpy()
-            # labels = probs.argmax(axis=-1)
-            for index, curr_labels, curr_mask in zip(indexes, labels, batch['mask'].bool().cpu().numpy(), strict=True):
-                result = np.take(X.vocabs["morphon"].symbols_, curr_labels[curr_mask])
-                answer[index] = result
-        return answer
-    
