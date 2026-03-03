@@ -20,7 +20,7 @@ class BasicSequenceGenerator(Module):
             self.to(self.device)
         self.optimizer = torch.optim.Adam(self.parameters())
 
-    def forward(self, inputs):
+    def forward(self, *args, **kwargs):
         raise NotImplementedError("You should implement forward pass in your derived class.")
 
     def train_on_batch(self, x, y, generate: bool):
