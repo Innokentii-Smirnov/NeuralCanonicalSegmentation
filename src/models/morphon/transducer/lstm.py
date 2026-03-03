@@ -32,6 +32,9 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer, nn.Module):
     def load_state_dict(self, state_dict):
         self.sequence_transducer.load_state_dict(state_dict)
 
+    def state_dict(self):
+        return self.sequence_transducer.state_dict()
+
 def make_model(vocabularies: dict[str, Vocabulary],
                device: torch.device,
                max_sequence_length: int = 50,
