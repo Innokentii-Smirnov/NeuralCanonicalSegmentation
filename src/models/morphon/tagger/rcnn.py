@@ -3,6 +3,7 @@ import torch.nn as nn
 from torch import Tensor
 from collections import OrderedDict
 from arguments import EncoderArguments, CNNArguments
+from arguments.tagger.rcnn import Hyperparameters
 from encoders.rnn.sequential import SequentialEncoder as RecurrentEncoder
 from encoders.cnn.sequential import SequentialEncoder as ConvolutionalEncoder
 from decoders.mc import Mc
@@ -47,7 +48,7 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
         output = self.decoder(encoding)
         return output
 
-def make_model(vocabularies: dict[str, Vocabulary], hyperparameters, device: torch.device):
+def make_model(vocabularies: dict[str, Vocabulary], hyperparameters: Hyperparameters, device: torch.device):
     model = MorphonologicalTransducer(
         vocabularies,
         **hyperparameters,

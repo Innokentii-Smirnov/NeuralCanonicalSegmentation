@@ -2,6 +2,7 @@ import torch
 from torch import Tensor
 import torch.nn as nn
 from arguments import EncoderArguments, NetworkArguments
+from arguments.transducer.lstm import Hyperparameters
 from transducers.rnn.sequence import SequenceTransducer
 from .basic import BasicMorphonologicalTransducer
 from utils.vocabulary import Vocabulary
@@ -38,7 +39,7 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
         return self.sequence_transducer.state_dict()
 
 def make_model(vocabularies: dict[str, Vocabulary],
-               hyperparameters,
+               hyperparameters: Hyperparameters,
                device: torch.device,
                max_sequence_length: int = 50) -> MorphonologicalTransducer:
     model = MorphonologicalTransducer(

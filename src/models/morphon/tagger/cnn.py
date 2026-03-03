@@ -9,6 +9,7 @@ from decoders.mc import Mc
 from basic_models.mc import BasicMc
 from .basic import BasicMorphonologicalTransducer
 from arguments import CNNArguments
+from arguments.tagger.cnn import Hyperparameters
 from utils.vocabulary import Vocabulary
 from utils.dataset import SimpleDataset
 from utils.dataloader import DEVICE
@@ -35,7 +36,7 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
         output = self.decoder(encoding)
         return output
 
-def make_model(vocabularies: dict[str, Vocabulary], hyperparameters, device: torch.device):
+def make_model(vocabularies: dict[str, Vocabulary], hyperparameters: Hyperparameters, device: torch.device):
     model = MorphonologicalTransducer(
         vocabularies,
         **hyperparameters,
