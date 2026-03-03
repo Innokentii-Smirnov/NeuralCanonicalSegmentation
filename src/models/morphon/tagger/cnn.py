@@ -19,13 +19,12 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
                 vocabularies: dict[str, Vocabulary],
                 cnn_arguments: CNNArguments,
                 device: torch.device):
-        super(BasicMc, self).__init__()
+        super(MorphonologicalTransducer, self).__init__(vocabularies, device)
         self.convolutional_encoder = ConvolutionalEncoder(**vars(cnn_arguments))
         self.decoder = Mc(
             self.convolutional_encoder.output_dim,
             len(vocabularies['morphon'])
         )
-        super(MorphonologicalTransducer, self).__init__(vocabularies, device)
 
     def forward(self, phon: Tensor, **kwargs):
         one_hot = F.one_hot(phon, self.convolutional_encoder.input_dim)

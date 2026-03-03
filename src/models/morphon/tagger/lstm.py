@@ -16,7 +16,7 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
         encoder_arguments: EncoderArguments,
         encoding_dropout: float,
         device: torch.device):
-        super(BasicMc, self).__init__()
+        super(MorphonologicalTransducer, self).__init__(vocabularies, device)
         self.encoder = SequentialEncoder(
             encoder_arguments.hidden_size,
             encoder_arguments.num_layers,
@@ -31,7 +31,7 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
             })
         )
         self.decoder = Mc(self.encoder.output_dim, len(vocabularies['morphon']))
-        super(MorphonologicalTransducer, self).__init__(vocabularies, device)
+
 
     def forward(self, phon: Tensor, **kwargs):
         encoding = self.encoder({'letters': phon})

@@ -19,7 +19,7 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
         encoding_dropout: float,
         cnn_arguments: CNNArguments,
         device: torch.device):
-        super(BasicMc, self).__init__()
+        super(MorphonologicalTransducer, self).__init__(vocabularies, device)
         self.recurrent_encoder = RecurrentEncoder(
             encoder_arguments.hidden_size,
             encoder_arguments.num_layers,
@@ -37,7 +37,6 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
         cnn_arguments.input_dim = self.recurrent_encoder.output_dim
         self.convolutional_encoder = ConvolutionalEncoder(**vars(cnn_arguments))
         self.decoder = Mc(self.convolutional_encoder.output_dim, len(vocabularies['morphon']))
-        super(MorphonologicalTransducer, self).__init__(vocabularies, device)
 
     def forward(self, phon: Tensor, **kwargs):
         encoding = self.recurrent_encoder({'letters': phon})
