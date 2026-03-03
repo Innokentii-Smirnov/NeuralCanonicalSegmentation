@@ -8,15 +8,10 @@ class NetworkArguments(TypedDict):
     lstm_dropout: float
 
 class EncoderArguments(NetworkArguments):
-    vocab_size: int
     embedding_dropout: float
     bidirectional: bool
 
-class DecoderArguments(NetworkArguments):
-    vocabulary: Vocabulary
-
 class CNNArguments(TypedDict):
-    input_dim: int
     n_layers: int
     window: int | list[int]
     n_hidden: int | list[int]

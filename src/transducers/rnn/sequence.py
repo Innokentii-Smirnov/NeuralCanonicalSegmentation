@@ -3,16 +3,20 @@ from torch import Tensor
 from torch.nn import Module
 from typing import Optional
 from collections import OrderedDict
+from utils.vocabulary import Vocabulary
 from encoders.rnn.sequential import SequentialEncoder
 from decoders.rnn.sequential import SequentialDecoder
-from arguments import EncoderArguments, DecoderArguments
+from arguments import EncoderArguments, NetworkArguments
 
 class SequenceTransducer(Module):
 
-    def __init__(self, encoder_arguments: EncoderArguments,
+    def __init__(self,
+                 input_vocab_size: int,
+                 encoder_arguments: EncoderArguments,
                  encoding_dropout: float,
                  context_dim: int,
-                 decoder_arguments: DecoderArguments,
+                 decoder_vocabulary: Vocabulary,
+                 decoder_arguments: NetworkArguments,
                  device: torch.device):
 
         super().__init__()
@@ -23,7 +27,7 @@ class SequenceTransducer(Module):
             encoder_arguments['bidirectional'],
             features = OrderedDict({
                 'letters': (
-                    encoder_arguments['vocab_size'],
+                    input_vocab_size,
                     encoder_arguments['embedding_dim'],
                     encoder_arguments['embedding_dropout']
                 )
@@ -31,6 +35,7 @@ class SequenceTransducer(Module):
         )
         self.decoder = SequentialDecoder(input_dim = self.encoder.output_dim,
                                          context_dim = context_dim,
+                                         vocabulary = decoder_vocabulary,
                                          **decoder_arguments,
                                          device = device)
 

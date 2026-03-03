@@ -8,13 +8,15 @@ from collections import OrderedDict
 
 class TwoLevelSequentialEncoder(Module):
 
-    def __init__(self, lower_encoder_arguments: CNNArguments,
+    def __init__(self,
+                 vocab_size: int,
+                 lower_encoder_arguments: CNNArguments,
                  lower_encoding_dropout: float,
                  higher_encoder_arguments: EncoderArguments,
                  features: Optional[OrderedDict[str, tuple[int, int, float]]] = None):
 
         super().__init__()
-        self.lower_encoder = SequenceEncoder(**vars(lower_encoder_arguments))
+        self.lower_encoder = SequenceEncoder(input_dim=vocab_size, **lower_encoder_arguments)
         self.lower_encoding_dim = self.lower_encoder.output_dim
         self.lower_encoding_dropout = Dropout(lower_encoding_dropout)
         self.higher_encoder = SequentialEncoder(higher_encoder_arguments['hidden_size'],

@@ -1,7 +1,7 @@
 import torch
 from torch import Tensor
 import torch.nn as nn
-from arguments import EncoderArguments, DecoderArguments
+from arguments import EncoderArguments, NetworkArguments
 from transducers.rnn.sequence import SequenceTransducer
 from .basic import BasicMorphonologicalTransducer
 from utils.vocabulary import Vocabulary
@@ -12,14 +12,17 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
                  vocabularies: dict[str, Vocabulary],
                  encoder_arguments: EncoderArguments,
                  encoding_dropout: float,
-                 decoder_arguments: DecoderArguments,
+                 decoder_arguments: NetworkArguments,
                  device: torch.device,
                  max_output_length: int):
 
         self.max_output_length = max_output_length
         BasicMorphonologicalTransducer.__init__(self, vocabularies, device)
-        self.sequence_transducer = SequenceTransducer(encoder_arguments,
+        self.sequence_transducer = SequenceTransducer(
+                                    len(vocabularies["phon"]),
+                                    encoder_arguments,
                                     encoding_dropout, 0,
+                                    vocabularies['morphon'],
                                     decoder_arguments, device)
 
     def forward(self, phon: Tensor, morphon: Tensor, generate: bool, **kwargs):
@@ -42,7 +45,6 @@ def make_model(vocabularies: dict[str, Vocabulary],
     model = MorphonologicalTransducer(
         vocabularies,
         EncoderArguments(
-          vocab_size=len(vocabularies["phon"]),
           embedding_dim=150,
           embedding_dropout=0.1,
           hidden_size=encoder_hidden_size,
@@ -51,8 +53,7 @@ def make_model(vocabularies: dict[str, Vocabulary],
           bidirectional=True
         ),
         0.1,
-        DecoderArguments(
-          vocabulary=vocabularies["morphon"],
+        NetworkArguments(
           embedding_dim=150,
           hidden_size=decoder_hidden_size,
           num_layers=1,

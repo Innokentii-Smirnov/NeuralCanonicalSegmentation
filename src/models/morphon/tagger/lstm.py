@@ -24,7 +24,7 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
             encoder_arguments['bidirectional'],
             features = OrderedDict({
                 'letters': (
-                    encoder_arguments['vocab_size'],
+                    len(vocabularies["phon"]),
                     encoder_arguments['embedding_dim'],
                     encoder_arguments['embedding_dropout']
                 )
@@ -42,7 +42,6 @@ def make_model(vocabularies: dict[str, Vocabulary], device: torch.device):
     model = MorphonologicalTransducer(
         vocabularies,
         EncoderArguments(
-          vocab_size=len(vocabularies["phon"]),
           embedding_dim=150,
           embedding_dropout=0.1,
           hidden_size=400,

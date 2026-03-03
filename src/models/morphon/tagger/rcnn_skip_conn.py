@@ -27,7 +27,7 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
             encoder_arguments['bidirectional'],
             features = OrderedDict({
                 'letters': (
-                    encoder_arguments['vocab_size'],
+                    len(vocabularies["phon"]),
                     encoder_arguments['embedding_dim'],
                     encoder_arguments['embedding_dropout']
                 )
@@ -35,8 +35,10 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
             return_embedding = True
         )
         self.dropout = nn.Dropout(encoding_dropout)
-        cnn_arguments['input_dim'] = self.recurrent_encoder.output_dim
-        self.convolutional_encoder = ConvolutionalEncoder(**cnn_arguments)
+        self.convolutional_encoder = ConvolutionalEncoder(
+          input_dim=self.recurrent_encoder.output_dim,
+          **cnn_arguments
+        )
         self.hidden_size = encoder_arguments['embedding_dim'] + self.recurrent_encoder.output_dim + self.convolutional_encoder.output_dim
         self.decoder = Mc(self.hidden_size, len(vocabularies['morphon']))
 
@@ -51,7 +53,6 @@ def make_model(vocabularies: dict[str, Vocabulary], device: torch.device):
     model = MorphonologicalTransducer(
         vocabularies,
         EncoderArguments(
-          vocab_size=len(vocabularies["phon"]),
           embedding_dim=150,
           embedding_dropout=0.1,
           hidden_size=400,
@@ -61,7 +62,6 @@ def make_model(vocabularies: dict[str, Vocabulary], device: torch.device):
         ),
         0.1,
         CNNArguments(
-          input_dim=None,
           n_layers=3,
           window=5,
           n_hidden=192,
