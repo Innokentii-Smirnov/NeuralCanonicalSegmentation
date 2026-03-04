@@ -1,6 +1,6 @@
 from library.read import read_list
 from typing import TypedDict
-from models.morphon.transducer.basic import BasicMorphonologicalTransducer
+from models.morphon.transducer.basic import MorphonologicalTransducerApplier
 
 class Word(TypedDict):
   phon: str
@@ -21,7 +21,7 @@ def evaluate(segmentations: list[str], words: list[Word]):
   accuracy = 100 * correct / len(words)
   print('Accuracy: {0:.2f}'.format(accuracy))
 
-def test(model: BasicMorphonologicalTransducer, words: list[Word]):
+def test(applier: MorphonologicalTransducerApplier, words: list[Word]):
   input = [word['phon'] for word in words]
-  segmentations = model.apply_to(input)
+  segmentations = applier.apply_to(input)
   evaluate(segmentations, words)

@@ -3,7 +3,7 @@ from os import path, listdir
 from os.path import splitext
 import json
 from utils.vocabulary import Vocabulary
-from models.morphon import make_model
+from models.morphon import make_model, make_applier
 from utils.dataloader import DEVICE
 import torch
 import logging
@@ -33,6 +33,7 @@ for key, vocab in vocabs.items():
 with open(path.join('default_hyperparameters', args.model_type, args.model_subtype, 'Hyperparameters.json')) as fin:
   hyperparameters = json.load(fin)
 model = make_model(args.model_type, args.model_subtype, vocabs, hyperparameters, DEVICE)
+applier = make_applier(args.model_type, model, vocabs, DEVICE)
 checkpoint_dir = path.join(model_dir, 'Checkpoints', '0')
 checkpoint_file = path.join(checkpoint_dir, f'checkpoint_best_{args.model_subtype}.pt')
 model.load_state_dict(torch.load(checkpoint_file, map_location=DEVICE))
@@ -45,6 +46,6 @@ else:
       words.append(word)
   except EOFError:
     pass
-result = model.apply_to(words)
+result = applier.apply_to(words)
 for segmentation in result:
     print(segmentation)

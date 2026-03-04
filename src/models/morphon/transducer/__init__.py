@@ -1,12 +1,13 @@
 import torch
 from utils.vocabulary import Vocabulary
 from .lstm import make_model as make_lstm
+from transducers.rnn.sequence import SequenceTransducer
 
 def make_model(
     model_type: str,
     vocabularies: dict[str, Vocabulary],
     hyperparameters,
-    device: torch.device):
+    device: torch.device) -> SequenceTransducer:
     match model_type:
         case 'LSTM':
             return make_lstm(vocabularies, hyperparameters, device)

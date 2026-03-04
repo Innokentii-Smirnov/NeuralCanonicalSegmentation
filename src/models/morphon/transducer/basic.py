@@ -7,25 +7,28 @@ from utils.vocabulary import Vocabulary
 from utils.dataset import SimpleDataset
 from utils.dataloader import FieldBatchDataloader
 from stringutils import string_to_list
+from transducers.rnn.sequence import SequenceTransducer
 
-class BasicMorphonologicalTransducer(nn.Module):
+class MorphonologicalTransducerApplier:
 
-    def __init__(self, vocabularies: dict[str, Vocabulary], device: torch.device):
-        super(BasicMorphonologicalTransducer, self).__init__()
+    def __init__(self, model: SequenceTransducer, vocabularies: dict[str, Vocabulary], device: torch.device,
+                 max_output_length: int = 50):
+        self.model = model
         self.device = device
         if self.device is not None:
-            self.to(self.device)
+            self.model.to(self.device)
         self.vocabularies = vocabularies
         self.combine_diacritics = self.vocabularies['phon'].contains_string_with_combined_diacritic()
+        self.max_output_length = max_output_length
 
     def predict(self, X: SimpleDataset) -> list[ndarray]:
-        self.eval()
+        self.model.eval()
         dataloader = FieldBatchDataloader(X, device=self.device, batch_size=32)
         answer: list[ndarray] = [None] * len(X)
         for batch in tqdm(dataloader):
             indexes = batch["indexes"]
             with torch.no_grad():
-                batch_answer = self(batch['phon'], None, True)
+                batch_answer = self.model.transduce(batch['phon'], self.max_output_length)
             labels = batch_answer["labels"].cpu().numpy()
             # probs = batch_answer.cpu().numpy()
             # labels = probs.argmax(axis=-1)
