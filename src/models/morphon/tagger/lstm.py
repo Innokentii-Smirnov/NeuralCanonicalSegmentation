@@ -1,4 +1,5 @@
 import torch
+import torch.nn as nn
 from torch import Tensor
 from collections import OrderedDict
 from arguments import EncoderArguments
@@ -6,18 +7,16 @@ from arguments.tagger.lstm import Hyperparameters
 from encoders.rnn.sequential import SequentialEncoder
 from decoders.mc import Mc
 from basic_models.mc import BasicMc
-from .basic import BasicMorphonologicalTransducer
 from utils.vocabulary import Vocabulary
 
-class MorphonologicalTransducer(BasicMorphonologicalTransducer):
+class LSTMTagger(nn.Module):
 
     def __init__(
         self,
         vocabularies: dict[str, Vocabulary],
         encoder_arguments: EncoderArguments,
-        encoding_dropout: float,
-        device: torch.device):
-        super(MorphonologicalTransducer, self).__init__(vocabularies, device)
+        encoding_dropout: float):
+        super(LSTMTagger, self).__init__()
         self.encoder = SequentialEncoder(
             encoder_arguments['hidden_size'],
             encoder_arguments['num_layers'],
@@ -39,10 +38,9 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
         output = self.decoder(encoding)
         return output
 
-def make_model(vocabularies: dict[str, Vocabulary], hyperparameters: Hyperparameters, device: torch.device):
-    model = MorphonologicalTransducer(
+def make_model(vocabularies: dict[str, Vocabulary], hyperparameters: Hyperparameters):
+    model = LSTMTagger(
         vocabularies,
-        **hyperparameters,
-        device=device
+        **hyperparameters
     )
     return model

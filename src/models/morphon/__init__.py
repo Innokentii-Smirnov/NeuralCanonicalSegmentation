@@ -1,6 +1,7 @@
 import torch
 from utils.vocabulary import Vocabulary
 from .tagger import make_model as make_tagger
+from .tagger.basic import MorphonologicalTaggerApplier
 from .transducer import make_model as make_transducer
 from .transducer.basic import MorphonologicalTransducerApplier
 from ..transformer import make_model as make_transformer
@@ -28,7 +29,7 @@ def make_applier(
     device: torch.device):
     match model_type:
         case 'tagger':
-            raise NotImplementedError
+            return MorphonologicalTaggerApplier(model, vocabularies, device)
         case 'transducer':
             return MorphonologicalTransducerApplier(model, vocabularies, device)
         case 'transformer':

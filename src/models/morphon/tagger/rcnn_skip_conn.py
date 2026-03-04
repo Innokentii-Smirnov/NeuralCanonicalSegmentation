@@ -8,19 +8,17 @@ from encoders.rnn.sequential import SequentialEncoder as RecurrentEncoder
 from encoders.cnn.sequential import SequentialEncoder as ConvolutionalEncoder
 from decoders.mc import Mc
 from basic_models.mc import BasicMc
-from .basic import BasicMorphonologicalTransducer
 from utils.vocabulary import Vocabulary
 
-class MorphonologicalTransducer(BasicMorphonologicalTransducer):
+class RCNNSkipConnTagger(nn.Module):
 
     def __init__(
         self,
         vocabularies: dict[str, Vocabulary],
         encoder_arguments: EncoderArguments,
         encoding_dropout: float,
-        cnn_arguments: CNNArguments,
-        device: torch.device):
-        super(MorphonologicalTransducer, self).__init__(vocabularies, device)
+        cnn_arguments: CNNArguments):
+        super(RCNNSkipConnTagger, self).__init__()
         self.recurrent_encoder = RecurrentEncoder(
             encoder_arguments['hidden_size'],
             encoder_arguments['num_layers'],
@@ -50,10 +48,9 @@ class MorphonologicalTransducer(BasicMorphonologicalTransducer):
         output = self.decoder(encoding)
         return output
 
-def make_model(vocabularies: dict[str, Vocabulary], hyperparameters: Hyperparameters, device: torch.device):
-    model = MorphonologicalTransducer(
+def make_model(vocabularies: dict[str, Vocabulary], hyperparameters: Hyperparameters):
+    model = RCNNSkipConnTagger(
         vocabularies,
-        **hyperparameters,
-        device=device
+        **hyperparameters
     )
     return model
