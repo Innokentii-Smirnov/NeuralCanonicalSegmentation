@@ -4,21 +4,24 @@
 		"tagger_LSTM": 77.0,
 		"tagger_RCNN": 78.0,
 		"tagger_RCNN-skip-conn": 77.3,
-		"transducer_LSTM": 75.7
+		"transducer_LSTM": 75.7,
+		"hard-attention_CLUZH": 78.5
 	},
 	"eng": {
 		"tagger_CNN": 73.0,
 		"tagger_LSTM": 74.2,
 		"tagger_RCNN": 75.6,
 		"tagger_RCNN-skip-conn": 75.1,
-		"transducer_LSTM": 77.6
+		"transducer_LSTM": 77.6,
+		"hard-attention_CLUZH": 78.0
 	},
 	"ind": {
 		"tagger_CNN": 92.6,
 		"tagger_LSTM": 92.4,
 		"tagger_RCNN": 94.0,
 		"tagger_RCNN-skip-conn": 93.8,
-		"transducer_LSTM": 92.5
+		"transducer_LSTM": 92.5,
+		"hard-attention_CLUZH": 93.4
 	},
 	"ita": {
 		"tagger_CNN": 77.86

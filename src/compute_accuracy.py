@@ -73,7 +73,7 @@ for code in LANGUAGE_CODES:
       model_dir = path.join(model_type_dir, model_subtype)
       pred_file = path.join(model_dir, PRED_FILE)
       predictions = read_list(pred_file)
-      if dataset in DATASET_TO_BOUNDARY:
+      if dataset in DATASET_TO_BOUNDARY and model_type in MODEL_TYPE_TO_BOUNDARY:
         pred_boundary = MODEL_TYPE_TO_BOUNDARY[model_type]
         dataset_boundary = DATASET_TO_BOUNDARY[dataset]
         postprocess = lambda segm: segm.replace(pred_boundary, dataset_boundary)
