@@ -13,14 +13,6 @@ from .token_embedding import TokenEmbedding
 from .positional_encoding import PositionalEncoding
 from .masking import generate_square_subsequent_mask
 
-def get_word(li: list[str]) -> str:
-    if '<BEGIN>' in li and '<END>' in li:
-        start = li.index('<BEGIN>')
-        end = li.index('<END>')
-        if end > start:
-            return ''.join(li[start+1:end])
-    return ''.join(li)
-
 class Seq2SeqTransformer(nn.Module):
     """
     A sequence to sequence network.
@@ -56,7 +48,6 @@ class Seq2SeqTransformer(nn.Module):
         self.tgt_vocab = tgt_vocab
         self.src_pad = src_vocab.pad
         self.tgt_pad = tgt_vocab.pad
-        self.combine_diacritics = self.src_vocab.contains_string_with_combined_diacritic()
 
     def forward(self,
                 src: Tensor,
@@ -111,40 +102,3 @@ class Seq2SeqTransformer(nn.Module):
             if (next_words == self.end_token_id).all():
                 break
         return ys
-
-    def predict(self, X: SimpleDataset, batch_size: int = 32, max_len: int = 50) -> list[None | ndarray]:
-        self.eval()
-        dataloader = FieldBatchDataloader(X, device=self.device, batch_size=batch_size)
-        answer: list[None | ndarray] = [None] * len(X)
-        for batch in tqdm(dataloader):
-            indexes = batch["indexes"]
-            num_tokens = batch['phon'].shape[1]
-            src = batch['phon'].transpose(0, 1)
-            src_mask = (torch.zeros(num_tokens, num_tokens)).type(torch.bool).to(self.device)
-            with torch.no_grad():
-                tgt_tokens = self.greedy_decode(src, src_mask, max_len=max_len, start_symbol=self.begin_token_id)
-            labels = tgt_tokens.transpose(1, 0).cpu().numpy()
-            # probs = batch_answer.cpu().numpy()
-            # labels = probs.argmax(axis=-1)
-            for index, curr_labels in zip(indexes, labels, strict=True):
-                result = np.take(X.vocabs["morphon"].symbols_, curr_labels)
-                answer[index] = result
-        return answer
-
-    def translate(self, src_sentence: str, max_len: int = 50):
-        self.eval()
-        inp = string_to_list(src_sentence, self.combine_diacritics)
-        src = torch.LongTensor(self.src_vocab.vectorize_element(inp)).to(self.device).view(-1, 1)
-        num_tokens = src.shape[0]
-        src_mask = (torch.zeros(num_tokens, num_tokens)).type(torch.bool).to(self.device)
-        tgt_tokens = self.greedy_decode(src, src_mask, max_len=max_len, start_symbol=self.begin_token_id).flatten()
-        curr_labels = tgt_tokens.cpu().numpy()
-        return np.take(self.tgt_vocab.symbols_, curr_labels)
-
-    def apply_to(self, words: list[str]) -> list[str]:
-        predictions = list[str]()
-        for word in tqdm(words):
-            prediction = self.translate(word)
-            morphon = get_word(list(prediction))
-            predictions.append(morphon)
-        return predictions
