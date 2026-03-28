@@ -6,7 +6,7 @@ from utils.vocabulary import Vocabulary
 from utils.dataset import SimpleDataset
 from utils.dataloader import FieldBatchDataloader
 from stringutils import string_to_list, decode
-from . import NeuralTagger
+from models.morphon.tagger import NeuralTagger
 
 class MorphonologicalTaggerApplier:
     

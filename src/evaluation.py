@@ -1,6 +1,6 @@
 from library.read import read_list
 from typing import TypedDict
-from models.morphon.transducer.basic import MorphonologicalTransducerApplier
+from appliers.transducer import MorphonologicalTransducerApplier
 
 class Word(TypedDict):
   phon: str

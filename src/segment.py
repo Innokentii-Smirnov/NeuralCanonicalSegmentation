@@ -3,7 +3,8 @@ from os import path, listdir
 from os.path import splitext
 import json
 from utils.vocabulary import Vocabulary
-from models.morphon import make_model, make_applier
+from models.morphon import make_model
+from appliers import make_applier
 from utils.dataloader import DEVICE
 import torch
 import logging
