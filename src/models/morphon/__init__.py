@@ -1,3 +1,5 @@
+from os import path
+import json
 import torch
 from utils.vocabulary import Vocabulary
 from .tagger import make_model as make_tagger
@@ -8,8 +10,11 @@ def make_model(
     model_type: str,
     model_subtype: str,
     vocabularies: dict[str, Vocabulary],
-    hyperparameters,
-    device: torch.device):
+    device: torch.device,
+    hyperparameters = None):
+    if hyperparameters is None:
+        with open(path.join('default_hyperparameters', model_type, model_subtype, 'Hyperparameters.json')) as fin:
+            hyperparameters = json.load(fin)
     match model_type:
         case 'tagger':
             return make_tagger(model_subtype, vocabularies, hyperparameters, device)
