@@ -34,7 +34,7 @@ def load_data(model_directory: str,
 
     os.makedirs(model_directory, exist_ok=True)
 
-    aligned_folder = path.join(folder, 'aligned_data', 'alignment_algorithm', dataset)
+    aligned_folder = path.join(folder, 'aligned_data', alignment_algorithm, dataset)
     assert path.exists(aligned_folder), aligned_folder
     os.chdir(aligned_folder)
     train_data = load_pairs(f'{lang}.word.train.tsv', sep)
