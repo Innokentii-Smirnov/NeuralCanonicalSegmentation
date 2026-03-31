@@ -15,7 +15,7 @@ class McTrainer:
         self.criterion = nn.NLLLoss(reduction="mean")
         if self.device is not None:
             self.model.to(self.device)
-        self.optimizer = torch.optim.Adam(self.parameters())
+        self.optimizer = torch.optim.Adam(self.model.parameters())
 
     def train_on_batch(self, x, y):
         self.model.train()
