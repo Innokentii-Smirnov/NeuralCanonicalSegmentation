@@ -36,7 +36,7 @@ class MorphonologicalTaggerApplier:
                 answer[index] = result
         return answer
 
-    def apply_to(self, words: list[str], decode_copy: bool = False, batch_size: int = 1) -> list[str]:
+    def apply_to(self, words: list[str], decode_copy: bool = False, batch_size: int = 32) -> list[str]:
         data = [{'phon': string_to_list(word, self.combine_diacritics)} for word in words]
         dataset = SimpleDataset(data, ['phon'], [],
             True, True, True, True, self.vocabularies
