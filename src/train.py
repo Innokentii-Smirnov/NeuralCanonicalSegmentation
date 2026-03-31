@@ -1,0 +1,100 @@
+import argparse
+import os
+from os import path
+import torch
+from segm import load_data, prepare_checkpoints_dir, prepare_test, evaluate
+from utils.dataloader import FieldBatchDataloader, DEVICE
+from models.morphon import make_model
+from trainers.mc import McTrainer
+from library.dm import DM
+from training import do_epoch
+from appliers import make_applier
+from random import choices
+
+parser = argparse.ArgumentParser(
+  prog='train.py',
+  description='Train a neural model for canonical morpheme segmentation'
+)
+parser.add_argument('dataset', choices=['Hurrian'],
+                    help='the dataset on which to train the model')
+parser.add_argument('language', choices=['xhu'],
+                    help='the three-letter code of the language')
+parser.add_argument('sep', choices=['~'],
+                    help='the separator for segmentation fragments used in the aligned data')
+parser.add_argument('model_type', choices=['tagger', 'transducer', 'transformer'],
+                    help='the general type of the model to use')
+parser.add_argument('model_subtype', choices=['CNN', 'LSTM', 'RCNN', 'RCNN-skip-conn', 'char'],
+                    help='the subtype of the model to use')
+parser.add_argument('epochs', type=int,
+                    help='for how many epochs to train the model')
+parser.add_argument('model_directory',
+                    help='a directory to save the model and its vocabularies')
+parser.add_argument('--load', action='store_true',
+                    help='whether to load a model from an existing checkpoint')
+parser.add_argument('--no-train', action='store_true',
+                    help='only evaluate the model')
+parser.add_argument('words', nargs='*',
+                    help='the words to segment (multiple values allowed)')
+args = parser.parse_args()
+
+X_train, X_dev = load_data(args.model_directory, args.dataset, args.language, args.sep)
+
+train_dataloader = FieldBatchDataloader(X_train)
+
+checkpoint, checkpoints_dir, to_load, load_checkpoints_dir = prepare_checkpoints_dir(args.model_directory, args.model_subtype)
+
+model = make_model(args.model_type, args.model_subtype, X_train.vocabs, DEVICE)
+trainer = McTrainer(model, DEVICE)
+
+if args.load and load_checkpoints_dir is not None:
+  with DM(load_checkpoints_dir):
+    model.load_state_dict(torch.load(checkpoint, map_location=DEVICE))
+
+print(model)
+
+vocab = X_train.vocabs["morphon"]
+dev_dataloader = FieldBatchDataloader(X_dev, batch_size=32, device=DEVICE)
+
+if not args.no_train:
+  best_val_acc = 0.0
+  best_epoch = -1
+
+  train_dataloader = FieldBatchDataloader(X_train, batch_size=32, device=DEVICE)
+
+  curr = to_load + 1
+  curr_checkpoints_dir = path.join(checkpoints_dir, str(curr))
+  os.makedirs(curr_checkpoints_dir, exist_ok=True)
+  os.chdir(curr_checkpoints_dir)
+
+  best_epoch = -1
+
+  for epoch in range(args.epochs):
+    do_epoch(trainer, train_dataloader, vocab, mode="train", epoch=epoch+1)
+    epoch_metrics = do_epoch(trainer, dev_dataloader, vocab, mode="validate", epoch=epoch+1)
+    if epoch_metrics.accuracy > best_val_acc:
+      best_val_acc = epoch_metrics.accuracy
+      best_epoch = epoch
+      torch.save(model.state_dict(), checkpoint)
+
+  model.load_state_dict(torch.load(checkpoint, DEVICE))
+
+  print(best_epoch)
+  print(round(100 * best_val_acc, 2))
+
+do_epoch(trainer, dev_dataloader, vocab, mode="validate", epoch="evaluate")
+
+test_data, test_words, words_for_test, gold_segmentations = prepare_test(args.dataset, args.language)
+applier = make_applier(args.model_type, model, X_train.vocabs, DEVICE)
+segmentations = applier.apply_to(words_for_test)
+
+for i in range(len(segmentations)):
+    segmentations[i] = segmentations[i].replace('@', ' @@')
+
+for i in choices(list(range(len(words_for_test))), k=30):
+    word = words_for_test[i]
+    segmentation = segmentations[i]
+    correct = gold_segmentations[i]
+    correction = correct if segmentation != correct else ''
+    print('{0:20} {1:20} {2}'.format(word, segmentation, correction))
+
+evaluate(segmentations, gold_segmentations)
