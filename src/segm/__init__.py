@@ -102,7 +102,7 @@ def load_test_words(filename: str) -> list[str]:
     with open(filename, 'r', encoding='utf-8') as fin:
         for line in fin:
             line = line.rstrip()
-            word = line.split('\t')[:1]
+            word, = line.split('\t')[:1]
             data.append(word)
     return data
 
