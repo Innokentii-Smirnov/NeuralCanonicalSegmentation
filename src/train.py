@@ -66,7 +66,6 @@ if not args.no_train:
   curr = to_load + 1
   curr_checkpoints_dir = path.join(checkpoints_dir, str(curr))
   os.makedirs(curr_checkpoints_dir, exist_ok=True)
-  os.chdir(curr_checkpoints_dir)
 
   best_epoch = -1
 
@@ -76,9 +75,11 @@ if not args.no_train:
     if epoch_metrics.accuracy > best_val_acc:
       best_val_acc = epoch_metrics.accuracy
       best_epoch = epoch
-      torch.save(model.state_dict(), checkpoint)
+      with DM(curr_checkpoints_dir):
+        torch.save(model.state_dict(), checkpoint)
 
-  model.load_state_dict(torch.load(checkpoint, DEVICE))
+  with DM(curr_checkpoints_dir):
+    model.load_state_dict(torch.load(checkpoint, DEVICE))
 
   print(best_epoch)
   print(round(100 * best_val_acc, 2))
