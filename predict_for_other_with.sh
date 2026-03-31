@@ -1,11 +1,15 @@
 models="$1"
 language_codes="$2"
+dataset="$3"
 if [[ -z $language_codes ]] then
   language_codes="chu vsn"
 fi
+if [[ -z $dataset ]] then
+  dataset="data"
+fi
 function predict_for_language() {
   code="$1"
-  infile="data/$code.word.test.tsv"
+  infile="$dataset/$code.word.test.tsv"
   for model in $models; do
     for subtype in $(ls "models/$code/$model"); do
       outdir="predictions/$code/$model/$subtype"
