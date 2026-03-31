@@ -2,6 +2,7 @@ import argparse
 import os
 from os import path
 import torch
+from reproducibility import set_seeds
 from segm import load_data, prepare_checkpoints_dir, prepare_test, evaluate
 from utils.dataloader import FieldBatchDataloader, DEVICE
 from models.morphon import make_model
@@ -38,6 +39,8 @@ parser.add_argument('--no-train', action='store_true',
 parser.add_argument('words', nargs='*',
                     help='the words to segment (multiple values allowed)')
 args = parser.parse_args()
+
+set_seeds()
 
 X_train, X_dev = load_data(args.model_directory, args.dataset, args.language, args.sep)
 
