@@ -8,8 +8,9 @@ import json
 CS = 'canonical-segmentation'
 SM = '2022SegmentationST'
 OTHER = 'data'
+HURRIAN = 'Hurrian'
 
-LANGUAGE_CODES = ['deu', 'eng', 'ind', 'ita', 'fra', 'lat', 'chu', 'vsn']
+LANGUAGE_CODES = ['deu', 'eng', 'ind', 'ita', 'fra', 'lat', 'chu', 'vsn', 'xhu']
 
 CODE_TO_LANGUAGE = {
   'deu': 'german',
@@ -30,7 +31,8 @@ LANGUAGE_TO_DATASET = {
   'fra': SM,
   'lat': SM,
   'chu': OTHER,
-  'vsn': OTHER
+  'vsn': OTHER,
+  'xhu': HURRIAN
 }
 
 DATASET_TO_BOUNDARY = {
@@ -41,13 +43,15 @@ DATASET_TO_BOUNDARY = {
 DATASET_TO_INFILE = {
   CS: lambda code: path.join(CS, CODE_TO_LANGUAGE[code], 'test0'),
   SM: lambda code: path.join(SM, 'data', '{0}.word.test.gold.tsv'.format(code)),
-  OTHER: lambda code: path.join(OTHER, '{0}.word.test.gold.tsv'.format(code))
+  OTHER: lambda code: path.join(OTHER, '{0}.word.test.gold.tsv'.format(code)),
+  HURRIAN: lambda code: path.join(HURRIAN, '{0}.word.test.gold.tsv'.format(code))
 }
 
 DATASET_TO_COLUMNS = {
   CS: ['orth', 'morphon', 'segm'],
   SM: ['orth', 'segm'],
-  OTHER: ['orth', 'segm']
+  OTHER: ['orth', 'segm'],
+  HURRIAN: ['orth', 'segm', 'pos']
 }
 
 PRED_DIR = 'predictions'

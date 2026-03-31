@@ -46,5 +46,11 @@
 	"vsn": {
 		"transducer_LSTM": 64.53,
 		"transformer_char": 61.17
+	},
+	"xhu": {
+		"tagger_CNN": 20.81,
+		"tagger_LSTM": 23.91,
+		"tagger_RCNN": 25.47,
+		"tagger_RCNN-skip-conn": 23.29
 	}
 }
