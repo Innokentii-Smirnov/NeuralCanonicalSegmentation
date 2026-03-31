@@ -9,8 +9,6 @@ from library.constants import test_random_state, dev_random_state
 from library.dm import DM
 from sklearn.model_selection import train_test_split
 
-folder = 'NeuralCanonicalSegmentation'
-
 def load_pairs(filename: str, sep: str) -> list[tuple[list[str], list[str]]]:
     data = list[tuple[list[str], list[str]]]()
     with open(filename, 'r', encoding='utf-8') as fin:
@@ -35,7 +33,7 @@ def load_data(model_directory: str,
 
     os.makedirs(model_directory, exist_ok=True)
 
-    aligned_folder = path.join(folder, 'aligned_data', alignment_algorithm, dataset)
+    aligned_folder = path.join('aligned_data', alignment_algorithm, dataset)
     assert path.exists(aligned_folder), aligned_folder
     with DM(aligned_folder):
       train_data = load_pairs(f'{lang}.word.train.tsv', sep)
@@ -116,7 +114,7 @@ def load_test_data(filename: str) -> list[tuple[str, str]]:
     return data
 
 def prepare_test(dataset: str, lang: str):
-    original_folder = path.join(folder, dataset)
+    original_folder = dataset
     assert path.exists(original_folder), original_folder
     with DM(original_folder):
       words_for_test = load_test_words(f'{lang}.word.test.tsv')
