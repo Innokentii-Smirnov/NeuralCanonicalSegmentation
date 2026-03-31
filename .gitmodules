@@ -25,3 +25,9 @@
 [submodule "unimorph/lat"]
 	path = unimorph/lat
 	url = https://github.com/unimorph/lat.git
+[submodule "LevenshteinAlignment"]
+	path = LevenshteinAlignment
+	url = https://github.com/Innokentii-Smirnov/LevenshteinAlignment.git
+[submodule "SegmentationExtractor"]
+	path = Hurrian
+	url = https://github.com/Innokentii-Smirnov/SegmentationExtractor.git
