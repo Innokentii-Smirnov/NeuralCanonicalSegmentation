@@ -20,9 +20,9 @@ class MorphonologicalTaggerApplier:
         self.vocabularies = vocabularies
         self.combine_diacritics = self.vocabularies['phon'].contains_string_with_combined_diacritic()
 
-    def predict(self, X: SimpleDataset) -> list[ndarray]:
+    def predict(self, X: SimpleDataset, batch_size: int) -> list[ndarray]:
         self.model.eval()
-        dataloader = FieldBatchDataloader(X, device=self.device, batch_size=32)
+        dataloader = FieldBatchDataloader(X, device=self.device, batch_size=batch_size)
         answer: list[ndarray] = [None] * len(X)
         for batch in tqdm(dataloader):
             indexes = batch["indexes"]
@@ -36,12 +36,12 @@ class MorphonologicalTaggerApplier:
                 answer[index] = result
         return answer
 
-    def apply_to(self, words: list[str], decode_copy: bool = False) -> list[str]:
+    def apply_to(self, words: list[str], decode_copy: bool = False, batch_size: int = 1) -> list[str]:
         data = [{'phon': string_to_list(word, self.combine_diacritics)} for word in words]
         dataset = SimpleDataset(data, ['phon'], [],
             True, True, True, True, self.vocabularies
         )
-        predictions = self.predict(dataset)
+        predictions = self.predict(dataset, batch_size)
         segmentations = list[str]()
         if decode_copy:
             for i, prediction in enumerate(predictions):
