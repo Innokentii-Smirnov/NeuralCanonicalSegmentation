@@ -51,7 +51,7 @@ class McTrainer:
         for batch in tqdm(dataloader):
             indexes = batch["indexes"]
             with torch.no_grad():
-                batch_answer = self(**batch)
+                batch_answer = self.model(**batch)
             # labels = batch_answer["labels"].cpu().numpy()
             # probs = batch_answer.cpu().numpy()
             # labels = probs.argmax(axis=-1)
