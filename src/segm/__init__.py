@@ -114,7 +114,7 @@ def load_test_data(filename: str) -> list[tuple[str, str]]:
     return data
 
 def prepare_test(dataset: str, lang: str):
-    original_folder = path.join(dataset, lang)
+    original_folder = path.join(folder, dataset)
     assert path.exists(original_folder), original_folder
     os.chdir(original_folder)
     words_for_test = load_test_words(f'{lang}.word.test.tsv')
