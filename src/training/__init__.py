@@ -7,7 +7,7 @@ from typing import Iterable
 
 from metrics import Metrics
 from utils.vocabulary import Vocabulary
-from basic_models.mc import BasicMc
+from trainers.mc import McTrainer
 
 def convert_to_labels(label_tensor: Tensor, vocab: Vocabulary, mask):
     mask = mask.bool().detach().cpu().numpy()
@@ -15,9 +15,9 @@ def convert_to_labels(label_tensor: Tensor, vocab: Vocabulary, mask):
     labels = [np.take(vocab.symbols_, word[curr_mask]) for word, curr_mask in zip(label_array, mask)]
     return labels
 
-def do_epoch(model: BasicMc, dataloader: Iterable[dict[str, Tensor]], label_vocab: Vocabulary, mode="validate", epoch=1):
+def do_epoch(trainer: McTrainer, dataloader: Iterable[dict[str, Tensor]], label_vocab: Vocabulary, mode="validate", epoch=1):
     metrics = Metrics()
-    func = model.train_on_batch if mode == "train" else model.validate_on_batch
+    func = trainer.train_on_batch if mode == "train" else trainer.validate_on_batch
     progress_bar = tqdm(dataloader, leave=True)
     progress_bar.set_description(f"{mode}, epoch={epoch}")
     if mode == 'validate':

@@ -6,7 +6,6 @@ from collections import OrderedDict
 from arguments import CNNArguments
 from encoders.cnn.sequential import SequentialEncoder as ConvolutionalEncoder
 from decoders.mc import Mc
-from basic_models.mc import BasicMc
 from arguments import CNNArguments
 from arguments.tagger.cnn import Hyperparameters
 from utils.vocabulary import Vocabulary

@@ -6,21 +6,19 @@ from tqdm.auto import tqdm
 from utils.dataset import SequenceDataset, SimpleDataset
 from utils.dataloader import FieldBatchDataloader
 
-class BasicMc(nn.Module):
+class McTrainer(nn.Module):
 
-    def __init__(self, device: torch.device):
+    def __init__(self, model: nn.Module, device: torch.device):
+        self.model = model
         self.device = device
         # определяем функцию потерь
         self.criterion = nn.NLLLoss(reduction="mean")
         if self.device is not None:
-            self.to(self.device)
+            self.model.to(self.device)
         self.optimizer = torch.optim.Adam(self.parameters())
 
-    def forward(self, *args, **kwargs):
-        raise NotImplementedError("You should implement forward pass in your derived class.")
-
     def train_on_batch(self, x, y):
-        self.train()
+        self.model.train()
         self.optimizer.zero_grad()
         loss = self._validate(x, y)
         loss["loss"].backward()
@@ -28,7 +26,7 @@ class BasicMc(nn.Module):
         return loss
 
     def validate_on_batch(self, x, y):
-        self.eval()
+        self.model.eval()
         with torch.no_grad():
             return self._validate(x, y)
 
@@ -38,7 +36,7 @@ class BasicMc(nn.Module):
         # x -- это словарь
         ## x = {"a": 1, "b": 2}
         ## func(**x) = func(a=1, b=2)
-        batch_output = self(**x) #   self.forward(x) = self.__call__(x)
+        batch_output = self.model(**x) #   self.forward(x) = self.__call__(x)
         # классы надо переместить на размерность, идущую после батча
         # log_probs.shape = (B, L, K), y.shape = (B, L)
         loss = self.criterion(batch_output["log_probs"].permute(0, 2, 1), y)
@@ -47,7 +45,7 @@ class BasicMc(nn.Module):
         return batch_output
 
     def get_log_probs(self, X: SequenceDataset):
-        self.eval()
+        self.model.eval()
         dataloader = FieldBatchDataloader(X, device=self.device, batch_size=32)
         answer = [None] * len(X)
         for batch in tqdm(dataloader):

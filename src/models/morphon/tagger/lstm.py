@@ -6,7 +6,6 @@ from arguments import EncoderArguments
 from arguments.tagger.lstm import Hyperparameters
 from encoders.rnn.sequential import SequentialEncoder
 from decoders.mc import Mc
-from basic_models.mc import BasicMc
 from utils.vocabulary import Vocabulary
 
 class LSTMTagger(nn.Module):

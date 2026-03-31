@@ -7,7 +7,6 @@ from arguments.tagger.rcnn import Hyperparameters
 from encoders.rnn.sequential import SequentialEncoder as RecurrentEncoder
 from encoders.cnn.sequential import SequentialEncoder as ConvolutionalEncoder
 from decoders.mc import Mc
-from basic_models.mc import BasicMc
 from utils.vocabulary import Vocabulary
 
 class RCNNTagger(nn.Module):
