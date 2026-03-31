@@ -6,7 +6,7 @@ from tqdm.auto import tqdm
 from utils.dataset import SequenceDataset, SimpleDataset
 from utils.dataloader import FieldBatchDataloader
 
-class McTrainer(nn.Module):
+class McTrainer:
 
     def __init__(self, model: nn.Module, device: torch.device):
         self.model = model
