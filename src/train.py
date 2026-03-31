@@ -10,6 +10,8 @@ from library.dm import DM
 from training import do_epoch
 from appliers import make_applier
 from random import choices
+from library.iterable import find
+from alignment import align
 
 parser = argparse.ArgumentParser(
   prog='train.py',
@@ -98,3 +100,24 @@ for i in choices(list(range(len(words_for_test))), k=30):
     print('{0:20} {1:20} {2}'.format(word, segmentation, correction))
 
 evaluate(segmentations, gold_segmentations)
+
+errors = [(word, segmentation) for word, segmentation
+          in zip(test_data, segmentations, strict=True)
+          if word[1] != segmentation]
+
+print('Accuracy: {0} %, error rate: {1} / {2}.'.format(
+  round(100 * ((len(test_words) - len(errors)) / len(test_words)), 2),
+  len(errors), len(test_words)
+))
+
+errors.sort(key=lambda x: len(x[0][1]))
+
+k = find(lambda i: len(errors[i][0][0]) >= 10, range(len(errors)))
+
+print('Errors:')
+print(align([(word[0] + ' ' * 5, word[1] + ' ' * 5, segmentation) for word, segmentation in errors[:k]]))
+print(align([(word[0] + ' ' * 5, word[1] + ' ' * 5, segmentation) for word, segmentation in errors[k:-2]]))
+print(align([(word[0], word[1], segmentation) for word, segmentation in errors[-2:]]))
+
+for segmentation in applier.apply_to(args.words):
+    print(segmentation)
