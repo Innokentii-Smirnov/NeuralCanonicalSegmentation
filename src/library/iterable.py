@@ -65,7 +65,7 @@ def pi(i: int):
 def chain_seq(sequences: Iterable[Iterable[T]]) -> Iterable[T]:
     return chain.from_iterable(sequences)
 
-def find(condition: Callable[[object], bool], iterable: Iterable):
+def find(condition: Callable[[T], bool], iterable: Iterable[T]) -> T | None:
     for elem in iterable:
         if condition(elem):
             return elem
