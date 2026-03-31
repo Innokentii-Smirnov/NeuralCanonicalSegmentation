@@ -6,6 +6,7 @@ from stringutils import string_to_list
 from utils.dataset import SimpleDataset
 from construct.datasets import make_datasets
 from library.constants import test_random_state, dev_random_state
+from library.dm import DM
 from sklearn.model_selection import train_test_split
 
 folder = 'NeuralCanonicalSegmentation'
@@ -36,9 +37,9 @@ def load_data(model_directory: str,
 
     aligned_folder = path.join(folder, 'aligned_data', alignment_algorithm, dataset)
     assert path.exists(aligned_folder), aligned_folder
-    os.chdir(aligned_folder)
-    train_data = load_pairs(f'{lang}.word.train.tsv', sep)
-    dev_data = load_pairs(f'{lang}.word.dev.tsv', sep)
+    with DM(aligned_folder):
+      train_data = load_pairs(f'{lang}.word.train.tsv', sep)
+      dev_data = load_pairs(f'{lang}.word.dev.tsv', sep)
 
     for elem in choices(train_data, k=20):
         print(align(elem))
@@ -117,10 +118,10 @@ def load_test_data(filename: str) -> list[tuple[str, str]]:
 def prepare_test(dataset: str, lang: str):
     original_folder = path.join(folder, dataset)
     assert path.exists(original_folder), original_folder
-    os.chdir(original_folder)
-    words_for_test = load_test_words(f'{lang}.word.test.tsv')
+    with DM(original_folder):
+      words_for_test = load_test_words(f'{lang}.word.test.tsv')
+      test_data = load_test_data(f'{lang}.word.test.gold.tsv')
     test_words = get_test_words(words_for_test)
-    test_data = load_test_data(f'{lang}.word.test.gold.tsv')
     gold_segmentations = [segm for _, segm in test_data]
     return test_data, test_words, words_for_test, gold_segmentations
 
