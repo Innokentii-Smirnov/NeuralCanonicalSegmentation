@@ -16,7 +16,7 @@ def load_pairs(filename: str, sep: str) -> list[tuple[list[str], list[str]]]:
         for line in fin:
             line = line.rstrip()
             word, segmentation = line.split('\t')
-            elements = string_to_list(word)
+            elements = string_to_list(word, True)
             labels = segmentation.split(sep)
             assert len(elements) == len(labels), (elements, labels)
             data.append((elements, labels))
