@@ -116,9 +116,15 @@ errors.sort(key=lambda x: len(x[0][1]))
 k = find(lambda i: len(errors[i][0][0]) >= 10, range(len(errors)))
 
 print('Errors:')
-print(align([(word[0] + ' ' * 5, word[1] + ' ' * 5, segmentation) for word, segmentation in errors[:k]]))
-print(align([(word[0] + ' ' * 5, word[1] + ' ' * 5, segmentation) for word, segmentation in errors[k:-2]]))
-print(align([(word[0], word[1], segmentation) for word, segmentation in errors[-2:]]))
+if k is not None:
+  print(align([(word[0] + ' ' * 5, word[1] + ' ' * 5, segmentation) for word, segmentation in errors[:k]]))
+  if k < len(errors) - 2:
+    print(align([(word[0] + ' ' * 5, word[1] + ' ' * 5, segmentation) for word, segmentation in errors[k:-2]]))
+    print(align([(word[0], word[1], segmentation) for word, segmentation in errors[-2:]]))
+  else:
+    print(align([(word[0] + ' ' * 5, word[1] + ' ' * 5, segmentation) for word, segmentation in errors[k:]]))
+else:
+  print(align([(word[0] + ' ' * 5, word[1] + ' ' * 5, segmentation) for word, segmentation in errors]))
 
 for segmentation in applier.apply_to(args.words):
     print(segmentation)
