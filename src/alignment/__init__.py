@@ -19,7 +19,7 @@ def sep(k: int):
 def subarr_to_str(arrays, start, end) -> str:
     return '\n'.join('  '.join(array[start:end]) for array in arrays)
 
-def align(arrays: Sequence[list[str]]) -> str:
+def align(arrays: Sequence[Sequence[str]]) -> str:
     copy = list[list[str]]()
     for i in range(len(arrays)):
         l = list[str]()
