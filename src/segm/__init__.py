@@ -28,18 +28,17 @@ def get_words(data):
 def get_test_words(data):
     return [{'phon': phon} for phon in data]
 
-def load_data(subfolder: str, lang: str, model: str, sep: str):
-    global LANG, MODEL, NAME
-    LANG = lang
-    MODEL = model
-    NAME = LANG + '/' + MODEL
-    assert path.exists(folder)
-    directory = path.join(folder, NAME)
-    aligned_folder = f'{folder}/data/{subfolder}/Aligned'
+def load_data(model_directory: str,
+              dataset: str, lang: str, sep: str,
+              alignment_algorithm: str = 'Levenshtein'):
+
+    os.makedirs(model_directory, exist_ok=True)
+
+    aligned_folder = path.join(folder, 'aligned_data', 'alignment_algorithm', dataset)
     assert path.exists(aligned_folder), aligned_folder
     os.chdir(aligned_folder)
-    train_data = load_pairs(f'{LANG}.word.train.tsv', sep)
-    dev_data = load_pairs(f'{LANG}.word.dev.tsv', sep)
+    train_data = load_pairs(f'{lang}.word.train.tsv', sep)
+    dev_data = load_pairs(f'{lang}.word.dev.tsv', sep)
 
     for elem in choices(train_data, k=20):
         print(align(elem))
@@ -71,7 +70,7 @@ def load_data(subfolder: str, lang: str, model: str, sep: str):
     X_dev, = make_datasets(
         X_train,
         [dev_words],
-        directory
+        model_directory
     )
 
     difference = set(X_train.vocabs['morphon'].symbols_) - set(X_train.vocabs['phon'].symbols_)
@@ -83,11 +82,10 @@ def load_data(subfolder: str, lang: str, model: str, sep: str):
         print(key, ''.join(value))
     return X_train, X_dev
 
-def prepare_checkpoints_dir():
-    corpus_directory = path.join(folder, 'models', NAME)
-    checkpoints_dir = path.join(corpus_directory, 'Checkpoints')
+def prepare_checkpoints_dir(model_directory: str, model_subtype: str):
+    checkpoints_dir = path.join(model_directory, 'Checkpoints')
     os.makedirs(checkpoints_dir, exist_ok=True)
-    checkpoint = "checkpoint_best_{0}.pt".format(MODEL)
+    checkpoint = "checkpoint_best_{0}.pt".format(model_subtype)
 
     files = os.listdir(checkpoints_dir)
     if len(files) > 0:
@@ -115,13 +113,13 @@ def load_test_data(filename: str) -> list[tuple[str, str]]:
             data.append((word, segmentation))
     return data
 
-def prepare_test(LANG: str, subfolder: str):
-    original_folder = f'{folder}/data/{subfolder}/Original'
+def prepare_test(dataset: str, lang: str):
+    original_folder = path.join(dataset, lang)
     assert path.exists(original_folder), original_folder
     os.chdir(original_folder)
-    words_for_test = load_test_words(f'{LANG}.word.test.tsv')
+    words_for_test = load_test_words(f'{lang}.word.test.tsv')
     test_words = get_test_words(words_for_test)
-    test_data = load_test_data(f'{LANG}.word.test.gold.tsv')
+    test_data = load_test_data(f'{lang}.word.test.gold.tsv')
     gold_segmentations = [segm for _, segm in test_data]
     return test_data, test_words, words_for_test, gold_segmentations
 
