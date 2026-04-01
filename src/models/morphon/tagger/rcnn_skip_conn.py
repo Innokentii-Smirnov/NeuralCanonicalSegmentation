@@ -2,14 +2,14 @@ import torch
 import torch.nn as nn
 from torch import Tensor
 from collections import OrderedDict
+from .basic import BasicTagger
 from arguments import EncoderArguments, CNNArguments
 from arguments.tagger.rcnn import Hyperparameters
 from encoders.rnn.sequential import SequentialEncoder as RecurrentEncoder
 from encoders.cnn.sequential import SequentialEncoder as ConvolutionalEncoder
-from decoders.mc import Mc
 from utils.vocabulary import Vocabulary
 
-class RCNNSkipConnTagger(nn.Module):
+class RCNNSkipConnTagger(BasicTagger):
 
     def __init__(
         self,
@@ -17,7 +17,7 @@ class RCNNSkipConnTagger(nn.Module):
         encoder_arguments: EncoderArguments,
         encoding_dropout: float,
         cnn_arguments: CNNArguments):
-        super(RCNNSkipConnTagger, self).__init__()
+        super(BasicTagger, self).__init__()
         self.recurrent_encoder = RecurrentEncoder(
             encoder_arguments['hidden_size'],
             encoder_arguments['num_layers'],
@@ -38,7 +38,7 @@ class RCNNSkipConnTagger(nn.Module):
           **cnn_arguments
         )
         self.hidden_size = encoder_arguments['embedding_dim'] + self.recurrent_encoder.output_dim + self.convolutional_encoder.output_dim
-        self.decoder = Mc(self.hidden_size, len(vocabularies['morphon']))
+        super(RCNNSkipConnTagger, self).__init__(self.hidden_size, vocabularies)
 
     def forward(self, phon: Tensor, **kwargs):
         recurrent_encoding, embedding = self.recurrent_encoder({'letters': phon})

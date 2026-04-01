@@ -3,28 +3,28 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch import Tensor
 from collections import OrderedDict
+from .basic import BasicTagger
 from arguments import CNNArguments
 from encoders.cnn.sequential import SequentialEncoder as ConvolutionalEncoder
-from decoders.mc import Mc
 from arguments import CNNArguments
 from arguments.tagger.cnn import Hyperparameters
 from utils.vocabulary import Vocabulary
 from utils.dataset import SimpleDataset
 from utils.dataloader import DEVICE
 
-class CNNTagger(nn.Module):
+class CNNTagger(BasicTagger):
 
     def __init__(self,
                 vocabularies: dict[str, Vocabulary],
                 cnn_arguments: CNNArguments):
-        super(CNNTagger, self).__init__()
+        super(BasicTagger, self).__init__()
         self.convolutional_encoder = ConvolutionalEncoder(
           input_dim=len(vocabularies["phon"]),
           **cnn_arguments
         )
-        self.decoder = Mc(
+        super(CNNTagger, self).__init__(
             self.convolutional_encoder.output_dim,
-            len(vocabularies['morphon'])
+            vocabularies
         )
 
     def forward(self, phon: Tensor, **kwargs):

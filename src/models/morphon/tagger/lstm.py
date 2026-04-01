@@ -2,20 +2,20 @@ import torch
 import torch.nn as nn
 from torch import Tensor
 from collections import OrderedDict
+from .basic import BasicTagger
 from arguments import EncoderArguments
 from arguments.tagger.lstm import Hyperparameters
 from encoders.rnn.sequential import SequentialEncoder
-from decoders.mc import Mc
 from utils.vocabulary import Vocabulary
 
-class LSTMTagger(nn.Module):
+class LSTMTagger(BasicTagger):
 
     def __init__(
         self,
         vocabularies: dict[str, Vocabulary],
         encoder_arguments: EncoderArguments,
         encoding_dropout: float):
-        super(LSTMTagger, self).__init__()
+        super(BasicTagger, self).__init__()
         self.encoder = SequentialEncoder(
             encoder_arguments['hidden_size'],
             encoder_arguments['num_layers'],
@@ -29,7 +29,7 @@ class LSTMTagger(nn.Module):
                 )
             })
         )
-        self.decoder = Mc(self.encoder.output_dim, len(vocabularies['morphon']))
+        super(LSTMTagger, self).__init__(self.encoder.output_dim, vocabularies)
 
 
     def forward(self, phon: Tensor, **kwargs):
