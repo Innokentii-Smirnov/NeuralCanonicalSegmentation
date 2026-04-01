@@ -38,12 +38,11 @@ class RCNNTagger(BasicTagger):
         )
         super(RCNNTagger, self).__init__(self.convolutional_encoder.output_dim, vocabularies)
 
-    def forward(self, phon: Tensor, **kwargs):
+    def encode_phon(self, phon: Tensor) -> Tensor:
         encoding = self.recurrent_encoder({'letters': phon})
         encoding = self.dropout(encoding)
         encoding = self.convolutional_encoder(encoding)
-        output = self.decoder(encoding)
-        return output
+        return encoding
 
 def make_model(vocabularies: dict[str, Vocabulary], hyperparameters: Hyperparameters):
     model = RCNNTagger(

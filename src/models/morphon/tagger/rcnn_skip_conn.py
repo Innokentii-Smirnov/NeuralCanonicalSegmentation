@@ -40,12 +40,11 @@ class RCNNSkipConnTagger(BasicTagger):
         self.hidden_size = encoder_arguments['embedding_dim'] + self.recurrent_encoder.output_dim + self.convolutional_encoder.output_dim
         super(RCNNSkipConnTagger, self).__init__(self.hidden_size, vocabularies)
 
-    def forward(self, phon: Tensor, **kwargs):
+    def encode_phon(self, phon: Tensor) -> Tensor:
         recurrent_encoding, embedding = self.recurrent_encoder({'letters': phon})
         convolutional_encoding = self.convolutional_encoder(self.dropout(recurrent_encoding))
         encoding = torch.cat([embedding, recurrent_encoding, convolutional_encoding], dim=-1)
-        output = self.decoder(encoding)
-        return output
+        return encoding
 
 def make_model(vocabularies: dict[str, Vocabulary], hyperparameters: Hyperparameters):
     model = RCNNSkipConnTagger(

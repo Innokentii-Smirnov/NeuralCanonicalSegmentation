@@ -27,11 +27,10 @@ class CNNTagger(BasicTagger):
             vocabularies
         )
 
-    def forward(self, phon: Tensor, **kwargs):
+    def encode_phon(self, phon: Tensor) -> Tensor:
         one_hot = F.one_hot(phon, self.convolutional_encoder.input_dim)
         encoding = self.convolutional_encoder(one_hot.float())
-        output = self.decoder(encoding)
-        return output
+        return encoding
 
 def make_model(vocabularies: dict[str, Vocabulary], hyperparameters: Hyperparameters):
     model = CNNTagger(

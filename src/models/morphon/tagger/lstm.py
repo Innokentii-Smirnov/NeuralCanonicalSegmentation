@@ -32,10 +32,9 @@ class LSTMTagger(BasicTagger):
         super(LSTMTagger, self).__init__(self.encoder.output_dim, vocabularies)
 
 
-    def forward(self, phon: Tensor, **kwargs):
+    def encode_phon(self, phon: Tensor) -> Tensor:
         encoding = self.encoder({'letters': phon})
-        output = self.decoder(encoding)
-        return output
+        return encoding
 
 def make_model(vocabularies: dict[str, Vocabulary], hyperparameters: Hyperparameters):
     model = LSTMTagger(
