@@ -1,3 +1,4 @@
+from typing import TypedDict
 import torch
 import numpy as np
 from numpy import ndarray
@@ -7,6 +8,10 @@ from utils.dataset import SimpleDataset
 from utils.dataloader import FieldBatchDataloader
 from stringutils import string_to_list, decode
 from models.morphon.tagger import NeuralTagger
+
+class InputWord(TypedDict):
+    phon: list[str]
+    features: list[str] | None
 
 class MorphonologicalTaggerApplier:
     
@@ -27,7 +32,7 @@ class MorphonologicalTaggerApplier:
         for batch in tqdm(dataloader):
             indexes = batch["indexes"]
             with torch.no_grad():
-                batch_answer = self.model(batch['phon'])
+                batch_answer = self.model(batch['phon'], batch.get('features', None))
             labels = batch_answer["labels"].cpu().numpy()
             # probs = batch_answer.cpu().numpy()
             # labels = probs.argmax(axis=-1)
@@ -36,9 +41,9 @@ class MorphonologicalTaggerApplier:
                 answer[index] = result
         return answer
 
-    def apply_to(self, words: list[str], decode_copy: bool = False, batch_size: int = 32) -> list[str]:
-        data = [{'phon': string_to_list(word, self.combine_diacritics)} for word in words]
-        dataset = SimpleDataset(data, ['phon'], [],
+    def apply_to(self, words: list[tuple[str, list[str] | None]], decode_copy: bool = False, batch_size: int = 32) -> list[str]:
+        data: list[InputWord] = [{'phon': string_to_list(word, self.combine_diacritics), 'features': features} for word, features in words]
+        dataset = SimpleDataset(data, ['phon', 'features'], [],
             True, True, True, True, self.vocabularies
         )
         predictions = self.predict(dataset, batch_size)
