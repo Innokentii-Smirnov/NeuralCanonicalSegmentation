@@ -36,6 +36,8 @@ parser.add_argument('--load', action='store_true',
                     help='whether to load a model from an existing checkpoint')
 parser.add_argument('--no-train', action='store_true',
                     help='only evaluate the model')
+parser.add_argument('--use-features', action='store_true',
+                    help='include morphological features as an additional input to the model')
 parser.add_argument('words', nargs='*',
                     help='the words to segment (multiple values allowed)')
 args = parser.parse_args()
@@ -48,7 +50,7 @@ train_dataloader = FieldBatchDataloader(X_train)
 
 checkpoint, checkpoints_dir, to_load, load_checkpoints_dir = prepare_checkpoints_dir(args.model_directory, args.model_subtype)
 
-model = make_model(args.model_type, args.model_subtype, X_train.vocabs, DEVICE)
+model = make_model(args.model_type, args.model_subtype, X_train.vocabs, DEVICE, args.use_features)
 trainer = McTrainer(model, DEVICE)
 
 if args.load and load_checkpoints_dir is not None:
@@ -97,7 +99,7 @@ for i in range(len(segmentations)):
     segmentations[i] = segmentations[i].replace('@', ' @@')
 
 for i in choices(list(range(len(words_for_test))), k=30):
-    word = words_for_test[i]
+    word, features = words_for_test[i]
     segmentation = segmentations[i]
     correct = gold_segmentations[i]
     correction = correct if segmentation != correct else ''

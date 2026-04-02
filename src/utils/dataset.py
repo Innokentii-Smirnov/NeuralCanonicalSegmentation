@@ -40,7 +40,9 @@ class SequenceDataset(Dataset):
         for field in self.fields:
             vocab = self.vocabs[field]
             # elem = {"word": ..., "tag": ..., "label": ...}
-            answer[field] = vocab.vectorize_element(self.get_field(index, field))
+            value = self.get_field(index, field)
+            if value is not None:
+                answer[field] = vocab.vectorize_element(value)
         for field in self.list_fields:
             seq_vocab = self.seq_vocabs[field]
             answer[field] = seq_vocab.vectorize_sequence(self.get_field(index, field))
@@ -64,6 +66,7 @@ class SequenceDataset(Dataset):
     def fit_vocabs(self):
         for field in self.fields:
             data_for_vocab = (self.get_field(index, field) for index in range(len(self.data)))
+            data_for_vocab = [elem for elem in data_for_vocab if elem is not None]
             self.vocabs[field].fit(data_for_vocab)
         for field in self.list_fields:
             data_for_vocab = chain_seq(self.get_field(index, field) for index in range(len(self.data)))

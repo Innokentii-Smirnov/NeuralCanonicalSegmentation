@@ -11,9 +11,11 @@ def make_model(
     model_subtype: str,
     vocabularies: dict[str, Vocabulary],
     device: torch.device,
+    use_features: bool,
     hyperparameters = None):
     if hyperparameters is None:
-        with open(path.join('default_hyperparameters', model_type, model_subtype, 'Hyperparameters.json')) as fin:
+        hyperparameters_directory = model_subtype if use_features else model_subtype + '-pos'
+        with open(path.join('default_hyperparameters', model_type, hyperparameters_directory, 'Hyperparameters.json')) as fin:
             hyperparameters = json.load(fin)
     match model_type:
         case 'tagger':

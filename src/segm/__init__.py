@@ -9,23 +9,29 @@ from library.constants import test_random_state, dev_random_state
 from library.dm import DM
 from sklearn.model_selection import train_test_split
 
-def load_pairs(filename: str, sep: str) -> list[tuple[list[str], list[str]]]:
-    data = list[tuple[list[str], list[str]]]()
+FEATURE_SEP = ';'
+
+def load_pairs(filename: str, sep: str) -> list[tuple[list[str], list[str], list[str] | None]]:
+    data = list[tuple[list[str], list[str], list[str] | None]]()
     with open(filename, 'r', encoding='utf-8') as fin:
         for line in fin:
             line = line.rstrip()
-            word, segmentation = line.split('\t')
+            match line.split('\t'):
+              case word, segmentation, joined_features:
+                features: list[str] | None = joined_features.split(FEATURE_SEP)
+              case word, segmentation:
+                features = None
             elements = string_to_list(word, True)
             labels = segmentation.split(sep)
             assert len(elements) == len(labels), (elements, labels)
-            data.append((elements, labels))
+            data.append((elements, labels, features))
     return data
 
 def get_words(data):
-    return [{'phon': phon, 'morphon': morphon} for phon, morphon in data]
+    return [{'phon': phon, 'morphon': morphon, 'features': features} for phon, morphon, features in data]
 
 def get_test_words(data):
-    return [{'phon': phon} for phon in data]
+    return [{'phon': phon, 'features': features} for phon, features in data]
 
 def load_data(model_directory: str,
               dataset: str, lang: str, sep: str,
@@ -39,19 +45,19 @@ def load_data(model_directory: str,
       train_data = load_pairs(f'{lang}.word.train.tsv', sep)
       dev_data = load_pairs(f'{lang}.word.dev.tsv', sep)
 
-    for elem in choices(train_data, k=20):
-        print(align(elem))
+    for word, segmentation, _ in choices(train_data, k=20):
+        print(align((word, segmentation)))
         print()
 
     for part in train_data, dev_data:
         print(len(part))
 
-    for x, y in choices(train_data, k=5):
-        print('{0:32}{1}'.format(''.join(x), ''.join(y)))
+    for x, y, f in choices(train_data, k=5):
+        print('{0:32}{1:32}{2}'.format(''.join(x), ''.join(y), f))
     print()
 
-    for x, y in choices(dev_data, k=5):
-        print('{0:32}{1}'.format(''.join(x), ''.join(y)))
+    for x, y, f in choices(dev_data, k=5):
+        print('{0:32}{1:32}{2}'.format(''.join(x), ''.join(y), f))
     print()
 
     train_words = get_words(train_data)
@@ -65,7 +71,7 @@ def load_data(model_directory: str,
     max_sequence_length = len(longest)
     print(max_sequence_length)
 
-    X_train = SimpleDataset(train_words, ['phon', 'morphon'], [], True, True, True, True)
+    X_train = SimpleDataset(train_words, ['phon', 'morphon', 'features'], [], True, True, True, True)
     X_dev, = make_datasets(
         X_train,
         [dev_words],
@@ -78,7 +84,7 @@ def load_data(model_directory: str,
         print(symbol)
 
     for key, value in choice(train_words).items():
-        print(key, ''.join(value))
+        print(key, ''.join(value) if isinstance(value, list) else value)
     return X_train, X_dev
 
 def prepare_checkpoints_dir(model_directory: str, model_subtype: str):
@@ -95,22 +101,30 @@ def prepare_checkpoints_dir(model_directory: str, model_subtype: str):
         load_checkpoints_dir = None
     return checkpoint, checkpoints_dir, to_load, load_checkpoints_dir
 
-def load_test_words(filename: str) -> list[str]:
-    data = list[str]()
+def load_test_words(filename: str) -> list[tuple[str, list[str] | None]]:
+    data = list[tuple[str, list[str] | None]]()
     with open(filename, 'r', encoding='utf-8') as fin:
         for line in fin:
             line = line.rstrip()
-            word, = line.split('\t')[:1]
-            data.append(word)
+            match line.split('\t'):
+              case word, _, joined_features:
+                features: list[str] | None = joined_features.split(FEATURE_SEP)
+              case word, _:
+                features = None
+            data.append((word, features))
     return data
 
-def load_test_data(filename: str) -> list[tuple[str, str]]:
-    data = list[tuple[str, str]]()
+def load_test_data(filename: str) -> list[tuple[str, str, list[str] | None]]:
+    data = list[tuple[str, str, list[str] | None]]()
     with open(filename, 'r', encoding='utf-8') as fin:
         for line in fin:
             line = line.rstrip()
-            word, segmentation = line.split('\t')[:2]
-            data.append((word, segmentation))
+            match line.split('\t'):
+              case word, segmentation, joined_features:
+                features: list[str] | None = joined_features.split(FEATURE_SEP)
+              case word, segmentation:
+                features = None
+            data.append((word, segmentation, features))
     return data
 
 def prepare_test(dataset: str, lang: str):
@@ -120,7 +134,7 @@ def prepare_test(dataset: str, lang: str):
       words_for_test = load_test_words(f'{lang}.word.test.tsv')
       test_data = load_test_data(f'{lang}.word.test.gold.tsv')
     test_words = get_test_words(words_for_test)
-    gold_segmentations = [segm for _, segm in test_data]
+    gold_segmentations = [segm for _, segm, _ in test_data]
     return test_data, test_words, words_for_test, gold_segmentations
 
 def evaluate(predictions, gold_segmentations):
