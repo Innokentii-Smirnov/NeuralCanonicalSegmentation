@@ -109,8 +109,7 @@ def load_test_words(filename: str) -> list[tuple[str, list[str] | None]]:
             match line.split('\t'):
               case word, joined_features:
                 features: list[str] | None = joined_features.split(FEATURE_SEP)
-              case word:
-                assert isinstance(word, str), line
+              case word,:
                 features = None
             data.append((word, features))
     return data
