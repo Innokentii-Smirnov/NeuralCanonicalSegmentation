@@ -38,10 +38,10 @@ class SequenceDataset(Dataset):
     def __getitem__(self, index):
         answer = dict()
         for field in self.fields:
-            vocab = self.vocabs[field]
             # elem = {"word": ..., "tag": ..., "label": ...}
             value = self.get_field(index, field)
             if value is not None:
+                vocab = self.vocabs[field]
                 answer[field] = vocab.vectorize_element(value)
         for field in self.list_fields:
             seq_vocab = self.seq_vocabs[field]
