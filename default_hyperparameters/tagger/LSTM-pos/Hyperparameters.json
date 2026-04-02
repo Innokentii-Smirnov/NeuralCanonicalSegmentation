@@ -1,0 +1,12 @@
+{
+  "encoder_arguments": {
+    "embedding_dim": 150,
+    "embedding_dropout": 0.1,
+    "hidden_size": 400,
+    "num_layers": 1,
+    "lstm_dropout": 0.0,
+    "bidirectional": true
+  },
+  "encoding_dropout": 0.1,
+  "feature_embedding_dim": 100
+}
