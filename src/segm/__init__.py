@@ -107,9 +107,9 @@ def load_test_words(filename: str) -> list[tuple[str, list[str] | None]]:
         for line in fin:
             line = line.rstrip()
             match line.split('\t'):
-              case word, _, joined_features:
+              case word, joined_features:
                 features: list[str] | None = joined_features.split(FEATURE_SEP)
-              case word, _:
+              case word:
                 features = None
             data.append((word, features))
     return data
