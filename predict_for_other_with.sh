@@ -15,7 +15,11 @@ function predict_for_language() {
       outdir="predictions/$code/$model/$subtype"
       mkdir -p "$outdir"
       outfile="$outdir/predictions.txt"
-      cut -f1 "$infile" | env/bin/python src/segment.py "$code" "$model" "$subtype" | tr -d '()' > "$outfile"
+      if [[ "$subtype" == *-pos ]] then
+        cut -f1,2 --output-delimiter=',' "$infile" | env/bin/python src/segment.py "$code" "$model" "$subtype" | tr -d '()' > "$outfile"
+      else
+        cut -f1 "$infile" | env/bin/python src/segment.py "$code" "$model" "$subtype" | tr -d '()' > "$outfile"
+      fi
     done
   done
 }
