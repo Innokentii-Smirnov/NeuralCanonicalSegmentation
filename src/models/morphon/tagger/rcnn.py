@@ -16,7 +16,8 @@ class RCNNTagger(BasicTagger):
         vocabularies: dict[str, Vocabulary],
         encoder_arguments: EncoderArguments,
         encoding_dropout: float,
-        cnn_arguments: CNNArguments):
+        cnn_arguments: CNNArguments,
+        feature_embedding_dim: int | None = None):
         super(BasicTagger, self).__init__()
         self.recurrent_encoder = RecurrentEncoder(
             encoder_arguments['hidden_size'],
@@ -36,7 +37,11 @@ class RCNNTagger(BasicTagger):
           input_dim=self.recurrent_encoder.output_dim,
           **cnn_arguments
         )
-        super(RCNNTagger, self).__init__(self.convolutional_encoder.output_dim, vocabularies)
+        super(RCNNTagger, self).__init__(
+          self.convolutional_encoder.output_dim,
+          vocabularies,
+          feature_embedding_dim
+        )
 
     def encode_phon(self, phon: Tensor) -> Tensor:
         encoding = self.recurrent_encoder({'letters': phon})

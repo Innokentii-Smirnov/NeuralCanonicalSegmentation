@@ -14,7 +14,8 @@ class LSTMTagger(BasicTagger):
         self,
         vocabularies: dict[str, Vocabulary],
         encoder_arguments: EncoderArguments,
-        encoding_dropout: float):
+        encoding_dropout: float,
+        feature_embedding_dim: int | None = None):
         super(BasicTagger, self).__init__()
         self.encoder = SequentialEncoder(
             encoder_arguments['hidden_size'],
@@ -29,7 +30,11 @@ class LSTMTagger(BasicTagger):
                 )
             })
         )
-        super(LSTMTagger, self).__init__(self.encoder.output_dim, vocabularies)
+        super(LSTMTagger, self).__init__(
+            self.encoder.output_dim,
+            vocabularies,
+            feature_embedding_dim
+        )
 
 
     def encode_phon(self, phon: Tensor) -> Tensor:

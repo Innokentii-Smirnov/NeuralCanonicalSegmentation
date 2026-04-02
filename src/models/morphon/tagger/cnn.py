@@ -16,7 +16,8 @@ class CNNTagger(BasicTagger):
 
     def __init__(self,
                 vocabularies: dict[str, Vocabulary],
-                cnn_arguments: CNNArguments):
+                cnn_arguments: CNNArguments,
+                feature_embedding_dim: int | None = None):
         super(BasicTagger, self).__init__()
         self.convolutional_encoder = ConvolutionalEncoder(
           input_dim=len(vocabularies["phon"]),
@@ -24,7 +25,8 @@ class CNNTagger(BasicTagger):
         )
         super(CNNTagger, self).__init__(
             self.convolutional_encoder.output_dim,
-            vocabularies
+            vocabularies,
+            feature_embedding_dim
         )
 
     def encode_phon(self, phon: Tensor) -> Tensor:
