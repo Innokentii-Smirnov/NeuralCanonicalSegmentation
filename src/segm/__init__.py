@@ -110,6 +110,7 @@ def load_test_words(filename: str) -> list[tuple[str, list[str] | None]]:
               case word, joined_features:
                 features: list[str] | None = joined_features.split(FEATURE_SEP)
               case word:
+                assert isinstance(word, str), line
                 features = None
             data.append((word, features))
     return data
