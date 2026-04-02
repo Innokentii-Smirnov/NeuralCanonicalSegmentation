@@ -14,7 +14,7 @@ def make_model(
     use_features: bool,
     hyperparameters = None):
     if hyperparameters is None:
-        hyperparameters_directory = model_subtype if use_features else model_subtype + '-pos'
+        hyperparameters_directory = model_subtype + '-pos' if use_features else model_subtype
         with open(path.join('default_hyperparameters', model_type, hyperparameters_directory, 'Hyperparameters.json')) as fin:
             hyperparameters = json.load(fin)
     match model_type:
