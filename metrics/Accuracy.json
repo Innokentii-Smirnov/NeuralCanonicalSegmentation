@@ -58,7 +58,7 @@
 		"tagger_RCNN-skip-conn-pos": 33.54,
 		"tagger_CNN-pos_costs-1": 32.92,
 		"tagger_RCNN-pos_costs-1": 35.4,
-		"tagger_RCNN-skip-conn-pos_costs-1": 23.29,
+		"tagger_RCNN-skip-conn-pos_costs-1": 35.4,
 		"tagger_LSTM-pos_costs-1": 34.47
 	}
 }
