@@ -24,10 +24,15 @@ parser.add_argument('model_type', choices=['tagger', 'transducer', 'transformer'
 parser.add_argument('model_subtype', choices=['CNN', 'LSTM', 'RCNN', 'RCNN-skip-conn', 'char',
                                               'CNN-pos', 'LSTM-pos', 'RCNN-pos', 'RCNN-skip-conn-pos'],
                     help='the subtype of the model to use')
+parser.add_argument('--model-directory',
+                    help='a directory from which to load the model and its vocabularies')
 parser.add_argument('words', nargs='*',
                     help='the words to segment (multiple values allowed)')
 args = parser.parse_args()
-model_dir = path.join('models', args.language, args.model_type, args.model_subtype)
+if args.model_directory is None:
+  model_dir = path.join('models', args.language, args.model_type, args.model_subtype)
+else:
+  model_dir = args.model_directory
 vocab_dir = path.join(model_dir, 'Vocabularies')
 set_seeds()
 vocabs = {splitext(filename)[0]: Vocabulary(True, True).load(path.join(vocab_dir, filename))
