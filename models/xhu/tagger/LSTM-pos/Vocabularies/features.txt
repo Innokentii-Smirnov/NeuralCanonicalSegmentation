@@ -1,0 +1,14 @@
+<PAD>
+<UNK>
+<BEGIN>
+<END>
+ADJ
+ADV
+CONJ
+INTJ
+NUM
+POST
+PREP
+PRON
+noun
+verb
