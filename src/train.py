@@ -13,6 +13,7 @@ from appliers import make_applier
 from random import choices
 from library.iterable import find
 from alignment import align
+from segment import parse_input_word
 
 parser = argparse.ArgumentParser(
   prog='train.py',
@@ -131,5 +132,5 @@ if k is not None:
 else:
   print(align([(word[0] + ' ' * 5, word[1] + ' ' * 5, segmentation) for word, segmentation in errors]))
 
-for segmentation in applier.apply_to(args.words):
+for segmentation in applier.apply_to(list(map(parse_input_word, args.words))):
     print(segmentation)
