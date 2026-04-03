@@ -52,6 +52,9 @@
 		"tagger_LSTM": 23.91,
 		"tagger_RCNN": 25.47,
 		"tagger_RCNN-skip-conn": 23.29,
-		"tagger_CNN-pos": 12.42
+		"tagger_CNN-pos": 35.09,
+		"tagger_LSTM-pos": 35.09,
+		"tagger_RCNN-pos": 35.4,
+		"tagger_RCNN-skip-conn-pos": 33.54
 	}
 }
