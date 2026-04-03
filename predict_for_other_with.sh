@@ -17,14 +17,16 @@ function predict_for_language() {
     else
       model_variants="$model_names"
     fi
-    for subtype in $model_variants; do
-      outdir="predictions/$code/$model/$subtype"
+    for model_name in $model_variants; do
+      outdir="predictions/$code/$model/$model_name"
       mkdir -p "$outdir"
       outfile="$outdir/predictions.txt"
+      subtype="${model_name%%_*}"
+      model_directory="models/$code/$model/$model_name"
       if [[ "$subtype" == *-pos ]] then
-        cut -f1,2 --output-delimiter=',' "$infile" | env/bin/python src/segment.py "$code" "$model" "$subtype" | tr -d '()' > "$outfile"
+        cut -f1,2 --output-delimiter=',' "$infile" | env/bin/python src/segment.py "$code" "$model" "$subtype" --model-directory "$model_directory" | tr -d '()' > "$outfile"
       else
-        cut -f1 "$infile" | env/bin/python src/segment.py "$code" "$model" "$subtype" | tr -d '()' > "$outfile"
+        cut -f1 "$infile" | env/bin/python src/segment.py "$code" "$model" "$subtype" --model-directory "$model_directory" | tr -d '()' > "$outfile"
       fi
     done
   done
