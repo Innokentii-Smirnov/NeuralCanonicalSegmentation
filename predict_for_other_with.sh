@@ -1,6 +1,7 @@
 models="$1"
 language_codes="$2"
 dataset="$3"
+model_names="$4"
 if [[ -z $language_codes ]] then
   language_codes="chu vsn"
 fi
@@ -11,7 +12,12 @@ function predict_for_language() {
   code="$1"
   infile="$dataset/$code.word.test.tsv"
   for model in $models; do
-    for subtype in $(ls "models/$code/$model"); do
+    if [[ -z $model_names ]] then
+      model_variants=$(ls "models/$code/$model")
+    else
+      model_variants="$model_names"
+    fi
+    for subtype in $model_variants; do
       outdir="predictions/$code/$model/$subtype"
       mkdir -p "$outdir"
       outfile="$outdir/predictions.txt"
