@@ -13,7 +13,7 @@ from appliers import make_applier
 from random import choices
 from library.iterable import find
 from alignment import align
-from segment import parse_input_word
+from segm.input_word import parse_input_word
 
 parser = argparse.ArgumentParser(
   prog='train.py',
