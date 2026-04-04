@@ -1,7 +1,6 @@
 
 +
 +i-
-+i-i=
 +i-n
 +o
 +o+
@@ -15,18 +14,16 @@
 -aw
 -e
 -en
--i-
 -i-l-
--i=
 -m
 -n
--ne-
 -o
 -o-
 -o-e
 -u
 -v
 -va-
+-ž=
 =
 =m
 =nn
@@ -152,7 +149,6 @@ o-
 o-e
 o.
 o=
-ov
 ow
 ož=
 oʾ+
@@ -176,7 +172,6 @@ re-n
 ri
 ri+
 ri-
-ri-n
 rr
 s
 s+

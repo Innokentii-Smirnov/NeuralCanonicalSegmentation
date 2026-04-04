@@ -61,6 +61,7 @@ d  t
 e  
 e  +
 e  -
+e  -ž=
 e  e
 e  e+
 e  e-
@@ -221,7 +222,6 @@ r  +i-n
 r  -
 r  -i-l-
 r  -n
-r  i
 r  i-n
 r  n
 r  r
@@ -237,7 +237,6 @@ r  re-n
 r  ri
 r  ri+
 r  ri-
-r  ri-n
 r  rr
 r  ō+
 s  
@@ -273,7 +272,6 @@ u  o-
 u  o-e
 u  o.
 u  o=
-u  ov
 u  ow
 u  ož=
 u  oʾ+
@@ -352,10 +350,6 @@ z  ž
 ā  ā-a=a
 ā  ā=a
 ā  āi
-ē  
-ē  +i-i=
-ē  -i-
-ē  -i=
 ē  e
 ē  e-
 ē  e-e-
@@ -366,6 +360,7 @@ z  ž
 ē  ev
 ē  i
 ē  i-
+ē  i-i=
 ē  i=
 ē  ē
 ē  ē+
@@ -390,9 +385,6 @@ z  ž
 ġ  ḫ
 ġ  ḫe-
 ġ  ḫḫ
-ī  
-ī  -ne-
-ī  =
 ī  e
 ī  e-
 ī  e=
