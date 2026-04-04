@@ -217,8 +217,8 @@ n  e  š  š  i-  n  a
 š  i  l  ā  ġ  i
 š  i  l  ā  ġ  i
 
-ō  l  b  ī   n    i
-o  l  v  i-  ne-  e
+ō  l  b  ī   n  i  
+o  l  v  i-  n  e-e
 
 n  a  w  u   n    n  e   ž
 n  a     u+  ni-  n  e-  ž
@@ -301,8 +301,8 @@ p  i  ž  i  ri-  n  e
 k  i  š  ḫ  i   n  i   n
 k  e  š  ḫ  i-  n  e-  n
 
-t  a  l  m   ō   ġ    a
-t  a  l  m+  oḫ  ḫe-  a
+t  a  l  m   ō  ġ     a
+t  a  l  m+  o  ḫḫe-  a
 
 k  a  l  i     a  n  i
 k  ā  l  i-i-  a  n  e
@@ -1147,8 +1147,8 @@ k  a  ž  i  d  a  b  i=  m  a
 i  t  k  a  l   z  i   n  i   v  i   n  ā    ž   u    m  m  i    n
 i  t  k  a  l+  z  i-  n  e-  v  e-  n  a-a  ž-  ož=  m  m  a=a  n
 
-a  š  ḫ  u   n    i   l  l  a
-a  š  ḫ  o-  ne-  e=  l  l  a
+a  š  ḫ  u   n  i     l  l  a
+a  š  ḫ  o-  n  e-e=  l  l  a
 
 ā  r     r   i  v  a   ž
 a  r-i-  l-  e  v  a-  ž
@@ -2062,8 +2062,8 @@ a  m  m  a  t  t  e
 a  ī  b 
 a  i  =m
 
-i  r  b  ī   n    ā  ž   a
-e  r  v  i-  na-  a  ž-  a
+i  r  b  ī   n  ā    ž   a
+e  r  v  i-  n  a-a  ž-  a
 
 a  ž  m  u   n  i  g  a  l  ō   n
 a  ž  m  o.  n  i  g  a  l  ō=  n
@@ -3112,8 +3112,8 @@ e  g  e+  n  n  i-  n  e-  ž
 a  m   a   n  n  i   n  i   b  a
 a  m+  a+  n  n  i-  n  e-  v  a
 
-ḫ  a  l  z  ē   n    i
-ḫ  a  l  z  e-  ne-  e
+ḫ  a  l  z  ē   n  i  
+ḫ  a  l  z  e-  n  e-e
 
 t  a  r   i   ġ  i   n  i
 t  a  r+  i+  ġ  e-  n  e
@@ -3421,8 +3421,8 @@ t  e  š  š  e-  n  a
 t  a  ġ  i   n  e   ž
 t  ā  ġ  e-  n  e-  ž
 
-a  r  d  i   n    i   n
-a  r  d  e-  ne-  e=  n
+a  r  d  i   n  i     n
+a  r  d  e-  n  e-e=  n
 
 m  ā  n  i  e
 m  ā  n  n  e
@@ -3643,8 +3643,8 @@ f  ā  r-  a
 n  i  ġ  e
 n  i  ġ  e
 
-t  e  š  š  i   n    ā  ž   a
-t  e  š  š  e-  na-  a  ž-  a
+t  e  š  š  i   n  ā    ž   a
+t  e  š  š  e-  n  a-a  ž-  a
 
 t  ē    a  d  i   n
 t  ēi+  a  d  e-  n
@@ -4288,8 +4288,8 @@ a  i  g  a  l  d  u-  d  a
 ē  l  g  i
 ē  l  g  i
 
-k  e  š  ḫ  e   n    ā  ž    i
-k  e  š  ḫ  i-  na-  a  ž-v  e
+k  e  š  ḫ  e   n  ā    ž    i
+k  e  š  ḫ  i-  n  a-a  ž-v  e
 
 ḫ  i   a  r   u   ḫ  ḫ    a
 ḫ  i+  a  r+  o+  ḫ  ḫe-  a
@@ -4408,8 +4408,8 @@ k  u  b  a  ġi-  a  e
 t  a  d   a  n   i  d   a
 t  a  d-  a  n-  e  d-  a
 
-a  g  a   b  ē   n    ā  ž   a
-a  g  a-  v  e-  na-  a  ž-  a
+a  g  a   b  ē   n  ā    ž   a
+a  g  a-  v  e-  n  a-a  ž-  a
 
 t  a  l   a  ḫ  ḫ   ō   m
 t  a  l-  a  ḫ  ḫ-  o-  m
@@ -4663,8 +4663,8 @@ f  o  r-  u  š  š-  o-  e  n-  i=  m
 a  l  ē   ō  b 
 a  l  ē-  o  -m
 
-p  e  l  l  ē   n    i
-p  i  l  l  e-  ne-  e
+p  e  l  l  ē   n  i  
+p  i  l  l  e-  n  e-e
 
 k  a  l  b   u  ġ   ē  d   a
 k  a  l  b-  o  ġ-  e  d-  a
@@ -4858,8 +4858,8 @@ t  ā  ġ  e-  v  e
 t  e  b  i
 t  i  v  e
 
-ē  b  r    e   ž
-e  v  ri-  i-  ž
+ē  b  r  e     ž
+e  v  r  i-i-  ž
 
 k  i  b   u  p  p  u
 k  e  v-  u  f  f  u
@@ -5065,8 +5065,8 @@ f  a  ġ  r+  a+  ž  e
 ū  r  ġ  i
 ū  r  ġ  i
 
-š  e   ē   n    ā  ž   u  ž
-š  iy  e-  na-  a  ž-  o  ž
+š  e   ē   n  ā    ž   u  ž
+š  iy  e-  n  a-a  ž-  o  ž
 
 p  ā  t  t  ī  v  o  r    r  i   v  a
 p  ā  t  t  ī  v  o  ri-  n  e-  v  a
@@ -5269,8 +5269,8 @@ n  ā  l-  i
 a  i   m   ā  n
 a  i=  m=  a  n
 
-k  ū  n  i   n    i   n
-k  u  n  e-  ne-  e=  n
+k  ū  n  i   n  i     n
+k  u  n  e-  n  e-e=  n
 
 a  ž    ā   l
 a  ži-  a=  l
@@ -7102,8 +7102,8 @@ m  ā  di-  a  e
 n  a  ḫ  ḫ   a   š  š  i   n  a
 n  a  ḫ  ḫ+  a+  š  š  e-  n  a
 
-ḫ  u  d  e   n    ā  ž   a
-ḫ  ō  d  e-  na-  a  ž-  a
+ḫ  u  d  e   n  ā    ž   a
+ḫ  ō  d  e-  n  a-a  ž-  a
 
 š  ē  n    n  a
 š  e  na-  n  a
@@ -7114,8 +7114,8 @@ m  a  g  a  l  d  i-  n  e-  v  e-  n  a-a  ž-  a
 n  ā  b    i   m  a
 n  a  ve-  i=  m  a
 
-i  m  m  a  r  v  a  ġ  i   n    ā  ž    e
-i  m  m  a  r  v  a  ġ  e-  na-  a  ž-v  e
+i  m  m  a  r  v  a  ġ  i   n  ā    ž    e
+i  m  m  a  r  v  a  ġ  e-  n  a-a  ž-v  e
 
 ā  b  ē   n  i
 ā  b  ē-  n  e
@@ -7321,8 +7321,8 @@ f  ō  r  i=  m  a
 ē  l  g    ā  e
 ē  l  gi-  a  e
 
-a  d  ā  l   l    ē   l  l  a
-a  d  ā  l-  ne-  e=  l  l  a
+a  d  ā  l   l  ē     l  l  a
+a  d  ā  l-  n  e-e=  l  l  a
 
 t  a  d  u   ġ  e  b  a    n
 t  a  d  o.  ḫ  e  b  a=a  n
