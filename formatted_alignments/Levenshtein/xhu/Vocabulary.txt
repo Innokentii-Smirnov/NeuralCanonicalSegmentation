@@ -31,10 +31,8 @@ a=
 a=a
 ai
 ar
-at
 au
 av
-aʾ
 aʾ-
 b
 b+
@@ -125,8 +123,8 @@ n-i
 n-i-
 n=
 na-
-na=
 ne-
+ni
 ni-
 ni-n
 nn
@@ -147,6 +145,8 @@ p-
 p.
 pi-
 pp
+pp+
+pp-
 r
 r+
 r+i+
@@ -174,7 +174,7 @@ tani-
 te-
 ti-
 tiy
-tu
+tt
 u
 u+
 u-
