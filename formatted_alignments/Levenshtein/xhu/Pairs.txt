@@ -23,8 +23,8 @@ a  o=
 a  ye
 a  ā
 a  ā+
+a  ž=
 b  -
-b  =m
 b  b
 b  b+
 b  b+i+
@@ -192,12 +192,12 @@ o  ō
 p  
 p  +
 p  -
-p  =m
-p  b
 p  b-
+p  b=
 p  d-
 p  f
 p  fe-
+p  m
 p  p
 p  p+
 p  p-
@@ -205,6 +205,7 @@ p  p.
 p  pi-
 p  v
 p  v-
+p  v=
 p  ġ-
 r  
 r  -
@@ -400,10 +401,10 @@ z  ž
 ō  ō-o
 ō  ō=
 ō  ū
-š  =nn
 š  e
 š  n
 š  n+
+š  nn
 š  š
 š  š+
 š  š-
@@ -458,4 +459,4 @@ z  ž
 ḫ  ḫe-
 ḫ  ḫi-
 ⸢  
-⸣  ž
+⸣  -
