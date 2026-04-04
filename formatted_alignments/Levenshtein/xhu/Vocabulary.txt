@@ -69,7 +69,6 @@ e-ve
 e-ž=
 e=
 en
-ev
 f
 f-
 fe-
@@ -134,6 +133,7 @@ n-i
 n-i-
 n=
 na-
+na=
 ne-
 ni-
 ni-n
@@ -202,6 +202,7 @@ v+
 v-
 v=m
 va-
+ve
 ve-
 vi-
 vr
