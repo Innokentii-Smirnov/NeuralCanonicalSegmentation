@@ -6,17 +6,6 @@
 +ō
 +ž
 -
--a
--aw
--e
--en
--m
--o
--o-
--u
--v
--va-
--ž=
 =
 =m
 =nn
@@ -33,6 +22,7 @@ ai
 ar
 au
 av
+aw
 aʾ-
 b
 b+
@@ -40,7 +30,6 @@ b+i+
 b-
 b.
 b=
-b=m
 be-
 bi-
 d
@@ -190,7 +179,6 @@ uw-
 v
 v+
 v-
-v=m
 va-
 ve
 ve-
