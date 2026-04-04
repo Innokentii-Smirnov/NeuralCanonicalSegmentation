@@ -108,7 +108,6 @@ i  e+
 i  e-
 i  e-e
 i  e-e=
-i  e-ne
 i  e-v
 i  e-ve
 i  e=
@@ -121,9 +120,6 @@ i  i-e
 i  i-i
 i  i-i-
 i  i-i=
-i  i-l-e
-i  i-ne
-i  i-ne-
 i  i-ve-
 i  i.
 i  i=
@@ -140,21 +136,19 @@ k  k-
 k  k-i-
 k  ki-
 k  ko-
-l  +
 l  -
-l  -n
-l  i-n
 l  l
 l  l+
+l  l+i-
 l  l-
 l  l-i
 l  l-i-
 l  le-
 l  li-
-l  li-n
 l  ll
 l  lla
 l  n
+l  ne-
 m  
 m  +
 m  -
@@ -215,12 +209,8 @@ p  v-
 p  v=m
 p  ġ
 r  
-r  +
-r  +i-n
 r  -
-r  -i-l-
-r  -n
-r  i-n
+r  l-
 r  n
 r  r
 r  r+
@@ -231,7 +221,6 @@ r  r-
 r  r-i-
 r  ra-
 r  re-
-r  re-n
 r  ri
 r  ri+
 r  ri-
@@ -285,6 +274,7 @@ u  uw+
 u  uw-
 u  w-
 u  ō
+u  ō+
 u  ū
 v  -
 v  b
@@ -389,8 +379,6 @@ z  ž
 ī  i-e
 ī  i-i-
 ī  i-i=
-ī  i-l-e
-ī  i-ne-
 ī  i=
 ī  ie
 ī  iy

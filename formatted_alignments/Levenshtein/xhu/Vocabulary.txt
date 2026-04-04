@@ -1,7 +1,6 @@
 
 +
 +i-
-+i-n
 +v
 +ġ
 +ō
@@ -11,9 +10,7 @@
 -aw
 -e
 -en
--i-l-
 -m
--n
 -o
 -o-
 -u
@@ -63,7 +60,6 @@ e-e-
 e-e=
 e-i-
 e-i=
-e-ne
 e-v
 e-ve
 e-ž=
@@ -86,10 +82,6 @@ i-e
 i-i
 i-i-
 i-i=
-i-l-e
-i-n
-i-ne
-i-ne-
 i-ve-
 i-ž=
 i.
@@ -106,12 +98,12 @@ ki-
 ko-
 l
 l+
+l+i-
 l-
 l-i
 l-i-
 le-
 li-
-li-n
 ll
 lla
 m
@@ -164,7 +156,6 @@ r-
 r-i-
 ra-
 re-
-re-n
 ri
 ri+
 ri-
