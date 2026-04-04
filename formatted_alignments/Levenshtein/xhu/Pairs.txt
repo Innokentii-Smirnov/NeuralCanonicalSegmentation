@@ -25,7 +25,6 @@ a  ā
 a  ā+
 a  ž
 b  -
-b  -iffe-
 b  -m
 b  =m
 b  b
@@ -38,6 +37,7 @@ b  be-
 b  bi-
 b  e
 b  ff
+b  ffe-
 b  p+
 b  p-
 b  pp
@@ -201,8 +201,7 @@ o  ō
 p  
 p  +
 p  -
-p  -v
-p  b
+p  b-
 p  b=m
 p  d
 p  f
@@ -212,7 +211,8 @@ p  p+
 p  p-
 p  p.
 p  pi-
-p  v-v
+p  v
+p  v-
 p  v=m
 p  ġ
 r  
@@ -314,6 +314,7 @@ w  -va-
 w  =
 w  u
 w  u+
+w  u-
 w  v
 w  v+
 w  ve-

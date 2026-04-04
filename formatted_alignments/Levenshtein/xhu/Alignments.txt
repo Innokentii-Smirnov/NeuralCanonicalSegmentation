@@ -1690,8 +1690,8 @@ a  r  ā  g  i
 k  a  d   ā  n   u
 k  a  d-  a  n-  o
 
-a  t  t  a   i  p  p    i   n  ā    ž   a
-a  t  t  a+  i  -  v-v  e-  n  a-a  ž-  a
+a  t  t  a   i   p   p  i   n  ā    ž   a
+a  t  t  a+  i-  v-  v  e-  n  a-a  ž-  a
 
 š  i   u  m  m  e   n  i
 š  ī-  u  m  m  e-  n  e
@@ -1753,8 +1753,8 @@ i  š  t  e  n  i-i  f  fe-  a=  m  m  a
 e  ġ  l  i   b  i   n  i   b  i   n  ā    ž   a
 e  ġ  l  i-  v  e-  n  e-  v  e-  n  a-a  ž-  a
 
-p  ā  e  n  i  p  p    a
-p  ā  e  n  i  -  v-v  a
+p  ā  e  n  i   p   p  a
+p  ā  e  n  i-  v-  v  a
 
 i  t  k   u  m  m  i
 i  t  k-  u  m  m  e
@@ -2323,8 +2323,8 @@ av  e  -  ž=nn  a=  m
 a  m   u   l   ē  ž
 a  m-  o-  l-  e  ž
 
-a  i  w  p   a
-a  i  u  -v  a
+a  i  w   p  a
+a  i  u-  v  a
 
 a  š  ḫ   u  ž   i   k  k   u   n  n  i   m  a
 ā  š  ḫ+  o  ž+  i+  k  k+  o+  n  n  i=  m  a
@@ -3124,8 +3124,8 @@ a  l  l  a   i
 k  e  l   d  e
 k  e  l+  d  i
 
-ḫ  ā  ġ  i  p  p    i   n  a   m  a
-ḫ  ā  ġ  i  -  v-v  e-  n  a=  m  a
+ḫ  ā  ġ  i   p   p  i   n  a   m  a
+ḫ  ā  ġ  i-  v-  v  e-  n  a=  m  a
 
 t  a  p  ḫ   a  š  t   i   b
 t  a  p  ḫ-  a  š  t-  i-  b
@@ -3772,8 +3772,8 @@ t  i  v+  o+  š  ḫi-  a
 ā   d  a   ž
 at  t  a-  ž
 
-t  e  š  c  u  p  p   i
-t  e  š  š  o  b  -v  e
+t  e  š  c  u  p   p  i
+t  e  š  š  o  b-  v  e
 
 ō  š  š   u   n  i     l   a
 ō  š  š+  o+  n  i-i=  ll  a
@@ -4936,8 +4936,8 @@ k  ī  d  ā  vi-  a  e
 ḫ  e  r  i   n  e   ž
 ḫ  e  r  i-  n  e-  ž
 
-i  d  e  p  p    a
-i  d  i  -  v-v  a
+i  d  e   p   p  a
+i  d  i-  v-  v  a
 
 i  t  k   i   a    n
 i  t  k-  i-  a=a  n
@@ -5485,8 +5485,8 @@ n  a  k  k+  a+  š  ḫe-  a=  m
 u  b   u   k  k  u
 u  b-  o-  k  k  o
 
-e  v  e  r   i  n   ž  i  p  p    i   n  i   n  i   m
-e  v     r+  i  n+  ž  e  -  v-v  e-  n  e-  n  e=  m
+e  v  e  r   i  n   ž  i   p   p  i   n  i   n  i   m
+e  v     r+  i  n+  ž  e-  v-  v  e-  n  e-  n  e=  m
 
 t  u  l  l    i   b  i   n  a
 t  u  l  i-n  e-  v  e-  n  a
@@ -6547,8 +6547,8 @@ k  ē  di-  a
 š  ī  ġ  ā   v  e   n  a    ž   a    n
 š  ē  ġ  a-  v  e-  n  a-a  ž-  a=a  n
 
-ī   n  i  p  p    i   n  i     d
-ie  n  i  -  v-v  e-  n  e-e=  d
+ī   n  i   p   p  i   n  i     d
+ie  n  i-  v-  v  e-  n  e-e=  d
 
 k  u  l  v  e   n  ā   m  a
 k  u  l  v  e-  n  a=  m  a
@@ -7237,8 +7237,8 @@ t  e  š  š  e
 p  u  d   u  l   i   n    ā  i
 f  u  d+  o  l+  i+  ni-  a  e
 
-a  i  w  p   i
-a  i  u  -v  e
+a  i  w   p  i
+a  i  u-  v  e
 
 š  a  ġ  a  d   n   a  d  i
 š  a  ġ  a  d+  n+  a  d  i
@@ -7780,8 +7780,8 @@ k  e  v     ri-n  a-a  ž-  d  a
 a  š  t   u   ḫ  ḫ  i   n  a    ž      ā  i
 a  š  t+  o+  ḫ  ḫ  e-  n  a-a  ž-ve-  a  e
 
-a  b  i  b       a  ž
-a  b  i  -iffe-  a  ž
+a  b  i    b     a  ž
+a  b  i-i  ffe-  a  ž
 
 n  u  ḫ  ḫ   a   ž  e
 n  u  ḫ  ḫ+  a+  ž  e

@@ -18,7 +18,6 @@
 -i-
 -i-l-
 -i=
--iffe-
 -m
 -n
 -ne-
@@ -82,6 +81,7 @@ f
 f-
 fe-
 ff
+ffe-
 g
 g+
 g-
@@ -209,7 +209,6 @@ uw-
 v
 v+
 v-
-v-v
 v=m
 va-
 ve-
