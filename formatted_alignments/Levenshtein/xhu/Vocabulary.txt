@@ -1,11 +1,8 @@
 
 +
 +i-
-+v
-+ġ
-+ō
-+ž
 -
+-a
 =
 a
 a+
@@ -17,7 +14,6 @@ a-ž=
 a=
 a=a
 ai
-ar
 au
 av
 aw
@@ -60,7 +56,7 @@ g-
 gi-
 i
 i+
-i+n+z
+i+n+
 i-
 i-e
 i-i
@@ -89,6 +85,7 @@ l-i-
 le-
 li-
 ll
+ll+
 lla
 m
 m+
@@ -115,6 +112,7 @@ ni-
 ni-n
 nn
 nni-
+nu-
 o
 o+
 o-
@@ -130,8 +128,6 @@ p-
 p.
 pi-
 pp
-pp+
-pp-
 r
 r+
 r+i+
@@ -160,13 +156,13 @@ te-
 ti-
 tiy
 tt
+tu
 u
 u+
 u-
 u-i-
 u-o+
 u-v
-u-ž-
 u-ž=
 u=
 uw
@@ -186,7 +182,6 @@ w
 w+
 w-
 wi-
-ye
 z
 z+
 z-
@@ -211,8 +206,8 @@ zi-
 ġ-
 ġ-i
 ġ-i-
+ġa
 ġe-
-ġe-ve-
 ġi-
 ī
 ī+
@@ -235,6 +230,7 @@ zi-
 šo-
 šš
 ū
+ū+
 ž
 ž+
 ž-

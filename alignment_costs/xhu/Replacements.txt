@@ -23,3 +23,5 @@ s z 1
 l n 1
 l r 1
 n r 1
+o w 10
+u w 10

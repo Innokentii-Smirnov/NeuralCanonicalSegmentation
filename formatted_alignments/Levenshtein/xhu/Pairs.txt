@@ -1,5 +1,6 @@
 +  
 a  
+a  -
 a  =
 a  a
 a  a+
@@ -19,10 +20,9 @@ a  i
 a  i-
 a  i=
 a  o=
-a  ye
 a  ā
 a  ā+
-a  ž=
+b  -
 b  b
 b  b+
 b  b+i+
@@ -33,11 +33,10 @@ b  be-
 b  bi-
 b  ff
 b  ffe-
-b  i
 b  m
+b  p+
+b  p-
 b  pp
-b  pp+
-b  pp-
 b  v
 b  v+
 b  v-
@@ -47,7 +46,7 @@ b  ve-
 b  vi-
 b  w
 c  š
-d  +
+d  
 d  d
 d  d+
 d  d-
@@ -57,6 +56,7 @@ d  di-
 d  r+i-
 d  tt
 e  
+e  +
 e  -
 e  e
 e  e+
@@ -80,7 +80,6 @@ e  i=
 e  iy
 e  ē
 e  ē-
-e  ž=
 f  -
 f  f
 f  f-
@@ -90,11 +89,11 @@ f  i-
 f  p
 f  uw+
 f  v
-g  +ġ
 g  g
 g  g+
 g  g-
 g  gi-
+g  ġ
 g  ġ+
 i  
 i  +
@@ -111,7 +110,6 @@ i  e=
 i  en
 i  i
 i  i+
-i  i+n+z
 i  i-
 i  i-e
 i  i-i
@@ -133,7 +131,7 @@ k  k-
 k  k-i-
 k  ki-
 k  ko-
-l  a-
+l  
 l  l
 l  l+
 l  l+i-
@@ -143,6 +141,7 @@ l  l-i-
 l  le-
 l  li-
 l  ll
+l  ll+
 l  lla
 l  n
 m  
@@ -162,9 +161,8 @@ m  mm
 m  mm+
 m  mme-
 m  n
-m  u
+m  p
 n  
-n  +
 n  n
 n  n+
 n  n-
@@ -178,6 +176,7 @@ n  ni-
 n  ni-n
 n  nn
 n  nni-
+n  nu-
 o  e-
 o  o
 o  o+
@@ -186,7 +185,6 @@ o  o=
 o  u-
 o  ō
 p  
-p  +
 p  b-
 p  b=
 p  d-
@@ -201,8 +199,8 @@ p  pi-
 p  v
 p  v-
 p  v=
-p  ġ
 p  ġ-
+p  ġe-
 r  
 r  l-
 r  n
@@ -244,6 +242,7 @@ t  v
 u  
 u  +
 u  =
+u  i
 u  o
 u  o+
 u  o-
@@ -253,7 +252,7 @@ u  o=
 u  ow
 u  ož=
 u  oʾ+
-u  t
+u  tu
 u  u
 u  u+
 u  u-
@@ -268,6 +267,7 @@ u  w-
 u  ō
 u  ō+
 u  ū
+u  ū+
 v  -
 v  b
 v  b.
@@ -281,7 +281,6 @@ v  vr
 v  w
 w  
 w  +
-w  +v
 w  -
 w  o
 w  o-
@@ -296,17 +295,14 @@ w  w
 w  w+
 w  w-
 w  wi-
-w  ū
-z  +
-z  +ž
 z  ss+
-z  u-ž-
 z  z
 z  z+
 z  z-
 z  ze-
 z  zi-
 z  ž
+z  ž-
 ā  
 ā  a
 ā  a+
@@ -354,10 +350,12 @@ z  ž
 ġ  ḫ
 ġ  ḫḫ
 ġ  ḫḫe-
+ī  
 ī  e
 ī  e-
 ī  e=
 ī  i
+ī  i+n+
 ī  i-
 ī  i-e
 ī  i-i-
@@ -367,7 +365,6 @@ z  ž
 ī  iy
 ī  iye-
 ī  iye-i-
-ī  l
 ī  ē
 ī  ī
 ī  ī+
@@ -390,8 +387,7 @@ z  ž
 ō  ō-o
 ō  ō=
 ō  ū
-š  e
-š  n
+š  -
 š  n+
 š  nn
 š  š
@@ -406,7 +402,6 @@ z  ž
 š  ž
 š  ž-
 š  ž=
-ū  +ō
 ū  o
 ū  o+
 ū  o-
@@ -419,7 +414,7 @@ z  ž
 ū  ō
 ū  ō+
 ū  ū
-ž  a
+ž  -a
 ž  z
 ž  z-
 ž  š
@@ -435,12 +430,12 @@ z  ž
 ž  ži-
 ž  žē-
 ḫ  +i-
-ḫ  ar
-ḫ  e-v
+ḫ  r
 ḫ  v
+ḫ  ve-
 ḫ  ġ
 ḫ  ġ-i
-ḫ  ġe-ve-
+ḫ  ġa
 ḫ  ġi-
 ḫ  ḫ
 ḫ  ḫ+
@@ -449,4 +444,4 @@ z  ž
 ḫ  ḫe-
 ḫ  ḫi-
 ⸢  
-⸣  -
+⸣  
