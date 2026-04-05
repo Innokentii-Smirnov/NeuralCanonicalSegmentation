@@ -1,0 +1,21 @@
+{
+	"xhu": {
+		"tagger_CNN": 2.01,
+		"tagger_LSTM": 1.96,
+		"tagger_RCNN": 1.94,
+		"tagger_RCNN-skip-conn": 1.9,
+		"tagger_CNN-pos": 1.62,
+		"tagger_LSTM-pos": 1.56,
+		"tagger_RCNN-pos": 1.54,
+		"tagger_RCNN-skip-conn-pos": 1.68,
+		"tagger_CNN-pos_costs-1": 1.57,
+		"tagger_RCNN-pos_costs-1": 1.51,
+		"tagger_RCNN-skip-conn-pos_costs-1": 1.5,
+		"tagger_LSTM-pos_costs-1": 1.54,
+		"tagger_CNN-pos_costs-2": 1.47,
+		"tagger_LSTM-pos_costs-2": 1.56,
+		"tagger_RCNN-pos_costs-2": 1.46,
+		"tagger_RCNN-skip-conn-pos_costs-2": 1.44,
+		"tagger_RCNN-pos_costs-2b": 1.52
+	}
+}
