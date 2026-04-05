@@ -1,6 +1,5 @@
 +  
 a  
-a  -
 a  =
 a  a
 a  a+
@@ -23,8 +22,6 @@ a  o=
 a  ye
 a  ā
 a  ā+
-a  ž=
-b  -
 b  b
 b  b+
 b  b+i+
@@ -35,6 +32,7 @@ b  be-
 b  bi-
 b  ff
 b  ffe-
+b  i
 b  m
 b  pp
 b  pp+
@@ -82,13 +80,13 @@ e  iy
 e  ē
 e  ē-
 e  ž=
+f  -
 f  f
 f  f-
 f  fe-
 f  ff
 f  i-
 f  p
-f  u-
 f  uw+
 f  v
 g  +ġ
@@ -99,7 +97,6 @@ g  gi-
 g  ġ+
 i  
 i  +
-i  -
 i  a
 i  a=a
 i  e
@@ -108,7 +105,6 @@ i  e-
 i  e-e
 i  e-e=
 i  e-v
-i  e-ve
 i  e=
 i  en
 i  i
@@ -151,7 +147,6 @@ l  n
 m  
 m  +
 m  -
-m  i
 m  l
 m  m
 m  m+
@@ -167,8 +162,8 @@ m  mm+
 m  mme-
 m  n
 m  u
+n  
 n  +
-n  -
 n  n
 n  n+
 n  n-
@@ -191,7 +186,6 @@ o  u-
 o  ō
 p  
 p  +
-p  -
 p  b-
 p  b=
 p  d-
@@ -206,9 +200,9 @@ p  pi-
 p  v
 p  v-
 p  v=
+p  ġ
 p  ġ-
 r  
-r  -
 r  l-
 r  n
 r  r
@@ -249,8 +243,6 @@ t  v
 u  
 u  +
 u  =
-u  a
-u  i
 u  o
 u  o+
 u  o-
@@ -290,7 +282,6 @@ w
 w  +
 w  +v
 w  -
-w  =
 w  o
 w  o-
 w  u
@@ -325,13 +316,13 @@ z  ž
 ā  a=
 ā  a=a
 ā  e=
-ā  m
 ā  ā
 ā  ā+
 ā  ā-
 ā  ā-a=a
 ā  ā=a
 ā  āi
+ē  
 ē  e
 ē  e-
 ē  e-e-
@@ -358,7 +349,6 @@ z  ž
 ġ  ġ-i-
 ġ  ġe-
 ġ  ġi-
-ġ  ġl
 ġ  ġl-
 ġ  ʾ-
 ġ  ʾi-
@@ -447,6 +437,7 @@ z  ž
 ž  žē-
 ḫ  +i-
 ḫ  ar
+ḫ  e-v
 ḫ  v
 ḫ  ġ
 ḫ  ġ-i
@@ -459,4 +450,4 @@ z  ž
 ḫ  ḫe-
 ḫ  ḫi-
 ⸢  
-⸣  -
+⸣  ž
