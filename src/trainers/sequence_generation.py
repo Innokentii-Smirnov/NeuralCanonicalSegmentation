@@ -9,22 +9,23 @@ from tqdm.auto import tqdm
 from utils.dataset import SimpleDataset
 from utils.dataloader import FieldBatchDataloader
 
-class BasicSequenceGenerator(Module):
+class SequenceGeneratorTrainer:
 
-    def __init__(self, device: torch.device):
+    def __init__(self, model: Module, device: torch.device):
         #super(BasicSequenceGenerator, self).__init__()
+        self.model = model
         self.device = device
         # определяем функцию потерь
         self.criterion = nn.NLLLoss(reduction="mean")
         if self.device is not None:
-            self.to(self.device)
-        self.optimizer = torch.optim.Adam(self.parameters())
+            self.model.to(self.device)
+        self.optimizer = torch.optim.Adam(self.model.parameters())
 
     def forward(self, *args, **kwargs):
         raise NotImplementedError("You should implement forward pass in your derived class.")
 
     def train_on_batch(self, x, y, generate: bool):
-        self.train()
+        self.model.train()
         self.optimizer.zero_grad()
         loss, y = self._validate(x, y, generate)
         loss["loss"].backward()
@@ -32,7 +33,7 @@ class BasicSequenceGenerator(Module):
         return loss, y
 
     def validate_on_batch(self, x, y, generate: bool):
-        self.eval()
+        self.model.eval()
         with torch.no_grad():
             return self._validate(x, y, generate)
 
@@ -43,7 +44,7 @@ class BasicSequenceGenerator(Module):
         ## x = {"a": 1, "b": 2}
         ## func(**x) = func(a=1, b=2)
         #input = x | {'y': y, 'generate': generate}
-        batch_output = self(**x, generate=generate) #   self.forward(x) = self.__call__(x)
+        batch_output = self.model(**x, generate=generate) #   self.forward(x) = self.__call__(x)
         # классы надо переместить на размерность, идущую после батча
         # log_probs.shape = (B, L, K), y.shape = (B, L)
         #print(batch_output["log_probs"].shape)
