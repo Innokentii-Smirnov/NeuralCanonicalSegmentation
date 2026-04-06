@@ -20,6 +20,8 @@
 		"tagger_CNN-pos_costs-3": 1.53,
 		"tagger_LSTM-pos_costs-3": 1.45,
 		"tagger_RCNN-pos_costs-3": 1.53,
-		"tagger_RCNN-skip-conn-pos_costs-3": 1.54
+		"tagger_RCNN-skip-conn-pos_costs-3": 1.54,
+		"hard-attention_CLUZH-pos": 1.33,
+		"hard-attention_CLUZH-feats": 1.17
 	}
 }
