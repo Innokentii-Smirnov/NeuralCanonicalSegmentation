@@ -59,12 +59,18 @@ DATASET_TO_COLUMNS = {
 PRED_DIR = 'predictions'
 PRED_FILE = 'predictions.txt'
 OUTDIR = 'metrics'
-OUTFILE = 'F1.json'
+OUTFILES = {
+  'precision': 'Precision.json', 'recall': 'Recall.json', 'f_measure': 'F1.json'
+}
 
-f1_measures = dict[str, dict[str, float]]()
+METRICS = ['precision', 'recall', 'f_measure']
+metrics = dict[str, dict[str, dict[str, float]]]()
+for metric in METRICS:
+  metrics[metric] = dict[str, dict[str, float]]()
 
 for code in LANGUAGE_CODES:
-  f1_measures[code] = dict[str, float]()
+  for metric in METRICS:
+    metrics[metric][code] = dict[str, float]()
   dataset = LANGUAGE_TO_DATASET[code]
   language_dir = path.join(PRED_DIR, code)
   corr_file = DATASET_TO_INFILE[dataset](code)
@@ -86,10 +92,12 @@ for code in LANGUAGE_CODES:
         y_pred = list(map(postprocess, predictions))
       else:
         y_pred = predictions
-      f1_measure = compute_f1(y_true, y_pred)
-      f1_measures[code][model_identifier] = round(f1_measure, 2)
+      computed = compute_f1(y_true, y_pred)
+      for metric, value in computed.items():
+        metrics[metric][code][model_identifier] = round(value, 2)
 
 os.makedirs(OUTDIR, exist_ok=True)
-outfile = path.join(OUTDIR, OUTFILE)
-with open(outfile, 'w', encoding='utf-8') as fout:
-  json.dump(f1_measures, fout, ensure_ascii=False, indent='\t')
+for metric, values in metrics.items():
+  outfile = path.join(OUTDIR, OUTFILES[metric])
+  with open(outfile, 'w', encoding='utf-8') as fout:
+    json.dump(values, fout, ensure_ascii=False, indent='\t')
