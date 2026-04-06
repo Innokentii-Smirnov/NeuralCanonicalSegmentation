@@ -1,0 +1,31 @@
+{
+	"xhu": {
+		"tagger_CNN": 50.7,
+		"tagger_LSTM": 52.69,
+		"tagger_RCNN": 54.12,
+		"tagger_RCNN-skip-conn": 53.62,
+		"tagger_CNN-pos": 62.4,
+		"tagger_LSTM-pos": 62.58,
+		"tagger_RCNN-pos": 63.25,
+		"tagger_RCNN-skip-conn-pos": 61.13,
+		"tagger_CNN-pos_costs-1": 62.64,
+		"tagger_RCNN-pos_costs-1": 64.44,
+		"tagger_RCNN-skip-conn-pos_costs-1": 63.15,
+		"tagger_LSTM-pos_costs-1": 62.47,
+		"tagger_CNN-pos_costs-2": 64.07,
+		"tagger_LSTM-pos_costs-2": 62.88,
+		"tagger_RCNN-pos_costs-2": 65.53,
+		"tagger_RCNN-skip-conn-pos_costs-2": 64.45,
+		"tagger_RCNN-pos_costs-2b": 64.19,
+		"tagger_CNN-pos_costs-3": 63.04,
+		"tagger_LSTM-pos_costs-3": 64.46,
+		"tagger_RCNN-pos_costs-3": 64.91,
+		"tagger_RCNN-skip-conn-pos_costs-3": 64.33,
+		"tagger_CNN-pos_feats": 72.35,
+		"tagger_LSTM-pos_feats": 69.19,
+		"tagger_RCNN-pos_feats": 72.19,
+		"tagger_RCNN-skip-conn-pos_feats": 69.6,
+		"hard-attention_CLUZH-pos": 69.52,
+		"hard-attention_CLUZH-feats": 68.06
+	}
+}
