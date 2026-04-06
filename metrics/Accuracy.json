@@ -74,6 +74,7 @@
 		"tagger_RCNN-pos_feats": 45.96,
 		"tagger_RCNN-skip-conn-pos_feats": 40.99,
 		"hard-attention_CLUZH-pos": 44.1,
-		"hard-attention_CLUZH-feats": 42.86
+		"hard-attention_CLUZH-feats": 42.86,
+		"hard-attention_CLUZH": 30.43
 	}
 }
