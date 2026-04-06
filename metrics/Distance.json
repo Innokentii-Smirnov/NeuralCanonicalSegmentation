@@ -25,6 +25,10 @@
 		"tagger_LSTM-pos_feats": 1.15,
 		"tagger_RCNN-pos_feats": 1.12,
 		"tagger_RCNN-skip-conn-pos_feats": 1.16,
+		"tagger_CNN_costs-3": 1.9,
+		"tagger_LSTM_costs-3": 1.85,
+		"tagger_RCNN_costs-3": 1.84,
+		"tagger_RCNN-skip-conn_costs-3": 1.9,
 		"hard-attention_CLUZH-pos": 1.33,
 		"hard-attention_CLUZH-feats": 1.17,
 		"hard-attention_CLUZH": 1.92
