@@ -28,7 +28,7 @@ class MorphonologicalTransducerApplier:
         for batch in tqdm(dataloader):
             indexes = batch["indexes"]
             with torch.no_grad():
-                batch_answer = self.model.transduce(batch['phon'], self.max_output_length)
+                batch_answer = self.model.transduce(batch['phon'], self.max_output_length, features=batch['features'])
             labels = batch_answer["labels"].cpu().numpy()
             # probs = batch_answer.cpu().numpy()
             # labels = probs.argmax(axis=-1)
@@ -37,9 +37,9 @@ class MorphonologicalTransducerApplier:
                 answer[index] = result
         return answer
 
-    def apply_to(self, words: tuple[str, list[str] | None]) -> list[str]:
+    def apply_to(self, words: list[tuple[str, list[str] | None]]) -> list[str]:
         data = [{'phon': string_to_list(word, self.combine_diacritics), 'features': features} for word, features in words]
-        dataset = SimpleDataset(data, ['phon'], [],
+        dataset = SimpleDataset(data, ['phon', 'features'], [],
             True, True, True, True, self.vocabularies
         )
         predictions = self.predict(dataset)

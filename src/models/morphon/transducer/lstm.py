@@ -9,6 +9,6 @@ def make_model(vocabularies: dict[str, Vocabulary],
     model = SequenceTransducer(len(vocabularies["phon"]),
                                context_dim=0,
                                **hyperparameters,
-                               decoder_vocabulary=vocabularies['morphon'],
+                               vocabularies=vocabularies,
                                device=device)
     return model

@@ -7,6 +7,7 @@ from utils.vocabulary import Vocabulary
 from encoders.rnn.sequential import SequentialEncoder
 from decoders.rnn.sequential import SequentialDecoder
 from arguments import EncoderArguments, NetworkArguments
+from encoders.embedding_sum import EmbeddingSumEncoder
 
 class SequenceTransducer(Module):
 
@@ -15,9 +16,10 @@ class SequenceTransducer(Module):
                  encoder_arguments: EncoderArguments,
                  encoding_dropout: float,
                  context_dim: int,
-                 decoder_vocabulary: Vocabulary,
+                 vocabularies: dict[str, Vocabulary],
                  decoder_arguments: NetworkArguments,
-                 device: torch.device):
+                 device: torch.device,
+                 feature_embedding_dim: int | None = None):
 
         super().__init__()
         self.encoder = SequentialEncoder(
@@ -33,21 +35,46 @@ class SequenceTransducer(Module):
                 )
             })
         )
+        if feature_embedding_dim is not None:
+            self.feature_encoder: EmbeddingSumEncoder | None = EmbeddingSumEncoder(
+              len(vocabularies['features']),
+              feature_embedding_dim
+            )
+            context_dim += feature_embedding_dim
+        else:
+            self.feature_encoder = None
         self.decoder = SequentialDecoder(input_dim = self.encoder.output_dim,
                                          context_dim = context_dim,
-                                         vocabulary = decoder_vocabulary,
+                                         vocabulary = vocabularies['morphon'],
                                          **decoder_arguments,
                                          device = device)
 
-    def forward(self, phon: Tensor, morphon: Tensor, context: Optional[Tensor] = None, **kwargs):
-        # sequence: N × L × V
-        # context: N × C
+    def encode(self, phon: Tensor, context: Optional[Tensor] = None,
+               features: Optional[Tensor] = None):
+        """
+        :param phon: N × L × V
+        :param context: N × C
+        :return (encoding, context): (N × L × H₂, N × (C + F))
+        """
         encoding = self.encoder({'letters': phon})
-        # encoding: N × L × H₂
+        if self.feature_encoder is not None:
+          if features is None:
+            raise ValueError('This model expects a morphological feature encoding as input.')
+          feature_encoding = self.feature_encoder(features)
+          if context is not None:
+            context = torch.cat((context, feature_encoding), dim=-1)
+          else:
+            context = feature_encoding
+        return encoding, context
+
+    def forward(self, phon: Tensor, morphon: Tensor, context: Optional[Tensor] = None,
+                features: Optional[Tensor] = None, **kwargs):
+        encoding, context = self.encode(phon, context, features)
         output = self.decoder(encoding, morphon, context)
         return output
 
-    def transduce(self, phon: Tensor, max_output_length: int, context: Optional[Tensor] = None):
-        encoding = self.encoder({'letters': phon})
+    def transduce(self, phon: Tensor, max_output_length: int, context: Optional[Tensor] = None,
+                  features: Optional[Tensor] = None):
+        encoding, context = self.encode(phon, context, features)
         output = self.decoder.generate(encoding, max_output_length, context)
         return output
