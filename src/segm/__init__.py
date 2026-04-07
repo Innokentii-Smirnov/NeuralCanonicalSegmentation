@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 
 FEATURE_SEP = ';'
 
-def load_pairs(filename: str, sep: str) -> list[tuple[list[str], list[str], list[str] | None]]:
+def load_pairs(filename: str, sep: str, aligned: bool) -> list[tuple[list[str], list[str], list[str] | None]]:
     data = list[tuple[list[str], list[str], list[str] | None]]()
     with open(filename, 'r', encoding='utf-8') as fin:
         for line in fin:
@@ -22,8 +22,11 @@ def load_pairs(filename: str, sep: str) -> list[tuple[list[str], list[str], list
               case word, segmentation:
                 features = None
             elements = string_to_list(word, True)
-            labels = segmentation.split(sep)
-            assert len(elements) == len(labels), (elements, labels)
+            if aligned:
+              labels = segmentation.split(sep)
+              assert len(elements) == len(labels), (elements, labels)
+            else:
+              labels = string_to_list(segmentation, True)
             data.append((elements, labels, features))
     return data
 
@@ -35,18 +38,25 @@ def get_test_words(data):
 
 def load_data(model_directory: str,
               dataset: str, lang: str, sep: str,
+              aligned: bool,
               alignment_algorithm: str = 'Levenshtein'):
 
     os.makedirs(model_directory, exist_ok=True)
 
-    aligned_folder = path.join('aligned_data', alignment_algorithm, dataset)
-    assert path.exists(aligned_folder), aligned_folder
-    with DM(aligned_folder):
-      train_data = load_pairs(f'{lang}.word.train.tsv', sep)
-      dev_data = load_pairs(f'{lang}.word.dev.tsv', sep)
+    if aligned:
+      data_folder = path.join('aligned_data', alignment_algorithm, dataset)
+    else:
+      data_folder = dataset
+    assert path.exists(data_folder), data_folder
+    with DM(data_folder):
+      train_data = load_pairs(f'{lang}.word.train.tsv', sep, aligned)
+      dev_data = load_pairs(f'{lang}.word.dev.tsv', sep, aligned)
 
     for word, segmentation, _ in choices(train_data, k=20):
+      if aligned:
         print(align((word, segmentation)))
+      else:
+        print(''.join(word), ''.join(segmentation))
         print()
 
     for part in train_data, dev_data:

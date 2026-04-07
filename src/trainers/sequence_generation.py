@@ -24,18 +24,18 @@ class SequenceGeneratorTrainer:
     def forward(self, *args, **kwargs):
         raise NotImplementedError("You should implement forward pass in your derived class.")
 
-    def train_on_batch(self, x, y, generate: bool):
+    def train_on_batch(self, x, y):
         self.model.train()
         self.optimizer.zero_grad()
-        loss, y = self._validate(x, y, generate)
+        loss, y = self._validate(x, y, False)
         loss["loss"].backward()
         self.optimizer.step()
         return loss, y
 
-    def validate_on_batch(self, x, y, generate: bool):
+    def validate_on_batch(self, x, y):
         self.model.eval()
         with torch.no_grad():
-            return self._validate(x, y, generate)
+            return self._validate(x, y, True)
 
     def _validate(self, x, y, generate: bool):
         #if self.device is not None:

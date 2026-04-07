@@ -6,7 +6,7 @@ from reproducibility import set_seeds
 from segm import load_data, prepare_checkpoints_dir, prepare_test, evaluate
 from utils.dataloader import FieldBatchDataloader, DEVICE
 from models.morphon import make_model
-from trainers.mc import McTrainer
+from trainers import make_trainer
 from library.dm import DM
 from training import do_epoch
 from appliers import make_applier
@@ -45,14 +45,16 @@ args = parser.parse_args()
 
 set_seeds()
 
-X_train, X_dev = load_data(args.model_directory, args.dataset, args.language, args.sep)
+aligned_data_required = (args.model_type == 'tagger')
+X_train, X_dev = load_data(args.model_directory, args.dataset, args.language, args.sep,
+                           aligned_data_required)
 
 train_dataloader = FieldBatchDataloader(X_train)
 
 checkpoint, checkpoints_dir, to_load, load_checkpoints_dir = prepare_checkpoints_dir(args.model_directory, args.model_subtype)
 
 model = make_model(args.model_type, args.model_subtype, X_train.vocabs, DEVICE, args.use_features)
-trainer = McTrainer(model, DEVICE)
+trainer = make_trainer(args.model_type, model, DEVICE)
 
 if args.load and load_checkpoints_dir is not None:
   with DM(load_checkpoints_dir):

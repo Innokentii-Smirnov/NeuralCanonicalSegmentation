@@ -7,30 +7,32 @@ from typing import Iterable
 
 from metrics import Metrics
 from utils.vocabulary import Vocabulary
-from trainers.mc import McTrainer
+from trainers import Trainer
+from trainers.sequence_generation import SequenceGeneratorTrainer
 
 def convert_to_labels(label_tensor: Tensor, vocab: Vocabulary, mask):
-    mask = mask.bool().detach().cpu().numpy()
     label_array = label_tensor.detach().cpu().numpy()
-    labels = [np.take(vocab.symbols_, word[curr_mask]) for word, curr_mask in zip(label_array, mask)]
+    if mask is None:
+      labels = [np.take(vocab.symbols_, word) for word in label_array]
+    else:
+      mask = mask.bool().detach().cpu().numpy()
+      labels = [np.take(vocab.symbols_, word[curr_mask]) for word, curr_mask in zip(label_array, mask)]
     return labels
 
-def do_epoch(trainer: McTrainer, dataloader: Iterable[dict[str, Tensor]], label_vocab: Vocabulary, mode="validate", epoch=1):
+def do_epoch(trainer: Trainer, dataloader: Iterable[dict[str, Tensor]], label_vocab: Vocabulary, mode="validate", epoch=1):
     metrics = Metrics()
     func = trainer.train_on_batch if mode == "train" else trainer.validate_on_batch
     progress_bar = tqdm(dataloader, leave=True)
     progress_bar.set_description(f"{mode}, epoch={epoch}")
-    if mode == 'validate':
-        generate = True
-    elif mode == 'train':
-        generate = False
-    else:
-        raise ValueError(mode)
 
     for batch in progress_bar:
-        batch_output = func(batch, batch["morphon"])
-        corr_labels = convert_to_labels(batch['morphon'], label_vocab, batch["mask"])
-        pred_labels = convert_to_labels(batch_output["labels"], label_vocab, batch["mask"])
+        batch_output, y = func(batch, batch["morphon"])
+        mask = None if isinstance(trainer, SequenceGeneratorTrainer) else batch["mask"]
+        corr_labels = convert_to_labels(y, label_vocab, mask)
+        pred_labels = convert_to_labels(batch_output["labels"], label_vocab, mask)
+        if isinstance(trainer, SequenceGeneratorTrainer):
+            pred_labels = [pred_letters[:-1] for pred_letters in pred_labels]
+            corr_labels = [corr_letters[1:] for corr_letters in corr_labels]
         metrics.update(pred_labels, corr_labels, batch_output["loss"])
         postfix = {"loss": round(metrics.loss, 4), "acc": round(100 * metrics.accuracy, 2)}
         progress_bar.set_postfix(postfix)

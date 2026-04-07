@@ -39,15 +39,15 @@ class SequenceTransducer(Module):
                                          **decoder_arguments,
                                          device = device)
 
-    def forward(self, sequence: Tensor, y: Tensor, context: Optional[Tensor] = None):
+    def forward(self, phon: Tensor, morphon: Tensor, context: Optional[Tensor] = None, **kwargs):
         # sequence: N × L × V
         # context: N × C
-        encoding = self.encoder({'letters': sequence})
+        encoding = self.encoder({'letters': phon})
         # encoding: N × L × H₂
-        output = self.decoder(encoding, y, context)
+        output = self.decoder(encoding, morphon, context)
         return output
 
-    def transduce(self, sequence: Tensor, max_output_length: int, context: Optional[Tensor] = None):
-        encoding = self.encoder({'letters': sequence})
+    def transduce(self, phon: Tensor, max_output_length: int, context: Optional[Tensor] = None):
+        encoding = self.encoder({'letters': phon})
         output = self.decoder.generate(encoding, max_output_length, context)
         return output

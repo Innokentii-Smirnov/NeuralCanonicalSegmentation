@@ -37,8 +37,8 @@ class MorphonologicalTransducerApplier:
                 answer[index] = result
         return answer
 
-    def apply_to(self, words: list[str]) -> list[str]:
-        data = [{'phon': string_to_list(word, self.combine_diacritics)} for word in words]
+    def apply_to(self, words: tuple[str, list[str] | None]) -> list[str]:
+        data = [{'phon': string_to_list(word, self.combine_diacritics), 'features': features} for word, features in words]
         dataset = SimpleDataset(data, ['phon'], [],
             True, True, True, True, self.vocabularies
         )

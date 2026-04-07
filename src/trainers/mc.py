@@ -23,12 +23,12 @@ class McTrainer:
         loss = self._validate(x, y)
         loss["loss"].backward()
         self.optimizer.step()
-        return loss
+        return loss, y
 
     def validate_on_batch(self, x, y):
         self.model.eval()
         with torch.no_grad():
-            return self._validate(x, y)
+            return self._validate(x, y), y
 
     def _validate(self, x, y):
         if self.device is not None:
