@@ -31,6 +31,7 @@
 		"tagger_RCNN-skip-conn_costs-3": 54.78,
 		"hard-attention_CLUZH-pos": 70.24,
 		"hard-attention_CLUZH-feats": 71.62,
-		"hard-attention_CLUZH": 56.78
+		"hard-attention_CLUZH": 56.78,
+		"transducer_LSTM": 57.78
 	}
 }
