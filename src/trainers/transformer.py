@@ -53,15 +53,10 @@ class TransformerTrainer:
 
         loss = self.criterion(logits.reshape(-1, logits.shape[-1]), tgt_out.reshape(-1))
 
-        sequence_length, batch_size, output_vocab_size = logits.shape
-        reshaped_logits = logits.reshape(batch_size, sequence_length, output_vocab_size)
-        log_probs = F.log_softmax(reshaped_logits, dim=-1)
-
-        _, labels = torch.max(log_probs, dim=-1)
+        _, labels = torch.max(logits, dim=-1)
 
         batch_output = {
           "loss": loss,
-          "log_probs": log_probs,
-          "labels": labels
+          "labels": labels.transpose(1, 0)
         }
-        return batch_output, tgt_out.transpose(0, 1)
+        return batch_output, y[...,1:]
