@@ -24,20 +24,20 @@ class SequenceGeneratorTrainer:
     def forward(self, *args, **kwargs):
         raise NotImplementedError("You should implement forward pass in your derived class.")
 
-    def train_on_batch(self, x, y):
+    def train_on_batch(self, x, y, mask):
         self.model.train()
         self.optimizer.zero_grad()
-        loss, y = self._validate(x, y, False)
+        loss, y, mask = self._validate(x, y, mask, False)
         loss["loss"].backward()
         self.optimizer.step()
-        return loss, y
+        return loss, y, mask
 
-    def validate_on_batch(self, x, y):
+    def validate_on_batch(self, x, y, mask):
         self.model.eval()
         with torch.no_grad():
-            return self._validate(x, y, True)
+            return self._validate(x, y, mask, True)
 
-    def _validate(self, x, y, generate: bool):
+    def _validate(self, x, y, mask, generate: bool):
         #if self.device is not None:
             #y = y.to(self.device)
         # x -- это словарь
@@ -53,6 +53,7 @@ class SequenceGeneratorTrainer:
             if batch_output['log_probs'].shape[-2] > y.shape[-1]:
                 # Если модель предсказала лишние символы, будем считать их правильными, если это паддинг
                 y = pad_tensor(y, batch_output['log_probs'].shape[-2], -1, 0, device=self.device)
+                mask = pad_tensor(mask, batch_output['log_probs'].shape[-2], -1, 1, device=self.device)
             elif batch_output['log_probs'].shape[-2] < y.shape[-1]:
                 # Если модель предсказала недостаточно символов, будем считать, что в этих позициях паддинг
                 batch_output['log_probs'] = pad_tensor(batch_output['log_probs'], y.shape[-1], -2, 0, dtype=torch.float, device=self.device)
@@ -64,4 +65,4 @@ class SequenceGeneratorTrainer:
         batch_output["loss"] = loss
         # labels.shape = (B, L)
         batch_output['labels'] = batch_output['labels'][...,:-1]
-        return batch_output, corr
+        return batch_output, corr, mask[...,1:]

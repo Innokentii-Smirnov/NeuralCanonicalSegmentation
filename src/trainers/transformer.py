@@ -24,20 +24,20 @@ class TransformerTrainer:
             self.model.to(self.device)
         self.optimizer = torch.optim.Adam(self.model.parameters(), lr=0.0001, betas=(0.9, 0.98), eps=1e-9)
 
-    def train_on_batch(self, x, y):
+    def train_on_batch(self, x, y, mask):
         self.model.train()
         self.optimizer.zero_grad()
-        loss, y = self._validate(x, y)
+        loss, y, mask = self._validate(x, y, mask)
         loss["loss"].backward()
         self.optimizer.step()
-        return loss, y
+        return loss, y, mask
 
-    def validate_on_batch(self, x, y):
+    def validate_on_batch(self, x, y, mask):
         self.model.eval()
         with torch.no_grad():
-            return self._validate(x, y)
+            return self._validate(x, y, mask)
 
-    def _validate(self, x, y):
+    def _validate(self, x, y, mask):
         src, tgt = x['phon'].transpose(0, 1), y.transpose(0, 1)
 
         tgt_input = tgt[:-1, :]
@@ -59,4 +59,4 @@ class TransformerTrainer:
           "loss": loss,
           "labels": labels.transpose(1, 0)
         }
-        return batch_output, y[...,1:]
+        return batch_output, y[...,1:], mask[...,1:]

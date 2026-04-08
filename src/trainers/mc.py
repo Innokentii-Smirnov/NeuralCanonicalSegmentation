@@ -17,18 +17,18 @@ class McTrainer:
             self.model.to(self.device)
         self.optimizer = torch.optim.Adam(self.model.parameters())
 
-    def train_on_batch(self, x, y):
+    def train_on_batch(self, x, y, mask):
         self.model.train()
         self.optimizer.zero_grad()
         loss = self._validate(x, y)
         loss["loss"].backward()
         self.optimizer.step()
-        return loss, y
+        return loss, y, mask
 
-    def validate_on_batch(self, x, y):
+    def validate_on_batch(self, x, y, mask):
         self.model.eval()
         with torch.no_grad():
-            return self._validate(x, y), y
+            return self._validate(x, y), y, mask
 
     def _validate(self, x, y):
         if self.device is not None:

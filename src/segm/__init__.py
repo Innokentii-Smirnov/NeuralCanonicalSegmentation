@@ -81,7 +81,8 @@ def load_data(model_directory: str,
     max_sequence_length = len(longest)
     print(max_sequence_length)
 
-    X_train = SimpleDataset(train_words, ['phon', 'morphon', 'features'], [], True, True, True, True)
+    mask_field = 'phon' if aligned else 'morphon'
+    X_train = SimpleDataset(train_words, ['phon', 'morphon', 'features'], [], True, True, True, True, mask_field=mask_field)
     X_dev, = make_datasets(
         X_train,
         [dev_words],

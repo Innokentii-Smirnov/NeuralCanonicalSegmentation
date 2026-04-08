@@ -26,8 +26,7 @@ def do_epoch(trainer: Trainer, dataloader: Iterable[dict[str, Tensor]], label_vo
     progress_bar.set_description(f"{mode}, epoch={epoch}")
 
     for batch in progress_bar:
-        batch_output, y = func(batch, batch["morphon"])
-        mask = batch["mask"] if isinstance(trainer, McTrainer) else None
+        batch_output, y, mask = func(batch, batch["morphon"], batch["mask"])
         corr_labels = convert_to_labels(y, label_vocab, mask)
         pred_labels = convert_to_labels(batch_output["labels"], label_vocab, mask)
         metrics.update(pred_labels, corr_labels, batch_output["loss"])

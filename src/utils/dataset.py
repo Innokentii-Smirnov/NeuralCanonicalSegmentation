@@ -9,7 +9,8 @@ class SequenceDataset(Dataset):
     def __init__(self, data, fields: list[str], list_fields: list[str], add_begin: bool, add_end: bool,
                  add_begin_low: bool, add_end_low: bool,
                  vocabs: Optional[dict[str, Vocabulary]] = None,
-                 seq_vocabs: Optional[dict[str, Vocabulary]] = None):
+                 seq_vocabs: Optional[dict[str, Vocabulary]] = None,
+                 mask_field=None):
         """
             data: List[List[dict]],
                 список предложений,
@@ -28,9 +29,10 @@ class SequenceDataset(Dataset):
             self.create_vocabs()
         else:
             self.save_vocabs(vocabs, seq_vocabs)
+        self.mask_field = mask_field if mask_field is not None else self.fields[0]
 
     def _make_mask(self, item):
-        return self.vocabs[self.fields[0]].make_mask(item)
+        return self.vocabs[self.mask_field].make_mask(item)
     
     def get_field(self, index: int, field: str) -> list[str]:
         return [elem[field] for elem in self.data[index]]
@@ -86,14 +88,15 @@ class SequenceDataset(Dataset):
             data, fields, list_fields,
             other.add_begin, other.add_end,
             other.add_begin_low, other.add_end_low,
-            other.vocabs, other.seq_vocabs
+            other.vocabs, other.seq_vocabs,
+            other.mask_field
         )
         return dataset
     
 class SimpleDataset(SequenceDataset):
 
     def _make_mask(self, item: dict[str, list[str]]) -> list[bool]:
-        return super()._make_mask(item[self.fields[0]])
+        return super()._make_mask(item[self.mask_field])
     
     def get_field(self, index: int, field: str) -> list[str]:
         return self.data[index][field]
