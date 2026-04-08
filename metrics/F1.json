@@ -32,6 +32,7 @@
 		"hard-attention_CLUZH-pos": 69.52,
 		"hard-attention_CLUZH-feats": 68.06,
 		"hard-attention_CLUZH": 55.47,
-		"transducer_LSTM": 57.84
+		"transducer_LSTM": 57.84,
+		"transducer_LSTM-pos_feats": 78.75
 	}
 }
