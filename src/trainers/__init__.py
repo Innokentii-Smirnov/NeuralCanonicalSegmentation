@@ -1,8 +1,9 @@
 import torch
 from .mc import McTrainer
 from .sequence_generation import SequenceGeneratorTrainer
+from .transformer import TransformerTrainer
 
-Trainer = McTrainer | SequenceGeneratorTrainer
+Trainer = McTrainer | SequenceGeneratorTrainer | TransformerTrainer
 
 def make_trainer(model_type: str, model, device: torch.device):
   match model_type:
@@ -11,6 +12,6 @@ def make_trainer(model_type: str, model, device: torch.device):
     case 'transducer':
       return SequenceGeneratorTrainer(model, device)
     case 'transformer':
-      raise NotImplementedError
+      return TransformerTrainer(model, device)
     case _:
       raise ValueError('Unsupported model type: ' + model_type)

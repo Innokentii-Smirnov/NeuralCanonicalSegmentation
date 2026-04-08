@@ -80,7 +80,7 @@ if not args.no_train:
   for epoch in range(args.epochs):
     do_epoch(trainer, train_dataloader, vocab, mode="train", epoch=epoch+1)
     epoch_metrics = do_epoch(trainer, dev_dataloader, vocab, mode="validate", epoch=epoch+1)
-    if epoch_metrics.accuracy > best_val_acc:
+    if epoch_metrics.accuracy > best_val_acc or epoch == 0:
       best_val_acc = epoch_metrics.accuracy
       best_epoch = epoch
       with DM(curr_checkpoints_dir):

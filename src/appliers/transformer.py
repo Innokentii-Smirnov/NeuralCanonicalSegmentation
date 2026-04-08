@@ -57,9 +57,9 @@ class MorphonologicalTransformerApplier:
         curr_labels = tgt_tokens.cpu().numpy()
         return np.take(self.model.tgt_vocab.symbols_, curr_labels)
 
-    def apply_to(self, words: list[str]) -> list[str]:
+    def apply_to(self, words: list[tuple[str, list[str] | None]]) -> list[str]:
         predictions = list[str]()
-        for word in tqdm(words):
+        for word, features in tqdm(words):
             prediction = self.translate(word)
             morphon = get_word(list(prediction))
             predictions.append(morphon)

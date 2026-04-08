@@ -8,6 +8,7 @@ from typing import Iterable
 from metrics import Metrics
 from utils.vocabulary import Vocabulary
 from trainers import Trainer
+from trainers.mc import McTrainer
 from trainers.sequence_generation import SequenceGeneratorTrainer
 
 def convert_to_labels(label_tensor: Tensor, vocab: Vocabulary, mask):
@@ -27,7 +28,7 @@ def do_epoch(trainer: Trainer, dataloader: Iterable[dict[str, Tensor]], label_vo
 
     for batch in progress_bar:
         batch_output, y = func(batch, batch["morphon"])
-        mask = None if isinstance(trainer, SequenceGeneratorTrainer) else batch["mask"]
+        mask = batch["mask"] if isinstance(trainer, McTrainer) else None
         corr_labels = convert_to_labels(y, label_vocab, mask)
         pred_labels = convert_to_labels(batch_output["labels"], label_vocab, mask)
         if isinstance(trainer, SequenceGeneratorTrainer):
