@@ -28,7 +28,7 @@ class MorphonologicalTransducerApplier:
         for batch in tqdm(dataloader):
             indexes = batch["indexes"]
             with torch.no_grad():
-                batch_answer = self.model.transduce(batch['phon'], self.max_output_length, features=batch['features'])
+                batch_answer = self.model.transduce(batch['phon'], self.max_output_length, features=batch.get('features', None))
             labels = batch_answer["labels"].cpu().numpy()
             # probs = batch_answer.cpu().numpy()
             # labels = probs.argmax(axis=-1)
