@@ -8,6 +8,8 @@ class Metrics:
         self.correct = 0
         self.n_batches = 0
         self.loss = 0.0
+        self.correct_letters = 0
+        self.total_letters = 0
 
     def update(self, pred_letters_batch: list[ndarray],
                corr_letters_batch: list[ndarray], loss):
@@ -23,8 +25,11 @@ class Metrics:
             correct_token = np.all(correct_letters)
             self.correct += int(correct_token)
             self.total += 1
+            self.correct_letters += np.sum(correct_letters)
+            self.total_letters += len(corr_letters)
 
         self.accuracy = self.correct / max(self.total, 1)
+        self.letter_accuracy = self.correct_letters / max(self.total_letters, 1)
 
     def __repr__(self) -> str:
         return 'Accuracy = {0} %  ({1}/{2})'.format(round(100*self.accuracy, 2), self.correct, self.total, )

@@ -35,6 +35,7 @@ def do_epoch(trainer: Trainer, dataloader: Iterable[dict[str, Tensor]], label_vo
             pred_labels = [pred_letters[:-1] for pred_letters in pred_labels]
             corr_labels = [corr_letters[1:] for corr_letters in corr_labels]
         metrics.update(pred_labels, corr_labels, batch_output["loss"])
-        postfix = {"loss": round(metrics.loss, 4), "acc": round(100 * metrics.accuracy, 2)}
+        postfix = {"loss": round(metrics.loss, 4), "acc": round(100 * metrics.accuracy, 2),
+                   "char_acc": round(100 * metrics.letter_accuracy, 2)}
         progress_bar.set_postfix(postfix)
     return metrics
