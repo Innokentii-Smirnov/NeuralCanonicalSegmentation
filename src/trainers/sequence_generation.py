@@ -63,4 +63,5 @@ class SequenceGeneratorTrainer:
         loss = self.criterion(pred, corr)
         batch_output["loss"] = loss
         # labels.shape = (B, L)
-        return batch_output, y
+        batch_output['labels'] = batch_output['labels'][...,:-1]
+        return batch_output, corr

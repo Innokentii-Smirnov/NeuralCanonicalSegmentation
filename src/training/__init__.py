@@ -9,7 +9,6 @@ from metrics import Metrics
 from utils.vocabulary import Vocabulary
 from trainers import Trainer
 from trainers.mc import McTrainer
-from trainers.sequence_generation import SequenceGeneratorTrainer
 
 def convert_to_labels(label_tensor: Tensor, vocab: Vocabulary, mask):
     label_array = label_tensor.detach().cpu().numpy()
@@ -31,9 +30,6 @@ def do_epoch(trainer: Trainer, dataloader: Iterable[dict[str, Tensor]], label_vo
         mask = batch["mask"] if isinstance(trainer, McTrainer) else None
         corr_labels = convert_to_labels(y, label_vocab, mask)
         pred_labels = convert_to_labels(batch_output["labels"], label_vocab, mask)
-        if isinstance(trainer, SequenceGeneratorTrainer):
-            pred_labels = [pred_letters[:-1] for pred_letters in pred_labels]
-            corr_labels = [corr_letters[1:] for corr_letters in corr_labels]
         metrics.update(pred_labels, corr_labels, batch_output["loss"])
         postfix = {"loss": round(metrics.loss, 4), "acc": round(100 * metrics.accuracy, 2),
                    "char_acc": round(100 * metrics.letter_accuracy, 2)}
