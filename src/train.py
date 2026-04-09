@@ -19,9 +19,9 @@ parser = argparse.ArgumentParser(
   prog='train.py',
   description='Train a neural model for canonical morpheme segmentation'
 )
-parser.add_argument('dataset', choices=['Hurrian'],
+parser.add_argument('dataset',
                     help='the dataset on which to train the model')
-parser.add_argument('language', choices=['xhu'],
+parser.add_argument('language',
                     help='the three-letter code of the language')
 parser.add_argument('sep', choices=['~'],
                     help='the separator for segmentation fragments used in the aligned data')
