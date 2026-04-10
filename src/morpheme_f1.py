@@ -2,7 +2,7 @@ import re
 import sys
 sys.path.insert(1, '2022SegmentationST/evaluation')
 from evaluate import n_correct
-morpheme_boundary = re.compile(r'(?<=[.+-=@])')
+morpheme_boundary = re.compile(r'(?<=[.+-=])|@')
 
 def compute_f1(corr_segmentations: list[str], pred_segmentations: list[str]) -> dict[str, float]:
   total_corr = 0
