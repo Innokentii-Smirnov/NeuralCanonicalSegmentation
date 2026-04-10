@@ -37,6 +37,7 @@
 		"transformer_char": 4.62
 	},
 	"ces": {
-		"transformer_char": 1.26
+		"transformer_char": 1.26,
+		"transformer_char_2": 0.32
 	}
 }
