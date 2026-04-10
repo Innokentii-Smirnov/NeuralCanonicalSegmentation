@@ -35,5 +35,8 @@
 		"transducer_LSTM": 57.9,
 		"transducer_LSTM-pos_feats": 79.71,
 		"transformer_char": 26.81
+	},
+	"ces": {
+		"transformer_char": 78.34
 	}
 }
