@@ -14,7 +14,6 @@ CS = 'canonical-segmentation'
 SM = '2022SegmentationST'
 OTHER = 'data'
 HURRIAN = 'Hurrian'
-CZECH = 'Czech'
 
 CODE_TO_LANGUAGE = {
   'deu': 'german',
@@ -24,7 +23,8 @@ CODE_TO_LANGUAGE = {
 
 MODEL_TYPE_TO_BOUNDARY = {
   'tagger': '@',
-  'transducer': '-'
+  'transducer': '-',
+  'transformer': '-'
 }
 
 LANGUAGE_TO_DATASET = {
@@ -37,7 +37,7 @@ LANGUAGE_TO_DATASET = {
   'chu': OTHER,
   'vsn': OTHER,
   'xhu': HURRIAN,
-  'ces': CZECH
+  'ces': SM
 }
 
 DATASET_TO_BOUNDARY = {
@@ -49,8 +49,7 @@ DATASET_TO_INFILE = {
   CS: lambda code: path.join(CS, CODE_TO_LANGUAGE[code], 'test0'),
   SM: lambda code: path.join(SM, 'data', '{0}.word.test.gold.tsv'.format(code)),
   OTHER: lambda code: path.join(OTHER, '{0}.word.test.gold.tsv'.format(code)),
-  HURRIAN: lambda code: path.join(HURRIAN, '{0}.word.test.gold.tsv'.format(code)),
-  CZECH: lambda code: path.join(CZECH, '{0}.word.test.gold.tsv'.format(code))
+  HURRIAN: lambda code: path.join(HURRIAN, '{0}.word.test.gold.tsv'.format(code))
 }
 
 DATASET_TO_COLUMNS = {
@@ -58,7 +57,6 @@ DATASET_TO_COLUMNS = {
   SM: ['orth', 'segm'],
   OTHER: ['orth', 'segm'],
   HURRIAN: ['orth', 'segm', 'pos'],
-  CZECH: ['orth', 'segm']
 }
 
 PRED_DIR = 'predictions'
