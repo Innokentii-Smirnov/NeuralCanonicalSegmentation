@@ -23,13 +23,15 @@ def metric_function(y_true: list[str], y_pred: list[str]) -> dict[str, float]:
            for gold, guess
            in zip(gold_data, guess_data)]
 
+  gold_data = list(map(preprocess_for_n_correct, gold_data))
+  guess_data = list(map(preprocess_for_n_correct, guess_data))
+
   # the values needed for P/R can also be broken down per-example
-  n_overlaps = [n_correct(preprocess_for_n_correct(gold),
-                          preprocess_for_n_correct(guess))
+  n_overlaps = [n_correct(gold, guess)
                 for gold, guess
                 in zip(gold_data, guess_data)]
-  gold_lens = [len(MORPHEME_BOUNDARY.split(gold)) for gold in gold_data]
-  pred_lens = [len(MORPHEME_BOUNDARY.split(guess)) for guess in guess_data]
+  gold_lens = [len(gold.split("|")) for gold in gold_data]
+  pred_lens = [len(guess.split("|")) for guess in guess_data]
 
   overall_stats = compute_stats(dists, n_overlaps, gold_lens, pred_lens)
   return overall_stats
