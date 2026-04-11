@@ -1,0 +1,113 @@
+a  a
+a  a@
+a  a@a
+a  ai
+a  ate@a
+b  
+b  b
+b  b@
+b  ble@
+c  
+c  c
+c  c@
+c  ce@
+c  cs@
+c  que@
+d  d
+d  d@
+d  deration
+d  ds@
+e  
+e  e
+e  e@
+e  e@e
+f  F
+f  f
+g  
+g  g
+g  g@
+g  ge@
+g  ggot
+g  gy@
+h  h
+h  h@
+h  hy@
+i  
+i  e
+i  e@
+i  i
+i  i@i
+i  ion@i
+i  is@i
+i  y@
+j  j
+k  k
+k  k@
+k  ke@
+l  
+l  l
+l  l@
+l  le@
+l  le@l
+l  ll@
+m  
+m  M
+m  m
+m  m@
+m  me@
+m  my@
+n  
+n  N
+n  n
+n  n@
+n  nal@
+n  ne@
+n  no
+n  nor@
+n  nt@an
+n  nt@en
+o  o
+o  o@
+o  oduction
+o  on@o
+o  ou
+p  
+p  P
+p  p
+p  p@
+p  pe@
+p  ple@
+q  q
+r  R
+r  r
+r  r@
+r  re@
+s  de@
+s  s
+s  s@
+s  se@
+s  sm@is
+s  t@
+t  
+t  ce@
+t  s
+t  t
+t  t@
+t  te
+t  te@
+t  ti
+t  tic@
+t  ton@
+u  
+u  u
+u  ue@
+v  v
+v  ve@
+w  w
+w  w@
+x  x
+x  x@
+y  y
+y  y@
+z  z
+z  ze@
