@@ -15,7 +15,7 @@ args = parser.parse_args()
 target_vocabulary = set[str]()
 source_char_target_fragment_pairs = set[tuple[str, str]]()
 
-data = load_pairs(args.infile, '~')
+data = load_pairs(args.infile, '~', True)
 os.makedirs(args.outdir, exist_ok=True)
 with DM(args.outdir):
   with open('Alignments.txt', 'w', encoding='utf-8') as fout:
