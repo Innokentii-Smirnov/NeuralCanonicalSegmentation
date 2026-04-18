@@ -41,6 +41,20 @@ parser.add_argument('--use-features', action='store_true',
                     help='include morphological features as an additional input to the model')
 parser.add_argument('words', nargs='*',
                     help='the words to segment (multiple values allowed)')
+parser.add_argument('--num-encoder-layers', type=int,
+                    help='number of layers in the encoder')
+parser.add_argument('--num-decoder-layers', type=int,
+                    help='number of layers in the decoder')
+parser.add_argument('--emb-size', type=int,
+                    help='embedding size')
+parser.add_argument('--nhead', type=int,
+                    help='number of heads for the tranformer')
+parser.add_argument('--dim-feedforward', type=int,
+                    help='feedforward layer dimension for the tranformer')
+parser.add_argument('--dropout', type=float,
+                    help='dropout value')
+parser.add_argument('--batch-size', type=int, default=32,
+                    help='batch size')
 args = parser.parse_args()
 
 set_seeds()
@@ -53,7 +67,7 @@ train_dataloader = FieldBatchDataloader(X_train)
 
 checkpoint, checkpoints_dir, to_load, load_checkpoints_dir = prepare_checkpoints_dir(args.model_directory, args.model_subtype)
 
-model = make_model(args.model_type, args.model_subtype, X_train.vocabs, DEVICE, args.use_features)
+model = make_model(args.model_type, args.model_subtype, X_train.vocabs, DEVICE, args.use_features, args.model_directory, vars(args))
 trainer = make_trainer(args.model_type, model, DEVICE)
 
 if args.load and load_checkpoints_dir is not None:
@@ -63,13 +77,13 @@ if args.load and load_checkpoints_dir is not None:
 print(model)
 
 vocab = X_train.vocabs["morphon"]
-dev_dataloader = FieldBatchDataloader(X_dev, batch_size=32, device=DEVICE)
+dev_dataloader = FieldBatchDataloader(X_dev, batch_size=args.batch_size, device=DEVICE)
 
 if not args.no_train:
   best_val_acc = 0.0
   best_epoch = -1
 
-  train_dataloader = FieldBatchDataloader(X_train, batch_size=32, device=DEVICE)
+  train_dataloader = FieldBatchDataloader(X_train, batch_size=args.batch_size, device=DEVICE)
 
   curr = to_load + 1
   curr_checkpoints_dir = path.join(checkpoints_dir, str(curr))
@@ -96,7 +110,7 @@ do_epoch(trainer, dev_dataloader, vocab, mode="validate", epoch="evaluate")
 
 test_data, test_words, words_for_test, gold_segmentations = prepare_test(args.dataset, args.language)
 applier = make_applier(args.model_type, model, X_train.vocabs, DEVICE)
-segmentations = applier.apply_to(words_for_test)
+segmentations = applier.apply_to(words_for_test, batch_size=args.batch_size)
 
 for i in choices(list(range(len(words_for_test))), k=30):
     word, features = words_for_test[i]

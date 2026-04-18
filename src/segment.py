@@ -41,7 +41,7 @@ for key, vocab in vocabs.items():
   logging.info('%s %i', key, len(vocab))
 model_subtype = args.model_subtype.removesuffix('-pos')
 model = make_model(args.model_type, model_subtype, vocabs, DEVICE,
-                   args.model_subtype.endswith('-pos'))
+                   args.model_subtype.endswith('-pos'), model_dir)
 applier = make_applier(args.model_type, model, vocabs, DEVICE)
 checkpoint_dir = path.join(model_dir, 'Checkpoints', '0')
 checkpoint_file = path.join(checkpoint_dir, f'checkpoint_best_{model_subtype}.pt')

@@ -1,4 +1,5 @@
 from os import path
+from typing import Optional, Any
 import json
 import torch
 from utils.vocabulary import Vocabulary
@@ -12,11 +13,15 @@ def make_model(
     vocabularies: dict[str, Vocabulary],
     device: torch.device,
     use_features: bool,
-    hyperparameters = None):
-    if hyperparameters is None:
-        hyperparameters_directory = model_subtype + '-pos' if use_features else model_subtype
-        with open(path.join('default_hyperparameters', model_type, hyperparameters_directory, 'Hyperparameters.json')) as fin:
-            hyperparameters = json.load(fin)
+    model_directory: str,
+    args: Optional[dict[str, Any]] = None):
+    hyperparameters_directory = model_subtype + '-pos' if use_features else model_subtype
+    with open(path.join('default_hyperparameters', model_type, hyperparameters_directory, 'Hyperparameters.json')) as fin:
+        default_hyperparameters = json.load(fin)
+    hyperparameters = default_hyperparameters if args is None else \
+      {key: args[key] or default_hyperparameters[key] for key in default_hyperparameters}
+    with open(path.join(model_directory, 'Hyperparameters.json'), 'w', encoding='utf-8') as fout:
+      json.dump(hyperparameters, fout)
     match model_type:
         case 'tagger':
             return make_tagger(model_subtype, vocabularies, hyperparameters, device)

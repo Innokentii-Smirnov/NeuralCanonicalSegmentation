@@ -21,9 +21,9 @@ class MorphonologicalTransducerApplier:
         self.combine_diacritics = self.vocabularies['phon'].contains_string_with_combined_diacritic()
         self.max_output_length = max_output_length
 
-    def predict(self, X: SimpleDataset) -> list[ndarray]:
+    def predict(self, X: SimpleDataset, batch_size: int) -> list[ndarray]:
         self.model.eval()
-        dataloader = FieldBatchDataloader(X, device=self.device, batch_size=32)
+        dataloader = FieldBatchDataloader(X, device=self.device, batch_size=batch_size)
         answer: list[ndarray] = [None] * len(X)
         for batch in tqdm(dataloader):
             indexes = batch["indexes"]
@@ -37,12 +37,12 @@ class MorphonologicalTransducerApplier:
                 answer[index] = result
         return answer
 
-    def apply_to(self, words: list[tuple[str, list[str] | None]]) -> list[str]:
+    def apply_to(self, words: list[tuple[str, list[str] | None]], batch_size: int = 32) -> list[str]:
         data = [{'phon': string_to_list(word, self.combine_diacritics), 'features': features} for word, features in words]
         dataset = SimpleDataset(data, ['phon', 'features'], [],
             True, True, True, True, self.vocabularies
         )
-        predictions = self.predict(dataset)
+        predictions = self.predict(dataset, batch_size)
         segmentations = list[str]()
         for prediction in predictions:
             segmentation = ''.join(letter for letter in prediction if letter not in {'<PAD>', '<BEGIN>', '<END>'})

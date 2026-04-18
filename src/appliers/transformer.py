@@ -28,7 +28,7 @@ class MorphonologicalTransformerApplier:
         self.vocabularies = vocabularies
         self.combine_diacritics = self.vocabularies['phon'].contains_string_with_combined_diacritic()
 
-    def predict(self, X: SimpleDataset, batch_size: int = 32, max_len: int = 50) -> list[None | ndarray]:
+    def predict(self, X: SimpleDataset, batch_size: int, max_len: int = 50) -> list[None | ndarray]:
         self.model.eval()
         dataloader = FieldBatchDataloader(X, device=self.device, batch_size=batch_size)
         answer: list[None | ndarray] = [None] * len(X)
@@ -47,7 +47,7 @@ class MorphonologicalTransformerApplier:
                 answer[index] = result
         return answer
 
-    def translate(self, src_sentence: str, max_len: int = 50):
+    def translate(self, src_sentence: str, batch_size: int, max_len: int = 50):
         self.model.eval()
         inp = string_to_list(src_sentence, self.combine_diacritics)
         src = torch.LongTensor(self.model.src_vocab.vectorize_element(inp)).to(self.device).view(-1, 1)
@@ -57,10 +57,10 @@ class MorphonologicalTransformerApplier:
         curr_labels = tgt_tokens.cpu().numpy()
         return np.take(self.model.tgt_vocab.symbols_, curr_labels)
 
-    def apply_to(self, words: list[tuple[str, list[str] | None]]) -> list[str]:
+    def apply_to(self, words: list[tuple[str, list[str] | None]], batch_size: int = 32) -> list[str]:
         predictions = list[str]()
         for word, features in tqdm(words):
-            prediction = self.translate(word)
+            prediction = self.translate(word, batch_size)
             morphon = get_word(list(prediction))
             predictions.append(morphon)
         return predictions
