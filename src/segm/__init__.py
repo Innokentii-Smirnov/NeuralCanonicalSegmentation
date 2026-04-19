@@ -26,7 +26,7 @@ def load_pairs(filename: str, sep: str, aligned: bool) -> list[tuple[list[str], 
               labels = segmentation.split(sep)
               assert len(elements) == len(labels), (elements, labels)
             else:
-              labels = string_to_list(segmentation, True)
+              labels = string_to_list(segmentation.replace(' @@', '@'), True)
             data.append((elements, labels, features))
     return data
 

@@ -112,6 +112,9 @@ test_data, test_words, words_for_test, gold_segmentations = prepare_test(args.da
 applier = make_applier(args.model_type, model, X_train.vocabs, DEVICE)
 segmentations = applier.apply_to(words_for_test, batch_size=args.batch_size)
 
+if args.dataset == '2022SegmentationST/data':
+  segmentations = [segmentation.replace('@', ' @@') for segmentation in segmentations]
+
 for i in choices(list(range(len(words_for_test))), k=30):
     word, features = words_for_test[i]
     segmentation = segmentations[i]
