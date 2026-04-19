@@ -48,6 +48,9 @@ class Seq2SeqTransformer(nn.Module):
         self.tgt_vocab = tgt_vocab
         self.src_pad = src_vocab.pad
         self.tgt_pad = tgt_vocab.pad
+        for p in self.parameters():
+          if p.dim() > 1:
+            nn.init.xavier_uniform_(p)
 
     def forward(self,
                 src: Tensor,
