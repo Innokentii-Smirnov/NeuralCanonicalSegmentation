@@ -29,7 +29,7 @@ parser.add_argument('model_type', choices=['tagger', 'transducer', 'transformer'
                     help='the general type of the model to use')
 parser.add_argument('model_subtype', choices=['CNN', 'LSTM', 'RCNN', 'RCNN-skip-conn', 'char'],
                     help='the subtype of the model to use')
-parser.add_argument('epochs', type=int,
+parser.add_argument('--epochs', type=int, default=50,
                     help='for how many epochs to train the model')
 parser.add_argument('model_directory',
                     help='a directory to save the model and its vocabularies')
