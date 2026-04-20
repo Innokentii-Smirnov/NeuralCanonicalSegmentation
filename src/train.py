@@ -4,6 +4,7 @@ from os import path
 import sys
 from collections import namedtuple
 import torch
+from sklearn.metrics import accuracy_score
 from reproducibility import set_seeds
 from segm import load_data, prepare_checkpoints_dir, prepare_test, evaluate
 from utils.dataloader import FieldBatchDataloader, DEVICE
@@ -167,6 +168,12 @@ else:
 
 for segmentation in applier.apply_to(list(map(parse_input_word, args.words))):
     print(segmentation)
+print()
+
+y_true = [segmentation for word, segmentation, features in test_data]
+y_pred = segmentations
+accuracy = accuracy_score(y_true, y_pred)
+print('Accuracy: {:.2f}'.format(100 * accuracy))
 
 Args = namedtuple('Args', ['gold', 'guess', 'category'])
 compute_sigmorphon_metrics(Args(gold=test_file, guess=pred_file, category=False))
