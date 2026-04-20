@@ -8,7 +8,7 @@ def align_column(sequence: Sequence[str]):
     new = [pad(elem, maxlen) for elem in sequence]
     return new
 
-def align(iterables: list[list[str]]):
+def align(iterables: Sequence[Sequence[str]]) -> list[list[str]]:
     new = list[list[str]]()
     for _ in range(len(iterables)):
         new.append(list[str]())
@@ -17,6 +17,9 @@ def align(iterables: list[list[str]]):
         for row, elem in enumerate(column):
             new[row].append(elem)
     return new
+
+def align_and_stringify(iterables: Sequence[Sequence[str]]) -> str:
+    return '\n'.join('  '.join(row) for row in align(iterables))
 
 def align_inplace(iterable: list[str]):
     for i in range(len(iterable)):

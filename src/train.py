@@ -12,7 +12,7 @@ from training import do_epoch
 from appliers import make_applier
 from random import choices
 from library.iterable import find
-from alignment import align
+from library.align import align_and_stringify
 from segm.input_word import parse_input_word
 
 parser = argparse.ArgumentParser(
@@ -124,7 +124,7 @@ for i in choices(list(range(len(words_for_test))), k=30):
 
 evaluate(segmentations, gold_segmentations)
 
-errors = [(word, segmentation) for word, segmentation
+errors = [(word[0], word[1], segmentation) for word, segmentation
           in zip(test_data, segmentations, strict=True)
           if word[1] != segmentation]
 
@@ -133,20 +133,20 @@ print('Accuracy: {0} %, error rate: {1} / {2}.'.format(
   len(errors), len(test_words)
 ))
 
-errors.sort(key=lambda x: len(x[0][1]))
+errors.sort(key=lambda x: len(x[1]))
 
-k = find(lambda i: len(errors[i][0][0]) >= 10, range(len(errors)))
+k = find(lambda i: len(errors[i][1]) >= 10, range(len(errors)))
 
 print('Errors:')
 if k is not None:
-  print(align([(word[0] + ' ' * 5, word[1] + ' ' * 5, segmentation) for word, segmentation in errors[:k]]))
+  print(align_and_stringify(errors[:k]))
   if k < len(errors) - 2:
-    print(align([(word[0] + ' ' * 5, word[1] + ' ' * 5, segmentation) for word, segmentation in errors[k:-2]]))
-    print(align([(word[0], word[1], segmentation) for word, segmentation in errors[-2:]]))
+    print(align_and_stringify(errors[k:-2]))
+    print(align_and_stringify(errors[-2:]))
   else:
-    print(align([(word[0] + ' ' * 5, word[1] + ' ' * 5, segmentation) for word, segmentation in errors[k:]]))
+    print(align_and_stringify(errors[k:]))
 else:
-  print(align([(word[0] + ' ' * 5, word[1] + ' ' * 5, segmentation) for word, segmentation in errors]))
+  print(align_and_stringify(errors))
 
 for segmentation in applier.apply_to(list(map(parse_input_word, args.words))):
     print(segmentation)
