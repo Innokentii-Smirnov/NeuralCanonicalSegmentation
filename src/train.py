@@ -23,7 +23,7 @@ parser.add_argument('dataset',
                     help='the dataset on which to train the model')
 parser.add_argument('language',
                     help='the three-letter code of the language')
-parser.add_argument('sep', choices=['~'],
+parser.add_argument('--sep', default='~',
                     help='the separator for segmentation fragments used in the aligned data')
 parser.add_argument('model_type', choices=['tagger', 'transducer', 'transformer'],
                     help='the general type of the model to use')
