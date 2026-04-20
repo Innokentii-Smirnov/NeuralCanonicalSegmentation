@@ -19,7 +19,9 @@ def make_model(
     with open(path.join('default_hyperparameters', model_type, hyperparameters_directory, 'Hyperparameters.json')) as fin:
         default_hyperparameters = json.load(fin)
     hyperparameters = default_hyperparameters if args is None else \
-      {key: args[key] or default_hyperparameters[key] for key in default_hyperparameters}
+      {key: args[key] if key in args and args[key] is not None
+                      else default_hyperparameters[key]
+       for key in default_hyperparameters}
     with open(path.join(model_directory, 'Hyperparameters.json'), 'w', encoding='utf-8') as fout:
       json.dump(hyperparameters, fout)
     match model_type:
