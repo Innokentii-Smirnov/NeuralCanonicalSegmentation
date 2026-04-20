@@ -1,6 +1,8 @@
 import argparse
 import os
 from os import path
+import sys
+from collections import namedtuple
 import torch
 from reproducibility import set_seeds
 from segm import load_data, prepare_checkpoints_dir, prepare_test, evaluate
@@ -14,6 +16,8 @@ from random import choices
 from library.iterable import find
 from library.align import align_and_stringify
 from segm.input_word import parse_input_word
+sys.path.insert(1, path.abspath('2022SegmentationST/evaluation'))
+from evaluate import main as compute_sigmorphon_metrics
 
 parser = argparse.ArgumentParser(
   prog='train.py',
@@ -55,7 +59,16 @@ parser.add_argument('--dropout', type=float,
                     help='dropout value')
 parser.add_argument('--batch-size', type=int, default=32,
                     help='batch size')
+parser.add_argument('--test_file', type=str,
+                    help='a file containing the test data')
+parser.add_argument('--pred_file', type=str,
+                    help='a file to store the model\'s predictions')
 args = parser.parse_args()
+
+test_file = args.test_file if args.test_file is not None \
+  else path.join(args.dataset, f'{args.language}.word.test.gold.tsv')
+pred_file = args.pred_file if args.pred_file is not None \
+  else path.join(args.model_directory, f'{args.language}.word.test.predictions')
 
 set_seeds()
 
@@ -115,6 +128,10 @@ segmentations = applier.apply_to(words_for_test, batch_size=args.batch_size)
 if args.dataset == '2022SegmentationST/data':
   segmentations = [segmentation.replace('@', ' @@') for segmentation in segmentations]
 
+with open(pred_file, 'w', encoding='utf-8') as fout:
+  for (word, _), segmentation in zip(words_for_test, segmentations, strict=True):
+    print(word, segmentation, sep='\t', file=fout)
+
 for i in choices(list(range(len(words_for_test))), k=30):
     word, features = words_for_test[i]
     segmentation = segmentations[i]
@@ -150,3 +167,6 @@ else:
 
 for segmentation in applier.apply_to(list(map(parse_input_word, args.words))):
     print(segmentation)
+
+Args = namedtuple('Args', ['gold', 'guess', 'category'])
+compute_sigmorphon_metrics(Args(gold=test_file, guess=pred_file, category=False))
