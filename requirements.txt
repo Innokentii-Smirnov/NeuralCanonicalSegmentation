@@ -3,3 +3,4 @@ tqdm
 scikit-learn
 pandas
 more_itertools
+entmax

@@ -64,6 +64,8 @@ parser.add_argument('--test_file', type=str,
                     help='a file containing the test data')
 parser.add_argument('--pred_file', type=str,
                     help='a file to store the model\'s predictions')
+parser.add_argument('--use-entmax', action='store_true',
+                    help='use the entmax-1,5 activation and loss')
 args = parser.parse_args()
 
 test_file = args.test_file if args.test_file is not None \

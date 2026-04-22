@@ -5,6 +5,7 @@ from torch.nn import Transformer
 import numpy as np
 from numpy import ndarray
 from tqdm.auto import tqdm
+from entmax import Entmax15
 from utils.vocabulary import Vocabulary
 from utils.dataset import SimpleDataset
 from utils.dataloader import FieldBatchDataloader
@@ -26,7 +27,8 @@ class Seq2SeqTransformer(nn.Module):
                  nhead: int,
                  dim_feedforward: int,
                  dropout: float,
-                 device: torch.device):
+                 device: torch.device,
+                 use_entmax: bool = False):
         src_vocab_size = len(src_vocab)
         tgt_vocab_size = len(tgt_vocab)
         super(Seq2SeqTransformer, self).__init__()
@@ -48,6 +50,9 @@ class Seq2SeqTransformer(nn.Module):
         self.tgt_vocab = tgt_vocab
         self.src_pad = src_vocab.pad
         self.tgt_pad = tgt_vocab.pad
+        self.use_entmax = use_entmax
+        if self.use_entmax:
+            self.activation = Entmax15(dim=-1)
         for p in self.parameters():
           if p.dim() > 1:
             nn.init.xavier_uniform_(p)
@@ -64,7 +69,10 @@ class Seq2SeqTransformer(nn.Module):
         tgt_emb = self.positional_encoding(self.tgt_tok_emb(trg))
         outs = self.transformer(src_emb, tgt_emb, src_mask, tgt_mask, None,
                                 src_padding_mask, tgt_padding_mask, memory_key_padding_mask)
-        return self.generator(outs)
+        logits = self.generator(outs)
+        if self.use_entmax:
+            return self.activation(logits)
+        return logits
 
     def encode(self, src: Tensor, src_mask: Tensor):
         return self.transformer.encoder(self.positional_encoding(

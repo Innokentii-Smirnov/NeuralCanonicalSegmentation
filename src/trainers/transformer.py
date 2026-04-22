@@ -6,6 +6,7 @@ from utils.padding import pad_tensor
 import numpy as np
 from numpy import ndarray
 from tqdm.auto import tqdm
+from entmax import Entmax15Loss
 from utils.dataset import SimpleDataset
 from utils.dataloader import FieldBatchDataloader
 from models.transformer.transformer import Seq2SeqTransformer
@@ -19,7 +20,10 @@ class TransformerTrainer:
         self.model = model
         self.device = device
         # определяем функцию потерь
-        self.criterion = nn.CrossEntropyLoss()
+        if model.use_entmax:
+            self.criterion = Entmax15Loss()
+        else:
+            self.criterion = nn.CrossEntropyLoss()
         if self.device is not None:
             self.model.to(self.device)
         self.optimizer = torch.optim.Adam(self.model.parameters(), lr=0.0001, betas=(0.9, 0.98), eps=1e-9)
