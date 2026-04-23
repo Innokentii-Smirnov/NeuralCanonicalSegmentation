@@ -3,7 +3,7 @@ from torch import Tensor
 from torch.nn import Module, Linear, Tanh, Softmax
 from entmax import Entmax15
 
-class BasicAttention(Module):
+class Attention(Module):
 
     def __init__(self, use_entmax: bool):
         super().__init__()
@@ -19,7 +19,7 @@ class BasicAttention(Module):
         probs = self.to_probs(score)
         return probs
 
-class ConcatAttention(BasicAttention):
+class ConcatAttention(Attention):
 
     def __init__(self, first_dim: int, second_dim: int, use_entmax: bool):
         super().__init__(use_entmax)
@@ -37,7 +37,7 @@ class ConcatAttention(BasicAttention):
         attention = self.score(similarity).squeeze(2)
         return attention
 
-class GeneralAttention(BasicAttention):
+class GeneralAttention(Attention):
 
     def __init__(self, ht_dim: int, hs_dim: int, use_entmax: bool):
         super().__init__(use_entmax)

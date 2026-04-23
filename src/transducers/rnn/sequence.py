@@ -20,6 +20,7 @@ class SequenceTransducer(Module):
                  decoder_arguments: NetworkArguments,
                  device: torch.device,
                  use_entmax: bool,
+                 use_general_attention: bool,
                  feature_embedding_dim: int | None = None):
 
         super().__init__()
@@ -49,7 +50,8 @@ class SequenceTransducer(Module):
                                          vocabulary = vocabularies['morphon'],
                                          **decoder_arguments,
                                          device = device,
-                                         use_entmax = use_entmax)
+                                         use_entmax = use_entmax,
+                                         use_general_attention=use_general_attention)
         self.use_entmax = use_entmax
 
     def encode(self, phon: Tensor, context: Optional[Tensor] = None,

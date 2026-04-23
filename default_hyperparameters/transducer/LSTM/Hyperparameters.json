@@ -14,5 +14,6 @@
     "num_layers": 1,
     "lstm_dropout": 0.0
   },
-  "use_entmax": false
+  "use_entmax": false,
+  "use_general_attention": false
 }

@@ -4,21 +4,26 @@ from typing import Optional
 from torch.nn import Module, Embedding, LSTM, Linear, LogSoftmax
 from entmax import Entmax15
 from utils.vocabulary import Vocabulary
-from transducers.attention import GeneralAttention as Attention
+from transducers.attention import Attention, ConcatAttention, GeneralAttention
 
 class SequentialDecoder(Module):
+    attention: Attention
 
     def __init__(self, vocabulary: Vocabulary, embedding_dim: int, input_dim: int,
                  context_dim: int,
                  hidden_size: int, num_layers: int, lstm_dropout: float,
                  device: torch.device,
-                 use_entmax: bool):
+                 use_entmax: bool,
+                 use_general_attention: bool):
         super().__init__()
         self.device = device
         self.vocab = vocabulary
         self.num_symbols = len(vocabulary)
         self.embedding = Embedding(self.num_symbols, embedding_dim, padding_idx=0)
-        self.attention = Attention(hidden_size, input_dim, use_entmax)
+        if use_general_attention:
+            self.attention = GeneralAttention(hidden_size, input_dim, use_entmax)
+        else:
+            self.attention = ConcatAttention(hidden_size, input_dim, use_entmax)
         self.rnn = LSTM(embedding_dim + input_dim + context_dim, hidden_size, num_layers,
                         batch_first=True, dropout=lstm_dropout, bidirectional=False)
         self.dense = Linear(hidden_size, self.num_symbols)
