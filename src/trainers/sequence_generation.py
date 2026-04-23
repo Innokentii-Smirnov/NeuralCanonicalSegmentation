@@ -1,22 +1,23 @@
 import torch
 import torch.nn as nn
-from torch.nn import Module
 from torch import Tensor
+from entmax import Entmax15Loss
 from utils.padding import pad_tensor
 import numpy as np
 from numpy import ndarray
 from tqdm.auto import tqdm
 from utils.dataset import SimpleDataset
 from utils.dataloader import FieldBatchDataloader
+from transducers.rnn.sequence import SequenceTransducer
 
 class SequenceGeneratorTrainer:
 
-    def __init__(self, model: Module, device: torch.device):
+    def __init__(self, model: SequenceTransducer, device: torch.device):
         #super(BasicSequenceGenerator, self).__init__()
         self.model = model
         self.device = device
         # определяем функцию потерь
-        self.criterion = nn.NLLLoss(reduction="mean")
+        self.criterion = Entmax15Loss() if self.model.use_entmax else nn.NLLLoss(reduction="mean")
         if self.device is not None:
             self.model.to(self.device)
         self.optimizer = torch.optim.Adam(self.model.parameters())
@@ -59,9 +60,13 @@ class SequenceGeneratorTrainer:
                 batch_output['log_probs'] = pad_tensor(batch_output['log_probs'], y.shape[-1], -2, 0, dtype=torch.float, device=self.device)
                 batch_output['labels'] = pad_tensor(batch_output['labels'], y.shape[-1], -1, 0, device=self.device)
         log_probs = batch_output["log_probs"]
-        pred = log_probs[...,:-1,:].movedim(-1, 1).contiguous()
         corr = y[...,1:]
-        loss = self.criterion(pred, corr)
+        if self.model.use_entmax:
+          pred = log_probs[...,:-1,:]
+          loss = self.criterion(pred.reshape(-1, pred.shape[-1]), corr.reshape(-1))
+        else:
+          pred = log_probs[...,:-1,:].movedim(-1, 1).contiguous()
+          loss = self.criterion(pred, corr)
         batch_output["loss"] = loss
         # labels.shape = (B, L)
         batch_output['labels'] = batch_output['labels'][...,:-1]

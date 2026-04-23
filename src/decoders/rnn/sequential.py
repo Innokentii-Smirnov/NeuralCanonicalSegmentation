@@ -2,6 +2,7 @@ import torch
 from torch import Tensor, LongTensor
 from typing import Optional
 from torch.nn import Module, Embedding, LSTM, Linear, LogSoftmax
+from entmax import Entmax15
 from utils.vocabulary import Vocabulary
 from transducers.attention import Attention
 
@@ -21,7 +22,7 @@ class SequentialDecoder(Module):
         self.rnn = LSTM(embedding_dim + input_dim + context_dim, hidden_size, num_layers,
                         batch_first=True, dropout=lstm_dropout, bidirectional=False)
         self.dense = Linear(hidden_size, self.num_symbols)
-        self.log_softmax = LogSoftmax(dim=-1)
+        self.activation = Entmax15(dim=-1) if use_entmax else LogSoftmax(dim=-1)
 
     def forward(self, encoder_outputs: Tensor, y: LongTensor, context: Optional[Tensor] = None):
         # encoder_outputs: N × L₂ × H₂
@@ -47,7 +48,7 @@ class SequentialDecoder(Module):
             rnn_input = torch.cat(to_concatenate, dim=-1)
             rnn_output, (h_n, c_n) = self.rnn(rnn_input, (h_n, c_n))
             logits = self.dense(rnn_output)
-            curr_log_probs = self.log_softmax(logits)
+            curr_log_probs = self.activation(logits)
             _, curr_symbols = torch.max(curr_log_probs, dim=-1)
             log_probs = torch.cat([log_probs, curr_log_probs], dim=1)
             symbols = torch.cat([symbols, curr_symbols], dim=1)
@@ -76,7 +77,7 @@ class SequentialDecoder(Module):
             rnn_input = torch.cat(to_concatenate, dim=-1)
             rnn_output, (h_n, c_n) = self.rnn(rnn_input, (h_n, c_n))
             logits = self.dense(rnn_output)
-            curr_log_probs = self.log_softmax(logits)
+            curr_log_probs = self.activation(logits)
             _, curr_symbols = torch.max(curr_log_probs, dim=-1)
             log_probs = torch.cat([log_probs, curr_log_probs], dim=1)
             symbols = torch.cat([symbols, curr_symbols], dim=1)

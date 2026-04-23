@@ -50,6 +50,7 @@ class SequenceTransducer(Module):
                                          **decoder_arguments,
                                          device = device,
                                          use_entmax = use_entmax)
+        self.use_entmax = use_entmax
 
     def encode(self, phon: Tensor, context: Optional[Tensor] = None,
                features: Optional[Tensor] = None):
