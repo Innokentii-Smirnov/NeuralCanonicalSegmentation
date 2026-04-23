@@ -4,6 +4,7 @@ from collections import defaultdict
 from itertools import starmap
 from typing import Callable
 from statistics import fmean
+from re import compile, sub
 from library.read import read_list
 import pandas as pd
 import json
@@ -22,9 +23,9 @@ CODE_TO_LANGUAGE = {
 }
 
 MODEL_TYPE_TO_BOUNDARY = {
-  'tagger': '@',
-  'transducer': '-',
-  'transformer': '-'
+  'tagger': compile('@'),
+  'transducer': compile('[-@]'),
+  'transformer': compile('-')
 }
 
 LANGUAGE_TO_DATASET = {
@@ -89,7 +90,7 @@ def compute_metrics(metric_function: MetricFunction, language_codes: list[str]) 
         if dataset in DATASET_TO_BOUNDARY and model_type in MODEL_TYPE_TO_BOUNDARY:
           pred_boundary = MODEL_TYPE_TO_BOUNDARY[model_type]
           dataset_boundary = DATASET_TO_BOUNDARY[dataset]
-          postprocess = lambda segm: segm.replace(pred_boundary, dataset_boundary)
+          postprocess = lambda segm: sub(pred_boundary, dataset_boundary, segm)
           y_pred = list(map(postprocess, predictions))
         else:
           y_pred = predictions
