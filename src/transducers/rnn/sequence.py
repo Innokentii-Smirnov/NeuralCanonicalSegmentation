@@ -19,6 +19,7 @@ class SequenceTransducer(Module):
                  vocabularies: dict[str, Vocabulary],
                  decoder_arguments: NetworkArguments,
                  device: torch.device,
+                 use_entmax: bool,
                  feature_embedding_dim: int | None = None):
 
         super().__init__()
@@ -47,7 +48,8 @@ class SequenceTransducer(Module):
                                          context_dim = context_dim,
                                          vocabulary = vocabularies['morphon'],
                                          **decoder_arguments,
-                                         device = device)
+                                         device = device,
+                                         use_entmax = use_entmax)
 
     def encode(self, phon: Tensor, context: Optional[Tensor] = None,
                features: Optional[Tensor] = None):

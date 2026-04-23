@@ -5,3 +5,4 @@ class Hyperparameters(TypedDict):
     encoder_arguments: EncoderArguments
     encoding_dropout: float
     decoder_arguments: NetworkArguments
+    use_entmax: bool

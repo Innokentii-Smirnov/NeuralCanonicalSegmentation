@@ -1,15 +1,16 @@
 import torch
 from torch import Tensor
 from torch.nn import Module, Linear, Tanh, Softmax
+from entmax import Entmax15
 
 class Attention(Module):
 
-    def __init__(self, first_dim: int, second_dim: int):
+    def __init__(self, first_dim: int, second_dim: int, use_entmax: bool):
         super().__init__()
         self.dense = Linear(first_dim + second_dim, first_dim)
         self.activation = Tanh()
         self.score = Linear(first_dim, 1, bias=False)
-        self.softmax = Softmax(dim=-1)
+        self.to_probs = Entmax15(dim=-1) if use_entmax else Softmax(dim=-1)
 
     def forward(self, first: Tensor, second: Tensor) -> Tensor:
         # first: N × H₁
@@ -19,5 +20,5 @@ class Attention(Module):
         similarity = self.dense(torch.cat([first, second], dim=-1))
         similarity = self.activation(similarity)
         attention = self.score(similarity).squeeze(2)
-        probs = self.softmax(attention)
+        probs = self.to_probs(attention)
         return probs

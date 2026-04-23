@@ -10,13 +10,14 @@ class SequentialDecoder(Module):
     def __init__(self, vocabulary: Vocabulary, embedding_dim: int, input_dim: int,
                  context_dim: int,
                  hidden_size: int, num_layers: int, lstm_dropout: float,
-                 device: torch.device):
+                 device: torch.device,
+                 use_entmax: bool):
         super().__init__()
         self.device = device
         self.vocab = vocabulary
         self.num_symbols = len(vocabulary)
         self.embedding = Embedding(self.num_symbols, embedding_dim, padding_idx=0)
-        self.attention = Attention(hidden_size, input_dim)
+        self.attention = Attention(hidden_size, input_dim, use_entmax)
         self.rnn = LSTM(embedding_dim + input_dim + context_dim, hidden_size, num_layers,
                         batch_first=True, dropout=lstm_dropout, bidirectional=False)
         self.dense = Linear(hidden_size, self.num_symbols)
