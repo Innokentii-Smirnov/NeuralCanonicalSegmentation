@@ -4,7 +4,7 @@ from typing import Optional
 from torch.nn import Module, Embedding, LSTM, Linear, LogSoftmax
 from entmax import Entmax15
 from utils.vocabulary import Vocabulary
-from transducers.attention import Attention
+from transducers.attention import GeneralAttention as Attention
 
 class SequentialDecoder(Module):
 
