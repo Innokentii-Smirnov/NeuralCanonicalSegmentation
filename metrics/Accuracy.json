@@ -87,6 +87,8 @@
 	"ces": {
 		"transformer_char_2": 82.4,
 		"transformer_char_1": 63.5,
-		"transformer_char": 84.5
+		"transformer_char": 84.5,
+		"transducer_LSTM_bs32": 84.75,
+		"transducer_LSTM_general-bs32": 80.38
 	}
 }
