@@ -29,7 +29,7 @@ class SequentialDecoder(Module):
         self.dense = Linear(hidden_size, self.num_symbols)
         self.activation = Entmax15(dim=-1) if use_entmax else LogSoftmax(dim=-1)
 
-    def forward(self, encoder_outputs: Tensor, y: LongTensor, context: Optional[Tensor] = None):
+    def forward(self, encoder_outputs: Tensor, y: LongTensor, src_mask: Tensor, context: Optional[Tensor] = None):
         # encoder_outputs: N × L₂ × H₂
         # context: N × C
         # y: N × L
@@ -44,7 +44,7 @@ class SequentialDecoder(Module):
         for i in range(y.shape[1]):
             embeddings = self.embedding(y[:, i].unsqueeze(1))
             hidden = h_n[-1]
-            attention = self.attention(hidden, encoder_outputs).unsqueeze(1)
+            attention = self.attention(hidden, encoder_outputs, src_mask).unsqueeze(1)
             weighted = torch.bmm(attention, encoder_outputs)
             # weighted: N × 1 × H₂
             to_concatenate = [embeddings, weighted]
@@ -60,7 +60,7 @@ class SequentialDecoder(Module):
 
         return {"log_probs": log_probs, "labels": symbols}
 
-    def generate(self, encoder_outputs: Tensor, max_length: int, context: Optional[Tensor] = None):
+    def generate(self, encoder_outputs: Tensor, max_length: int, src_mask: Tensor, context: Optional[Tensor] = None):
         # input: N × H
         batch_size = encoder_outputs.shape[0]
         log_probs = torch.zeros((batch_size, 0, self.num_symbols), dtype=torch.float).to(self.device)
@@ -73,7 +73,7 @@ class SequentialDecoder(Module):
         for i in range(max_length):
             embeddings = self.embedding(curr_symbols)
             hidden = h_n[-1]
-            attention = self.attention(hidden, encoder_outputs).unsqueeze(1)
+            attention = self.attention(hidden, encoder_outputs, src_mask).unsqueeze(1)
             weighted = torch.bmm(attention, encoder_outputs)
             # weighted: N × 1 × H₂
             to_concatenate = [embeddings, weighted]

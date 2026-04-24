@@ -72,14 +72,19 @@ class SequenceTransducer(Module):
             context = feature_encoding
         return encoding, context
 
+    def get_src_mask(self, phon: Tensor) -> Tensor:
+        return phon != 0
+
     def forward(self, phon: Tensor, morphon: Tensor, context: Optional[Tensor] = None,
                 features: Optional[Tensor] = None, **kwargs):
         encoding, context = self.encode(phon, context, features)
-        output = self.decoder(encoding, morphon, context)
+        src_mask = self.get_src_mask(phon)
+        output = self.decoder(encoding, morphon, src_mask, context)
         return output
 
     def transduce(self, phon: Tensor, max_output_length: int, context: Optional[Tensor] = None,
                   features: Optional[Tensor] = None):
         encoding, context = self.encode(phon, context, features)
-        output = self.decoder.generate(encoding, max_output_length, context)
+        src_mask = self.get_src_mask(phon)
+        output = self.decoder.generate(encoding, max_output_length, src_mask, context)
         return output

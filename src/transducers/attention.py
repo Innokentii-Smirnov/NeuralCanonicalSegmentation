@@ -12,10 +12,11 @@ class Attention(Module):
     def get_score(self, first: Tensor, second: Tensor) -> Tensor:
         raise NotImplementedError
 
-    def forward(self, first: Tensor, second: Tensor) -> Tensor:
+    def forward(self, first: Tensor, second: Tensor, mask: Tensor) -> Tensor:
         # first: N × H₁
         # second: N × L × H₂
         score = self.get_score(first, second)
+        score = torch.where(mask, score, score.new_full([1], float('-inf')))
         probs = self.to_probs(score)
         return probs
 
