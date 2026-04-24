@@ -68,6 +68,8 @@ parser.add_argument('--use-entmax', action='store_true',
                     help='use the entmax-1,5 activation and loss')
 parser.add_argument('--use-general-attention', action='store_true',
                     help='use general attention instead of concat attention for LSTM transducer')
+parser.add_argument('--scheduling', choices=['plateau'],
+                    help='learning rate scheduling')
 args = parser.parse_args()
 
 test_file = args.test_file if args.test_file is not None \
@@ -86,7 +88,7 @@ train_dataloader = FieldBatchDataloader(X_train)
 checkpoint, checkpoints_dir, to_load, load_checkpoints_dir = prepare_checkpoints_dir(args.model_directory, args.model_subtype)
 
 model = make_model(args.model_type, args.model_subtype, X_train.vocabs, DEVICE, args.use_features, args.model_directory, vars(args))
-trainer = make_trainer(args.model_type, model, DEVICE)
+trainer = make_trainer(args.model_type, model, DEVICE, args)
 
 if args.load and load_checkpoints_dir is not None:
   with DM(load_checkpoints_dir):

@@ -5,12 +5,12 @@ from .transformer import TransformerTrainer
 
 Trainer = McTrainer | SequenceGeneratorTrainer | TransformerTrainer
 
-def make_trainer(model_type: str, model, device: torch.device):
+def make_trainer(model_type: str, model, device: torch.device, args):
   match model_type:
     case 'tagger':
       return McTrainer(model, device)
     case 'transducer':
-      return SequenceGeneratorTrainer(model, device)
+      return SequenceGeneratorTrainer(model, device, args.scheduling)
     case 'transformer':
       return TransformerTrainer(model, device)
     case _:

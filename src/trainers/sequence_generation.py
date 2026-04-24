@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 from torch import Tensor
+from torch.optim.lr_scheduler import LRScheduler, ReduceLROnPlateau
 from entmax import Entmax15Loss
 from utils.padding import pad_tensor
 import numpy as np
@@ -10,9 +11,16 @@ from utils.dataset import SimpleDataset
 from utils.dataloader import FieldBatchDataloader
 from transducers.rnn.sequence import SequenceTransducer
 
+def make_scheduler(scheduling: str | None, optimizer) -> LRScheduler | None:
+  match scheduling:
+    case 'plateau':
+      return ReduceLROnPlateau(optimizer, patience=2, min_lr=0.000001)
+    case _:
+      return None
+
 class SequenceGeneratorTrainer:
 
-    def __init__(self, model: SequenceTransducer, device: torch.device):
+    def __init__(self, model: SequenceTransducer, device: torch.device, scheduling: str | None):
         #super(BasicSequenceGenerator, self).__init__()
         self.model = model
         self.device = device
@@ -21,6 +29,8 @@ class SequenceGeneratorTrainer:
         if self.device is not None:
             self.model.to(self.device)
         self.optimizer = torch.optim.Adam(self.model.parameters())
+        self.scheduling = scheduling
+        self.scheduler = make_scheduler(scheduling, self.optimizer)
 
     def forward(self, *args, **kwargs):
         raise NotImplementedError("You should implement forward pass in your derived class.")
@@ -36,7 +46,11 @@ class SequenceGeneratorTrainer:
     def validate_on_batch(self, x, y, mask):
         self.model.eval()
         with torch.no_grad():
-            return self._validate(x, y, mask, True)
+            loss, y, mask = self._validate(x, y, mask, True)
+            if self.scheduling == 'plateau':
+                self.scheduler.step(loss['loss'])
+                print('Learning rate: ', scheduler.get_last_lr()[-1])
+        return loss, y, mask
 
     def _validate(self, x, y, mask, generate: bool):
         #if self.device is not None:
