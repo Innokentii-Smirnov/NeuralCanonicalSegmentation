@@ -40,7 +40,7 @@
 		"transformer_char_2": 91.0,
 		"transformer_char_1": 79.18,
 		"transformer_char": 92.03,
-		"transducer_LSTM_bs32": 92.11,
-		"transducer_LSTM_general-bs32": 89.98
+		"transducer_LSTM_bs32": 92.14,
+		"transducer_LSTM_general-bs32": 90.03
 	}
 }

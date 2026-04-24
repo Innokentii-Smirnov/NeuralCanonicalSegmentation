@@ -37,7 +37,7 @@ antid@at@uje@me
 archi@tekry
 arci@lotr@as
 argal@á@d
-ragent@in@y
+ragentin@y
 aristo@krat@is@ému
 arm@ád@a
 a@sekur@ova@t
@@ -650,7 +650,7 @@ jedn@a@l@o
 jedn@a@tel@em
 jedn@o
 jedn@o@m
-tedn@o@motr@ov@ých
+jedn@o@motr@ov@ých
 jedn@o@mu
 jedn@os@ý
 jedn@o@ráz@ov@é
@@ -1256,7 +1256,7 @@ ne@roz@uš@uje
 ne@roz@tříšt@ěn@á
 ne@ruš@i@l@i
 nerv@óz@n@ě@t
-ne@sen@a
+nes@en@a
 ne@ses@ed@l
 ne@s@hoř@í
 ne@s@krom@n@ě
@@ -2015,7 +2015,7 @@ pro@klás@ti
 pro@klím@a@t
 pro@klím@á@v@á@n@í
 pro@kop@á@v@a@t
-pro@kormdl@va@vš@í
+pro@kormdl@vav@ív@
 pro@kouk@nou@t
 pro@kous@nou@t
 pro@krind@án@a
@@ -2554,7 +2554,7 @@ se@sek@a@t
 se@skup@i@t
 se@s@myk@nou@t
 se@strk@á@v@a@t
-se@stá@v@á@v@a
+se@stá@v@á
 se@stříh@a@t
 se@tk@a@l
 seycheal@n@č@in
@@ -2785,7 +2785,7 @@ střel@i@t
 s@třep@á@v@a@t
 stříbr@n@é
 stříbr@o
-hlíb@brolesk@l@ého
+stříbr@o@lesk@l@ého
 stříl@í
 stříz@l@iv@ě@t
 st@dl
@@ -2838,7 +2838,7 @@ tat@i
 tax@ík
 techn@ic@k@ým
 techn@ik@a
-techn@o@log@ick@ého
+techn@o@log@icho
 tel@at
 tele@fon@n@ího
 telev@iz@e
@@ -3116,7 +3116,7 @@ v@kluz@ová@v@a@n@ě
 v@klád@á@me
 vlad@ař@i@t
 vlak
-hvast@n@ost@ech
+vlast@n@ost@ech
 vlast@n@ího
 vlas@ů
 vlašt@ov@č@í
@@ -3124,7 +3124,7 @@ vlaž@n@ě@t
 v@lep@ova@t
 vln@u
 v@lož@i@t
-v@kož@k@ova@c@í
+v@olž@k@ova@c@í
 v@lož@í
 v@lád@á@v@a@teln@ost
 v@léz@t
@@ -3407,7 +3407,7 @@ vůn@i@čk@a
 vůn@í
 vůn@ě
 westermann@em
-hvitn@ey
+wóitn@e
 wild
 william
 sy
@@ -3702,7 +3702,7 @@ z@ná@sil@ň@ova@t
 z@násob@i@t
 z@násob@ova@n@ý
 zn@á@te
-z@ně@kolik@nálob@i@t
+z@ně@kolik@nál@isob@i@t
 zn@ě@t
 z@obec@n@ě@t
 z@or@a@t
@@ -3862,8 +3862,8 @@ v@ě@r@rov@á@n@í
 ček@aj@í
 ček@a@l
 ček@a@l@o
-čepic@e
-čep@ic@izob@í
+čep@ic@e
+čep@ic@i
 čern@o@srst@ý
 čern@ým
 čern@ýš@ov@ic@e
@@ -3988,7 +3988,7 @@ v@ě@r@rov@á@n@í
 ži@v@el@n@á
 ži@v@n@o@set@n@sk@ého
 ži@v@ot@n@ími
-ži@v@ot@ěn@í
+ži@v@ot@ě
 žižkov@ák
 žlut@á
 žláb@k@ová@v@aj@íc@í

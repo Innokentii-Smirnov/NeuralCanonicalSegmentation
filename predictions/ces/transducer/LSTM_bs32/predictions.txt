@@ -4,7 +4,7 @@ absolv@ent@i
 a@by@chom
 a@chron@ist@ic@k@y
 adam@i
-adapt@a@l@i@č@í
+adapt@a@l@i@n@í
 adres@ova@t
 adres@u
 adres@át@ů
@@ -27,7 +27,7 @@ američ@an@ům
 ampli@fik@ova@t
 anatól@i@i
 anderson
-angl@i@y
+angl@i@i
 angl@o@sas@k@ou
 aniž
 antal@a
@@ -87,7 +87,7 @@ bion@aft@u
 bionaft@y
 biřm@ova@t
 blaf@a@t
-blah@o@př@ej@eme
+blah@o@př@ej@e@me
 blech@u
 blek@ot@a@t
 bliž@š@í
@@ -2319,7 +2319,7 @@ půd@n@í
 půd@u
 pů@jd@u
 půjč@te
-půls@ním@k@ov@ost
+půls@ním@k@ov@sov@ost
 pů@sob@í
 pů@vod
 pů@vod@n@í
@@ -2524,7 +2524,7 @@ s@bunt@ová@n
 s@bíh@a@t
 s@bír@a@l@a
 s@chod@ech
-s@chod@i
+s@chod@y
 s@chop@n@ých
 s@chov@a@t
 s@chuml@a@t
@@ -3467,7 +3467,7 @@ za@kukl@i@t
 za@kus@i@teln@o
 za@kvíl@e@t
 za@kys@á@v@a@t
-za@káz@e
+za@káz@ek
 za@káz@k@u
 za@káz@k@y
 za@káz@k@ách
