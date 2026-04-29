@@ -1,7 +1,8 @@
-language="$1"
-code="$2"
-aligned_data_dir="aligned_data/Levenshtein/$language"
+input_directory="$1"
+dataset="$2"
+code="$3"
+aligned_data_dir="aligned_data/Levenshtein/$dataset"
 if [[ -d "$aligned_data_dir" ]] then
-  rm -r "$aligned_data_dir"
+  rm "$aligned_data_dir"/$code.word.{train,dev}.tsv
 fi
-dotnet run --project LevenshteinAlignment $language/$code.word.{train,dev}.tsv "$aligned_data_dir" alignment_costs/$code
+dotnet run --project LevenshteinAlignment $input_directory/$code.word.{train,dev}.tsv "$aligned_data_dir" alignment_costs/$code
