@@ -20,6 +20,7 @@ os.makedirs(args.outdir, exist_ok=True)
 with DM(args.outdir):
   with open('Alignments.txt', 'w', encoding='utf-8') as fout:
     for word, segm, _ in data:
+      segm = list(map(lambda fragm: fragm.replace(' ', '@'), segm))
       for word_char, segm_fragm in zip(word, segm, strict=True):
         target_vocabulary.add(segm_fragm)
         source_char_target_fragment_pairs.add((word_char, segm_fragm))
