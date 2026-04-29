@@ -19,8 +19,7 @@ with open(args.infile, 'r', encoding='utf-8') as fin:
   data = json.load(fin)
 metric_values = defaultdict(dict)
 for model in args.models:
-  model_name = model.split('_')[1]
-  key = model_name if model_name not in metric_values else model_name + '2'
+  key = tuple(model.split('_', maxsplit=1))
   for language in args.languages:
     metric_values[key][language] = data[language].get(model, 0.0)
 df = pd.DataFrame(metric_values)
