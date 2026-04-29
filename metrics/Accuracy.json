@@ -5,7 +5,9 @@
 		"tagger_RCNN": 78.0,
 		"tagger_RCNN-skip-conn": 77.3,
 		"transducer_LSTM": 75.7,
-		"hard-attention_CLUZH": 78.5
+		"hard-attention_CLUZH": 78.5,
+		"transformer_char": 74.6,
+		"transformer_char_bs128": 77.8
 	},
 	"eng": {
 		"tagger_CNN": 73.0,
@@ -13,7 +15,9 @@
 		"tagger_RCNN": 75.6,
 		"tagger_RCNN-skip-conn": 75.1,
 		"transducer_LSTM": 77.6,
-		"hard-attention_CLUZH": 78.0
+		"hard-attention_CLUZH": 78.0,
+		"transformer_char": 75.3,
+		"transformer_char_bs128": 76.7
 	},
 	"ind": {
 		"tagger_CNN": 92.6,
@@ -21,7 +25,9 @@
 		"tagger_RCNN": 94.0,
 		"tagger_RCNN-skip-conn": 93.8,
 		"transducer_LSTM": 92.5,
-		"hard-attention_CLUZH": 93.4
+		"hard-attention_CLUZH": 93.4,
+		"transformer_char": 89.8,
+		"transformer_char_bs128": 92.9
 	},
 	"ita": {
 		"tagger_CNN": 77.86
