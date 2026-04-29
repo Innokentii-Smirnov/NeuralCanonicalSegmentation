@@ -1,3 +1,4 @@
-language="$1"
-code="$2"
-clear && ./align_data.sh "$language" "$code" && ./print_alignments.sh "$language" "$code"
+input_directory="$1"
+dataset="$2"
+code="$3"
+clear && ./align_data.sh "$input_directory" "$dataset" "$code" && ./print_alignments.sh "$dataset" "$code"
