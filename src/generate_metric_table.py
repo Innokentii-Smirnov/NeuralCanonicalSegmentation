@@ -1,6 +1,7 @@
 from argparse import ArgumentParser
 import json
 from collections import defaultdict
+import re
 import pandas as pd
 
 parser = ArgumentParser(
@@ -19,7 +20,10 @@ with open(args.infile, 'r', encoding='utf-8') as fin:
   data = json.load(fin)
 metric_values = defaultdict(dict)
 for model in args.models:
-  key = tuple(map(lambda elem: elem.replace('_', r'\_'), model.split('_', maxsplit=1)))
+  key = tuple(map(
+    lambda elem: '\\' + re.sub(r'\d+', '', elem.replace('_', '').replace('-', '')),
+    model.split('_', maxsplit=1)
+  ))
   for language in args.languages:
     metric_values[key][language] = data[language].get(model, 0.0)
 df = pd.DataFrame(metric_values)
