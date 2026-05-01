@@ -59,7 +59,8 @@
 		"tagger_RCNN-skip-conn": 87.44,
 		"tagger_RCNN": 88.07,
 		"transducer_LSTM": 86.81,
-		"transformer_char": 82.73
+		"transformer_char": 82.73,
+		"transformer_char_bs128": 87.6
 	},
 	"vsn": {
 		"transducer_LSTM": 64.53,
