@@ -4,42 +4,42 @@
 		"hard-attention_CLUZH": 78.5,
 		"transformer_char": 74.6,
 		"transformer_char_bs128": 77.8,
-		"tagger_CNN_costs-1": 73.8,
-		"tagger_LSTM_costs-1": 75.8,
-		"tagger_RCNN-skip-conn_costs-1": 78.3,
-		"tagger_RCNN_costs-1": 78.4,
 		"tagger_CNN_unit-costs": 73.7,
 		"tagger_LSTM_unit-costs": 77.0,
 		"tagger_RCNN_unit-costs": 78.0,
-		"tagger_RCNN-skip-conn_unit-costs": 77.3
+		"tagger_RCNN-skip-conn_unit-costs": 77.3,
+		"tagger_CNN": 73.8,
+		"tagger_LSTM": 75.8,
+		"tagger_RCNN": 78.4,
+		"tagger_RCNN-skip-conn": 78.3
 	},
 	"eng": {
 		"transducer_LSTM": 77.6,
 		"hard-attention_CLUZH": 78.0,
 		"transformer_char": 75.3,
 		"transformer_char_bs128": 76.7,
-		"tagger_CNN_costs-1": 73.0,
-		"tagger_LSTM_costs-1": 73.7,
-		"tagger_RCNN-skip-conn_costs-1": 75.3,
-		"tagger_RCNN_costs-1": 75.2,
 		"tagger_CNN_unit-costs": 73.0,
 		"tagger_LSTM_unit-costs": 74.2,
 		"tagger_RCNN_unit-costs": 75.6,
-		"tagger_RCNN-skip-conn_unit-costs": 75.1
+		"tagger_RCNN-skip-conn_unit-costs": 75.1,
+		"tagger_CNN": 73.0,
+		"tagger_LSTM": 73.7,
+		"tagger_RCNN": 75.2,
+		"tagger_RCNN-skip-conn": 75.3
 	},
 	"ind": {
 		"transducer_LSTM": 92.5,
 		"hard-attention_CLUZH": 93.4,
 		"transformer_char": 89.8,
 		"transformer_char_bs128": 92.9,
-		"tagger_CNN_costs-1": 92.0,
-		"tagger_LSTM_costs-1": 93.8,
-		"tagger_RCNN-skip-conn_costs-1": 93.7,
-		"tagger_RCNN_costs-1": 92.8,
 		"tagger_CNN_unit-costs": 92.6,
 		"tagger_LSTM_unit-costs": 92.4,
 		"tagger_RCNN_unit-costs": 94.0,
-		"tagger_RCNN-skip-conn_unit-costs": 93.8
+		"tagger_RCNN-skip-conn_unit-costs": 93.8,
+		"tagger_CNN": 92.0,
+		"tagger_LSTM": 93.8,
+		"tagger_RCNN": 92.8,
+		"tagger_RCNN-skip-conn": 93.7
 	},
 	"ita": {
 		"tagger_CNN": 77.86
