@@ -101,7 +101,8 @@
 		"hard-attention_CLUZH": 30.43,
 		"transducer_LSTM": 31.37,
 		"transducer_LSTM-pos_feats": 55.59,
-		"transformer_char": 11.49
+		"transformer_char": 11.49,
+		"transformer_char_bs128": 28.26
 	},
 	"ces": {
 		"transformer_char_2": 82.4,
