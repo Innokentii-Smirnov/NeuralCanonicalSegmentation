@@ -2,9 +2,11 @@ import re
 import sys
 sys.path.insert(1, '2022SegmentationST/evaluation')
 from evaluate import n_correct
-morpheme_boundary = re.compile(r'(?<=[.+-=])|\|| ')
 
-def compute_f1(corr_segmentations: list[str], pred_segmentations: list[str]) -> dict[str, float]:
+def compute_f1(corr_segmentations: list[str], pred_segmentations: list[str],
+               ignore_boundary_type: bool) -> dict[str, float]:
+  morpheme_boundary = re.compile(r'[.+-=]|\|| ') \
+    if ignore_boundary_type else re.compile(r'(?<=[.+-=])|\|| ')
   total_corr = 0
   total_pred = 0
   total_overlaps = 0
