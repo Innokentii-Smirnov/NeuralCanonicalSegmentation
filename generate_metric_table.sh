@@ -1,4 +1,5 @@
-env/bin/python src/generate_metric_table.py metrics/Accuracy.json \
+metric="$1"
+env/bin/python src/generate_metric_table.py "metrics/$metric.json" \
   --languages chu eng deu ind xhu \
   --models tagger_{CNN,LSTM,RCNN,RCNN-skip-conn} \
            hard-attention_CLUZH \
