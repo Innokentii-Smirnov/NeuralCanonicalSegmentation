@@ -1,4 +1,56 @@
 {
+	"chu": {
+		"hard-attention_CLUZH": 96.15,
+		"tagger_CNN": 96.71,
+		"tagger_LSTM": 95.94,
+		"tagger_RCNN-skip-conn": 96.22,
+		"tagger_RCNN": 96.0,
+		"transducer_LSTM": 95.87,
+		"transformer_char": 94.02,
+		"transformer_char_bs128": 95.72
+	},
+	"eng": {
+		"transducer_LSTM": 80.54,
+		"hard-attention_CLUZH": 81.07,
+		"transformer_char": 78.21,
+		"transformer_char_bs128": 79.58,
+		"tagger_CNN_unit-costs": 76.37,
+		"tagger_LSTM_unit-costs": 77.73,
+		"tagger_RCNN_unit-costs": 78.54,
+		"tagger_RCNN-skip-conn_unit-costs": 78.41,
+		"tagger_CNN": 76.7,
+		"tagger_LSTM": 77.59,
+		"tagger_RCNN": 78.75,
+		"tagger_RCNN-skip-conn": 78.0
+	},
+	"deu": {
+		"transducer_LSTM": 86.89,
+		"hard-attention_CLUZH": 88.56,
+		"transformer_char": 86.54,
+		"transformer_char_bs128": 87.38,
+		"tagger_CNN_unit-costs": 85.21,
+		"tagger_LSTM_unit-costs": 87.03,
+		"tagger_RCNN_unit-costs": 87.84,
+		"tagger_RCNN-skip-conn_unit-costs": 87.32,
+		"tagger_CNN": 85.2,
+		"tagger_LSTM": 86.37,
+		"tagger_RCNN": 87.64,
+		"tagger_RCNN-skip-conn": 87.84
+	},
+	"ind": {
+		"transducer_LSTM": 94.47,
+		"hard-attention_CLUZH": 95.24,
+		"transformer_char": 92.28,
+		"transformer_char_bs128": 94.91,
+		"tagger_CNN_unit-costs": 94.33,
+		"tagger_LSTM_unit-costs": 94.63,
+		"tagger_RCNN_unit-costs": 95.6,
+		"tagger_RCNN-skip-conn_unit-costs": 95.34,
+		"tagger_CNN": 94.16,
+		"tagger_LSTM": 95.74,
+		"tagger_RCNN": 94.81,
+		"tagger_RCNN-skip-conn": 95.6
+	},
 	"xhu": {
 		"tagger_CNN-pos": 64.25,
 		"tagger_LSTM-pos": 66.21,

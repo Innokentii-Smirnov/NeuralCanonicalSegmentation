@@ -5,7 +5,7 @@ import sys
 sys.path.insert(1, '2022SegmentationST/evaluation')
 from evaluate import distance
 
-LANGUAGE_CODES = ['xhu', 'ces']
+LANGUAGE_CODES = ['chu', 'eng', 'deu', 'ind', 'xhu', 'ces']
 
 def preprocess(segmentation: str) -> str:
   return segmentation.replace(' @@', '|')
