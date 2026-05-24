@@ -9,7 +9,7 @@ class SequenceDataset(Dataset):
     def __init__(self, data, fields: list[str], list_fields: list[str], add_begin: bool, add_end: bool,
                  add_begin_low: bool, add_end_low: bool,
                  vocabs: Optional[dict[str, Vocabulary]] = None,
-                 seq_vocabs: Optional[dict[str, Vocabulary]] = None,
+                 seq_vocabs: Optional[dict[str, SequenceVocabulary]] = None,
                  mask_field=None):
         """
             data: List[List[dict]],
