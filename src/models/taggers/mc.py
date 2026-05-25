@@ -135,3 +135,24 @@ class SequenceClassifier(nn.Module):
           checkpoint_path = path.join('Checkpoints', '0', 'checkpoint_best_Classifier.pt')
           model.load_state_dict(torch.load(checkpoint_path, map_location=DEVICE))
         return model
+
+    def get_log_probs(self, X: SequenceDataset):
+        self.eval()
+        dataloader = FieldBatchDataloader(X, device=self.device, batch_size=32)
+        answer = [None] * len(X)
+        for batch in tqdm(dataloader):
+            indexes = batch["indexes"]
+            with torch.no_grad():
+                batch_answer = self(**batch)
+            # labels = batch_answer["labels"].cpu().numpy()
+            # probs = batch_answer.cpu().numpy()
+            # labels = probs.argmax(axis=-1)
+            batch_log_probs = batch_answer["log_probs"]
+            #_, labels = torch.topk(log_probs, 10)
+            for index, sent_log_probs, curr_mask in zip(indexes,
+                                                        batch_log_probs,
+                                                        batch['mask'].bool().cpu().numpy(),
+                                                        strict=True):
+                result = sent_log_probs[curr_mask]
+                answer[index] = result
+        return answer
