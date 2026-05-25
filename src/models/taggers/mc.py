@@ -138,7 +138,7 @@ class SequenceClassifier(nn.Module):
 
     def get_log_probs(self, X: SequenceDataset):
         self.eval()
-        dataloader = FieldBatchDataloader(X, device=self.device, batch_size=32)
+        dataloader = FieldBatchDataloader(X, batch_size=32)
         answer = [None] * len(X)
         for batch in tqdm(dataloader):
             indexes = batch["indexes"]
