@@ -1,6 +1,8 @@
 from argparse import ArgumentParser
 from os import path
+from typing import Callable
 from udapi.block.read.conllu import Conllu
+from udapi.core.node import Node
 from models.taggers.mc import SequenceClassifier, Sentence, InputWord
 
 parser = ArgumentParser(prog='tag_and_lemmatize.py',
@@ -9,8 +11,6 @@ parser.add_argument('infile', help='A conllu file to tag')
 parser.add_argument('outfile', help='An name for the resulting conllu')
 parser.add_argument('model_directory', help='A directory containing the model vocabularies, a checkpoint and a list of ordered label fields')
 args = parser.parse_args()
-
-lemmatizer = SequenceClassifier.load(path.join(args.model_directory, 'lemma'), 'lemma')
 
 reader = Conllu(files=[args.infile])
 document = reader.read_documents()[0]
@@ -31,10 +31,38 @@ for root in trees:
     sentence.append(input_word)
   data.append(sentence)
 
-predictions = lemmatizer.apply_to(data)
+def set_lemma(node: Node, lemma: str) -> None:
+  node.lemma = lemma
 
-for root, pred_lemmata in zip(trees, predictions, strict=True):
-  for node, pred_lemma in zip(root.descendants, pred_lemmata, strict=True):
-    node.lemma = pred_lemma
+def set_upos(node: Node, upos: str) -> None:
+  node.upos = upos
+
+def set_gloss(node: Node, gloss: str) -> None:
+  node.gloss = gloss
+
+def set_gramm_form(node: Node, gramm_form: str) -> None:
+  node.xpos = gramm_form
+
+def set_encl_chain(node: Node, encl_chain: str) -> None:
+  if encl_chain != '<NO>':
+    node.misc['encl_chain'] = encl_chain
+
+fields: list[tuple[str, Callable[[Node, str], None]]] = [
+  ('lemma', set_lemma),
+  ('upos', set_upos),
+  ('gloss', set_gloss),
+  ('gramm_form', set_gramm_form),
+  ('encl_chain', set_encl_chain)
+]
+
+for attribute, setter_function in fields:
+
+  model = SequenceClassifier.load(path.join(args.model_directory, attribute), attribute)
+
+  predictions = model.apply_to(data)
+
+  for root, pred_values in zip(trees, predictions, strict=True):
+    for node, pred_value in zip(root.descendants, pred_values, strict=True):
+      setter_function(node, pred_value)
 
 document.store_conllu(args.outfile)
