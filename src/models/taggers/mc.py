@@ -3,6 +3,7 @@ from os import path
 from typing import TypedDict
 from collections import OrderedDict
 from logging import getLogger
+from __future__ import annotations
 import numpy as np
 import torch
 import torch.nn as nn
