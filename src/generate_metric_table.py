@@ -14,6 +14,8 @@ parser.add_argument('--languages', nargs='*',
                     help='ISO-639-3 codes of the languages to include in the table')
 parser.add_argument('--models', nargs='*',
                     help='the names of the models to include in the table')
+parser.add_argument('--ndigits', default=2, type=int,
+                    help='Number of digits after the point in rounded metric values')
 args = parser.parse_args()
 
 with open(args.infile, 'r', encoding='utf-8') as fin:
@@ -27,4 +29,4 @@ for model in args.models:
   for language in args.languages:
     metric_values[key][language] = data[language].get(model, 0.0)
 df = pd.DataFrame(metric_values)
-print(df.to_latex(float_format="%.2f"))
+print(df.to_latex(float_format=f"%.{args.ndigits}f"))

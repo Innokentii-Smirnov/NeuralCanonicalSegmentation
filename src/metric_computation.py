@@ -69,7 +69,8 @@ OUTFILES = {
   'precision': 'Precision.json', 'recall': 'Recall.json', 'f_measure': 'F1.json'
 }
 
-def compute_metrics(metric_function: MetricFunction, language_codes: list[str]) -> None:
+def compute_metrics(metric_function: MetricFunction, language_codes: list[str],
+                    round_ndigits: int = 2) -> None:
   metrics = defaultdict[str, defaultdict[str, dict[str, float]]](lambda: defaultdict(dict))
 
   for code in language_codes:
@@ -96,7 +97,7 @@ def compute_metrics(metric_function: MetricFunction, language_codes: list[str]) 
           y_pred = predictions
         computed = metric_function(y_true, y_pred)
         for metric, value in computed.items():
-          metrics[metric][code][model_identifier] = round(value, 2)
+          metrics[metric][code][model_identifier] = round(value, round_ndigits)
 
   os.makedirs(OUTDIR, exist_ok=True)
   for metric, values in metrics.items():

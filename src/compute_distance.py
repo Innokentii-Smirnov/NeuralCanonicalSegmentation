@@ -17,4 +17,4 @@ def mean_levenshtein_distance(y_true: list[str], y_pred: list[str]) -> float:
 METRIC_FUNCTION: MetricFunction = lambda y_true, y_pred: \
   {'distance': mean_levenshtein_distance(y_true, y_pred)}
 
-compute_metrics(METRIC_FUNCTION, LANGUAGE_CODES)
+compute_metrics(METRIC_FUNCTION, LANGUAGE_CODES, 4)
