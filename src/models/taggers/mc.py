@@ -156,3 +156,13 @@ class SequenceClassifier(nn.Module):
                 result = sent_log_probs[curr_mask]
                 answer[index] = result
         return answer
+
+    def get_log_probs_for(self, data: list[Sentence]) -> list[Tensor]:
+        dataset = SequenceDataset(data,
+                          ['exponent', 'predet', 'postdet'],
+                          ['characters'],
+                          True, True, True, True,
+                          self.vocabularies,
+                          self.sequence_vocabularies)
+        log_probs = self.get_log_probs(dataset)
+        return log_probs
