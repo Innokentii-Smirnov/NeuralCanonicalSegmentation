@@ -37,7 +37,7 @@ LANGUAGE_TO_DATASET = {
   'lat': SM,
   'chu': OTHER,
   'vsn': OTHER,
-  'xhu': HURRIAN,
+  'xhu': OTHER,
   'ces': SM
 }
 
