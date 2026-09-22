@@ -67,7 +67,8 @@
 		"transformer_char": 61.17
 	},
 	"xhu": {
-		"transducer_LSTM": 36.76
+		"transducer_LSTM": 36.76,
+		"transformer_char_bs128": 33.89
 	},
 	"ces": {
 		"transformer_char_2": 82.4,
