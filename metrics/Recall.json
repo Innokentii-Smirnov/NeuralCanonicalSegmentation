@@ -55,7 +55,9 @@
 		"tagger_CNN": 68.98,
 		"tagger_LSTM": 67.12,
 		"tagger_RCNN": 67.97,
-		"tagger_RCNN-skip-conn": 68.9
+		"tagger_RCNN-skip-conn": 68.9,
+		"transformer_char": 69.15,
+		"transducer_LSTM": 72.37
 	},
 	"ces": {
 		"transformer_char_2": 91.0,
