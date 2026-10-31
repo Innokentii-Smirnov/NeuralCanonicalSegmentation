@@ -52,8 +52,10 @@
 		"tagger_RCNN-skip-conn": 0.085
 	},
 	"xhu": {
-		"transducer_LSTM": 1.767,
-		"transformer_char_bs128": 1.9259
+		"tagger_CNN": 1.3495,
+		"tagger_LSTM": 1.2769,
+		"tagger_RCNN": 1.3118,
+		"tagger_RCNN-skip-conn": 1.3199
 	},
 	"ces": {
 		"transformer_char_2": 0.3217,
