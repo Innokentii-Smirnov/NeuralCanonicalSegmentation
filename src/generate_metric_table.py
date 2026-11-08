@@ -29,4 +29,5 @@ for model in args.models:
   for language in args.languages:
     metric_values[key][language] = data[language].get(model, 0.0)
 df = pd.DataFrame(metric_values)
-print(df.to_latex(float_format=f"%.{args.ndigits}f"))
+print(df.to_latex(index=len(args.languages) > 1,
+                  float_format=f"%.{args.ndigits}f"))
